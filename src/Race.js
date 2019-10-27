@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Race extends Component {
   render() {
-    return <></>;
+    return <>TODO: Race</>;
   }
 }
 

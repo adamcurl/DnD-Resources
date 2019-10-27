@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class Faith extends Component {
   render() {
-    return <></>;
+    return <>TODO: Faith</>;
   }
 }
 
