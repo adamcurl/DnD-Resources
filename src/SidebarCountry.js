@@ -45,7 +45,7 @@ class SidebarCountry extends Component {
 
   render() {
     return (
-      <div>
+      <div className="sidebar_inner">
         <h1>{this.state.country}</h1>
         {/* Capital */}
         <p>
@@ -107,6 +107,12 @@ class SidebarCountry extends Component {
           <strong>Comparison: </strong>
           {this.state.comparison}
         </p>
+        <a
+          href={`https://www.dndbeyond.com/sources/wgte/welcome-to-khorvaire#${this.state.country}`}
+          target="_blank"
+        >
+          More on {this.state.country}
+        </a>
       </div>
     );
   }
