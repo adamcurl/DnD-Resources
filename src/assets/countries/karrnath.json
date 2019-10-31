@@ -1,12 +1,15 @@
 {
   "country": "Karrnath",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Korth",
+  "ruler": "King Kaius ir’Wynarn III",
+  "races": ["Humans"],
+  "characteristics": ["Stoic and grim"],
+  "noted": [
+    "Ale, dairy, glass, livestock, lumber, paper, textiles",
+    "undead, martial discipline"
+  ],
+  "religions": ["Sovereign Host", "Blood of Vol"],
+  "houses": ["None"],
+  "comparison": "Russia with undead military",
   "brief_history": "x"
 }

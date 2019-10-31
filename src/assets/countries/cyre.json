@@ -1,12 +1,21 @@
 {
   "country": "Cyre/The Mournland",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Metrol (destroyed)",
+  "ruler": "Queen Dannel ir’Wynarn (presumed dead) - succeeded by her son, Prince Oargev ir’Wynarn",
+  "races": [
+    "(Cyre) - Variety",
+    "(Mournland) - Aberrations, Ghosts, Warforged, Monstrosities"
+  ],
+  "characteristics": [
+    "(Cyre) - the people were versatile, philosophic, devastated or faithful",
+    "(Mournland) - the land is plagued with monstrosities and stragne phenomenon"
+  ],
+  "noted": [
+    "(Cyre) - Artifice, art, jewelry, music, oratory, philosophy; creativity, versatility",
+    "(Mournland) - the strange magical explosion that wiped Cyre off the map and ended the Last War; the magical mist continues to cover the country"
+  ],
+  "religions": ["(Cyre) - Sovereign Host", "(Cyre) - Silver Flame"],
+  "houses": ["(Cyre) - Cannith"],
+  "comparison": "Greece/Rome in a renaissance",
   "brief_history": "x"
 }

@@ -1,12 +1,12 @@
 {
   "country": "Talenta Plains",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Gatherhold",
+  "ruler": "Lathon Halpum (united Talenta)",
+  "races": ["Halflings"],
+  "characteristics": ["The people are simple, wild, and clan-based"],
+  "noted": ["Halflings, livestock, dinosaurs"],
+  "religions": ["Various spirits"],
+  "houses": ["Ghallanda", "Jorasco"],
+  "comparison": "Magic Jurassic Stone Age",
   "brief_history": "x"
 }

@@ -1,12 +1,14 @@
 {
   "country": "Breland",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Wroat",
+  "ruler": "King Boranel ir’Wynarn",
+  "races": ["Variety"],
+  "characteristics": ["people are pragmatic, independant, innovative"],
+  "noted": [
+    "Industry, manufactured goods, metalwork, processed ore; organized crime, subterfuge"
+  ],
+  "religions": ["Sovereign Host"],
+  "houses": ["Phiarlan"],
+  "comparison": "America",
   "brief_history": "x"
 }

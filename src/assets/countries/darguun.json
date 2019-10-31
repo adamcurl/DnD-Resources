@@ -1,12 +1,12 @@
 {
   "country": "Darguun",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Rhukaan Draal",
+  "ruler": "Lhesh Haruuc Sharaat’kor (hobgoblin)",
+  "races": ["Goblinoids"],
+  "characteristics": ["The goblins are savage and ruthless"],
+  "noted": ["Goblinoid mercenaries"],
+  "religions": ["Dark Six", "Sovereign Host (few)"],
+  "houses": ["Deneith"],
+  "comparison": "Goblin country",
   "brief_history": "x"
 }

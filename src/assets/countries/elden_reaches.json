@@ -1,12 +1,12 @@
 {
   "country": "The Elden Reaches",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "The Greenheart",
+  "ruler": "Wardens of the Wood",
+  "races": ["Humans", "Shifters", "Fey"],
+  "characteristics": ["Druids, rangers, and Fey"],
+  "noted": ["Agriculture, animal husbandry, druidic magic"],
+  "religions": ["Great Druid Oalian"],
+  "houses": ["Vadalis"],
+  "comparison": "Magical forest",
   "brief_history": "x"
 }

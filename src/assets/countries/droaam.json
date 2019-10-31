@@ -1,12 +1,26 @@
 {
   "country": "Droaam",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "The Great Crag",
+  "ruler": "Three Hag Daughters of Sora Kell",
+  "races": [
+    "Gnolls",
+    "Orcs",
+    "Goblins",
+    "Ogres",
+    "Trolls",
+    "Harpies",
+    "Minotaurs",
+    "Medusas",
+    "Tieflings",
+    "Changelings",
+    "Lyconthropes"
+  ],
+  "characteristics": [
+    "savage, inner fighting, but united by the Three Daughters"
+  ],
+  "noted": ["Monstrous mercenaries", "Byeshk"],
+  "religions": ["Dark Six"],
+  "houses": ["Tharashk"],
+  "comparison": "Monster country",
   "brief_history": "x"
 }

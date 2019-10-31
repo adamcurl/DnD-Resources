@@ -1,12 +1,15 @@
 {
   "country": "Lhazaar Principalities",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Regalport",
+  "ruler": "High Prince Ryger ir’Wynarn of Regalport (self-proclaimed)",
+  "races": ["Changelings", "Humans", "Half-elves"],
+  "characteristics": ["The people are independant and free-spirited"],
+  "noted": ["Ships, fish, mercenaries, merchants, pirates"],
+  "religions": ["Blood of Vol", "Sovereign Host (few)"],
+  "houses": [
+    "Kundarak",
+    "Half-elves with Mark of Storm, but no ties to Lyrandar"
+  ],
+  "comparison": "Carribean",
   "brief_history": "x"
 }

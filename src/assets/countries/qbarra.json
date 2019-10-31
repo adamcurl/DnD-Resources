@@ -1,12 +1,12 @@
 {
   "country": "Q'Barra",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Newthrone",
+  "ruler": "King Sebastes ir’Kesslan",
+  "races": ["Lizardfolk", "Dragonborn", "Yuan-ti", "Human settlers"],
+  "characteristics": ["Scales at war", "Ancient societies"],
+  "noted": ["Eberron dragonshards, rare herbs"],
+  "religions": ["(Lizardfolk) - Silver Flame"],
+  "houses": ["Tharashk "],
+  "comparison": "Ancient Jungle",
   "brief_history": "x"
 }

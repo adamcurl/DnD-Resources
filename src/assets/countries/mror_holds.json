@@ -1,12 +1,17 @@
 {
   "country": "Mror Holds",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Krona Peak",
+  "ruler": "Iron Council (12 noble clans)",
+  "races": ["Dwarves"],
+  "characteristics": [
+    "Proud of wealth",
+    "Talent and skills as forgers and warriors"
+  ],
+  "noted": [
+    "Dwarves, banking, mining (precious and non precious metal), metalwork"
+  ],
+  "religions": ["Sovereign Host (mostly Kol Korran)"],
+  "houses": ["None"],
+  "comparison": "Dwarven society",
   "brief_history": "x"
 }

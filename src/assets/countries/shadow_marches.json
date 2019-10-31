@@ -1,12 +1,14 @@
 {
   "country": "The Shadow Marches",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Zarash’ak (unofficial)",
+  "ruler": "None",
+  "races": ["Orcs", "Humans"],
+  "characteristics": [
+    "Moonlit rituals to summon/ward off fiends, scary monsters"
+  ],
+  "noted": ["Eberron dragonshards, herbs"],
+  "religions": ["The Cults of the Dragon Below"],
+  "houses": ["Tharashk "],
+  "comparison": "Magical swamp country",
   "brief_history": "x"
 }

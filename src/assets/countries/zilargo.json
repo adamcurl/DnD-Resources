@@ -1,12 +1,14 @@
 {
   "country": "Zilargo",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Korranberg",
+  "ruler": "Triumvirate council served by the Trust (think NSA mixed with assasssination and mafia)",
+  "races": ["Gnomes"],
+  "characteristics": ["The gnomes are cunning, deceptive, and love intrigue"],
+  "noted": [
+    "Gnomes, alchemy, education, elemental binding, entertainment, precious stones"
+  ],
+  "religions": ["A bit of every religion"],
+  "houses": ["Sivis"],
+  "comparison": "Looser martial law Britain",
   "brief_history": "x"
 }

@@ -1,12 +1,15 @@
 {
   "country": "Thrane",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Flamekeep",
+  "ruler": "11 year-old Jaela Daeran (church figurehead), Queen Diani ir’Wynarn (blood regent - advisor to Jaela)",
+  "races": ["Humans"],
+  "characteristics": ["Religious zealots, corrupt priests, very religious"],
+  "noted": [
+    "Divine magic, the Silver Flame",
+    "Fine crafts, wool, textiles, fruit, livestock"
+  ],
+  "religions": ["Silver Flame"],
+  "houses": ["None"],
+  "comparison": "Italian Vatican",
   "brief_history": "x"
 }

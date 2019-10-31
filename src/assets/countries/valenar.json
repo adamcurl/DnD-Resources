@@ -1,12 +1,12 @@
 {
   "country": "Valenar",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "Taer Valaestas",
+  "ruler": "High King Shaeras Vadallia",
+  "races": ["Elves"],
+  "characteristics": ["War-thirsty warriors that seek a worthy foe"],
+  "noted": ["Elves, mercenaries, calvalry"],
+  "religions": ["Undying Court"],
+  "houses": ["Lyrandar"],
+  "comparison": "Feudal Japan",
   "brief_history": "x"
 }

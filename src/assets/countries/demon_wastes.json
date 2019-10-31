@@ -1,12 +1,18 @@
 {
   "country": "The Demon Wastes",
-  "capital": "x",
-  "ruler": "x",
-  "races": ["x"],
-  "characteristics": ["x"],
-  "noted": ["x"],
-  "religions": ["x"],
-  "houses": ["x"],
-  "comparison": "x",
+  "capital": "???, perhaps Ashtakala",
+  "ruler": "???",
+  "races": ["Fiends", "demons", "orcs", "humans", "tieflings"],
+  "characteristics": [
+    "(Ghaash’kala) - noble orc defenders",
+    "(The Carrion Tribes) - human, half-orcs, and tiefling savages"
+  ],
+  "noted": ["Fiends, pestilence, and violence"],
+  "religions": [
+    "(Ghaash’kala) - Silver Flame (Kalok Shash)",
+    "(The Carrion Tribes) - archfiends"
+  ],
+  "houses": ["None"],
+  "comparison": "awful, fiery, lava-filled, demon land",
   "brief_history": "x"
 }
