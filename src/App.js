@@ -1,5 +1,6 @@
 import React from "react";
-import Map from "./Map";
+import KhorvaireMap from "./KhorvaireMap";
+import SharnMap from "./SharnMap";
 import Country from "./Country";
 import City from "./City";
 import Crime from "./Crime";
@@ -12,7 +13,8 @@ import "./App.css";
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={Map} />
+      <Route exact path="/" component={KhorvaireMap} />
+      <Route exact path="/city/:city" component={SharnMap} />
       <Route exact path="/country/:country" component={Country} />
       <Route exact path="/city/:city" component={City} />
       <Route exact path="/crime/:crime" component={Crime} />

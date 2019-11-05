@@ -1,0 +1,19 @@
+{
+  "districts": [
+    {
+      "districtName": "Korranath",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

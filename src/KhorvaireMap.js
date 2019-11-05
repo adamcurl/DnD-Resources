@@ -3,7 +3,7 @@ import map from "./assets/imgs/Khorvaire.jpg";
 import SidebarCountry from "./SidebarCountry";
 import SidebarCity from "./SidebarCity";
 
-class Map extends Component {
+class KhorvaireMap extends Component {
   constructor(props) {
     super(props);
 
@@ -252,4 +252,4 @@ class Map extends Component {
   }
 }
 
-export default Map;
+export default KhorvaireMap;
