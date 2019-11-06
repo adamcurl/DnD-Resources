@@ -1,0 +1,84 @@
+{
+  "districts": [
+    {
+      "description": "The largest shady commercial district in Sharn",
+      "districtName": "Precarious",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "Haunted ruin district; the temple district was abandoned after a floating tower collapsed onto it",
+      "districtName": "Fallen",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Malleon’s Gate",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [
+        "Home to the goblins of Sharn, along with other monstrous immigrants from Droaam and Darguun"
+      ],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "A center for criminal activity",
+      "districtName": "Callestan",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [],
+    "temples": [],
+    "government": [],
+    "residential": [],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": ["Domain of gangs and crime lords"]
+  }
+}

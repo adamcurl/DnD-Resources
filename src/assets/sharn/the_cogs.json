@@ -1,0 +1,43 @@
+{
+  "districts": [
+    {
+      "description": "Largely inhabited by warforged laborers and miserable workers of other races",
+      "districtName": "Ashblack and Blackbones",
+      "shops": [],
+      "taverns": [
+        "Red Hammer - Sharn’s only tavern catering specifically to warforged"
+      ],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [
+        {
+          "name": "House Cannith maintains a massive forgehold in the depths",
+          "desc": "Where Baron Merrix d’Cannith conducts his arcane experiments"
+        }
+      ],
+      "illegal": []
+    },
+    {
+      "description": "A maze of tunnels and tenements carved into the stones",
+      "districtName": "Khyber’s Gate",
+      "shops": [],
+      "taverns": ["Shamukaar -safe haven"],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": ["Criminal organization, Daask"]
+    }
+  ]
+}

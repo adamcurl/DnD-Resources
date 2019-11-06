@@ -121,7 +121,7 @@ class SharnMap extends Component {
             />
             <area
               onClick={() => this.lockDivision()}
-              onMouseEnter={() => this.displayDivision("tavicks_landing")}
+              onMouseEnter={() => this.displayDivision("lower_tavicks_landing")}
               target=""
               alt="Lower Tavick's Landing"
               title="Lower Tavick's Landing"

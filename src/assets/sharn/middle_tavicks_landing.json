@@ -1,0 +1,62 @@
+{
+  "districts": [
+    {
+      "description": "Caters to adventurers",
+      "districtName": "The Deathsgate",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [
+        "House Jorasco has a large house of healing in the ward",
+        "House Deneith has a recruiting station for would-be mercenaries"
+      ],
+      "illegal": [],
+      "guilds": [
+        "An adventurer’s guild — though the Deathsgate Guild has a dark reputation, and its members often pick fights with Clifftop adventurers"
+      ]
+    },
+    {
+      "description": "Has deep roots in Karrnathi culture that predate the Last War",
+      "districtName": "The Graywall",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [
+      "Slogar’s and The Bloody Mug are places where you can find blood sausage and Nightwood ale",
+      "Tavick’s Market - one of Sharn’s main market districts with local produce and goods"
+    ],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [
+      "The Cornerstone - a massive arena that hosts everything from circuses to aerial jousting",
+      "An official court for Shifter sport, hrazhak"
+    ],
+    "temples": [],
+    "government": [],
+    "residential": [],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": []
+  }
+}

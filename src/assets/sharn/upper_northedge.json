@@ -1,0 +1,39 @@
+{
+  "districts": [
+    {
+      "description": "A bastion of Aereni culture and traditions",
+      "districtName": "Shae Lias",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": ["Gates of Passage - serves as temple to the Undying Court"],
+      "government": ["Gates of Passage - serves as Aereni embassy"],
+      "residential": [],
+      "knowledge": [],
+      "transportation": ["Gates of Passage"],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [
+      "The Veil of Flesh - specializes in body art, both traditional tattoos and temporary illusions woved directly into the skin"
+    ],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [],
+    "temples": [],
+    "government": [],
+    "residential": [
+      "Aristocratic housing",
+      "Home to most of the elves of Sharn"
+    ],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": ["The Oaks - one of the finest restaurants is Sharn"],
+    "industry": [],
+    "illegal": []
+  }
+}

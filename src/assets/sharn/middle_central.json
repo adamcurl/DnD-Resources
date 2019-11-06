@@ -1,0 +1,70 @@
+{
+  "districts": [
+    {
+      "description": "",
+      "districtName": "Ambassador Towers",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [
+        "Embassies and consulates from the Thronehold Nations, along with Aerenal and Sarlona",
+        "King’s Citadel, headquarters of Brelish intelligence"
+      ],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "districtName": "Dragon Towers",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Primary enclaves of the dragonmarked houses"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "districtName": "Sovereign Towers",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [
+        "Pavilion of the Host (Sovereign Host)",
+        "Cathedral of the Cleansing Flame (Silver Flame)"
+      ],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [],
+    "temples": ["The Citadel"],
+    "government": [],
+    "residential": [],
+    "knowledge": ["Brelish Museum of Fine Art"],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": []
+  }
+}

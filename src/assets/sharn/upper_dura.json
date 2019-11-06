@@ -1,0 +1,50 @@
+{
+  "districts": [
+    {
+      "description": "",
+      "districtName": "The Highhold",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Dwarven communities"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "districtName": "Hope's Peak",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": ["Citadel of the Sun - dedicated to Dol Arrah"],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "districtName": "Overlook",
+      "shops": ["Talented artisans and successful merchants"],
+      "taverns": ["Morragin’s Tavern - strongest spirits in Sharn"],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": ["Daggerwatch garrison"],
+      "residential": ["Kalashtar homes"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

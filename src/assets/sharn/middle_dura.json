@@ -1,14 +1,14 @@
 {
   "districts": [
     {
-      "description": "",
-      "districtName": "Korranath",
+      "description": "The largest shady commercial district in Sharn",
+      "districtName": "The Bazaar",
       "shops": [],
       "taverns": [],
       "inns": [],
       "entertainment": [],
-      "temples": ["Grand temple of Kol Korran"],
-      "government": ["Kundarak Bank of Sharn", "Kundarak Vaults"],
+      "temples": [],
+      "government": [],
       "residential": [],
       "knowledge": [],
       "transportation": [],
@@ -19,12 +19,14 @@
   ],
   "other": {
     "shops": [],
-    "taverns": [],
-    "inns": [],
-    "entertainment": ["The Aurora Gallery"],
+    "taverns": [
+      "The King of Fire - a popular tavern and reputable gambling establishment"
+    ],
+    "inns": ["Ghallanda Hall"],
+    "entertainment": [],
     "temples": [],
-    "government": ["Council Hall"],
-    "residential": ["Mansions and estates of powerful nobles"],
+    "government": [],
+    "residential": [],
     "knowledge": [],
     "transportation": [],
     "restaurants": [],

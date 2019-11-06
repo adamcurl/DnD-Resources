@@ -1,0 +1,23 @@
+{
+  "other": {
+    "description": "",
+    "shops": ["aristocratic boutiques"],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [],
+    "temples": [],
+    "government": [],
+    "residential": [
+      "Estates of the wealthiest people in Khorvaire",
+      {
+        "name": "Tain Manor, home to most powerful family in Sharn",
+        "desc": "Home of Celyria ir’Tain, the queen of high society, holds a ball at the manor each month"
+      }
+    ],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": ["aristocratic restaurants"],
+    "industry": [],
+    "illegal": []
+  }
+}

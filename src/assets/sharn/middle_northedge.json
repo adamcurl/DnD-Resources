@@ -1,0 +1,53 @@
+{
+  "districts": [
+    {
+      "description": "Deep roots in Sharn and feel no strong connection to the Mror Holds or its traditions",
+      "districtName": "Holdfast",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "Temple district with truly devoted priests",
+      "districtName": "High Hope",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [],
+    "temples": [],
+    "government": [],
+    "residential": [
+      "A wide range of middle-class comfortable housing",
+      "Dwarves make up the majority of the population"
+    ],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": []
+  }
+}

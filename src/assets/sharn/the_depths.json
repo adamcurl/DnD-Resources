@@ -1,0 +1,19 @@
+{
+  "districts": [
+    {
+      "description": "All passages to this undercity are sealed with gates of metal and magic",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

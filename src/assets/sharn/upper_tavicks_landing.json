@@ -1,0 +1,67 @@
+{
+  "description": "Fine housing, skilled services, and a luxurious mercantile district",
+  "districts": [
+    {
+      "description": "An entire district devoted to the servants of the nobles",
+      "districtName": "Sunrise",
+      "shops": [
+        "Wyredd’s Spirits - the best source for wine in Sharn",
+        {
+          "name": "The Crystals of Denion",
+          "desc": [
+            "Buys and sell rare magic items, though it only has a handful of such items at any given time",
+            "Sells expensive magical works of art"
+          ]
+        },
+        "Transmutation - a renowned beauty salon"
+      ],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Copper Arch",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [
+        "House Deneith maintains a fortified garrison and training facility"
+      ],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Twelve Pillars",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [
+        "Courthouse to receive licenses for weapons or spellcasting"
+      ],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

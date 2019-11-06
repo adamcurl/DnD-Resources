@@ -1,0 +1,47 @@
+{
+  "districts": [
+    {
+      "description": "",
+      "districtName": "",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": [],
+    "taverns": ["Sketchy taverns ranging from the innocent to the risque"],
+    "inns": [],
+    "entertainment": [
+      "Gambling halls",
+      "Brothels",
+      "Spontaneous performances in the streets",
+      "Sketchy theaters",
+      {
+        "name": "Burning Ring",
+        "desc": [
+          "A fight club where spectators bet on amateur gladiators",
+          "Technically illegal, the Burning Ring moves around the ward",
+          "Competitors are armed but unarmored; matches continue until a contestant yields, but fatalities do happen"
+        ]
+      }
+    ],
+    "temples": [],
+    "government": [],
+    "residential": [],
+    "knowledge": [],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": []
+  }
+}

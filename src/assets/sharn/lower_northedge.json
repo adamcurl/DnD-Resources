@@ -1,0 +1,39 @@
+{
+  "districts": [
+    {
+      "description": "One of the largest markets in Sharn, specializing in simple, everyday goods",
+      "districtName": "North Market",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "District with a significant shifter population",
+      "districtName": "The Stoneyard",
+      "shops": [],
+      "taverns": [
+        "Rat’s Nest - a tavern catering to shifters",
+        "Bear’s Rest - a shifter inn"
+      ],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

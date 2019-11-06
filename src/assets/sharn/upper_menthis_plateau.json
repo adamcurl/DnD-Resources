@@ -1,0 +1,41 @@
+{
+  "districts": [
+    {
+      "description": "",
+      "districtName": "",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ],
+  "other": {
+    "shops": ["Upscale shops with a focus on fine food and fashion"],
+    "taverns": [],
+    "inns": [],
+    "entertainment": [
+      "Khavish Theater",
+      "Grand Stage - traditional theater",
+      "Stargazer Theater - open air",
+      "Kavarrah Concert Hall"
+    ],
+    "temples": ["Art Temple"],
+    "government": [],
+    "residential": [
+      "Den’iyas/”Little Zilargo” - a gnome district known for the finest glamerweave"
+    ],
+    "knowledge": ["Morgrave University"],
+    "transportation": [],
+    "restaurants": [],
+    "industry": [],
+    "illegal": []
+  }
+}

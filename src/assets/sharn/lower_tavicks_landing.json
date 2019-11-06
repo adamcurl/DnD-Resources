@@ -1,0 +1,36 @@
+{
+  "districts": [
+    {
+      "description": "A maze of taverns, inns, brothels, and gambling halls",
+      "districtName": "Dragoneyes",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": ["Chance - gambling hall"],
+      "temples": [],
+      "government": [],
+      "residential": ["A changeling community"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "A former residential district converted into a home for refugees (mostly Cyran) from the Last War that is filled past capacity; designed to serve as a fortress prison if need be",
+      "districtName": "High Walls",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": ["Chance - gambling hall"],
+      "temples": [],
+      "government": [],
+      "residential": ["A changeling community"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}

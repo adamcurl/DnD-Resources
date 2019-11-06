@@ -1,0 +1,87 @@
+{
+  "districts": [
+    {
+      "description": "Halfling immigrants from the Talenta Plains",
+      "districtName": "The Little Plains",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Halfling immigrants"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "Has a significant population of Orcs and Half-orcs from the Shadow Marches",
+      "districtName": "Cassan Bridge",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Orc and Half-orc immigrants"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Warden Towers",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Immigrants from the Lhazaar Principalities"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Smoky Towers",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Significant wealthy Cyran community"],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    },
+    {
+      "description": "",
+      "districtName": "Everbright",
+      "shops": [
+        "A hub for mystical goods and services",
+        "Shops with a good selection of common and uncommon magic items"
+      ],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": ["Halfling immigrants"],
+      "knowledge": ["A wide assortment of magewrights"],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
+}
