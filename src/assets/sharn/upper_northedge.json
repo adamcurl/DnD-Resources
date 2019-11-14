@@ -7,11 +7,26 @@
       "taverns": [],
       "inns": [],
       "entertainment": [],
-      "temples": ["Gates of Passage - serves as temple to the Undying Court"],
-      "government": ["Gates of Passage - serves as Aereni embassy"],
+      "temples": [
+        {
+          "name": "Gates of Passage",
+          "desc": ["serves as temple to the Undying Court"]
+        }
+      ],
+      "government": [
+        {
+          "name": "Gates of Passage",
+          "desc": ["serves as Aereni embassy"]
+        }
+      ],
       "residential": [],
       "knowledge": [],
-      "transportation": ["Gates of Passage"],
+      "transportation": [
+        {
+          "name": "Gates of Passage",
+          "desc": []
+        }
+      ],
       "restaurants": [],
       "industry": [],
       "illegal": []
@@ -19,7 +34,14 @@
   ],
   "other": {
     "shops": [
-      "The Veil of Flesh - specializes in body art, both traditional tattoos and temporary illusions woved directly into the skin"
+      {
+        "name": "The Veil of Flesh",
+        "desc": [
+          "body art",
+          "traditional tattoos",
+          "temporary illusion tattoos"
+        ]
+      }
     ],
     "taverns": [],
     "inns": [],
@@ -27,12 +49,23 @@
     "temples": [],
     "government": [],
     "residential": [
-      "Aristocratic housing",
-      "Home to most of the elves of Sharn"
+      {
+        "name": "Aristocratic housing",
+        "desc": []
+      },
+      {
+        "name": "Home to most of the elves of Sharn",
+        "desc": []
+      }
     ],
     "knowledge": [],
     "transportation": [],
-    "restaurants": ["The Oaks - one of the finest restaurants is Sharn"],
+    "restaurants": [
+      {
+        "name": "The Oaks",
+        "desc": ["one of the finest restaurants is Sharn"]
+      }
+    ],
     "industry": [],
     "illegal": []
   }

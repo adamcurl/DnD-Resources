@@ -14,12 +14,23 @@
       "transportation": [],
       "restaurants": [],
       "industry": [
-        "House Jorasco has a large house of healing in the ward",
-        "House Deneith has a recruiting station for would-be mercenaries"
+        {
+          "name": "House Jorasco has a large house of healing in the ward",
+          "desc": []
+        },
+        {
+          "name": "House Deneith has a recruiting station for would-be mercenaries",
+          "desc": []
+        }
       ],
       "illegal": [],
       "guilds": [
-        "An adventurer’s guild — though the Deathsgate Guild has a dark reputation, and its members often pick fights with Clifftop adventurers"
+        {
+          "name": "An adventurer’s guild",
+          "desc": [
+            "Though the Deathsgate Guild has a dark reputation, and its members often pick fights with Clifftop adventurers"
+          ]
+        }
       ]
     },
     {
@@ -41,14 +52,34 @@
   ],
   "other": {
     "shops": [
-      "Slogar’s and The Bloody Mug are places where you can find blood sausage and Nightwood ale",
-      "Tavick’s Market - one of Sharn’s main market districts with local produce and goods"
+      {
+        "name": "Slogar’s",
+        "desc": ["where you can find Nightwood ale"]
+      },
+      {
+        "name": "The Bloody Mug",
+        "desc": ["where you can find blood sausage"]
+      },
+      {
+        "name": "Tavick’s Market",
+        "desc": [
+          "One of Sharn’s main market districts with local produce and goods"
+        ]
+      }
     ],
     "taverns": [],
     "inns": [],
     "entertainment": [
-      "The Cornerstone - a massive arena that hosts everything from circuses to aerial jousting",
-      "An official court for Shifter sport, hrazhak"
+      {
+        "name": "The Cornerstone",
+        "desc": [
+          "a massive arena that hosts everything from circuses to aerial jousting"
+        ]
+      },
+      {
+        "name": "An official court for Shifter sport, hrazhak",
+        "desc": []
+      }
     ],
     "temples": [],
     "government": [],

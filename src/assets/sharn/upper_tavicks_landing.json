@@ -5,7 +5,10 @@
       "description": "An entire district devoted to the servants of the nobles",
       "districtName": "Sunrise",
       "shops": [
-        "Wyredd’s Spirits - the best source for wine in Sharn",
+        {
+          "name": "Wyredd’s Spirits",
+          "desc": ["the best source for wine in Sharn"]
+        },
         {
           "name": "The Crystals of Denion",
           "desc": [
@@ -13,7 +16,10 @@
             "Sells expensive magical works of art"
           ]
         },
-        "Transmutation - a renowned beauty salon"
+        {
+          "name": "Transmutation",
+          "desc": ["a renowned beauty salon"]
+        }
       ],
       "taverns": [],
       "inns": [],
@@ -41,7 +47,10 @@
       "transportation": [],
       "restaurants": [],
       "industry": [
-        "House Deneith maintains a fortified garrison and training facility"
+        {
+          "name": "House Deneith maintains a fortified garrison and training facility",
+          "desc": []
+        }
       ],
       "illegal": []
     },
@@ -54,7 +63,10 @@
       "entertainment": [],
       "temples": [],
       "government": [
-        "Courthouse to receive licenses for weapons or spellcasting"
+        {
+          "name": "Courthouse to receive licenses for weapons or spellcasting",
+          "desc": []
+        }
       ],
       "residential": [],
       "knowledge": [],

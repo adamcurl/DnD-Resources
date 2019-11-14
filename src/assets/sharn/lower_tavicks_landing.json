@@ -6,10 +6,20 @@
       "shops": [],
       "taverns": [],
       "inns": [],
-      "entertainment": ["Chance - gambling hall"],
+      "entertainment": [
+        {
+          "name": "Chance",
+          "desc": ["gambling hall"]
+        }
+      ],
       "temples": [],
       "government": [],
-      "residential": ["A changeling community"],
+      "residential": [
+        {
+          "name": "A changeling community",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -22,10 +32,15 @@
       "shops": [],
       "taverns": [],
       "inns": [],
-      "entertainment": ["Chance - gambling hall"],
+      "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["A changeling community"],
+      "residential": [
+        {
+          "name": "A changeling community",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],

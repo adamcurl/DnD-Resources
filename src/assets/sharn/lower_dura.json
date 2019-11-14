@@ -42,7 +42,10 @@
       "temples": [],
       "government": [],
       "residential": [
-        "Home to the goblins of Sharn, along with other monstrous immigrants from Droaam and Darguun"
+        {
+          "name": "Home to the goblins of Sharn, along with other monstrous immigrants from Droaam and Darguun",
+          "desc": []
+        }
       ],
       "knowledge": [],
       "transportation": [],
@@ -79,6 +82,11 @@
     "transportation": [],
     "restaurants": [],
     "industry": [],
-    "illegal": ["Domain of gangs and crime lords"]
+    "illegal": [
+      {
+        "name": "Domain of gangs and crime lords",
+        "desc": []
+      }
+    ]
   }
 }

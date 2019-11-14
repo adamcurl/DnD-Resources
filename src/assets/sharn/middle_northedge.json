@@ -41,8 +41,14 @@
     "temples": [],
     "government": [],
     "residential": [
-      "A wide range of middle-class comfortable housing",
-      "Dwarves make up the majority of the population"
+      {
+        "name": "A wide range of middle-class comfortable housing",
+        "desc": []
+      },
+      {
+        "name": "Dwarves make up the majority of the population",
+        "desc": []
+      }
     ],
     "knowledge": [],
     "transportation": [],

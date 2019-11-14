@@ -2,14 +2,24 @@
   "other": {
     "description": "Rough and poor, filled with sailors and dockworkers",
     "shops": [],
-    "taverns": ["Finest taverns in Sharn?"],
+    "taverns": [
+      {
+        "name": "Finest taverns in Sharn?",
+        "desc": []
+      }
+    ],
     "inns": [],
     "entertainment": [],
     "temples": [],
     "government": [],
     "residential": [],
     "knowledge": [],
-    "transportation": ["Docks of Sharn"],
+    "transportation": [
+      {
+        "name": "Docks of Sharn",
+        "desc": []
+      }
+    ],
     "restaurants": [],
     "industry": [],
     "illegal": []

@@ -20,9 +20,17 @@
   "other": {
     "shops": [],
     "taverns": [
-      "The King of Fire - a popular tavern and reputable gambling establishment"
+      {
+        "name": "The King of Fire",
+        "desc": ["a popular tavern and reputable gambling establishment"]
+      }
     ],
-    "inns": ["Ghallanda Hall"],
+    "inns": [
+      {
+        "name": "Ghallanda Hall",
+        "desc": []
+      }
+    ],
     "entertainment": [],
     "temples": [],
     "government": [],

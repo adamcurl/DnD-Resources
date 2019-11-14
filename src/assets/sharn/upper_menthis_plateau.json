@@ -18,21 +18,51 @@
     }
   ],
   "other": {
-    "shops": ["Upscale shops with a focus on fine food and fashion"],
+    "shops": [
+      {
+        "name": "Upscale shops with a focus on fine food and fashion",
+        "desc": []
+      }
+    ],
     "taverns": [],
     "inns": [],
     "entertainment": [
-      "Khavish Theater",
-      "Grand Stage - traditional theater",
-      "Stargazer Theater - open air",
-      "Kavarrah Concert Hall"
+      {
+        "name": "Khavish Theater",
+        "desc": []
+      },
+      {
+        "name": "Grand Stage",
+        "desc": ["traditional theater"]
+      },
+      {
+        "name": "Stargazer Theater",
+        "desc": ["open air theater"]
+      },
+      {
+        "name": "Kavarrah Concert Hall",
+        "desc": []
+      }
     ],
-    "temples": ["Art Temple"],
+    "temples": [
+      {
+        "name": "Art Temple",
+        "desc": []
+      }
+    ],
     "government": [],
     "residential": [
-      "Den’iyas/”Little Zilargo” - a gnome district known for the finest glamerweave"
+      {
+        "name": "Den’iyas/Little Zilargo",
+        "desc": ["a gnome district known for the finest glamerweave"]
+      }
     ],
-    "knowledge": ["Morgrave University"],
+    "knowledge": [
+      {
+        "name": "Morgrave University",
+        "desc": []
+      }
+    ],
     "transportation": [],
     "restaurants": [],
     "industry": [],

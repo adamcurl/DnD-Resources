@@ -9,8 +9,14 @@
       "entertainment": [],
       "temples": [],
       "government": [
-        "Embassies and consulates from the Thronehold Nations, along with Aerenal and Sarlona",
-        "King’s Citadel, headquarters of Brelish intelligence"
+        {
+          "name": "Embassies and consulates from the Thronehold Nations, along with Aerenal and Sarlona",
+          "desc": []
+        },
+        {
+          "name": "King’s Citadel",
+          "desc": ["headquarters of Brelish intelligence"]
+        }
       ],
       "residential": [],
       "knowledge": [],
@@ -27,7 +33,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Primary enclaves of the dragonmarked houses"],
+      "residential": [
+        {
+          "name": "Primary enclaves of the dragonmarked houses",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -41,8 +52,14 @@
       "inns": [],
       "entertainment": [],
       "temples": [
-        "Pavilion of the Host (Sovereign Host)",
-        "Cathedral of the Cleansing Flame (Silver Flame)"
+        {
+          "name": "Pavilion of the Host (Sovereign Host)",
+          "desc": []
+        },
+        {
+          "name": "Cathedral of the Cleansing Flame (Silver Flame)",
+          "desc": []
+        }
       ],
       "government": [],
       "residential": [],
@@ -58,10 +75,20 @@
     "taverns": [],
     "inns": [],
     "entertainment": [],
-    "temples": ["The Citadel"],
+    "temples": [
+      {
+        "name": "The Citadel",
+        "desc": []
+      }
+    ],
     "government": [],
     "residential": [],
-    "knowledge": ["Brelish Museum of Fine Art"],
+    "knowledge": [
+      {
+        "name": "Brelish Museum of Fine Art",
+        "desc": []
+      }
+    ],
     "transportation": [],
     "restaurants": [],
     "industry": [],

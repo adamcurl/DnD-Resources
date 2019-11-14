@@ -9,7 +9,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Halfling immigrants"],
+      "residential": [
+        {
+          "name": "Halfling immigrants",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -25,7 +30,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Orc and Half-orc immigrants"],
+      "residential": [
+        {
+          "name": "Orc and Half-orc immigrants",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -41,7 +51,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Immigrants from the Lhazaar Principalities"],
+      "residential": [
+        {
+          "name": "Immigrants from the Lhazaar Principalities",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -57,7 +72,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Significant wealthy Cyran community"],
+      "residential": [
+        {
+          "name": "Significant wealthy Cyran community",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -68,16 +88,32 @@
       "description": "",
       "districtName": "Everbright",
       "shops": [
-        "A hub for mystical goods and services",
-        "Shops with a good selection of common and uncommon magic items"
+        {
+          "name": "A hub for mystical goods and services",
+          "desc": []
+        },
+        {
+          "name": "Shops with a good selection of common and uncommon magic items",
+          "desc": []
+        }
       ],
       "taverns": [],
       "inns": [],
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Halfling immigrants"],
-      "knowledge": ["A wide assortment of magewrights"],
+      "residential": [
+        {
+          "name": "Halfling immigrants",
+          "desc": []
+        }
+      ],
+      "knowledge": [
+        {
+          "name": "A wide assortment of magewrights",
+          "desc": []
+        }
+      ],
       "transportation": [],
       "restaurants": [],
       "industry": [],

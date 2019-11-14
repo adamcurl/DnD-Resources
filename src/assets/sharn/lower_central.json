@@ -1,3 +1,20 @@
 {
-  "districts": []
+  "districts": [
+    {
+      "description": "",
+      "districtName": "",
+      "shops": [],
+      "taverns": [],
+      "inns": [],
+      "entertainment": [],
+      "temples": [],
+      "government": [],
+      "residential": [],
+      "knowledge": [],
+      "transportation": [],
+      "restaurants": [],
+      "industry": [],
+      "illegal": []
+    }
+  ]
 }

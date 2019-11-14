@@ -7,8 +7,22 @@
       "taverns": [],
       "inns": [],
       "entertainment": [],
-      "temples": ["Grand temple of Kol Korran"],
-      "government": ["Kundarak Bank of Sharn", "Kundarak Vaults"],
+      "temples": [
+        {
+          "name": "Grand temple of Kol Korran",
+          "desc": []
+        }
+      ],
+      "government": [
+        {
+          "name": "Kundarak Bank of Sharn",
+          "desc": []
+        },
+        {
+          "name": "Kundarak Vaults",
+          "desc": []
+        }
+      ],
       "residential": [],
       "knowledge": [],
       "transportation": [],
@@ -21,10 +35,25 @@
     "shops": [],
     "taverns": [],
     "inns": [],
-    "entertainment": ["The Aurora Gallery"],
+    "entertainment": [
+      {
+        "name": "The Aurora Gallery",
+        "desc": []
+      }
+    ],
     "temples": [],
-    "government": ["Council Hall"],
-    "residential": ["Mansions and estates of powerful nobles"],
+    "government": [
+      {
+        "name": "Council Hall",
+        "desc": []
+      }
+    ],
+    "residential": [
+      {
+        "name": "Mansions and estates of powerful nobles",
+        "desc": []
+      }
+    ],
     "knowledge": [],
     "transportation": [],
     "restaurants": [],

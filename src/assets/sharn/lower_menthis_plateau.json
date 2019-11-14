@@ -19,13 +19,30 @@
   ],
   "other": {
     "shops": [],
-    "taverns": ["Sketchy taverns ranging from the innocent to the risque"],
+    "taverns": [
+      {
+        "name": "Sketchy taverns ranging from the innocent to the risque",
+        "desc": []
+      }
+    ],
     "inns": [],
     "entertainment": [
-      "Gambling halls",
-      "Brothels",
-      "Spontaneous performances in the streets",
-      "Sketchy theaters",
+      {
+        "name": "Gambling halls",
+        "desc": []
+      },
+      {
+        "name": "Brothels",
+        "desc": []
+      },
+      {
+        "name": "Spontaneous performances in the streets",
+        "desc": []
+      },
+      {
+        "name": "Sketchy theaters",
+        "desc": []
+      },
       {
         "name": "Burning Ring",
         "desc": [

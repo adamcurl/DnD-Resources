@@ -9,7 +9,12 @@
       "entertainment": [],
       "temples": [],
       "government": [],
-      "residential": ["Dwarven communities"],
+      "residential": [
+        {
+          "name": "Dwarven communities",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],
@@ -22,7 +27,12 @@
       "taverns": [],
       "inns": [],
       "entertainment": [],
-      "temples": ["Citadel of the Sun - dedicated to Dol Arrah"],
+      "temples": [
+        {
+          "name": "Citadel of the Sun",
+          "desc": ["Dedicated to Dol Arrah"]
+        }
+      ],
       "government": [],
       "residential": [],
       "knowledge": [],
@@ -33,13 +43,33 @@
     },
     {
       "districtName": "Overlook",
-      "shops": ["Talented artisans and successful merchants"],
-      "taverns": ["Morragin’s Tavern - strongest spirits in Sharn"],
+      "shops": [
+        {
+          "name": "Talented artisans and successful merchants",
+          "desc": []
+        }
+      ],
+      "taverns": [
+        {
+          "name": "Morragin’s Tavern",
+          "desc": ["strongest spirits in Sharn"]
+        }
+      ],
       "inns": [],
       "entertainment": [],
       "temples": [],
-      "government": ["Daggerwatch garrison"],
-      "residential": ["Kalashtar homes"],
+      "government": [
+        {
+          "name": "Daggerwatch garrison",
+          "desc": []
+        }
+      ],
+      "residential": [
+        {
+          "name": "Kalashtar homes",
+          "desc": []
+        }
+      ],
       "knowledge": [],
       "transportation": [],
       "restaurants": [],

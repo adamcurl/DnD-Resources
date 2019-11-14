@@ -21,8 +21,14 @@
       "districtName": "The Stoneyard",
       "shops": [],
       "taverns": [
-        "Rat’s Nest - a tavern catering to shifters",
-        "Bear’s Rest - a shifter inn"
+        {
+          "name": "Rat’s Nest",
+          "desc": ["a tavern catering to shifters"]
+        },
+        {
+          "name": "Bear’s Rest",
+          "desc": ["a shifter inn"]
+        }
       ],
       "inns": [],
       "entertainment": [],
