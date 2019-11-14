@@ -14,13 +14,13 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={KhorvaireMap} />
-      <Route exact path="/city/:city" component={SharnMap} />
-      <Route exact path="/country/:country" component={Country} />
-      <Route exact path="/city/:city" component={City} />
-      <Route exact path="/crime/:crime" component={Crime} />
-      <Route exact path="/faith/:faith" component={Faith} />
-      <Route exact path="/house/:house" component={House} />
-      <Route exact path="/race/:race" component={Race} />
+      <Route path="/city/:city" component={SharnMap} />
+      <Route path="/country/:country" component={Country} />
+      <Route path="/city/:city" component={City} />
+      <Route path="/crime/:crime" component={Crime} />
+      <Route path="/faith/:faith" component={Faith} />
+      <Route path="/house/:house" component={House} />
+      <Route path="/race/:race" component={Race} />
     </Switch>
   );
 }
