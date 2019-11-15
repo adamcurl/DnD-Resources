@@ -19,7 +19,9 @@
       },
       {
         "name": "Tain Manor, home to most powerful family in Sharn",
-        "desc": "Home of Celyria ir’Tain, the queen of high society, holds a ball at the manor each month"
+        "desc": [
+          "Home of Celyria ir’Tain, the queen of high society, holds a ball at the manor each month"
+        ]
       }
     ],
     "knowledge": [],

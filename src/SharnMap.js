@@ -57,15 +57,18 @@ class SharnMap extends Component {
     }
   }
 
-  lockDivision() {
-    const currHover = this.state.hoverActive;
-    this.setState({ hoverActive: !currHover });
+  lockDivision(d) {
+    if (d === this.state.division) {
+      const currHover = this.state.hoverActive;
+      this.setState({ hoverActive: !currHover });
+    }
+    this.setState({ division: d });
   }
 
   render() {
     return (
       <div>
-        <div className="map_wrap">
+        <div className="map_wrap" style={{ width: "50%" }}>
           <img
             src={map}
             useMap="#sharn-map"
@@ -75,7 +78,7 @@ class SharnMap extends Component {
           />
           <map name="sharn-map" id="smap">
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("cliffside")}
               onMouseEnter={() => this.displayDivision("cliffside")}
               target=""
               alt="Cliffside"
@@ -84,7 +87,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lower_central")}
               onMouseEnter={() => this.displayDivision("lower_central")}
               target=""
               alt="Lower Central"
@@ -93,7 +96,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lower_menthis_plateau")}
               onMouseEnter={() => this.displayDivision("lower_menthis_plateau")}
               target=""
               alt="Lower Menthis Plateau"
@@ -102,7 +105,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lower_northedge")}
               onMouseEnter={() => this.displayDivision("lower_northedge")}
               target=""
               alt="Lower Northedge"
@@ -111,7 +114,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lower_dura")}
               onMouseEnter={() => this.displayDivision("lower_dura")}
               target=""
               alt="Lower Dura"
@@ -120,7 +123,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lower_tavicks_landing")}
               onMouseEnter={() => this.displayDivision("lower_tavicks_landing")}
               target=""
               alt="Lower Tavick's Landing"
@@ -129,7 +132,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("the_depths")}
               onMouseEnter={() => this.displayDivision("the_depths")}
               target=""
               alt="The Depths"
@@ -138,7 +141,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("the_cogs")}
               onMouseEnter={() => this.displayDivision("the_cogs")}
               target=""
               alt="The Cogs"
@@ -147,7 +150,7 @@ class SharnMap extends Component {
               shape="rect"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("lava_pools")}
               onMouseEnter={() => this.displayDivision("lava_pools")}
               target=""
               alt="Lava Pools"
@@ -156,7 +159,7 @@ class SharnMap extends Component {
               shape="rect"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("middle_central")}
               onMouseEnter={() => this.displayDivision("middle_central")}
               target=""
               alt="Middle Central"
@@ -165,7 +168,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("middle_menthis_plateau")}
               onMouseEnter={() =>
                 this.displayDivision("middle_menthis_plateau")
               }
@@ -176,7 +179,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("middle_northedge")}
               onMouseEnter={() => this.displayDivision("middle_northedge")}
               target=""
               alt="Middle Northedge"
@@ -185,7 +188,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("middle_dura")}
               onMouseEnter={() => this.displayDivision("middle_dura")}
               target=""
               alt="Middle Dura"
@@ -194,7 +197,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("middle_tavicks_landing")}
               onMouseEnter={() =>
                 this.displayDivision("middle_tavicks_landing")
               }
@@ -205,7 +208,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("skyway")}
               onMouseEnter={() => this.displayDivision("skyway")}
               target=""
               alt="Skyway"
@@ -214,7 +217,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("upper_dura")}
               onMouseEnter={() => this.displayDivision("upper_dura")}
               target=""
               alt="Upper Dura"
@@ -223,7 +226,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("upper_central")}
               onMouseEnter={() => this.displayDivision("upper_central")}
               target=""
               alt="Upper Central"
@@ -232,7 +235,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("upper_menthis_plateau")}
               onMouseEnter={() => this.displayDivision("upper_menthis_plateau")}
               target=""
               alt="Upper Menthis Plateau"
@@ -241,7 +244,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("upper_tavicks_landing")}
               onMouseEnter={() => this.displayDivision("upper_tavicks_landing")}
               target=""
               alt="Upper Tavick's Landing"
@@ -250,7 +253,7 @@ class SharnMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockDivision()}
+              onClick={() => this.lockDivision("upper_northedge")}
               onMouseEnter={() => this.displayDivision("upper_northedge")}
               target=""
               alt="Upper Northedge"
@@ -260,7 +263,7 @@ class SharnMap extends Component {
             />
           </map>
         </div>
-        <div className="sidebar">
+        <div className="sidebar" style={{ width: "50%" }}>
           {this.state.division !== "" ? (
             <SidebarWard ward={this.state.division} />
           ) : null}

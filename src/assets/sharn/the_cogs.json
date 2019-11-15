@@ -21,7 +21,9 @@
       "industry": [
         {
           "name": "House Cannith maintains a massive forgehold in the depths",
-          "desc": "Where Baron Merrix d’Cannith conducts his arcane experiments"
+          "desc": [
+            "Where Baron Merrix d’Cannith conducts his arcane experiments"
+          ]
         }
       ],
       "illegal": []

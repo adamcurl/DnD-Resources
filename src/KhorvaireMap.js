@@ -65,9 +65,12 @@ class KhorvaireMap extends Component {
     this.setState({ city: c });
   }
 
-  lockCountry() {
-    const currHover = this.state.hoverActive;
-    this.setState({ hoverActive: !currHover });
+  lockCountry(c) {
+    if (c === this.state.country) {
+      const currHover = this.state.hoverActive;
+      this.setState({ hoverActive: !currHover });
+    }
+    this.setState({ country: c });
   }
 
   render() {
@@ -95,7 +98,7 @@ class KhorvaireMap extends Component {
             ></area>
             {/* Countries */}
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("zilargo")}
               onMouseEnter={() => this.displayCountry("zilargo")}
               target=""
               alt="zilargo"
@@ -104,7 +107,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("darguun")}
               onMouseEnter={() => this.displayCountry("darguun")}
               target=""
               alt="darguun"
@@ -113,7 +116,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("cyre")}
               onMouseEnter={() => this.displayCountry("cyre")}
               target=""
               alt="cyre"
@@ -122,7 +125,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("valenar")}
               onMouseEnter={() => this.displayCountry("valenar")}
               target=""
               alt="valenar"
@@ -131,7 +134,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("talenta_plains")}
               onMouseEnter={() => this.displayCountry("talenta_plains")}
               target=""
               alt="talenta_plains"
@@ -140,7 +143,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("qbarra")}
               onMouseEnter={() => this.displayCountry("qbarra")}
               target=""
               alt="qbarra"
@@ -149,7 +152,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("mror_holds")}
               onMouseEnter={() => this.displayCountry("mror_holds")}
               target=""
               alt="mror_holds"
@@ -158,7 +161,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("karrnath")}
               onMouseEnter={() => this.displayCountry("karrnath")}
               target=""
               alt="karrnath"
@@ -167,7 +170,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("thrane")}
               onMouseEnter={() => this.displayCountry("thrane")}
               target=""
               alt="thrane"
@@ -176,7 +179,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("aundair")}
               onMouseEnter={() => this.displayCountry("aundair")}
               target=""
               alt="aundair"
@@ -185,7 +188,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("breland")}
               onMouseEnter={() => this.displayCountry("breland")}
               target=""
               alt="breland"
@@ -194,7 +197,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("droaam")}
               onMouseEnter={() => this.displayCountry("droaam")}
               target=""
               alt="droaam"
@@ -203,7 +206,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("shadow_marches")}
               onMouseEnter={() => this.displayCountry("shadow_marches")}
               target=""
               alt="shadow_marches"
@@ -212,7 +215,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("elden_reaches")}
               onMouseEnter={() => this.displayCountry("elden_reaches")}
               target=""
               alt="elden_reaches"
@@ -221,7 +224,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("demon_wastes")}
               onMouseEnter={() => this.displayCountry("demon_wastes")}
               target=""
               alt="demon_wastes"
@@ -230,7 +233,7 @@ class KhorvaireMap extends Component {
               shape="poly"
             />
             <area
-              onClick={() => this.lockCountry()}
+              onClick={() => this.lockCountry("lhazaar_principalities")}
               onMouseEnter={() => this.displayCountry("lhazaar_principalities")}
               target=""
               alt="lhazaar"
