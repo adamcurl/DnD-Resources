@@ -6,22 +6,26 @@ class SidebarWard extends Component {
 
     this.state = {
       districts: [],
-      general: {}
+      general: {},
+      allList: "",
+      showAll: false
     };
   }
 
   componentDidMount() {
     this.getWardInfo();
+    this.setState({ allList: this.props.allList });
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (this.props.ward !== prevProps.ward) {
+    if (this.props.ward.name !== prevProps.ward.name) {
       this.getWardInfo();
+      this.setState({ allList: this.props.allList });
     }
   }
 
   getWardInfo = () => {
-    const c = require(`./assets/sharn/${this.props.ward}`);
+    const c = this.props.ward;
     // get list of districts
     let districtArr = [];
     if (c.districts) {
@@ -34,8 +38,6 @@ class SidebarWard extends Component {
       genInfo = c.other;
     }
     this.setState({ general: genInfo });
-
-    console.log(c);
   };
 
   printLocation = location => {
@@ -108,29 +110,42 @@ class SidebarWard extends Component {
     return { __html: html };
   };
 
+  handleShowAll = () => {
+    this.setState({ showAll: !this.state.showAll });
+  };
+
   render() {
     return (
       <div className="sidebar_inner">
         <h1>
-          {this.props.ward.replace(/_/g, " ").replace(/\w\S*/g, function(txt) {
-            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-          })}
+          {this.props.ward.name
+            .replace(/_/g, " ")
+            .replace(/\w\S*/g, function(txt) {
+              return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            })}
         </h1>
-        {this.state.districts.length ? (
+        <button onClick={this.handleShowAll}>Show All</button>
+        {!this.state.showAll ? (
           <>
-            <h2>Districts</h2>
-            {this.state.districts.map(district => (
-              <div key={district.districtName} className="district">
-                <h3 className="district_name">{district.districtName}</h3>
-                <p className="district_desc">{district.description}</p>
-                <div dangerouslySetInnerHTML={this.printInfo(district)} />
-              </div>
-            ))}
+            {this.state.districts.length ? (
+              <>
+                <h2>Districts</h2>
+                {this.state.districts.map(district => (
+                  <div key={district.districtName} className="district">
+                    <h3 className="district_name">{district.districtName}</h3>
+                    <p className="district_desc">{district.description}</p>
+                    <div dangerouslySetInnerHTML={this.printInfo(district)} />
+                  </div>
+                ))}
+              </>
+            ) : null}
+            <h2 style={{ marginBottom: "5px" }}>General</h2>
+            <p className="district_desc">{this.state.general.description}</p>
+            <div dangerouslySetInnerHTML={this.printInfo(this.state.general)} />
           </>
-        ) : null}
-        <h2 style={{ marginBottom: "5px" }}>General</h2>
-        <p className="district_desc">{this.state.general.description}</p>
-        <div dangerouslySetInnerHTML={this.printInfo(this.state.general)} />
+        ) : (
+          <div dangerouslySetInnerHTML={{ __html: this.state.allList }} />
+        )}
       </div>
     );
   }
