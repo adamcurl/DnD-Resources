@@ -1,0 +1,16 @@
+{
+  "mark": "Finding",
+  "race": "Half-Orc",
+  "specialties": ["Half-Orc Bounty Hunting", "Investigation", "Prospecting"],
+  "homeland": "Shadow Marches",
+  "business": [
+    "inquisitives and bounty hunters",
+    "dragonshard prospecting",
+    "Hunting prey"
+  ],
+  "characteristics": [
+    "The youngest of the Dragonmarked Houses and hasn’t embraced all of the customs of the Twelve",
+    "Heirs often use family names instead of the house surname",
+    "Many hold on to beliefs and traditions carried from the Shadow Marches — like the druidic faith of the Gatekeepers or secretive cults of the Dragon Below"
+  ]
+}

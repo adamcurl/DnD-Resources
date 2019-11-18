@@ -51,7 +51,7 @@ ul {
 li {
   line-height: 1rem;
   font-size: 16px;
-  margin: 0 0 10px 0;
+  margin: 0 0 1em 0;
 }
 
 a {
@@ -59,29 +59,29 @@ a {
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 32px !important;
   font-weight: normal;
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 26px !important;
   font-weight: normal;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px !important;
   font-weight: normal;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px !important;
   font-weight: normal;
   margin-top: 0.8em;
   margin-bottom: 0.5em;
 }
 
 .district {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .district_name {
@@ -121,4 +121,20 @@ area {
 
 .map_img {
   height: 100vh;
+}
+
+.container_wrap {
+  width: 100%;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.even_width {
+  height: 400px !important;
+}
+
+.no_dec {
+  text-decoration: none;
+  color: #242527;
 }

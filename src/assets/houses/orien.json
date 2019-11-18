@@ -1,0 +1,16 @@
+{
+  "mark": "Passage",
+  "race": "Human",
+  "specialties": ["Land Transportation"],
+  "homeland": "Aundair",
+  "business": [
+    "The Lightning Rail ",
+    "caravans and coaches",
+    "The Courier’s Guild to deliver mail with a subdivision to handle more precarious items",
+    "Long distance teleportation"
+  ],
+  "characteristics": [
+    "Losing an ongoing competition with House Lyrandar",
+    "Seeking to perfect teleportation with the help of House Cannith"
+  ]
+}

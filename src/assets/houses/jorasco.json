@@ -1,0 +1,15 @@
+{
+  "mark": "Healing",
+  "race": "Halfling",
+  "specialties": ["Healing"],
+  "homeland": "Talenta Plains",
+  "business": [
+    "The Healer’s Guild",
+    "Runs the schools that teach medicine and houses of healing that provide both mundane and magical services"
+  ],
+  "characteristics": [
+    "One can be healed...for the right price",
+    "Those with the gold can be healed with spells. Those less wealthy are healed with mundane medicine and techniques",
+    "There are rumors that house Jorasco engaged in disturbing experiments during the Last War, working with House Vadalis to develop biological weapons and strange new creatures"
+  ]
+}

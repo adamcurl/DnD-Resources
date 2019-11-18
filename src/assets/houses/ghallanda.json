@@ -1,0 +1,15 @@
+{
+  "mark": "Hospitality",
+  "race": "Halfling",
+  "specialties": ["Food", "Lodging", "Urban Information"],
+  "homeland": "Talenta Plains",
+  "business": [
+    "The majority of inns, taverns, and restaurants in the Five Nations licensed by its Hosteler’s Guild",
+    "The Gold Dragon Inn chain"
+  ],
+  "characteristics": [
+    "Ghallanda’s strength lies in charm and connections",
+    "They may not always have gold, but is sure to be rich in friends",
+    "The leaders of House Ghallanda don’t sell information; they prefer to build friendship and deal in favors"
+  ]
+}

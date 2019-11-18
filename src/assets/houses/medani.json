@@ -1,0 +1,15 @@
+{
+  "mark": "Detection",
+  "race": "Half-Elf",
+  "specialties": ["Bodyguards", "Investigation", "Risk Management"],
+  "homeland": "Breland",
+  "business": [
+    "brokers the services of bodyguards and inquisitives",
+    "specialize in risk assessment and management protecting clients from both physical and social threats"
+  ],
+  "characteristics": [
+    "Little interest in power struggles",
+    "More interested in helping their communities than in raw profit",
+    "Often work with local law enforcement or help those who can’t afford their services"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "mark": "Sentinel",
+  "race": "Human",
+  "specialties": ["Bodyguards", "Mercenaries"],
+  "homeland": "Karrnath",
+  "business": [
+    "Provides mercenaries and bodyguards from humans, goblins, etc.",
+    "Sentinel Marshals, agents that hold the authority to pursue criminals and enforce the law across the length of Khorvaire"
+  ],
+  "characteristics": [
+    "escalating rivalry with House Tharashk",
+    "Maintains absolute neutrality and selling its services to all sides of a conflict",
+    "a faction that feels that Deneith should use its power for its own purposes"
+  ]
+}

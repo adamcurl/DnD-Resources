@@ -1,0 +1,16 @@
+{
+  "beliefs": [
+    "Beliefs vary from cult to cult as they worship different dieties and have different motives",
+    "Ex) There is a paradise within the world, a vale bathed in the light of the Inner Sun. Earn your passage with the blood of worthy foes.",
+    "Ex) Our existence is a chrysalis state, preparing us for transcendent immortality within the bowels of the Gibbering Mouther.",
+    "Ex) The Lord of Eyes sees all secrets. His gaze elevates the worthy and slays the unbeliever. Drive all doubt from your heart and you will see reality through new eyes."
+  ],
+  "followers": "Cultists, warlocks",
+  "hierarchy": [
+    "Cults",
+    "Outsiders use the term 'Cult of the Dragon Below' as a blanket term to describe all of these things, but the cultists themselves don’t use this name or see themselves as part of a greater whole"
+  ],
+  "deities": ["Vary"],
+  "practices": ["Cult stuff"],
+  "influence": "Across Eberron"
+}

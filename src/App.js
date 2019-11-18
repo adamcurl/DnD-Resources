@@ -4,24 +4,49 @@ import SharnMap from "./SharnMap";
 import Country from "./Country";
 import City from "./City";
 import Crime from "./Crime";
+import Faiths from "./Faiths";
 import Faith from "./Faith";
+import Houses from "./Houses";
 import House from "./House";
 import Race from "./Race";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
+import "./assets/styles/bootstrap.min.css";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/" component={KhorvaireMap} />
-      <Route path="/city/:city" component={SharnMap} />
-      <Route path="/country/:country" component={Country} />
-      <Route path="/city/:city" component={City} />
-      <Route path="/crime/:crime" component={Crime} />
-      <Route path="/faith/:faith" component={Faith} />
-      <Route path="/house/:house" component={House} />
-      <Route path="/race/:race" component={Race} />
-    </Switch>
+    <>
+      <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">Adam's Arcane Archives</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="/houses">Houses</Nav.Link>
+            <Nav.Link href="/faiths">Faiths</Nav.Link>
+            <NavDropdown title="Maps" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/continent/khorvaire">
+                Khorvaire
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/city/sharn">Sharn</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+      <Switch>
+        <Route exact path="/" component={KhorvaireMap} />
+        <Route path="/continent/khorvaire" component={KhorvaireMap} />
+        <Route path="/city/sharn" component={SharnMap} />
+        <Route path="/houses" component={Houses} />
+        <Route path="/faiths" component={Faiths} />
+        <Route path="/country/:country" component={Country} />
+        <Route path="/city/:city" component={City} />
+        <Route path="/crime/:crime" component={Crime} />
+        <Route path="/faiths/:faith" component={Faith} />
+        <Route path="/houses/:house" component={House} />
+        <Route path="/race/:race" component={Race} />
+      </Switch>
+    </>
   );
 }
 

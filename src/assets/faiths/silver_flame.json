@@ -1,0 +1,26 @@
+{
+  "beliefs": [
+    "The Silver Flame is a celestial force of light that has existed since the dawn of time, holding foul demons at bay.",
+    "During the Age of Demons, the first righteous warrior, Tira Miron joined forces with a couatl and sacrificed her live to seal the demon Overlord Bel Shalor",
+    "Those who seek to defend the innocent from evil may draw on the power of the Flame."
+  ],
+  "followers": "Any race",
+  "hierarchy": [
+    "The Voice in the Flame",
+    "The Keeper of the Flame (chosen by ritual) speaks to The Voice",
+    "From there, the church splits to a militant and ministry sect",
+    "Ministry: priests and bishop who answer to the Council of Flamekeep and then to the Keeper of the Fame",
+    "Militant: warriors, paladins, clerics, and exorcists; battles evil rather thatn evangelizes"
+  ],
+  "deities": [
+    "Voice of the Flame (Tira Miron)",
+    "Shadow in the Flame (Bel Shalor)"
+  ],
+  "practices": [
+    "Battle supernatural evil with steel, fire, and magic.",
+    "Every mortal soul can be guided to the light.",
+    "Inspire and guide others to virtuous behavior; force is a last resort.",
+    "Recruit more people into the faith to build a stronger force to battle evil"
+  ],
+  "influence": "Across Khorvaire; centered on Thrane’s theocratic government"
+}

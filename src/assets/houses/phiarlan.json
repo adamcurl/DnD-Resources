@@ -1,0 +1,14 @@
+{
+  "mark": "Shadow",
+  "race": "Elf",
+  "specialties": ["Entertainment", "Espionage"],
+  "homeland": "Breland",
+  "business": [
+    "Entertainment",
+    "Elite force of spies and assassins within the house that commonfolk don’t know about"
+  ],
+  "characteristics": [
+    "Towards the end of the Last War, a bitter feud broke out between the major families of the house splitting House Phiarlan in two and forming House Thuranni",
+    "Better spies, but worse assassins than Thuranni"
+  ]
+}

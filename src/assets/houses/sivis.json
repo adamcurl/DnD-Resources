@@ -1,0 +1,15 @@
+{
+  "mark": "Scribing",
+  "race": "Gnome",
+  "specialties": ["Communication", "Translation", "Verification"],
+  "homeland": "Zilargo",
+  "business": [
+    "facilitate communication",
+    "trains and licenses scribes, notaries, interpreters, cartographers, barristers, heralds, bookbinders and more"
+  ],
+  "characteristics": [
+    "can feel words as though they are living creatures",
+    "House Sivis has an especially close relationship with House Kundarak",
+    "They take great pains to maintain the trust of its clients and takes a position of absolute neutrality in all disputes"
+  ]
+}

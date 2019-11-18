@@ -1,0 +1,17 @@
+{
+  "mark": "Warding",
+  "race": "Dwarf",
+  "specialties": ["Banking", "Storage", "Prisons"],
+  "homeland": "Lhazaar Principalities",
+  "business": [
+    "Secure banking, storage",
+    "Lock picking, locksmiths",
+    "the infamous prison of Dreadhold and other prisons",
+    "Expensive system of extradimensional vaults"
+  ],
+  "characteristics": [
+    "a close alliance with House Sivis",
+    "worked to earn the trust of its clients and to establish a reputation for unshakeable integrity",
+    "no love of renegade dwarves using their marks to turn a profit"
+  ]
+}

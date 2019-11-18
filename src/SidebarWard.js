@@ -6,21 +6,17 @@ class SidebarWard extends Component {
 
     this.state = {
       districts: [],
-      general: {},
-      allList: "",
-      showAll: false
+      general: {}
     };
   }
 
   componentDidMount() {
     this.getWardInfo();
-    this.setState({ allList: this.props.allList });
   }
 
   componentDidUpdate(prevProps, prevState) {
     if (this.props.ward.name !== prevProps.ward.name) {
       this.getWardInfo();
-      this.setState({ allList: this.props.allList });
     }
   }
 
@@ -43,7 +39,7 @@ class SidebarWard extends Component {
   printLocation = location => {
     let locStr = "<ul>";
     location.forEach(item => {
-      locStr += "<li><p>" + item.name + "</p></li>";
+      locStr += "<li>" + item.name + "</li>";
       locStr += "<ul>";
       if (item.desc && item.desc.length) {
         item.desc.forEach(d => {
@@ -110,10 +106,6 @@ class SidebarWard extends Component {
     return { __html: html };
   };
 
-  handleShowAll = () => {
-    this.setState({ showAll: !this.state.showAll });
-  };
-
   render() {
     return (
       <div className="sidebar_inner">
@@ -124,28 +116,21 @@ class SidebarWard extends Component {
               return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
             })}
         </h1>
-        <button onClick={this.handleShowAll}>Show All</button>
-        {!this.state.showAll ? (
+        {this.state.districts.length ? (
           <>
-            {this.state.districts.length ? (
-              <>
-                <h2>Districts</h2>
-                {this.state.districts.map(district => (
-                  <div key={district.districtName} className="district">
-                    <h3 className="district_name">{district.districtName}</h3>
-                    <p className="district_desc">{district.description}</p>
-                    <div dangerouslySetInnerHTML={this.printInfo(district)} />
-                  </div>
-                ))}
-              </>
-            ) : null}
-            <h2 style={{ marginBottom: "5px" }}>General</h2>
-            <p className="district_desc">{this.state.general.description}</p>
-            <div dangerouslySetInnerHTML={this.printInfo(this.state.general)} />
+            <h2>Districts</h2>
+            {this.state.districts.map(district => (
+              <div key={district.districtName} className="district">
+                <h3 className="district_name">{district.districtName}</h3>
+                <p className="district_desc">{district.description}</p>
+                <div dangerouslySetInnerHTML={this.printInfo(district)} />
+              </div>
+            ))}
           </>
-        ) : (
-          <div dangerouslySetInnerHTML={{ __html: this.state.allList }} />
-        )}
+        ) : null}
+        <h2 style={{ marginBottom: "5px" }}>General</h2>
+        <p className="district_desc">{this.state.general.description}</p>
+        <div dangerouslySetInnerHTML={this.printInfo(this.state.general)} />
       </div>
     );
   }
