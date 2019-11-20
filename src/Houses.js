@@ -78,7 +78,10 @@ function Houses(props) {
               className="btn btn-link"
               onClick={() => handleOpenModal(i)}
             >
-              <img className="img-fluid even_width" src={crests[i]} />
+              <div
+                className="bkgrnd_img"
+                style={{ backgroundImage: `url('${crests[i]}')` }}
+              />
             </button>
           </div>
         ))}

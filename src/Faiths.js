@@ -78,7 +78,10 @@ function Faiths(props) {
               className="btn btn-link"
               onClick={() => handleOpenModal(i)}
             >
-              <img className="img-fluid even_width" src={symbols[i]} />
+              <div
+                className="bkgrnd_img"
+                style={{ backgroundImage: `url('${symbols[i]}')` }}
+              />
               {house.name === "Cults Of The Dragon Below" ? (
                 <p className="text-center no_dec">{house.name}</p>
               ) : null}
