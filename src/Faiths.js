@@ -71,8 +71,8 @@ function Faiths(props) {
       <h1 className="p-3">Faiths of Eberron</h1>
       <div className="row">
         {console.log(faiths)}
-        {faiths.map((house, i) => (
-          <div className="col-md-3 pb-5" key={house.name}>
+        {faiths.map((faith, i) => (
+          <div className="col-md-3 pb-5" key={faith.name}>
             <button
               type="button"
               className="btn btn-link"
@@ -82,8 +82,8 @@ function Faiths(props) {
                 className="bkgrnd_img"
                 style={{ backgroundImage: `url('${symbols[i]}')` }}
               />
-              {house.name === "Cults Of The Dragon Below" ? (
-                <p className="text-center no_dec">{house.name}</p>
+              {faith.name === "Cults Of The Dragon Below" ? (
+                <p className="text-center no_dec">{faith.name}</p>
               ) : null}
             </button>
           </div>

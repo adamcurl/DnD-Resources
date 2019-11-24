@@ -1,8 +1,23 @@
 {
-  "mark": "",
-  "race": "",
-  "specialties": [],
-  "homeland": "",
-  "business": [],
-  "characteristics": []
+  "mark": "Aberrant",
+  "race": "Any race with an Aberrant mark",
+  "specialties": [
+    "An array of very powerful abilities",
+    "Espionage",
+    "Assassination"
+  ],
+  "homeland": "Sharn",
+  "business": [
+    "Theif",
+    "Murder",
+    "Uses its wealth to protect, train, and care for people who have aberrant marks"
+  ],
+  "characteristics": [
+    "Not actually a dragonmarked house, only uses the namesake 'House' to mock the other houses",
+    "Founded by a team of former Dark Lanterns assassins and spies with aberrant marks that were used in suicide missions.",
+    "The group eventually turned on the Dark Lanterns and fled to Sharn to form House Tarkanan - whose name is from Lord Halas Tarkanan, who fought the dragonmarked houses long ago and used his aberrant mark to destroy Sharn.",
+    "Will not assassinate high-ranking members of any criminal organization.",
+    "The leaders of the house are pragmatists and soldiers, and they train their recruits to be warriors and thieves.",
+    "Hate the dragonmarked houses for being prejudiced against their kind"
+  ]
 }

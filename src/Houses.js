@@ -82,6 +82,9 @@ function Houses(props) {
                 className="bkgrnd_img"
                 style={{ backgroundImage: `url('${crests[i]}')` }}
               />
+              <p className="text-center no_dec">
+                {house.name} - Mark of {house.mark}
+              </p>
             </button>
           </div>
         ))}

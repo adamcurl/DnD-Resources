@@ -9,7 +9,7 @@ import Faith from "./Faith";
 import Houses from "./Houses";
 import House from "./House";
 import Race from "./Race";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import "./assets/styles/bootstrap.min.css";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
@@ -18,17 +18,27 @@ function App() {
   return (
     <>
       <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Adam's Arcane Archives</Navbar.Brand>
+        <Navbar.Brand>
+          <Link className="navbar-brand" to="/">
+            Adam's Arcane Archives
+          </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/houses">Houses</Nav.Link>
-            <Nav.Link href="/faiths">Faiths</Nav.Link>
+            <Link className="nav-link" to="/houses">
+              Houses
+            </Link>
+            <Link className="nav-link" to="/faiths">
+              Faiths
+            </Link>
             <NavDropdown title="Maps" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/continent/khorvaire">
+              <Link className="nav-link" to="/continent/khorvaire">
                 Khorvaire
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/city/sharn">Sharn</NavDropdown.Item>
+              </Link>
+              <Link className="nav-link" to="/city/sharn">
+                Sharn
+              </Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
