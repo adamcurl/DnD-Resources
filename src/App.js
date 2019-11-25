@@ -8,7 +8,7 @@ import Faiths from "./Faiths";
 import Faith from "./Faith";
 import Houses from "./Houses";
 import House from "./House";
-import Race from "./Race";
+import Races from "./Races";
 import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
 import "./assets/styles/bootstrap.min.css";
@@ -26,6 +26,9 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
+            <Link className="nav-link" to="/races">
+              Races
+            </Link>
             <Link className="nav-link" to="/houses">
               Houses
             </Link>
@@ -49,12 +52,7 @@ function App() {
         <Route path="/city/sharn" component={SharnMap} />
         <Route path="/houses" component={Houses} />
         <Route path="/faiths" component={Faiths} />
-        <Route path="/country/:country" component={Country} />
-        <Route path="/city/:city" component={City} />
-        <Route path="/crime/:crime" component={Crime} />
-        <Route path="/faiths/:faith" component={Faith} />
-        <Route path="/houses/:house" component={House} />
-        <Route path="/race/:race" component={Race} />
+        <Route path="/races" component={Races} />
       </Switch>
     </>
   );
