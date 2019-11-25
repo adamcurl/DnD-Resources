@@ -1,8 +1,10 @@
 {
-  "name": [""],
-  "origin": [""],
-  "currHomes": [""],
+  "name": ["Dragonborn"],
+  "origin": [
+    "Tens of thousands of years ago, the Dragonborn migrated from Argonnessen along with other dragons."
+  ],
+  "currHomes": ["Q'Barra"],
   "summary": [""],
   "characteristics": [""],
-  "houses": [""]
+  "houses": ["None"]
 }

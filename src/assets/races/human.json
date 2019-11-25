@@ -1,8 +1,14 @@
 {
-  "name": [""],
+  "name": ["Human"],
   "origin": [""],
   "currHomes": [""],
   "summary": [""],
   "characteristics": [""],
-  "houses": [""]
+  "houses": [
+    "Cannith (Mark of Making)",
+    "Orien (Mark of Passage)",
+    "Deneith (Mark of Sentinel)",
+    "Vadalis (Mark of Handling)",
+    "Tharashk (Mark of Finding)"
+  ]
 }

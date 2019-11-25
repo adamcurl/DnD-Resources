@@ -17,20 +17,7 @@ function Races(props) {
         return o;
       }, {});
     })(require.context("./assets/races", true, /.json/));
-    const keys = Object.keys(files);
     let array = Object.values(files);
-
-    // add race names to the array and set state
-    const length = array.length;
-    for (var i = 0; i < length; i++) {
-      array[i].name = keys[i]
-        .replace("./", "")
-        .replace(".json", "")
-        .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
-          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-        });
-    }
     setRaces(array);
 
     // get crest files' keys and values
@@ -45,7 +32,7 @@ function Races(props) {
     const crestImgs = Object.values(imgs);
     let crestVals = [];
 
-    // add crest names to the array and set state
+    // add image names to the array and set state
     const crestLen = crestImgs.length;
     for (var i = 0; i < crestLen; i++) {
       crestVals.push(crestImgs[i]);
