@@ -4,8 +4,10 @@ import { Modal } from "react-bootstrap";
 function Houses(props) {
   const [houses, setHouses] = useState([]);
   const [crests, setCrests] = useState([]);
+  const [marks, setMarks] = useState([]);
   const [modalOpen, setModalOpen] = useState(false);
   const [activeHouse, setActiveHouse] = useState(-1);
+  const [houseHover, setHouseHover] = useState(-1);
 
   const onRender = () => {
     // get house files' keys and values
@@ -51,6 +53,25 @@ function Houses(props) {
       crestVals.push(crestImgs[i]);
     }
     setCrests(crestVals);
+
+    // get crest files' keys and values
+    const markImgs = (ctx => {
+      let keys = ctx.keys();
+      let values = keys.map(ctx);
+      return keys.reduce((o, k, i) => {
+        o[k] = values[i];
+        return o;
+      }, {});
+    })(require.context("./assets/imgs/marks", true, /.png/));
+    const markImgsList = Object.values(markImgs);
+    let markVals = [];
+
+    // add crest names to the array and set state
+    const marksLen = markImgsList.length;
+    for (var i = 0; i < marksLen; i++) {
+      markVals.push(markImgsList[i]);
+    }
+    setMarks(markVals);
   };
 
   React.useEffect(() => {
@@ -80,7 +101,13 @@ function Houses(props) {
             >
               <div
                 className="bkgrnd_img"
-                style={{ backgroundImage: `url('${crests[i]}')` }}
+                style={
+                  houseHover === i
+                    ? { backgroundImage: `url('${marks[i]}')` }
+                    : { backgroundImage: `url('${crests[i]}')` }
+                }
+                onMouseEnter={() => setHouseHover(i)}
+                onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
                 {house.name} - Mark of {house.mark}

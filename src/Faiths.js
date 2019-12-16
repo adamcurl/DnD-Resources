@@ -82,9 +82,7 @@ function Faiths(props) {
                 className="bkgrnd_img"
                 style={{ backgroundImage: `url('${symbols[i]}')` }}
               />
-              {faith.name === "Cults Of The Dragon Below" ? (
-                <p className="text-center no_dec">{faith.name}</p>
-              ) : null}
+              <p className="text-center no_dec">{faith.name}</p>
             </button>
           </div>
         ))}

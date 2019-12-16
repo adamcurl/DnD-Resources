@@ -35,14 +35,9 @@ function App() {
             <Link className="nav-link" to="/faiths">
               Faiths
             </Link>
-            <NavDropdown title="Maps" id="basic-nav-dropdown">
-              <Link className="nav-link" to="/continent/khorvaire">
-                Khorvaire
-              </Link>
-              <Link className="nav-link" to="/city/sharn">
-                Sharn
-              </Link>
-            </NavDropdown>
+            <Link className="nav-link" to="/continent/khorvaire">
+              Countries of Khorvaire
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -147,4 +147,5 @@ area {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: 0.2s ease-in-out;
 }
