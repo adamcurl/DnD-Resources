@@ -149,3 +149,9 @@ area {
   background-size: contain;
   transition: 0.2s ease-in-out;
 }
+
+#map-box {
+  position: relative;
+    display: inline-block;
+    margin: 30px auto;
+}
