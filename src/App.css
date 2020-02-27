@@ -152,6 +152,11 @@ area {
 
 #map-box {
   position: relative;
-    display: inline-block;
-    margin: 30px auto;
+  display: inline-block;
+  margin: auto;
+}
+
+.transparent_btn {
+  background: none;
+  border: none;
 }
