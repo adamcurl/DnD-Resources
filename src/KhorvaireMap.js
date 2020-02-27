@@ -8,49 +8,49 @@ function KhorvaireMap(props) {
   const [city, setCity] = useState("");
   const [hoverActive, setHoverActive] = useState(true);
 
-  const resizeMap = () => {
-    // image map resize function
-    var ImageMap = function(map, img) {
-      console.log("mapping");
-      var n,
-        areas = map.getElementsByTagName("area"),
-        len = areas.length,
-        coords = [],
-        previousWidth = 5033;
-      for (n = 0; n < len; n++) {
-        coords[n] = areas[n].coords.split(",");
-      }
-      this.resize = function() {
-        var n,
-          m,
-          clen,
-          x = img.offsetWidth / previousWidth;
-        for (n = 0; n < len; n++) {
-          clen = coords[n].length;
-          for (m = 0; m < clen; m++) {
-            coords[n][m] *= x;
-          }
-          areas[n].coords = coords[n].join(",");
-        }
-        previousWidth = document.body.clientWidth;
-        return true;
-      };
-      window.onresize = this.resize;
-    };
-    let imageMap = new ImageMap(
-      document.getElementById("kmap"),
-      document.getElementById("kimg")
-    );
-    imageMap.resize();
-    // window.onload = function() {
-    //   imageMap.resize();
-    //   return;
-    // };
-  };
+  // const resizeMap = () => {
+  //   // image map resize function
+  //   var ImageMap = function(map, img) {
+  //     console.log("mapping");
+  //     var n,
+  //       areas = map.getElementsByTagName("area"),
+  //       len = areas.length,
+  //       coords = [],
+  //       previousWidth = 5033;
+  //     for (n = 0; n < len; n++) {
+  //       coords[n] = areas[n].coords.split(",");
+  //     }
+  //     this.resize = function() {
+  //       var n,
+  //         m,
+  //         clen,
+  //         x = img.offsetWidth / previousWidth;
+  //       for (n = 0; n < len; n++) {
+  //         clen = coords[n].length;
+  //         for (m = 0; m < clen; m++) {
+  //           coords[n][m] *= x;
+  //         }
+  //         areas[n].coords = coords[n].join(",");
+  //       }
+  //       previousWidth = document.body.clientWidth;
+  //       return true;
+  //     };
+  //     window.onresize = this.resize;
+  //   };
+  //   let imageMap = new ImageMap(
+  //     document.getElementById("kmap"),
+  //     document.getElementById("kimg")
+  //   );
+  //   imageMap.resize();
+  //   // window.onload = function() {
+  //   //   imageMap.resize();
+  //   //   return;
+  //   // };
+  // };
 
-  React.useEffect(() => {
-    resizeMap();
-  }, []);
+  // React.useEffect(() => {
+  //   resizeMap();
+  // }, []);
 
   const displayCountry = c => {
     if (hoverActive) {
