@@ -11,7 +11,6 @@ function KhorvaireMap(props) {
   // const resizeMap = () => {
   //   // image map resize function
   //   var ImageMap = function(map, img) {
-  //     console.log("mapping");
   //     var n,
   //       areas = map.getElementsByTagName("area"),
   //       len = areas.length,

@@ -150,6 +150,14 @@ area {
   transition: 0.2s ease-in-out;
 }
 
+.hide_img {
+  display: none;
+}
+
+.show_img {
+  display: block;
+}
+
 #map-box {
   position: relative;
   display: inline-block;

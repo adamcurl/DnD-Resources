@@ -134,7 +134,6 @@ function SharnMap(props) {
         ward.districts.forEach(district => {
           let count = 0;
           for (var key in district) {
-            console.log(key, district[key]);
             if (
               district.hasOwnProperty(key) &&
               key !== "description" &&
@@ -155,7 +154,6 @@ function SharnMap(props) {
       if (ward.other) {
         let count = 0;
         for (var key in ward.other) {
-          console.log(key, ward.other[key]);
           if (
             ward.other.hasOwnProperty(key) &&
             key !== "description" &&

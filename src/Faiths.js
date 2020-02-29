@@ -70,7 +70,6 @@ function Faiths(props) {
     <div className="container_wrap">
       <h1 className="p-3">Faiths of Eberron</h1>
       <div className="row">
-        {console.log(faiths)}
         {faiths.map((faith, i) => (
           <div className="col-md-3 pb-5" key={faith.name}>
             <button

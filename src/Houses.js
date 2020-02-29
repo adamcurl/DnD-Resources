@@ -91,7 +91,6 @@ function Houses(props) {
     <div className="container_wrap">
       <h1 className="p-3">Houses of Khorvaire</h1>
       <div className="row">
-        {console.log(houses)}
         {houses.map((house, i) => (
           <div className="col-md-3" key={house.name}>
             <button
@@ -100,13 +99,17 @@ function Houses(props) {
               onClick={() => handleOpenModal(i)}
             >
               <div
-                className="bkgrnd_img"
-                style={
-                  houseHover === i
-                    ? { backgroundImage: `url('${marks[i]}')` }
-                    : { backgroundImage: `url('${crests[i]}')` }
-                }
+                className={`bkgrnd_img ${
+                  houseHover === i ? "hide_img" : "show_img"
+                }`}
+                style={{ backgroundImage: `url('${crests[i]}')` }}
                 onMouseEnter={() => setHouseHover(i)}
+              />
+              <div
+                className={`bkgrnd_img ${
+                  houseHover === i ? "show_img" : "hide_img"
+                }`}
+                style={{ backgroundImage: `url('${marks[i]}')` }}
                 onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
