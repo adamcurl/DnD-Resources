@@ -120,7 +120,9 @@ function Faiths(props) {
             </p>
             <ul>
               {faiths[activeFaith].deities.map(item => (
-                <li key={item}>{item}</li>
+                <li key={item.name}>
+                  <strong>{item.name}</strong>: {item.desc}
+                </li>
               ))}
             </ul>
             <p>

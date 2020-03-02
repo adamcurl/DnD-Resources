@@ -5,7 +5,32 @@
   ],
   "followers": "Any, mostly monsters",
   "hierarchy": ["Small, secluded gatherings with a few leaders"],
-  "deities": [],
+  "deities": [
+    {
+      "name": "The Devourer (NE)",
+      "desc": "Governs the destructive power of nature, both pure elemental force and savagery in beasts."
+    },
+    {
+      "name": "The Keeper (NE)",
+      "desc": "Snatches souls before they can reach Dolurrh and hoards them along with his vast wealth. Those driven by greed call him their patron, and his priests often act as criminal fixers."
+    },
+    {
+      "name": "The Fury (NE)",
+      "desc": "Governs both passion and revenge, rage and despair. She offers revenge to those who have been wronged, but her vengeance often leads to suffering."
+    },
+    {
+      "name": "The Mockery (NE)",
+      "desc": "The patron of treachery and of terror in battle. He guides those who seek victory through guile, both warriors and assassins. He was once the brother of Dol Dorn and Dol Arrah, but he was stripped of his skin and his name after betraying them."
+    },
+    {
+      "name": "The Shadow (CE)",
+      "desc": "The dark side of knowledge and ambition. It’s said to be Aureon’s shadow, given malign life when Aureon mastered magic. The Shadow is the maker of monsters and the keeper of forbidden secrets, and it offers malevolent spells to warlocks and wizards."
+    },
+    {
+      "name": "The Traveler (CN)",
+      "desc": "Asserts that chaos drives evolution and that change makes us stronger. The Traveler is a trickster and the giver of dangerous gifts. Some artificers worship the Traveler, seeing it as the lord of innovation, but the gifts of the Traveler always have unexpected consequences."
+    }
+  ],
   "practices": [
     "If you’re a barbarian, it’s the Fury who unleashes your rage. If you’re an assassin, you walk the path of the Mockery as opposed to that of Dol Arrah"
   ],

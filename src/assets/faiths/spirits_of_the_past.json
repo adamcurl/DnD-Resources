@@ -1,0 +1,23 @@
+{
+  "beliefs": [
+    "We are the spiritual anchors of the greatest champions of our people. Through our faith, we keep their spirits from being lost to oblivion.",
+    "You have been chosen by a hero. Live your life as they lived theirs, letting their instincts guide you.",
+    "Treasure our past and the stories of our people. You are the vessel through which new legends will arise."
+  ],
+  "followers": "Elves",
+  "hierarchy": [
+    "Keepers of the Past - elders that read signs to determine your vessel."
+  ],
+  "deities": [
+    {
+      "name": "Your vessel Ancestor (CG)",
+      "desc": "This ancestor was once a great warrior or hero."
+    }
+  ],
+  "practices": [
+    "Services revolve around the stories of the ancestors, commemorating their glorious deeds, as well as ritual exercises and trance meditation.",
+    "While resting, an elf spends four hours in trance. The faithful spend this time in communion with their ancestor, experiencing their memories and contemplating their deeds.",
+    "A Wizard studies his vessel ancestor's spells, a warrior practices her vessel ancestor's battle techniques"
+  ],
+  "influence": "The nomadic Tairnadal elves don’t raise permanent temples. A Keeper of the Past marks a circle on the ground with their blade, and the space within becomes sanctified for the service. Most people call the Tairnadal elves mercenaries thirsty for blood, but you just want your ancestor to live through you in glory again."
+}

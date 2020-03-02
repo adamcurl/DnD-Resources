@@ -7,12 +7,19 @@
   ],
   "followers": "Elves",
   "hierarchy": [
-    "The Undying Court - a council of the deathless, ancient elves who have guided their descendants for twenty thousand years. They are located in Shae Mordai on the Island of Aerenal"
+    "The Undying Court - a council of the deathless, ancient elves who have guided their descendants for twenty thousand years. They are located in Shae Mordai on the Island of Aerenal",
+    "Priests"
   ],
-  "deities": ["None"],
+  "deities": [
+    {
+      "name": "The conciousness of the Court (NG)",
+      "desc": "The Undying Court is not a diety, but actual ancient elves that promote positive necromancy"
+    }
+  ],
   "practices": [
     "The elves of Aerenal refuse to allow their greatest souls to be lost to Dolurrh.",
-    "Using powerful magic, they raise these champions as deathless, a form of undead imbued with positive energy."
+    "Using powerful magic, they raise these champions as deathless, a form of undead imbued with positive energy.",
+    "The most sacred rite of the Undying Court is trance communion. While in trance, an Aereni elf engages in meditation that connects them to the gestalt consciousness of the Court."
   ],
   "influence": "Of all of these religions, the Undying Court is the most grounded in reality. You can go to Shae Mordai and seek an audience with the Court. "
 }

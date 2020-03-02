@@ -13,8 +13,14 @@
     "Militant: warriors, paladins, clerics, and exorcists; battles evil rather thatn evangelizes"
   ],
   "deities": [
-    "Voice of the Flame (Tira Miron)",
-    "Shadow in the Flame (Bel Shalor)"
+    {
+      "name": "Voice of the Flame (Tira Miron) (LG)",
+      "desc": "The spirit that aids others in finding the light and binds the Shadow and the Overlords"
+    },
+    {
+      "name": "Shadow in the Flame (Bel Shalor) (LE)",
+      "desc": "The demon that still lingers and yearns to trick good people into evil"
+    }
   ],
   "practices": [
     "Battle supernatural evil with steel, fire, and magic.",

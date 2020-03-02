@@ -7,10 +7,44 @@
   ],
   "followers": "Cultists, warlocks",
   "hierarchy": [
-    "Cults",
+    "(Daelkyr) - Cults",
+    "(Overlords) - Lords of Dust",
     "Outsiders use the term 'Cult of the Dragon Below' as a blanket term to describe all of these things, but the cultists themselves don’t use this name or see themselves as part of a greater whole"
   ],
-  "deities": ["Vary"],
-  "practices": ["Cult stuff"],
+  "deities": [
+    {
+      "name": "Daelkyr - Avassh (CE)",
+      "desc": "The Twister of Roots devotes its attentions to plants. Avassh is said to be the source of sham bling mounds and myconids, but any unnatural and deadly vegetation might be its work."
+    },
+    {
+      "name": "Daelkyr - Belashyrra (CE)",
+      "desc": "Belashyrra is the Lord of Eyes, also known to its cultists as the All-Seer or the Glorious Eye."
+    },
+    {
+      "name": "Daelkyr - Dyrrn (CE)",
+      "desc": "Is known to its followers as the Corruptor, the Stealer of Thoughts, the Slithering Lord, and the Foul Labyrinth. In the lore of the Gatekeepers, it is said that Dyrrn plants thoughts in the weak minded—the seeds of terrible ideas that fester and grow."
+    },
+    {
+      "name": "Daelkyr - Kyrzin (CE)",
+      "desc": "The cults of the Prince of Slime are based in the Shadow Marches and are infamous for cultivating gibbering beasts. Kyrzin creates sentient slimes that can enter humanoid bodies. In some tales, these creatures control their hosts, while in others, they are parasites that burn their way out of the body when it’s time to strike."
+    },
+    {
+      "name": "Daelkyr - Orlassk (CE)",
+      "desc": "The Master of Stone is said to have created basilisks, medusas, gorgons, cockatrices, and other monstrosities and aberrations with the power of petrification. Orlassk’s citadel is carved into the body of a gargantuan gargoyle that roams the chasms of Khyber."
+    },
+    {
+      "name": "Daelkyr - Valaara (CE)",
+      "desc": "The Crawling Queen works its will on insects, arachnids, and other vermin. Swarms with malign sentience, worms that consume victims from within, cultists that slowly become insects—all of these delight Valaara."
+    },
+    {
+      "name": "Overlord - Rak Tulkhesh (NE)",
+      "desc": "Called the Rage of War, Rak Tulkhesh is the incarnation of impulses that drives many mortals to battle. Fear, greed, hatred—these are seeds that the Rage of War sows in the hopes of producing a bloody harvest."
+    },
+    {
+      "name": "Overlord - Sul Khatesh (LE)",
+      "desc": "Sul Khatesh is known as the Keeper of Secrets and the Queen of Shadows. She embodies the fears and superstitions surrounding magic, from malevolent warlocks to mad wizards, from deadly curses to magical power that draws those who wield it deeper into darkness."
+    }
+  ],
+  "practices": ["Cult stuff", "Blood sacrifices", "Ritual combat"],
   "influence": "Across Eberron"
 }

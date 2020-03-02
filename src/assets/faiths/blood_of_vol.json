@@ -1,11 +1,12 @@
 {
   "beliefs": [
     "Each one of us has a spark of divinity within our blood and our spirit. Find that power within.",
-    "Death is the end, Dolurrh is oblivion, and if the gods exist they are cruel. Stand with those you care for; all we have is this life and each other."
+    "Death is the end, Dolurrh is oblivion, and if the gods exist they are cruel. Stand with those you care for; all we have is this life and each other.",
+    "Founded by Erandis d’Vol, an elf from Aerenal"
   ],
   "followers": "Any race",
   "hierarchy": ["The Seekers of the Divinity Within (any follower)"],
-  "deities": ["Vol"],
+  "deities": [{ "name": "None (LN)", "desc": "More of an idea/belief" }],
   "practices": [
     "Once someone has died you might as well put the corpse to use",
     "The vampires and mummies of the Blood of Vol have sacrificed their chance at divinity in order to guide and protect the living. They’re martyrs, not something to envy."
