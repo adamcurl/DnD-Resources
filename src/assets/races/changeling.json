@@ -1,8 +1,19 @@
 {
   "name": ["Changeling"],
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": [
+    "Some believe Changelings were created by a human making a deal with the Traveler"
+  ],
+  "currHomes": ["Wherever humanoids reside"],
+  "characteristics": [
+    "Can change their appearances, voice, and personalities to that of any other humanoid.",
+    "Are normally pale with white eyes and white hair",
+    "Most Changelings prefer to wander and follow the path of the Traveler"
+  ],
+  "summary": [
+    "Changelings either grow up in stable communities where others now of their powers. Others are orphans raised by non-Changelings. Some are a part of nomadic Changeling tribes that never reveal their true nature to outsiders.",
+    "Changelings usually develop a few deep personas with unique looks, personalities, history, and beliefs that they change in and out of often. Each one has its own speciality.",
+    "Changelings also can create a shallow, temporary persona called a 'mask' used in the spur of the moment and usually never again.",
+    "A community of Changelings can share personas and swap them depending on who's turn it is to be the baker or blacksmith, etc."
+  ],
   "houses": ["None"]
 }

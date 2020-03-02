@@ -99,18 +99,18 @@ function Races(props) {
               ))}
             </ul>
             <p>
-              <strong>Summary: </strong>
-            </p>
-            <ul>
-              {races[activeRace].summary.map(item => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-            <p>
               <strong>Characteristics: </strong>
             </p>
             <ul>
               {races[activeRace].characteristics.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <p>
+              <strong>Summary: </strong>
+            </p>
+            <ul>
+              {races[activeRace].summary.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

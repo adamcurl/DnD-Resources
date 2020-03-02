@@ -58,7 +58,7 @@ function Faiths(props) {
     onRender();
   }, []);
 
-  if (faiths.length < 7 || symbols.length < 7) return <Loading />;
+  if (faiths.length < 9 || symbols.length < 9) return <Loading />;
 
   const handleOpenModal = i => {
     setActiveFaith(i);

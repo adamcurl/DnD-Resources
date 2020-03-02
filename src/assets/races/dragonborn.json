@@ -1,10 +1,15 @@
 {
   "name": ["Dragonborn"],
   "origin": [
-    "Tens of thousands of years ago, the Dragonborn migrated from Argonnessen along with other dragons."
+    "Tens of thousands of years ago, the Dragonborn migrated from Argonnessen along with other dragons to guard Haka'torvhak that seals away an ancient Overlord."
   ],
   "currHomes": ["Q'Barra"],
-  "summary": [""],
-  "characteristics": [""],
+  "summary": [
+    "Dragonborn are very focused on their clan and honor. They strive to be self-sufficient and value skill and self-improvement."
+  ],
+  "characteristics": [
+    "Dragonborn look very much like humanoid dragons without wings or tails. They usually stand between 6 and 7 feet tall and around 300 pounds.",
+    "A Dragonborn's scales and breath are dependent upon his/her dragon kin"
+  ],
   "houses": ["None"]
 }

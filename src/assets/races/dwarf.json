@@ -1,8 +1,15 @@
 {
   "name": ["Dwarf"],
-  "origin": [""],
+  "origin": [
+    "The origin of the dwarves is shrouded in mystery. Some legends tell of a great migration that led the ancient dwarves to Khorvaire from “a land of endless ice.” Many believe this refers to the arctic lands of the Frostfell, while others claim that the first dwarves must have come from the frozen plane of Risia"
+  ],
   "currHomes": ["Mror Holds"],
-  "summary": [""],
-  "characteristics": [""],
+  "summary": [
+    "Dwarves are fiercely loyal to their clan or homeland. They are obsessed with gold and minerals. However, they seek to recover ancient weapons and homelands of their ancestors underground.",
+    "The Mror Holds contains an entrance to an ancient Dwarven kingdom that has been locked away and corrupted from the war with the Daelkyr."
+  ],
+  "characteristics": [
+    "Dwarves are short and stocky in stature. They make great drinkers and honorable businessmen."
+  ],
   "houses": ["Kundarak (Mark of Warding)"]
 }
