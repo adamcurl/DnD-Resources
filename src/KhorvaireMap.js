@@ -58,11 +58,6 @@ function KhorvaireMap(props) {
     }
   };
 
-  const displayCity = c => {
-    setCity("");
-    setCountry(c);
-  };
-
   const lockCountry = c => {
     if (c === country) {
       const currHover = hoverActive;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
+import Loading from "./Loading";
 
 function Houses(props) {
   const [houses, setHouses] = useState([]);
@@ -77,6 +78,8 @@ function Houses(props) {
   React.useEffect(() => {
     onRender();
   }, []);
+
+  if (crests.length < 13 || marks.length < 13) return <Loading />;
 
   const handleOpenModal = i => {
     setActiveHouse(i);

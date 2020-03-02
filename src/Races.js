@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
+import Loading from "./Loading";
 
 function Races(props) {
   const [races, setRaces] = useState([]);
@@ -43,6 +44,8 @@ function Races(props) {
   React.useEffect(() => {
     onRender();
   }, []);
+
+  if (races.length < 19 || raceImages.length < 19) return <Loading />;
 
   const handleOpenModal = i => {
     setActiveRace(i);

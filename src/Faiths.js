@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
+import Loading from "./Loading";
 
 function Faiths(props) {
   const [faiths, setFaiths] = useState([]);
@@ -56,6 +57,8 @@ function Faiths(props) {
   React.useEffect(() => {
     onRender();
   }, []);
+
+  if (faiths.length < 7 || symbols.length < 7) return <Loading />;
 
   const handleOpenModal = i => {
     setActiveFaith(i);
