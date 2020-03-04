@@ -2,7 +2,8 @@
   "mark": "Passage",
   "race": "Human",
   "specialties": ["Land Transportation"],
-  "homeland": "Aundair",
+  "headquarters": "Journey’s Home (Passage, Aundair)",
+  "leader": "Kwanti d’Orien",
   "business": [
     "The Lightning Rail ",
     "caravans and coaches",

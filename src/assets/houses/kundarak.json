@@ -2,7 +2,8 @@
   "mark": "Warding",
   "race": "Dwarf",
   "specialties": ["Banking", "Storage", "Prisons"],
-  "homeland": "Lhazaar Principalities",
+  "headquarters": "Korunda Gate (Mror Holds)",
+  "leader": "Morrikan d’Kundarak",
   "business": [
     "Secure banking, storage",
     "Lock picking, locksmiths",

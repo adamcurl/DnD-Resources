@@ -2,7 +2,8 @@
   "mark": "Storm",
   "race": "Half-Elf",
   "specialties": ["Air and Sea Transportation"],
-  "homeland": "Aundair and Valenar",
+  "headquarters": "Stormhome (Aundair)",
+  "leader": "Esravash d’Lyrandar",
   "business": [
     "control the weather for its clients, but at a considerable price",
     "Offer airship and galleon transportation"

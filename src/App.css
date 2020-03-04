@@ -80,6 +80,14 @@ h4 {
   margin-bottom: 0.5em;
 }
 
+strong {
+  color: #020100;
+}
+
+button:focus {
+  outline: none !important;
+}
+
 .district {
   margin-bottom: 3em;
 }
@@ -114,13 +122,13 @@ area {
 }
 
 .map_wrap {
-  width: 75%;
+  width: 100%;
   height: 100%;
   float: left;
 }
 
 .map_img {
-  height: 100vh;
+  width: 100%;
 }
 
 .container_wrap {
@@ -135,8 +143,12 @@ area {
 }
 
 .no_dec {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #242527;
+}
+
+.no_dec:hover {
+  text-decoration: none !important;
 }
 
 .bkgrnd_img {
@@ -167,11 +179,57 @@ area {
 
 #map-box {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: auto;
 }
 
 .transparent_btn {
   background: none;
   border: none;
+}
+
+.zoom_img {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.zoom_img:hover {
+  transform: scale(1.1);
+}
+
+.modal-content {
+  border: none !important;
+}
+
+.modal-header {
+  background-color: #616161;
+  color: #fff;
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: space-evenly !important;
+  padding: 0 !important;
+}
+
+.modal-footer button {
+  padding: 10px 0;
+  width: 50%;
+  border: none !important;
+  border-radius: 0;
+}
+
+.btn-row {
+  position: relative;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #cd8237 !important;
+  color: #fff !important;
+}
+
+.btn-secondary {
+  background-color: #616161 !important;
+  color: #fff !important;
 }

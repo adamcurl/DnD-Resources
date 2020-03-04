@@ -2,7 +2,8 @@
   "mark": "Finding",
   "race": "Half-Orc",
   "specialties": ["Half-Orc Bounty Hunting", "Investigation", "Prospecting"],
-  "homeland": "Shadow Marches",
+  "headquarters": "Zarash’ak, Shadow Marches",
+  "leader": "The Triumvirate (Maagrim Torrn, Khandar’aashta, and Daric Velderan)",
   "business": [
     "inquisitives and bounty hunters",
     "dragonshard prospecting",

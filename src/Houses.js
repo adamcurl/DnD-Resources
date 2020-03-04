@@ -98,7 +98,7 @@ function Houses(props) {
           <div className="col-md-3" key={house.name}>
             <button
               type="button"
-              className="btn btn-link"
+              className="btn btn-link no_dec"
               onClick={() => handleOpenModal(i)}
             >
               <div
@@ -137,8 +137,12 @@ function Houses(props) {
               {houses[activeHouse].race}
             </p>
             <p>
-              <strong>Homeland: </strong>
-              {houses[activeHouse].homeland}
+              <strong>Leader: </strong>
+              {houses[activeHouse].leader}
+            </p>
+            <p>
+              <strong>Headquarters: </strong>
+              {houses[activeHouse].headquarters}
             </p>
             <p>
               <strong>Specialties: </strong>
@@ -165,6 +169,14 @@ function Houses(props) {
               ))}
             </ul>
           </Modal.Body>
+          <Modal.Footer>
+            <div className="d-flex btn-row">
+              <button className="btn btn-primary">Choose House</button>
+              <button className="btn btn-secondary" onClick={handleCloseModal}>
+                Cancel
+              </button>
+            </div>
+          </Modal.Footer>
         </Modal>
       ) : null}
     </div>

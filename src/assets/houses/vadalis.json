@@ -2,7 +2,8 @@
   "mark": "Handling",
   "race": "Human",
   "specialties": ["Animal", "exocit creature", "monster Training and Breeding"],
-  "homeland": "The Elden Reaches",
+  "headquarters": "Foalswood (near Varna, Eldeen Reaches)",
+  "leader": "Dalin d’Vadalis",
   "business": [
     "ranches produce meat, mounts, and more",
     "breeds and trains beasts for a wide range of purposes",

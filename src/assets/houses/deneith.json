@@ -2,7 +2,8 @@
   "mark": "Sentinel",
   "race": "Human",
   "specialties": ["Bodyguards", "Mercenaries"],
-  "homeland": "Karrnath",
+  "headquarters": "Sentinel Tower (Karrlakton, Karrnath)",
+  "leader": "Breven d’Deneith",
   "business": [
     "Provides mercenaries and bodyguards from humans, goblins, etc.",
     "Sentinel Marshals, agents that hold the authority to pursue criminals and enforce the law across the length of Khorvaire"

@@ -2,7 +2,8 @@
   "mark": "Shadow",
   "race": "Elf",
   "specialties": ["Assassination"],
-  "homeland": "???",
+  "headquarters": "Regalport (Lhazaar Principalities)",
+  "leader": "Elar d’Thuranni",
   "business": ["Spying and assassination"],
   "characteristics": [
     "Better assassins, but worse spies than House Phiarlan",

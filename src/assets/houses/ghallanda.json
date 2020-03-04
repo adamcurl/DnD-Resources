@@ -2,7 +2,8 @@
   "mark": "Hospitality",
   "race": "Halfling",
   "specialties": ["Food", "Lodging", "Urban Information"],
-  "homeland": "Talenta Plains",
+  "headquarters": "Gatherhold (Talenta Plains)",
+  "leader": "Yoren d’Ghallanda",
   "business": [
     "The majority of inns, taverns, and restaurants in the Five Nations licensed by its Hosteler’s Guild",
     "The Gold Dragon Inn chain"

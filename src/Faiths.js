@@ -77,11 +77,11 @@ function Faiths(props) {
           <div className="col-md-3 pb-5" key={faith.name}>
             <button
               type="button"
-              className="btn btn-link"
+              className="btn btn-link no_dec"
               onClick={() => handleOpenModal(i)}
             >
               <div
-                className="bkgrnd_img"
+                className="bkgrnd_img zoom_img"
                 style={{ backgroundImage: `url('${symbols[i]}')` }}
               />
               <p className="text-center no_dec">{faith.name}</p>
@@ -138,6 +138,14 @@ function Faiths(props) {
               {faiths[activeFaith].influence}
             </p>
           </Modal.Body>
+          <Modal.Footer>
+            <div className="d-flex btn-row">
+              <button className="btn btn-primary">Choose Faith</button>
+              <button className="btn btn-secondary" onClick={handleCloseModal}>
+                Cancel
+              </button>
+            </div>
+          </Modal.Footer>
         </Modal>
       ) : null}
     </div>

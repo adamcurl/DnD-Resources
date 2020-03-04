@@ -2,7 +2,8 @@
   "mark": "Healing",
   "race": "Halfling",
   "specialties": ["Healing"],
-  "homeland": "Talenta Plains",
+  "headquarters": "Vedkyar Enclave (Vedykar, Karrnath)",
+  "leader": "Ulara d’Jorasco",
   "business": [
     "The Healer’s Guild",
     "Runs the schools that teach medicine and houses of healing that provide both mundane and magical services"

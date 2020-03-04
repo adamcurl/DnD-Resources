@@ -2,7 +2,8 @@
   "mark": "Detection",
   "race": "Half-Elf",
   "specialties": ["Bodyguards", "Investigation", "Risk Management"],
-  "homeland": "Breland",
+  "headquarters": "Tower of Inquisition (Wroat, Breland)",
+  "leader": "Baron Trelib d’Medani",
   "business": [
     "brokers the services of bodyguards and inquisitives",
     "specialize in risk assessment and management protecting clients from both physical and social threats"

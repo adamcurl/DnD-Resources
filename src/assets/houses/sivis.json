@@ -2,7 +2,8 @@
   "mark": "Scribing",
   "race": "Gnome",
   "specialties": ["Communication", "Translation", "Verification"],
-  "homeland": "Zilargo",
+  "headquarters": "The Labyrinth (Korranberg, Zilargo)",
+  "leader": "Lysse Lyrriman d’Sivis",
   "business": [
     "facilitate communication",
     "trains and licenses scribes, notaries, interpreters, cartographers, barristers, heralds, bookbinders and more"

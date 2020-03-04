@@ -2,7 +2,8 @@
   "mark": "Shadow",
   "race": "Elf",
   "specialties": ["Entertainment", "Espionage"],
-  "homeland": "Breland",
+  "headquarters": "The Demesnes (various)",
+  "leader": "Elvinor Elorrenthi d’Phiarlan",
   "business": [
     "Entertainment",
     "Elite force of spies and assassins within the house that commonfolk don’t know about"

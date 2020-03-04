@@ -64,11 +64,11 @@ function Races(props) {
           <div className="col-md-3" key={race.name}>
             <button
               type="button"
-              className="btn btn-link"
+              className="btn btn-link no_dec"
               onClick={() => handleOpenModal(i)}
             >
               <div
-                className="bkgrnd_img"
+                className="bkgrnd_img zoom_img"
                 style={{ backgroundImage: `url('${raceImages[i]}')` }}
               />
               <p className="text-center no_dec">{race.name}</p>
@@ -123,6 +123,14 @@ function Races(props) {
               ))}
             </ul>
           </Modal.Body>
+          <Modal.Footer>
+            <div className="d-flex btn-row">
+              <button className="btn btn-primary">Choose Race</button>
+              <button className="btn btn-secondary" onClick={handleCloseModal}>
+                Cancel
+              </button>
+            </div>
+          </Modal.Footer>
         </Modal>
       ) : null}
     </div>
