@@ -5,7 +5,7 @@ import SidebarCity from "./SidebarCity";
 import Loading from "./Loading";
 import { Modal } from "react-bootstrap";
 
-function KhorvaireMap(props) {
+const KhorvaireMap = props => {
   const [modalOpen, setModalOpen] = useState(false);
   const [country, setCountry] = useState("");
   const [countries, setCountries] = useState([]);
@@ -44,28 +44,17 @@ function KhorvaireMap(props) {
 
   if (countries.length < 9) return <Loading />;
 
-  console.log({ countries });
-
-  // const displayCountry = c => {
-  //   if (hoverActive) {
-  //     setCountry(c);
-  //   }
-  // };
-
-  // const lockCountry = c => {
-  //   if (c === country) {
-  //     const currHover = hoverActive;
-  //     setHoverActive(!currHover);
-  //   }
-  //   setCountry(c);
-  // };
-
   const handleOpenModal = i => {
     setCountry(i);
     setModalOpen(true);
   };
 
   const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+
+  const handleChooseHomeland = () => {
+    props.setHomeland(countries[country].country);
     setModalOpen(false);
   };
 
@@ -351,7 +340,12 @@ function KhorvaireMap(props) {
           </Modal.Body>
           <Modal.Footer>
             <div className="d-flex btn-row">
-              <button className="btn btn-primary">Choose Homeland</button>
+              <button
+                className="btn btn-primary"
+                onClick={handleChooseHomeland}
+              >
+                Choose Homeland
+              </button>
               <button className="btn btn-secondary" onClick={handleCloseModal}>
                 Cancel
               </button>
@@ -361,6 +355,6 @@ function KhorvaireMap(props) {
       ) : null}
     </div>
   );
-}
+};
 
 export default KhorvaireMap;

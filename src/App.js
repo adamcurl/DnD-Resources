@@ -15,6 +15,16 @@ import "./assets/styles/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
 
 function App() {
+  const [race, setRace] = React.useState("");
+  const [dndClass, setDndClass] = React.useState("");
+  const [house, setHouse] = React.useState("");
+  const [faith, setFaith] = React.useState("");
+  const [homeland, setHomeland] = React.useState("");
+
+  React.useEffect(() => {}, []);
+
+  console.log({ race, dndClass, house, faith, homeland });
+
   return (
     <>
       <Navbar bg="light" expand="lg">
@@ -42,11 +52,35 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <Switch>
-        <Route exact path="/" component={KhorvaireMap} />
-        <Route path="/continent/khorvaire" component={KhorvaireMap} />
-        <Route path="/houses" component={Houses} />
-        <Route path="/faiths" component={Faiths} />
-        <Route path="/races" component={Races} />
+        <Route
+          exact
+          path="/"
+          render={() =>
+            React.createElement(KhorvaireMap, { homeland, setHomeland })
+          }
+        />
+        <Route
+          path="/continent/khorvaire"
+          render={() =>
+            React.createElement(KhorvaireMap, { homeland, setHomeland })
+          }
+        />
+        <Route
+          path="/houses"
+          render={() =>
+            React.createElement(Houses, { house, setHouse, race, setRace })
+          }
+        />
+        <Route
+          path="/faiths"
+          render={() => React.createElement(Faiths, { faith, setFaith })}
+        />
+        <Route
+          path="/races"
+          render={() =>
+            React.createElement(Races, { race, setRace, house, setHouse })
+          }
+        />
         {/* <Route path="/city/sharn" component={SharnMap} /> */}
       </Switch>
     </>

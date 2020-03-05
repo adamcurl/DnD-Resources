@@ -69,6 +69,11 @@ function Faiths(props) {
     setModalOpen(false);
   };
 
+  const handleChooseFaith = () => {
+    props.setFaith(faiths[activeFaith].name);
+    setModalOpen(false);
+  };
+
   return (
     <div className="container_wrap">
       <h1 className="p-3">Faiths of Eberron</h1>
@@ -140,7 +145,9 @@ function Faiths(props) {
           </Modal.Body>
           <Modal.Footer>
             <div className="d-flex btn-row">
-              <button className="btn btn-primary">Choose Faith</button>
+              <button className="btn btn-primary" onClick={handleChooseFaith}>
+                Choose Faith
+              </button>
               <button className="btn btn-secondary" onClick={handleCloseModal}>
                 Cancel
               </button>

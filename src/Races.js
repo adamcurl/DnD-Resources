@@ -56,6 +56,31 @@ function Races(props) {
     setModalOpen(false);
   };
 
+  const handleChooseRace = () => {
+    props.setRace(races[activeRace].name[0]);
+    setModalOpen(false);
+  };
+
+  const overrideHouse = () => {
+    props.setHouse("");
+    props.setRace(races[activeRace].name[0]);
+    setModalOpen(false);
+  };
+
+  const checkHouses = () => {
+    var invalidHouse = true;
+    var housesLen = races[activeRace].houses.length;
+    for (var i = 0; i < housesLen && invalidHouse; i++) {
+      if (
+        races[activeRace].houses[i]
+          .toLowerCase()
+          .includes(props.house.toLowerCase())
+      )
+        invalidHouse = false;
+    }
+    return invalidHouse;
+  };
+
   return (
     <div className="container_wrap">
       <h1 className="p-3">Races of Eberron</h1>
@@ -82,6 +107,11 @@ function Races(props) {
             <Modal.Title>{races[activeRace].name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <div className="mb-2">
+              <a target="_blank" href={races[activeRace].link}>
+                {races[activeRace].name} Stats, Traits, & Info
+              </a>
+            </div>
             <p>
               <strong>Origin: </strong>
             </p>
@@ -125,7 +155,20 @@ function Races(props) {
           </Modal.Body>
           <Modal.Footer>
             <div className="d-flex btn-row">
-              <button className="btn btn-primary">Choose Race</button>
+              <button
+                className="btn btn-primary"
+                onClick={handleChooseRace}
+                disabled={props.house !== "" && checkHouses()}
+              >
+                {props.house !== "" && checkHouses()
+                  ? "Current House Not Compatible"
+                  : "Choose Race"}
+              </button>
+              {props.house !== "" && checkHouses() ? (
+                <button className="btn btn-warning" onClick={overrideHouse}>
+                  Remove house and choose race
+                </button>
+              ) : null}
               <button className="btn btn-secondary" onClick={handleCloseModal}>
                 Cancel
               </button>

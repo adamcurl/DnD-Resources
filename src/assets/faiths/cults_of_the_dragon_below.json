@@ -43,6 +43,10 @@
     {
       "name": "Overlord - Sul Khatesh (LE)",
       "desc": "Sul Khatesh is known as the Keeper of Secrets and the Queen of Shadows. She embodies the fears and superstitions surrounding magic, from malevolent warlocks to mad wizards, from deadly curses to magical power that draws those who wield it deeper into darkness."
+    },
+    {
+      "name": "Overlord - Bel Shalor (CE)",
+      "desc": "Bel Shalor is known as The Shadow in the Flame, bound by the Silver Flame. He embodies treachery, evil, and chaos and grows more powerful as these attributes grow within individuals across Eberron."
     }
   ],
   "practices": ["Cult stuff", "Blood sacrifices", "Ritual combat"],

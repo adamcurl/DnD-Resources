@@ -233,3 +233,8 @@ area {
   background-color: #616161 !important;
   color: #fff !important;
 }
+
+.btn-warning {
+  background-color: #ad583e !important;
+  color: #fff !important;
+}

@@ -90,6 +90,18 @@ function Houses(props) {
     setModalOpen(false);
   };
 
+  const handleChooseHouse = () => {
+    props.setHouse(houses[activeHouse].name);
+    props.setRace(houses[activeHouse].race);
+    setModalOpen(false);
+  };
+
+  const overrideRace = () => {
+    props.setRace(houses[activeHouse].race);
+    props.setHouse(houses[activeHouse].name);
+    setModalOpen(false);
+  };
+
   return (
     <div className="container_wrap">
       <h1 className="p-3">Houses of Khorvaire</h1>
@@ -128,6 +140,12 @@ function Houses(props) {
             <Modal.Title>House {houses[activeHouse].name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
+            <div className="mb-2">
+              <a target="_blank" href={houses[activeHouse].link}>
+                House {houses[activeHouse].name} {houses[activeHouse].race}{" "}
+                Variant Stats, Traits, & Info
+              </a>
+            </div>
             <p>
               <strong>Mark: </strong>
               {houses[activeHouse].mark}
@@ -171,7 +189,32 @@ function Houses(props) {
           </Modal.Body>
           <Modal.Footer>
             <div className="d-flex btn-row">
-              <button className="btn btn-primary">Choose House</button>
+              <button
+                className="btn btn-primary"
+                onClick={handleChooseHouse}
+                disabled={
+                  props.race !== "" &&
+                  !props.race
+                    .toLowerCase()
+                    .includes(houses[activeHouse].race.toLowerCase())
+                }
+              >
+                {props.race !== "" &&
+                !props.race
+                  .toLowerCase()
+                  .includes(houses[activeHouse].race.toLowerCase())
+                  ? "Current Race not Compatible"
+                  : `Choose House ${houses[activeHouse].name} ${houses[activeHouse].race}`}
+              </button>
+              {props.race !== "" &&
+              !props.race
+                .toLowerCase()
+                .includes(houses[activeHouse].race.toLowerCase()) ? (
+                <button className="btn btn-warning" onClick={overrideRace}>
+                  Choose House {houses[activeHouse].name}{" "}
+                  {houses[activeHouse].race}
+                </button>
+              ) : null}
               <button className="btn btn-secondary" onClick={handleCloseModal}>
                 Cancel
               </button>
