@@ -59,7 +59,7 @@ const KhorvaireMap = props => {
   };
 
   return (
-    <div>
+    <div className="container_wrap">
       <div id="map-box">
         <img src={map} className="map_img" />
         <button

@@ -57,13 +57,13 @@ function Races(props) {
   };
 
   const handleChooseRace = () => {
-    props.setRace(races[activeRace].name[0]);
+    props.setRace(races[activeRace].name);
     setModalOpen(false);
   };
 
   const overrideHouse = () => {
     props.setHouse("");
-    props.setRace(races[activeRace].name[0]);
+    props.setRace(races[activeRace].name);
     setModalOpen(false);
   };
 
@@ -89,7 +89,9 @@ function Races(props) {
           <div className="col-md-3" key={race.name}>
             <button
               type="button"
-              className="btn btn-link no_dec"
+              className={`btn btn-link no_dec ${
+                props.race === race.name ? "active-item" : ""
+              }`}
               onClick={() => handleOpenModal(i)}
             >
               <div

@@ -51,6 +51,62 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+      <div className="character-summary">
+        <p>
+          {house ? `House ${house}` : "[No House]"} {race ? race : "[Race]"}{" "}
+          {dndClass ? dndClass : "[Class]"}{" "}
+          {faith ? ` of ${faith} faith` : "with [No Religion]"} from{" "}
+          {homeland ? homeland : "[Homeland]"}
+        </p>
+      </div>
+      {/* <div>
+        <Link to="/races">
+          <div
+            className={`side-nav ${race ? "side-nav-left" : "side-nav-right"}`}
+          >
+            <div></div>
+            <div>Race</div>
+          </div>
+        </Link>
+        <Link to="/classes">
+          <div
+            className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
+            style={{ top: "285px" }}
+          >
+            <div>Class</div>
+            <div></div>
+          </div>
+        </Link>
+        <Link to="/houses">
+          <div
+            className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
+            style={{ top: "325px" }}
+          >
+            <div>House</div>
+            <div></div>
+          </div>
+        </Link>
+        <Link to="/faiths">
+          <div
+            className={`side-nav ${faith ? "side-nav-left" : "side-nav-right"}`}
+            style={{ top: "365px" }}
+          >
+            <div>Faith</div>
+            <div></div>
+          </div>
+        </Link>
+        <Link to="/continent/khorvaire">
+          <div
+            className={`side-nav ${
+              homeland ? "side-nav-left" : "side-nav-right"
+            }`}
+            style={{ top: "405px" }}
+          >
+            <div>Homeland</div>
+            <div></div>
+          </div>
+        </Link>
+      </div> */}
       <Switch>
         <Route
           exact

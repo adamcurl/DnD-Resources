@@ -110,7 +110,9 @@ function Houses(props) {
           <div className="col-md-3" key={house.name}>
             <button
               type="button"
-              className="btn btn-link no_dec"
+              className={`btn btn-link no_dec ${
+                props.house === house.name ? "active-item" : ""
+              }`}
               onClick={() => handleOpenModal(i)}
             >
               <div
