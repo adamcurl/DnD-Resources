@@ -92,7 +92,23 @@ function Houses(props) {
 
   const handleChooseHouse = () => {
     props.setHouse(houses[activeHouse].name);
-    props.setRace(houses[activeHouse].race);
+    if (
+      (props.race === "Tairnadal (Wood Elf)" ||
+        props.race === "Aereni (High Elf)" ||
+        props.race === "Drow (Dark Elf)") &&
+      houses[activeHouse].race ===
+        "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)"
+    ) {
+      props.setRace(props.race);
+    } else if (
+      (props.race === "Human" || props.race === "Half-Orc") &&
+      houses[activeHouse].race === "Half-Orc or Human"
+    ) {
+      props.setRace(props.race);
+    } else {
+      props.setRace(houses[activeHouse].race);
+    }
+
     setModalOpen(false);
   };
 
@@ -110,8 +126,14 @@ function Houses(props) {
           <div className="col-md-3" key={house.name}>
             <button
               type="button"
-              className={`btn btn-link no_dec ${
-                props.house === house.name ? "active-item" : ""
+              className={`btn btn-link no_dec img-btn ${
+                props.house === house.name
+                  ? "active-item"
+                  : props.race !== "" &&
+                    house.race.includes(props.race) &&
+                    props.race !== "Orc"
+                  ? "compatible"
+                  : ""
               }`}
               onClick={() => handleOpenModal(i)}
             >
@@ -195,23 +217,23 @@ function Houses(props) {
                 className="btn btn-primary"
                 onClick={handleChooseHouse}
                 disabled={
-                  props.race !== "" &&
-                  !props.race
-                    .toLowerCase()
-                    .includes(houses[activeHouse].race.toLowerCase())
+                  (props.race !== "" &&
+                    !houses[activeHouse].race.includes(props.race)) ||
+                  (props.race === "Orc" &&
+                    houses[activeHouse].race === "Half-Orc or Human")
                 }
               >
-                {props.race !== "" &&
-                !props.race
-                  .toLowerCase()
-                  .includes(houses[activeHouse].race.toLowerCase())
+                {(props.race !== "" &&
+                  !houses[activeHouse].race.includes(props.race)) ||
+                (props.race === "Orc" &&
+                  houses[activeHouse].race === "Half-Orc or Human")
                   ? "Current Race not Compatible"
                   : `Choose House ${houses[activeHouse].name} ${houses[activeHouse].race}`}
               </button>
-              {props.race !== "" &&
-              !props.race
-                .toLowerCase()
-                .includes(houses[activeHouse].race.toLowerCase()) ? (
+              {(props.race !== "" &&
+                !houses[activeHouse].race.includes(props.race)) ||
+              (props.race === "Orc" &&
+                houses[activeHouse].race === "Half-Orc or Human") ? (
                 <button className="btn btn-warning" onClick={overrideRace}>
                   Choose House {houses[activeHouse].name}{" "}
                   {houses[activeHouse].race}

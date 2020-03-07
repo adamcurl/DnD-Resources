@@ -160,6 +160,16 @@ area {
   text-decoration: none !important;
 }
 
+button.img-btn {
+  border: 2px solid transparent;
+  border-radius: 30%;
+}
+
+button.img-btn.compatible {
+  border: 2px solid #8890b3;
+  border-radius: 30%;
+}
+
 .bkgrnd_img {
   position: relative;
   float: left;
@@ -237,7 +247,7 @@ area {
 }
 
 .btn-primary {
-  background-color: #cd8237 !important;
+  background-color: #8890b3 !important;
   color: #fff !important;
 }
 
@@ -288,4 +298,16 @@ area {
   transition: all 0.2s;
   z-index: 999;
   color: #fff;
+}
+
+.bg-custom {
+  background-color: #8890b3;
+}
+
+.bg-custom .navbar-collapse .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.bg-custom .navbar-brand a {
+  color: #ffffff;
 }

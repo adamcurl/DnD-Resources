@@ -82,7 +82,7 @@ function Faiths(props) {
           <div className="col-md-3 pb-5" key={faith.name}>
             <button
               type="button"
-              className={`btn btn-link no_dec ${
+              className={`btn btn-link no_dec img-btn ${
                 props.faith === faith.name ? "active-item" : ""
               }`}
               onClick={() => handleOpenModal(i)}

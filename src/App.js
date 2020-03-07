@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="custom" expand="lg">
         <Navbar.Brand>
           <Link className="navbar-brand" to="/">
             Adam's Arcane Archives

@@ -89,8 +89,19 @@ function Races(props) {
           <div className="col-md-3" key={race.name}>
             <button
               type="button"
-              className={`btn btn-link no_dec ${
-                props.race === race.name ? "active-item" : ""
+              className={`btn btn-link no_dec img-btn ${
+                props.race === race.name
+                  ? "active-item"
+                  : (props.race.includes("Elf") &&
+                      race.name.includes("Elf") &&
+                      race.name !== "Half-Elf" &&
+                      props.race !== "Half-Elf") ||
+                    (props.race === "Half-Elf" && race.name === "Half-Elf") ||
+                    (props.race === "Half-Orc or Human" &&
+                      (race.name.includes("Half-Orc") ||
+                        race.name.includes("Human")))
+                  ? "compatible"
+                  : ""
               }`}
               onClick={() => handleOpenModal(i)}
             >
