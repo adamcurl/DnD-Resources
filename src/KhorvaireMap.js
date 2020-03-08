@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 import map from "./assets/imgs/Khorvaire.jpg";
-import SidebarCountry from "./SidebarCountry";
-import SidebarCity from "./SidebarCity";
+import worldMap from "./assets/imgs/eberron_world_map.jpg";
 import Loading from "./Loading";
-import { Modal } from "react-bootstrap";
+import { Modal, Dropdown } from "react-bootstrap";
 
 const KhorvaireMap = props => {
   const [modalOpen, setModalOpen] = useState(false);
   const [country, setCountry] = useState("");
   const [countries, setCountries] = useState([]);
-  const [hoverActive, setHoverActive] = useState(true);
+  const [isWorldMap, setIsWorldMap] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const onRender = () => {
     // get house files' keys and values
@@ -58,218 +58,269 @@ const KhorvaireMap = props => {
     setModalOpen(false);
   };
 
+  const handleDropdown = val => {
+    setIsWorldMap(val);
+    setShowDropdown(false);
+  };
+
   return (
     <div className="container_wrap">
+      <div className="d-flex justify-content-between">
+        <div>
+          <h1 className="pl-3">Homelands</h1>
+        </div>
+        <div class="dropdown">
+          From {!isWorldMap ? "another Continent" : "Khorvaire"}?{" "}
+          <button
+            class="btn btn-primary dropdown-toggle"
+            onClick={() => setShowDropdown(!showDropdown)}
+            type="button"
+            id="changeMap"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Change Map
+          </button>
+          <div
+            class={`dropdown-menu dropdown-menu-right ${
+              showDropdown ? "show" : ""
+            }`}
+            aria-labelledby="changeMap"
+          >
+            <button
+              class={`dropdown-item ${!isWorldMap ? "active" : ""}`}
+              onClick={() => handleDropdown(false)}
+            >
+              Khorvaire
+            </button>
+            <button
+              class={`dropdown-item ${isWorldMap ? "active" : ""}`}
+              onClick={() => handleDropdown(true)}
+            >
+              World Map
+            </button>
+          </div>
+        </div>
+      </div>
       <div id="map-box">
-        <img src={map} className="map_img" />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(0)}
-          title="Aundair"
-          style={{
-            position: "absolute",
-            left: "37.41%",
-            top: "44.19%",
-            width: "6.28%",
-            height: "10.48%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(13)}
-          title="Thrane"
-          style={{
-            position: "absolute",
-            left: "42.44%",
-            top: "54.79%",
-            width: "7.31%",
-            height: "10.26%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(4)}
-          title="Demon Wastes"
-          style={{
-            position: "absolute",
-            left: "19.47%",
-            top: "25.14%",
-            width: "17.48%",
-            height: "10.6%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(11)}
-          title="Shadow Marches"
-          style={{
-            position: "absolute",
-            left: "2.94%",
-            top: "48.82%",
-            width: "10.65%",
-            height: "26.04%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(5)}
-          title="Droaam"
-          style={{
-            position: "absolute",
-            left: "14.15%",
-            top: "56.71%",
-            width: "9.14%",
-            height: "16.8%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(6)}
-          title="Eldeen Reaches"
-          style={{
-            position: "absolute",
-            left: "18.28%",
-            top: "40.81%",
-            width: "17.33%",
-            height: "12.4%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(7)}
-          title="Karrnath"
-          style={{
-            position: "absolute",
-            left: "53.88%",
-            top: "36.08%",
-            width: "16.61%",
-            height: "17.02%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(1)}
-          title="Breland"
-          style={{
-            position: "absolute",
-            left: "25.99%",
-            top: "65.5%",
-            width: "17.25%",
-            height: "13.3%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(15)}
-          title="Zilargo"
-          style={{
-            position: "absolute",
-            left: "32.98%",
-            top: "80.5%",
-            width: "10.81%",
-            height: " 13.3%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(3)}
-          title="Darguun"
-          style={{
-            position: "absolute",
-            left: "45.22%",
-            top: "84.1%",
-            width: "7.39%",
-            height: "11.72%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(2)}
-          title="Mournland"
-          style={{
-            position: "absolute",
-            left: "51.26%",
-            top: "56.37%",
-            width: "8.82%",
-            height: "10.48%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(10)}
-          title="Q'Barra"
-          style={{
-            position: "absolute",
-            left: "72.24%",
-            top: "64.37%",
-            width: "12.08%",
-            height: "13.53%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(14)}
-          title="Valenar"
-          style={{
-            position: "absolute",
-            left: "58.97%",
-            top: "71.25%",
-            width: "12.48%",
-            height: "22.55%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(12)}
-          title="Talenta Plains"
-          style={{
-            position: "absolute",
-            left: "63.98%",
-            top: "55.02%",
-            width: "9.62%",
-            height: "9.24%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(9)}
-          title="Mror Holds"
-          style={{
-            position: "absolute",
-            left: "73.04%",
-            top: "37.66%",
-            width: "7.47%",
-            height: "9.92%",
-            zIndex: 2
-          }}
-        />
-        <button
-          className="transparent_btn"
-          onClick={() => handleOpenModal(8)}
-          title="Lhazaar Principalities"
-          style={{
-            position: "absolute",
-            left: "82.97%",
-            top: "18.38%",
-            width: "15.97%",
-            height: "44.64%",
-            zIndex: 2
-          }}
-        />
+        {!isWorldMap ? (
+          <>
+            <img src={map} className="map_img" />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(0)}
+              title="Aundair"
+              style={{
+                position: "absolute",
+                left: "37.41%",
+                top: "44.19%",
+                width: "6.28%",
+                height: "10.48%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(13)}
+              title="Thrane"
+              style={{
+                position: "absolute",
+                left: "42.44%",
+                top: "54.79%",
+                width: "7.31%",
+                height: "10.26%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(4)}
+              title="Demon Wastes"
+              style={{
+                position: "absolute",
+                left: "19.47%",
+                top: "25.14%",
+                width: "17.48%",
+                height: "10.6%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(11)}
+              title="Shadow Marches"
+              style={{
+                position: "absolute",
+                left: "2.94%",
+                top: "48.82%",
+                width: "10.65%",
+                height: "26.04%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(5)}
+              title="Droaam"
+              style={{
+                position: "absolute",
+                left: "14.15%",
+                top: "56.71%",
+                width: "9.14%",
+                height: "16.8%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(6)}
+              title="Eldeen Reaches"
+              style={{
+                position: "absolute",
+                left: "18.28%",
+                top: "40.81%",
+                width: "17.33%",
+                height: "12.4%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(7)}
+              title="Karrnath"
+              style={{
+                position: "absolute",
+                left: "53.88%",
+                top: "36.08%",
+                width: "16.61%",
+                height: "17.02%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(1)}
+              title="Breland"
+              style={{
+                position: "absolute",
+                left: "25.99%",
+                top: "65.5%",
+                width: "17.25%",
+                height: "13.3%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(15)}
+              title="Zilargo"
+              style={{
+                position: "absolute",
+                left: "32.98%",
+                top: "80.5%",
+                width: "10.81%",
+                height: " 13.3%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(3)}
+              title="Darguun"
+              style={{
+                position: "absolute",
+                left: "45.22%",
+                top: "84.1%",
+                width: "7.39%",
+                height: "11.72%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(2)}
+              title="Mournland"
+              style={{
+                position: "absolute",
+                left: "51.26%",
+                top: "56.37%",
+                width: "8.82%",
+                height: "10.48%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(10)}
+              title="Q'Barra"
+              style={{
+                position: "absolute",
+                left: "72.24%",
+                top: "64.37%",
+                width: "12.08%",
+                height: "13.53%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(14)}
+              title="Valenar"
+              style={{
+                position: "absolute",
+                left: "58.97%",
+                top: "71.25%",
+                width: "12.48%",
+                height: "22.55%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(12)}
+              title="Talenta Plains"
+              style={{
+                position: "absolute",
+                left: "63.98%",
+                top: "55.02%",
+                width: "9.62%",
+                height: "9.24%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(9)}
+              title="Mror Holds"
+              style={{
+                position: "absolute",
+                left: "73.04%",
+                top: "37.66%",
+                width: "7.47%",
+                height: "9.92%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenModal(8)}
+              title="Lhazaar Principalities"
+              style={{
+                position: "absolute",
+                left: "82.97%",
+                top: "18.38%",
+                width: "15.97%",
+                height: "44.64%",
+                zIndex: 2
+              }}
+            />
+          </>
+        ) : (
+          <>
+            <img src={worldMap} className="map_img" />
+          </>
+        )}
       </div>
       {modalOpen ? (
         <Modal show={modalOpen} onHide={handleCloseModal}>

@@ -49,8 +49,8 @@ function App() {
             <Link className="nav-link" to="/faiths">
               Faiths
             </Link>
-            <Link className="nav-link" to="/continent/khorvaire">
-              Countries of Khorvaire
+            <Link className="nav-link" to="/homeland">
+              Homeland
             </Link>
           </Nav>
         </Navbar.Collapse>
@@ -99,7 +99,7 @@ function App() {
             <div></div>
           </div>
         </Link>
-        <Link to="/continent/khorvaire">
+        <Link to="/homeland">
           <div
             className={`side-nav ${
               homeland ? "side-nav-left" : "side-nav-right"
@@ -120,7 +120,7 @@ function App() {
           }
         />
         <Route
-          path="/continent/khorvaire"
+          path="/homeland"
           render={() =>
             React.createElement(KhorvaireMap, { homeland, setHomeland })
           }
