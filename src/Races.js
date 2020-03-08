@@ -121,7 +121,11 @@ function Races(props) {
           </Modal.Header>
           <Modal.Body>
             <div className="mb-2">
-              <a target="_blank" href={races[activeRace].link}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={races[activeRace].link}
+              >
                 {races[activeRace].name} Stats, Traits, & Info
               </a>
             </div>

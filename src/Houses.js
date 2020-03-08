@@ -50,8 +50,8 @@ function Houses(props) {
 
     // add crest names to the array and set state
     const crestLen = crestImgs.length;
-    for (var i = 0; i < crestLen; i++) {
-      crestVals.push(crestImgs[i]);
+    for (var j = 0; j < crestLen; j++) {
+      crestVals.push(crestImgs[j]);
     }
     setCrests(crestVals);
 
@@ -69,8 +69,8 @@ function Houses(props) {
 
     // add crest names to the array and set state
     const marksLen = markImgsList.length;
-    for (var i = 0; i < marksLen; i++) {
-      markVals.push(markImgsList[i]);
+    for (var k = 0; k < marksLen; k++) {
+      markVals.push(markImgsList[k]);
     }
     setMarks(markVals);
   };
@@ -165,7 +165,11 @@ function Houses(props) {
           </Modal.Header>
           <Modal.Body>
             <div className="mb-2">
-              <a target="_blank" href={houses[activeHouse].link}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={houses[activeHouse].link}
+              >
                 House {houses[activeHouse].name} {houses[activeHouse].race}{" "}
                 Variant Stats, Traits, & Info
               </a>

@@ -56,8 +56,8 @@ const KhorvaireMap = props => {
 
     // add continent names to the array and set state
     const continentLength = continentArray.length;
-    for (var i = 0; i < continentLength; i++) {
-      continentArray[i].name = continentKeys[i]
+    for (var j = 0; j < continentLength; j++) {
+      continentArray[j].name = continentKeys[j]
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
@@ -85,7 +85,7 @@ const KhorvaireMap = props => {
   };
 
   const handleChooseHomeland = () => {
-    props.setHomeland(countries[country].country + ", " + "Khorvaire");
+    props.setHomeland(countries[country].country + ", Khorvaire");
     setModalOpen(false);
   };
 
@@ -115,10 +115,10 @@ const KhorvaireMap = props => {
         <div>
           <h1 className="pl-3">Homelands</h1>
         </div>
-        <div class="dropdown">
+        <div className="dropdown">
           From {!isWorldMap ? "another Continent" : "Khorvaire"}?{" "}
           <button
-            class="btn btn-primary dropdown-toggle"
+            className="btn btn-primary dropdown-toggle"
             onClick={() => setShowDropdown(!showDropdown)}
             type="button"
             id="changeMap"
@@ -129,19 +129,19 @@ const KhorvaireMap = props => {
             Change Map
           </button>
           <div
-            class={`dropdown-menu dropdown-menu-right ${
+            className={`dropdown-menu dropdown-menu-right ${
               showDropdown ? "show" : ""
             }`}
             aria-labelledby="changeMap"
           >
             <button
-              class={`dropdown-item ${!isWorldMap ? "active" : ""}`}
+              className={`dropdown-item ${!isWorldMap ? "active" : ""}`}
               onClick={() => handleDropdown(false)}
             >
               Khorvaire
             </button>
             <button
-              class={`dropdown-item ${isWorldMap ? "active" : ""}`}
+              className={`dropdown-item ${isWorldMap ? "active" : ""}`}
               onClick={() => handleDropdown(true)}
             >
               World Map
@@ -152,7 +152,7 @@ const KhorvaireMap = props => {
       <div id="map-box">
         {!isWorldMap ? (
           <>
-            <img src={map} className="map_img" />
+            <img src={map} className="map_img" alt="Khorvaire" />
             <button
               className="transparent_btn"
               onClick={() => handleOpenModal(0)}
@@ -364,7 +364,7 @@ const KhorvaireMap = props => {
           </>
         ) : (
           <>
-            <img src={worldMap} className="map_img" />
+            <img src={worldMap} className="map_img" alt="World Map" />
             <button
               className="transparent_btn"
               onClick={() => handleOpenContinentModal(5)}

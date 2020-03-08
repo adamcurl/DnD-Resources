@@ -48,8 +48,8 @@ function Classes(props) {
 
     // add crest names to the array and set state
     const crestLen = crestImgs.length;
-    for (var i = 0; i < crestLen; i++) {
-      crestVals.push(crestImgs[i]);
+    for (var j = 0; j < crestLen; j++) {
+      crestVals.push(crestImgs[j]);
     }
     setSymbols(crestVals);
   };
@@ -103,7 +103,11 @@ function Classes(props) {
           </Modal.Header>
           <Modal.Body>
             <div className="mb-2">
-              <a target="_blank" href={classes[activeClass].link}>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href={classes[activeClass].link}
+              >
                 {classes[activeClass].name} Stats, Traits, & Info
               </a>
             </div>

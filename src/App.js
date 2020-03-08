@@ -24,8 +24,6 @@ function App() {
 
   React.useEffect(() => {}, []);
 
-  console.log({ race, dndClass, house, faith, homeland });
-
   return (
     <>
       <Navbar bg="custom" expand="lg">

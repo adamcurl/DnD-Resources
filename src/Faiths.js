@@ -48,8 +48,8 @@ function Faiths(props) {
 
     // add crest names to the array and set state
     const crestLen = crestImgs.length;
-    for (var i = 0; i < crestLen; i++) {
-      crestVals.push(crestImgs[i]);
+    for (var j = 0; j < crestLen; j++) {
+      crestVals.push(crestImgs[j]);
     }
     setSymbols(crestVals);
   };
