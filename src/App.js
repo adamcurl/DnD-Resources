@@ -1,6 +1,6 @@
 import React from "react";
 import KhorvaireMap from "./KhorvaireMap";
-import SharnMap from "./SharnMap";
+// import SharnMap from "./SharnMap";
 // import Country from "./Country";
 // import City from "./City";
 // import Crime from "./Crime";
@@ -8,6 +8,7 @@ import Faiths from "./Faiths";
 // import Faith from "./Faith";
 import Houses from "./Houses";
 // import House from "./House";
+import Classes from "./Classes";
 import Races from "./Races";
 import { Route, Switch, Link } from "react-router-dom";
 import "./App.css";
@@ -41,6 +42,9 @@ function App() {
             </Link>
             <Link className="nav-link" to="/houses">
               Houses
+            </Link>
+            <Link className="nav-link" to="/classes">
+              Classes
             </Link>
             <Link className="nav-link" to="/faiths">
               Faiths
@@ -136,6 +140,10 @@ function App() {
           render={() =>
             React.createElement(Races, { race, setRace, house, setHouse })
           }
+        />
+        <Route
+          path="/classes"
+          render={() => React.createElement(Classes, { dndClass, setDndClass })}
         />
         {/* <Route path="/city/sharn" component={SharnMap} /> */}
       </Switch>

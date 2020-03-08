@@ -311,3 +311,7 @@ button.img-btn.compatible {
 .bg-custom .navbar-brand a {
   color: #ffffff;
 }
+
+.class_img svg {
+  stroke: #fff;
+}
