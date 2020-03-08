@@ -2,17 +2,22 @@ import React, { useState } from "react";
 import map from "./assets/imgs/Khorvaire.jpg";
 import worldMap from "./assets/imgs/eberron_world_map.jpg";
 import Loading from "./Loading";
-import { Modal, Dropdown } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
 
 const KhorvaireMap = props => {
   const [modalOpen, setModalOpen] = useState(false);
   const [country, setCountry] = useState("");
   const [countries, setCountries] = useState([]);
+
+  const [continentModalOpen, setContinentModalOpen] = useState(false);
+  const [continent, setContinent] = useState("");
+  const [continentList, setContinentList] = useState([]);
+
   const [isWorldMap, setIsWorldMap] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
 
   const onRender = () => {
-    // get house files' keys and values
+    // get country files' keys and values
     const files = (ctx => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
@@ -24,7 +29,7 @@ const KhorvaireMap = props => {
     const keys = Object.keys(files);
     let array = Object.values(files);
 
-    // add house names to the array and set state
+    // add country names to the array and set state
     const length = array.length;
     for (var i = 0; i < length; i++) {
       array[i].name = keys[i]
@@ -36,6 +41,31 @@ const KhorvaireMap = props => {
         });
     }
     setCountries(array);
+
+    // get continent files' keys and values
+    const continentFiles = (ctx => {
+      let keys = ctx.keys();
+      let values = keys.map(ctx);
+      return keys.reduce((o, k, i) => {
+        o[k] = values[i];
+        return o;
+      }, {});
+    })(require.context("./assets/continents", true, /.json/));
+    const continentKeys = Object.keys(continentFiles);
+    let continentArray = Object.values(continentFiles);
+
+    // add continent names to the array and set state
+    const continentLength = continentArray.length;
+    for (var i = 0; i < continentLength; i++) {
+      continentArray[i].name = continentKeys[i]
+        .replace("./", "")
+        .replace(".json", "")
+        .replace(/_/g, " ")
+        .replace(/\w\S*/g, function(txt) {
+          return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        });
+    }
+    setContinentList(continentArray);
   };
 
   React.useEffect(() => {
@@ -44,6 +74,7 @@ const KhorvaireMap = props => {
 
   if (countries.length < 9) return <Loading />;
 
+  // country functions
   const handleOpenModal = i => {
     setCountry(i);
     setModalOpen(true);
@@ -54,8 +85,23 @@ const KhorvaireMap = props => {
   };
 
   const handleChooseHomeland = () => {
-    props.setHomeland(countries[country].country);
+    props.setHomeland(countries[country].country + ", " + "Khorvaire");
     setModalOpen(false);
+  };
+
+  // continent functions
+  const handleOpenContinentModal = i => {
+    setContinent(i);
+    setContinentModalOpen(true);
+  };
+
+  const handleCloseContinentModal = () => {
+    setContinentModalOpen(false);
+  };
+
+  const handleChooseContinentHomeland = () => {
+    props.setHomeland(continentList[continent].name);
+    setContinentModalOpen(false);
   };
 
   const handleDropdown = val => {
@@ -319,6 +365,123 @@ const KhorvaireMap = props => {
         ) : (
           <>
             <img src={worldMap} className="map_img" />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(5)}
+              title="Xen'Drik"
+              style={{
+                position: "absolute",
+                left: "14.4%",
+                top: "58.18%",
+                width: "28.22%",
+                height: "19.69%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(0)}
+              title="Aerenal"
+              style={{
+                position: "absolute",
+                left: "40.08%",
+                top: "45.87%",
+                width: "7.94%",
+                height: "12.34%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(1)}
+              title="Argonnessen"
+              style={{
+                position: "absolute",
+                left: "51.4%",
+                top: "47.94%",
+                width: "21.06%",
+                height: "29.87%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(4)}
+              title="Sarlona"
+              style={{
+                position: "absolute",
+                left: "72.78%",
+                top: "36.79%",
+                width: "15.88%",
+                height: "15.06%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => setIsWorldMap(false)}
+              title="Khorvaire"
+              style={{
+                position: "absolute",
+                left: "25.02%",
+                top: "32.14%",
+                width: "21.06%",
+                height: "12.62%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(2)}
+              title="Everice"
+              style={{
+                position: "absolute",
+                left: "18.5%",
+                top: "78.38%",
+                width: "21.44%",
+                height: "5.99%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(3)}
+              title="Frostfell"
+              style={{
+                position: "absolute",
+                left: "19.54%",
+                top: "23.77%",
+                width: "18.76%",
+                height: "5.53%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(3)}
+              title="Frostfell"
+              style={{
+                position: "absolute",
+                left: "62.54%",
+                top: "24.09%",
+                width: "16.06%",
+                height: "3.55%",
+                zIndex: 2
+              }}
+            />
+            <button
+              className="transparent_btn"
+              onClick={() => handleOpenContinentModal(2)}
+              title="Everice"
+              style={{
+                position: "absolute",
+                left: "62.2%",
+                top: "80.09%",
+                width: "16.38%",
+                height: "5.73%",
+                zIndex: 2
+              }}
+            />
           </>
         )}
       </div>
@@ -398,6 +561,83 @@ const KhorvaireMap = props => {
                 Choose Homeland
               </button>
               <button className="btn btn-secondary" onClick={handleCloseModal}>
+                Cancel
+              </button>
+            </div>
+          </Modal.Footer>
+        </Modal>
+      ) : null}
+      {continentModalOpen ? (
+        <Modal show={continentModalOpen} onHide={handleCloseContinentModal}>
+          <Modal.Header closeButton>
+            <Modal.Title>{continentList[continent].name}</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            {/* Description */}
+            <p>
+              <strong>Description: </strong>
+              {continentList[continent].desc}
+            </p>
+            {/* Characteristics */}
+            <p>
+              <strong>Characteristics: </strong>
+            </p>
+            <ul>
+              {continentList[continent].characteristics.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {/* Notable Locations */}
+            <p>
+              <strong>Notable Locations: </strong>
+            </p>
+            <ul>
+              {continentList[continent].locations.map(location => (
+                <li key={location.name}>
+                  <strong>{location.name}</strong>: {location.desc}
+                </li>
+              ))}
+            </ul>
+            {/* Noted */}
+            <p>
+              <strong>Noted For: </strong>
+            </p>
+            <ul>
+              {continentList[continent].noted.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {/* Religions */}
+            <p>
+              <strong>Main Religions: </strong>
+            </p>
+            <ul>
+              {continentList[continent].religions.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {/* Races */}
+            <p>
+              <strong>Races: </strong>
+            </p>
+            <ul>
+              {continentList[continent].races.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </Modal.Body>
+          <Modal.Footer>
+            <div className="d-flex btn-row">
+              <button
+                className="btn btn-primary"
+                onClick={handleChooseContinentHomeland}
+              >
+                Choose Homeland
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={handleCloseContinentModal}
+              >
                 Cancel
               </button>
             </div>

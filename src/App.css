@@ -166,7 +166,7 @@ button.img-btn {
 }
 
 button.img-btn.compatible {
-  border: 2px solid #8890b3;
+  border: 2px solid #586e9b;
   border-radius: 30%;
 }
 
@@ -224,7 +224,7 @@ button.img-btn.compatible {
 }
 
 .modal-header {
-  background-color: #485c84;
+  background-color: #586e9b;
   color: #fff;
   text-align: center;
 }
@@ -247,7 +247,7 @@ button.img-btn.compatible {
 }
 
 .btn-primary {
-  background-color: #8890b3 !important;
+  background-color: #586e9b !important;
   color: #fff !important;
 }
 
@@ -301,7 +301,7 @@ button.img-btn.compatible {
 }
 
 .bg-custom {
-  background-color: #8890b3;
+  background-color: #586e9b;
 }
 
 .bg-custom .navbar-collapse .navbar-nav .nav-link {
