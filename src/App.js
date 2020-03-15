@@ -1,13 +1,7 @@
 import React from "react";
 import KhorvaireMap from "./KhorvaireMap";
-// import SharnMap from "./SharnMap";
-// import Country from "./Country";
-// import City from "./City";
-// import Crime from "./Crime";
 import Faiths from "./Faiths";
-// import Faith from "./Faith";
 import Houses from "./Houses";
-// import House from "./House";
 import Classes from "./Classes";
 import Races from "./Races";
 import { Route, Switch, Link } from "react-router-dom";
@@ -55,14 +49,10 @@ function App() {
       </Navbar>
       <div className="character-summary">
         <p>
-          {house === "No House"
-            ? "No House"
-            : house
-            ? `House ${house}`
-            : "[No House]"}{" "}
+          {house === "No House" ? "" : house ? `House ${house}` : "[No House]"}{" "}
           {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
           {faith === "No Faith"
-            ? " No Faith"
+            ? ""
             : faith
             ? ` of ${faith} faith`
             : "with [No Religion]"}{" "}
