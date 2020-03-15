@@ -57,12 +57,14 @@ function Races(props) {
   };
 
   const handleChooseRace = () => {
+    if (races[activeRace].houses[0] === "None") props.setHouse("No House");
     props.setRace(races[activeRace].name);
     setModalOpen(false);
   };
 
   const overrideHouse = () => {
-    props.setHouse("");
+    if (races[activeRace].houses[0] === "None") props.setHouse("No House");
+    else props.setHouse("");
     props.setRace(races[activeRace].name);
     setModalOpen(false);
   };

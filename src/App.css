@@ -141,8 +141,8 @@ area {
 
 .container_wrap {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -263,7 +263,7 @@ button.img-btn.compatible {
 
 .active-item {
   border-radius: 30% !important;
-  background-color: #ad583e !important;
+  background-color: #586e9b !important;
 }
 
 .active-item p {
@@ -278,11 +278,13 @@ button.img-btn.compatible {
 .side-nav-left {
   margin-right: 26%;
   right: 70%;
+  background-color: #2f9158;
 }
 
 .side-nav-right {
   margin-left: 26%;
   left: 70%;
+  background-color: #cd8237;
 }
 
 .side-nav {
@@ -292,7 +294,6 @@ button.img-btn.compatible {
   cursor: pointer;
   display: flex;
   align-items: center;
-  background-color: #cd8237;
   border-radius: 3px;
   opacity: 0.4;
   transition: all 0.2s;

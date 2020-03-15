@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 import Loading from "./Loading";
+import cross from "./assets/imgs/cross.png";
 
 function Houses(props) {
   const [houses, setHouses] = useState([]);
@@ -122,6 +123,24 @@ function Houses(props) {
     <div className="container_wrap">
       <h1 className="p-3">Houses of Khorvaire</h1>
       <div className="row">
+        <div className="col-md-3">
+          <button
+            type="button"
+            className={`btn btn-link no_dec img-btn ${
+              props.house === "No House" ? "active-item" : ""
+            }`}
+            onClick={() => props.setHouse("No House")}
+          >
+            <div
+              className={`bkgrnd_img zoom_img`}
+              style={{
+                backgroundImage: `url('${cross}')`,
+                backgroundSize: "90%"
+              }}
+            />
+            <p className="text-center no_dec">No House</p>
+          </button>
+        </div>
         {houses.map((house, i) => (
           <div className="col-md-3" key={house.name}>
             <button

@@ -55,25 +55,40 @@ function App() {
       </Navbar>
       <div className="character-summary">
         <p>
-          {house ? `House ${house}` : "[No House]"} {race ? race : "[Race]"}{" "}
-          {dndClass ? dndClass : "[Class]"}{" "}
-          {faith ? ` of ${faith} faith` : "with [No Religion]"} from{" "}
-          {homeland ? homeland : "[Homeland]"}
+          {house === "No House"
+            ? "No House"
+            : house
+            ? `House ${house}`
+            : "[No House]"}{" "}
+          {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
+          {faith === "No Faith"
+            ? " No Faith"
+            : faith
+            ? ` of ${faith} faith`
+            : "with [No Religion]"}{" "}
+          from {homeland ? homeland : "[Homeland]"}
         </p>
       </div>
-      {/* <div>
+      <div>
         <Link to="/races">
           <div
             className={`side-nav ${race ? "side-nav-left" : "side-nav-right"}`}
+            style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
           >
-            <div></div>
             <div>Race</div>
+            <div></div>
           </div>
         </Link>
         <Link to="/classes">
           <div
-            className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
-            style={{ top: "285px" }}
+            className={`side-nav ${
+              dndClass ? "side-nav-left" : "side-nav-right"
+            }`}
+            style={
+              dndClass
+                ? { top: "285px", marginRight: "26.3%" }
+                : { top: "285px", marginLeft: "26.5%" }
+            }
           >
             <div>Class</div>
             <div></div>
@@ -82,7 +97,11 @@ function App() {
         <Link to="/houses">
           <div
             className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
-            style={{ top: "325px" }}
+            style={
+              house
+                ? { top: "325px", marginRight: "25.6%" }
+                : { top: "325px", marginLeft: "25.9%" }
+            }
           >
             <div>House</div>
             <div></div>
@@ -91,7 +110,11 @@ function App() {
         <Link to="/faiths">
           <div
             className={`side-nav ${faith ? "side-nav-left" : "side-nav-right"}`}
-            style={{ top: "365px" }}
+            style={
+              faith
+                ? { top: "365px", marginRight: "26.4%" }
+                : { top: "365px", marginLeft: "26.5%" }
+            }
           >
             <div>Faith</div>
             <div></div>
@@ -102,13 +125,17 @@ function App() {
             className={`side-nav ${
               homeland ? "side-nav-left" : "side-nav-right"
             }`}
-            style={{ top: "405px" }}
+            style={
+              homeland
+                ? { top: "405px", marginRight: "23.8%" }
+                : { top: "405px", marginLeft: "24%" }
+            }
           >
             <div>Homeland</div>
             <div></div>
           </div>
         </Link>
-      </div> */}
+      </div>
       <Switch>
         <Route
           exact

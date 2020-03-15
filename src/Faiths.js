@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 import Loading from "./Loading";
+import cross from "./assets/imgs/cross.png";
 
 function Faiths(props) {
   const [faiths, setFaiths] = useState([]);
@@ -78,6 +79,24 @@ function Faiths(props) {
     <div className="container_wrap">
       <h1 className="p-3">Faiths of Eberron</h1>
       <div className="row">
+        <div className="col-md-3">
+          <button
+            type="button"
+            className={`btn btn-link no_dec img-btn ${
+              props.faith === "No Faith" ? "active-item" : ""
+            }`}
+            onClick={() => props.setFaith("No Faith")}
+          >
+            <div
+              className={`bkgrnd_img zoom_img`}
+              style={{
+                backgroundImage: `url('${cross}')`,
+                backgroundSize: "90%"
+              }}
+            />
+            <p className="text-center no_dec">No House</p>
+          </button>
+        </div>
         {faiths.map((faith, i) => (
           <div className="col-md-3 pb-5" key={faith.name}>
             <button
