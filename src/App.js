@@ -68,73 +68,81 @@ function App() {
           </p>
         </div>
       ) : null}
-      <div>
-        <Link to="/races">
-          <div
-            className={`side-nav ${race ? "side-nav-left" : "side-nav-right"}`}
-            style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
-          >
-            <div>Race</div>
-            <div></div>
-          </div>
-        </Link>
-        <Link to="/classes">
-          <div
-            className={`side-nav ${
-              dndClass ? "side-nav-left" : "side-nav-right"
-            }`}
-            style={
-              dndClass
-                ? { top: "285px", marginRight: "26.3%" }
-                : { top: "285px", marginLeft: "26.5%" }
-            }
-          >
-            <div>Class</div>
-            <div></div>
-          </div>
-        </Link>
-        <Link to="/houses">
-          <div
-            className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
-            style={
-              house
-                ? { top: "325px", marginRight: "25.6%" }
-                : { top: "325px", marginLeft: "25.9%" }
-            }
-          >
-            <div>House</div>
-            <div></div>
-          </div>
-        </Link>
-        <Link to="/faiths">
-          <div
-            className={`side-nav ${faith ? "side-nav-left" : "side-nav-right"}`}
-            style={
-              faith
-                ? { top: "365px", marginRight: "26.4%" }
-                : { top: "365px", marginLeft: "26.5%" }
-            }
-          >
-            <div>Faith</div>
-            <div></div>
-          </div>
-        </Link>
-        <Link to="/homeland">
-          <div
-            className={`side-nav ${
-              homeland ? "side-nav-left" : "side-nav-right"
-            }`}
-            style={
-              homeland
-                ? { top: "405px", marginRight: "23.8%" }
-                : { top: "405px", marginLeft: "24%" }
-            }
-          >
-            <div>Homeland</div>
-            <div></div>
-          </div>
-        </Link>
-      </div>
+      {location.pathname !== "/" ? (
+        <div>
+          <Link to="/races">
+            <div
+              className={`side-nav ${
+                race ? "side-nav-left" : "side-nav-right"
+              }`}
+              style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
+            >
+              <div>Race</div>
+              <div></div>
+            </div>
+          </Link>
+          <Link to="/classes">
+            <div
+              className={`side-nav ${
+                dndClass ? "side-nav-left" : "side-nav-right"
+              }`}
+              style={
+                dndClass
+                  ? { top: "285px", marginRight: "26.3%" }
+                  : { top: "285px", marginLeft: "26.5%" }
+              }
+            >
+              <div>Class</div>
+              <div></div>
+            </div>
+          </Link>
+          <Link to="/houses">
+            <div
+              className={`side-nav ${
+                house ? "side-nav-left" : "side-nav-right"
+              }`}
+              style={
+                house
+                  ? { top: "325px", marginRight: "25.6%" }
+                  : { top: "325px", marginLeft: "25.9%" }
+              }
+            >
+              <div>House</div>
+              <div></div>
+            </div>
+          </Link>
+          <Link to="/faiths">
+            <div
+              className={`side-nav ${
+                faith ? "side-nav-left" : "side-nav-right"
+              }`}
+              style={
+                faith
+                  ? { top: "365px", marginRight: "26.4%" }
+                  : { top: "365px", marginLeft: "26.5%" }
+              }
+            >
+              <div>Faith</div>
+              <div></div>
+            </div>
+          </Link>
+          <Link to="/homeland">
+            <div
+              className={`side-nav ${
+                homeland ? "side-nav-left" : "side-nav-right"
+              }`}
+              style={
+                homeland
+                  ? { top: "405px", marginRight: "23.8%" }
+                  : { top: "405px", marginLeft: "24%" }
+              }
+            >
+              <div>Homeland</div>
+              <div></div>
+            </div>
+          </Link>
+        </div>
+      ) : null}
       <Switch>
         <Route
           exact
