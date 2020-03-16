@@ -284,7 +284,7 @@ button.img-btn.compatible {
 .side-nav-right {
   margin-left: 26%;
   left: 70%;
-  background-color: #cd8237;
+  background-color: #ddc575;
 }
 
 .side-nav {
@@ -295,7 +295,7 @@ button.img-btn.compatible {
   display: flex;
   align-items: center;
   border-radius: 3px;
-  opacity: 0.4;
+  opacity: 0.6;
   transition: all 0.2s;
   z-index: 999;
   color: #fff;
@@ -315,4 +315,16 @@ button.img-btn.compatible {
 
 .class_img svg {
   stroke: #fff;
+}
+
+.start-circle {
+  position: relative;
+  color: #ffffff !important;
+  border-radius: 50% !important;
+  width: 10rem;
+  height: 10rem;
+  transition: all 0.2s ease-in-out !important;
+  transition-duration: 0.3s !important;
+  -webkit-transition: all 0.2s ease-in-out !important;
+  -webkit-transition-duration: 0.3s !important;
 }

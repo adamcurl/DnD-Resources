@@ -1,10 +1,11 @@
 import React from "react";
+import Start from "./Start";
 import KhorvaireMap from "./KhorvaireMap";
 import Faiths from "./Faiths";
 import Houses from "./Houses";
 import Classes from "./Classes";
 import Races from "./Races";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Switch, Link, useLocation } from "react-router-dom";
 import "./App.css";
 import "./assets/styles/bootstrap.min.css";
 import { Navbar, Nav } from "react-bootstrap";
@@ -15,6 +16,8 @@ function App() {
   const [house, setHouse] = React.useState("");
   const [faith, setFaith] = React.useState("");
   const [homeland, setHomeland] = React.useState("");
+
+  const location = useLocation();
 
   React.useEffect(() => {}, []);
 
@@ -47,23 +50,31 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <div className="character-summary">
-        <p>
-          {house === "No House" ? "" : house ? `House ${house}` : "[No House]"}{" "}
-          {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
-          {faith === "No Faith"
-            ? ""
-            : faith
-            ? ` of ${faith} faith`
-            : "with [No Religion]"}{" "}
-          from {homeland ? homeland : "[Homeland]"}
-        </p>
-      </div>
+      {location.pathname !== "/" ? (
+        <div className="character-summary">
+          <p>
+            {house === "No House"
+              ? ""
+              : house
+              ? `House ${house}`
+              : "[No House]"}{" "}
+            {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
+            {faith === "No Faith"
+              ? ""
+              : faith
+              ? ` of ${faith} faith`
+              : "with [No Religion]"}{" "}
+            from {homeland ? homeland : "[Homeland]"}
+          </p>
+        </div>
+      ) : null}
       <div>
         <Link to="/races">
           <div
             className={`side-nav ${race ? "side-nav-left" : "side-nav-right"}`}
-            style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
+            style={
+              race ? { marginRight: "25.1rem" } : { marginLeft: "25.2rem" }
+            }
           >
             <div>Race</div>
             <div></div>
@@ -76,8 +87,8 @@ function App() {
             }`}
             style={
               dndClass
-                ? { top: "285px", marginRight: "26.3%" }
-                : { top: "285px", marginLeft: "26.5%" }
+                ? { top: "285px", marginRight: "25rem" }
+                : { top: "285px", marginLeft: "25.1rem" }
             }
           >
             <div>Class</div>
@@ -89,8 +100,8 @@ function App() {
             className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
             style={
               house
-                ? { top: "325px", marginRight: "25.6%" }
-                : { top: "325px", marginLeft: "25.9%" }
+                ? { top: "325px", marginRight: "24.4rem" }
+                : { top: "325px", marginLeft: "24.5rem" }
             }
           >
             <div>House</div>
@@ -102,8 +113,8 @@ function App() {
             className={`side-nav ${faith ? "side-nav-left" : "side-nav-right"}`}
             style={
               faith
-                ? { top: "365px", marginRight: "26.4%" }
-                : { top: "365px", marginLeft: "26.5%" }
+                ? { top: "365px", marginRight: "25.1rem" }
+                : { top: "365px", marginLeft: "25.2rem" }
             }
           >
             <div>Faith</div>
@@ -117,8 +128,8 @@ function App() {
             }`}
             style={
               homeland
-                ? { top: "405px", marginRight: "23.8%" }
-                : { top: "405px", marginLeft: "24%" }
+                ? { top: "405px", marginRight: "22.6rem" }
+                : { top: "405px", marginLeft: "22.8rem" }
             }
           >
             <div>Homeland</div>
@@ -131,7 +142,13 @@ function App() {
           exact
           path="/"
           render={() =>
-            React.createElement(KhorvaireMap, { homeland, setHomeland })
+            React.createElement(Start, {
+              race,
+              dndClass,
+              house,
+              faith,
+              homeland
+            })
           }
         />
         <Route
