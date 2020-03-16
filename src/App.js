@@ -72,9 +72,7 @@ function App() {
         <Link to="/races">
           <div
             className={`side-nav ${race ? "side-nav-left" : "side-nav-right"}`}
-            style={
-              race ? { marginRight: "25.1rem" } : { marginLeft: "25.2rem" }
-            }
+            style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
           >
             <div>Race</div>
             <div></div>
@@ -87,8 +85,8 @@ function App() {
             }`}
             style={
               dndClass
-                ? { top: "285px", marginRight: "25rem" }
-                : { top: "285px", marginLeft: "25.1rem" }
+                ? { top: "285px", marginRight: "26.3%" }
+                : { top: "285px", marginLeft: "26.5%" }
             }
           >
             <div>Class</div>
@@ -100,8 +98,8 @@ function App() {
             className={`side-nav ${house ? "side-nav-left" : "side-nav-right"}`}
             style={
               house
-                ? { top: "325px", marginRight: "24.4rem" }
-                : { top: "325px", marginLeft: "24.5rem" }
+                ? { top: "325px", marginRight: "25.6%" }
+                : { top: "325px", marginLeft: "25.9%" }
             }
           >
             <div>House</div>
@@ -113,8 +111,8 @@ function App() {
             className={`side-nav ${faith ? "side-nav-left" : "side-nav-right"}`}
             style={
               faith
-                ? { top: "365px", marginRight: "25.1rem" }
-                : { top: "365px", marginLeft: "25.2rem" }
+                ? { top: "365px", marginRight: "26.4%" }
+                : { top: "365px", marginLeft: "26.5%" }
             }
           >
             <div>Faith</div>
@@ -128,8 +126,8 @@ function App() {
             }`}
             style={
               homeland
-                ? { top: "405px", marginRight: "22.6rem" }
-                : { top: "405px", marginLeft: "22.8rem" }
+                ? { top: "405px", marginRight: "23.8%" }
+                : { top: "405px", marginLeft: "24%" }
             }
           >
             <div>Homeland</div>
