@@ -1,9 +1,24 @@
 {
   "name": "Drow (Dark Elf)",
-  "origin": [""],
+  "type": "Elf",
+  "origin": [
+    "As the other Elven races rebelled against the giants, the Drow fought beside them and remained their subjects. After the fall of the giants, the Drow are now free to build their own cultures. The other Elven races remember the Drow, but have little time to tell the new generation about them."
+  ],
   "currHomes": ["Xen'drik"],
-  "summary": [""],
-  "characteristics": [""],
+  "summary": [
+    "The Vulkoori are hunters dedicated to a scorpion god called Vulkoor and hunt giants and other threats to Xen'drik.",
+    "The Sulatar cling to traditions of elemental shaping and are made up of powerful druids and wizards. They believe that they are to cleanse the world in fire.",
+    "The Umbragen are descended from drow who fled into the depths of the earth when the giant civilization fell and wield sophisticated magic in their unceasing battles against the daelkyr and the other aberrations."
+  ],
+  "characteristics": [
+    "Drow despise sunlight and are considered to be fiercer and more sneaky than their Elven kin."
+  ],
   "houses": ["Phiarlan (Mark of Shadow)", "Thuranni (Mark of Shadow)"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/elf#DarkElfDrow",
+  "prompts": [
+    "What led you to Khorvaire?",
+    "Are you a Vulkoori that seeks glory?",
+    "Are you a Sulatar that seeks to cleanse the world?",
+    "Are you an Umbragen that seeks more power and strength?"
+  ]
 }

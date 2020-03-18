@@ -1,6 +1,7 @@
 {
   "mark": "Finding",
   "race": "Half-Orc or Human",
+  "raceType": "Half-Orc or Human",
   "link": "",
   "specialties": ["Half-Orc Bounty Hunting", "Investigation", "Prospecting"],
   "headquarters": "Zarash’ak, Shadow Marches",

@@ -1,5 +1,6 @@
 {
   "name": "Human",
+  "type": "Human",
   "origin": [""],
   "currHomes": [""],
   "summary": [""],

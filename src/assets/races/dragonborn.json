@@ -1,16 +1,23 @@
 {
   "name": "Dragonborn",
+  "type": "Dragonborn",
   "origin": [
     "Tens of thousands of years ago, the Dragonborn migrated from Argonnessen along with other dragons to guard Haka'torvhak that seals away an ancient Overlord."
   ],
-  "currHomes": ["Q'Barra"],
+  "currHomes": ["Q'Barra, Khorvaire"],
   "summary": [
-    "Dragonborn are very focused on their clan and honor. They strive to be self-sufficient and value skill and self-improvement."
+    "Dragonborn are very focused on their clan and honor. They strive to be self-sufficient and value skill and self-improvement.",
+    "The Dragonborn have had little interactions with other non-scale humanoids up until recently and mostly ignore them",
+    "They still reside in Q'Barra and guard the Overlords tombs from the Lords of Dust"
   ],
   "characteristics": [
     "Dragonborn look very much like humanoid dragons without wings or tails. They usually stand between 6 and 7 feet tall and around 300 pounds.",
     "A Dragonborn's scales and breath are dependent upon his/her dragon kin"
   ],
   "houses": ["None"],
-  "link": "https://www.dndbeyond.com/races/dragonborn#DragonbornTraits"
+  "link": "https://www.dndbeyond.com/races/dragonborn#DragonbornTraits",
+  "prompts": [
+    "What led you to leave Q'Barra?",
+    "Are you motivated to challenge the Lords of Dust, by wonderlust, or as a mercenary in the Last War?"
+  ]
 }

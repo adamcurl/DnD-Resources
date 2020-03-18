@@ -1,6 +1,7 @@
 {
   "mark": "Scribing",
   "race": "Gnome",
+  "raceType": "Gnome",
   "link": "",
   "specialties": ["Communication", "Translation", "Verification"],
   "headquarters": "The Labyrinth (Korranberg, Zilargo)",

@@ -12,6 +12,7 @@ import { Navbar, Nav } from "react-bootstrap";
 
 function App() {
   const [race, setRace] = React.useState("");
+  const [raceType, setRaceType] = React.useState("");
   const [dndClass, setDndClass] = React.useState("");
   const [house, setHouse] = React.useState("");
   const [faith, setFaith] = React.useState("");
@@ -166,7 +167,14 @@ function App() {
         <Route
           path="/houses"
           render={() =>
-            React.createElement(Houses, { house, setHouse, race, setRace })
+            React.createElement(Houses, {
+              house,
+              setHouse,
+              race,
+              setRace,
+              raceType,
+              setRaceType
+            })
           }
         />
         <Route
@@ -176,7 +184,14 @@ function App() {
         <Route
           path="/races"
           render={() =>
-            React.createElement(Races, { race, setRace, house, setHouse })
+            React.createElement(Races, {
+              race,
+              setRace,
+              house,
+              setHouse,
+              raceType,
+              setRaceType
+            })
           }
         />
         <Route

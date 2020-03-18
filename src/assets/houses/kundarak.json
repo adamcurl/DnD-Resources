@@ -1,6 +1,7 @@
 {
   "mark": "Warding",
   "race": "Dwarf",
+  "raceType": "Dwarf",
   "link": "",
   "specialties": ["Banking", "Storage", "Prisons"],
   "headquarters": "Korunda Gate (Mror Holds)",

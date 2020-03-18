@@ -1,9 +1,20 @@
 {
   "name": "Gnome",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "type": "Gnome",
+  "origin": ["Gnomes mostly hail from Zilargo, but can be from anywhere"],
+  "currHomes": ["Zilargo, Khorvaire"],
+  "summary": [
+    "Gnomes are short and thin with a lot of energy and vibrance for life."
+  ],
+  "characteristics": [
+    "Gnomes are very curious and prefer words over violence. They love intrigue and secrets. They constantly look for an angle on how to gain the favor and trust of individuals.",
+    "Not every gnome is a schemer and deceiver, but most Zil gnome begin learn to manipulate at a young age."
+  ],
   "houses": ["Sivis (Mark of Scribing)"],
-  "link": ""
+  "link": "",
+  "prompts": [
+    "What schemes is your character involved in?",
+    "Do you seek knowledge or secrets?",
+    "Have you made any enemies due to your scheming?"
+  ]
 }

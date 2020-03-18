@@ -171,7 +171,7 @@ function Houses(props) {
                 onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
-                {house.name} - Mark of {house.mark}
+                {house.name} - {house.mark} - {house.raceType}
               </p>
             </button>
           </div>
@@ -251,7 +251,7 @@ function Houses(props) {
                 (props.race === "Orc" &&
                   houses[activeHouse].race === "Half-Orc or Human")
                   ? "Current Race not Compatible"
-                  : `Choose House ${houses[activeHouse].name} ${houses[activeHouse].race}`}
+                  : `Choose House ${houses[activeHouse].name} ${houses[activeHouse].raceType}`}
               </button>
               {(props.race !== "" &&
                 !houses[activeHouse].race.includes(props.race)) ||
@@ -259,7 +259,7 @@ function Houses(props) {
                 houses[activeHouse].race === "Half-Orc or Human") ? (
                 <button className="btn btn-warning" onClick={overrideRace}>
                   Choose House {houses[activeHouse].name}{" "}
-                  {houses[activeHouse].race}
+                  {houses[activeHouse].raceType}
                 </button>
               ) : null}
               <button className="btn btn-secondary" onClick={handleCloseModal}>

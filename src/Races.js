@@ -59,6 +59,7 @@ function Races(props) {
   const handleChooseRace = () => {
     if (races[activeRace].houses[0] === "None") props.setHouse("No House");
     props.setRace(races[activeRace].name);
+    props.setRaceType(races[activeRace].raceType);
     setModalOpen(false);
   };
 
@@ -66,6 +67,7 @@ function Races(props) {
     if (races[activeRace].houses[0] === "None") props.setHouse("No House");
     else props.setHouse("");
     props.setRace(races[activeRace].name);
+    props.setRaceType(races[activeRace].raceType);
     setModalOpen(false);
   };
 

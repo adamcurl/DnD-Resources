@@ -1,6 +1,7 @@
 {
   "mark": "Healing",
   "race": "Halfling",
+  "raceType": "Halfling",
   "link": "",
   "specialties": ["Healing"],
   "headquarters": "Vedkyar Enclave (Vedykar, Karrnath)",

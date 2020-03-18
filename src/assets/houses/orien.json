@@ -1,6 +1,7 @@
 {
   "mark": "Passage",
   "race": "Human",
+  "raceType": "Human",
   "link": "",
   "specialties": ["Land Transportation"],
   "headquarters": "Journey’s Home (Passage, Aundair)",

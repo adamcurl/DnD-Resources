@@ -1,16 +1,23 @@
 {
   "name": "Dwarf",
+  "type": "Dwarf",
   "origin": [
     "The origin of the dwarves is shrouded in mystery. Some legends tell of a great migration that led the ancient dwarves to Khorvaire from “a land of endless ice.” Many believe this refers to the arctic lands of the Frostfell, while others claim that the first dwarves must have come from the frozen plane of Risia"
   ],
-  "currHomes": ["Mror Holds"],
+  "currHomes": ["Mror Holds, Khorvaire"],
   "summary": [
     "Dwarves are fiercely loyal to their clan or homeland. They are obsessed with gold and minerals. However, they seek to recover ancient weapons and homelands of their ancestors underground.",
-    "The Mror Holds contains an entrance to an ancient Dwarven kingdom that has been locked away and corrupted from the war with the Daelkyr."
+    "The Mror Holds contains an entrance to an ancient Dwarven kingdom that has been locked away and corrupted from the war with the Daelkyr.",
+    "The Dwarves' ancestors have had a long-standing battle against the Daelkyr. Some clans ban the use of their weapons and magics, while others embrace their twisted powers."
   ],
   "characteristics": [
     "Dwarves are short and stocky in stature. They make great drinkers and honorable businessmen."
   ],
   "houses": ["Kundarak (Mark of Warding)"],
-  "link": "https://www.dndbeyond.com/races/dwarf#DwarfTraits"
+  "link": "https://www.dndbeyond.com/races/dwarf#DwarfTraits",
+  "prompts": [
+    "Have you left your clan due to a feud with a rival?",
+    "Do you seek an ancient artifact of your Dwarven ancestors?",
+    "Do you seek to reclaim your ancestors' kingdom from the Daelkyr locked away underground?"
+  ]
 }

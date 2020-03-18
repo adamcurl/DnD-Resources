@@ -1,5 +1,6 @@
 {
   "name": "Changeling",
+  "type": "Changeling",
   "origin": [
     "Some believe Changelings were created by a human making a deal with the Traveler"
   ],
@@ -16,5 +17,9 @@
     "A community of Changelings can share personas and swap them depending on who's turn it is to be the baker or blacksmith, etc."
   ],
   "houses": ["None"],
-  "link": "https://www.dndbeyond.com/races/changeling#ChangelingTraits"
+  "link": "https://www.dndbeyond.com/races/changeling#ChangelingTraits",
+  "prompts": [
+    "As a Changeling, do you hide your true self, or embrace it?",
+    "Do you have connections to other Changelings, or are you alone?"
+  ]
 }

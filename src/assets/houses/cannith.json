@@ -1,6 +1,7 @@
 {
   "mark": "Making",
   "race": "Human",
+  "raceType": "Human",
   "link": "https://www.dndbeyond.com/races/human#MarkofMakingHuman",
   "specialties": ["Manufacturing"],
   "headquarters": "Cannith East, Korth Enclave (Karrnath); Cannith West, Aundair Enclave (near Fairhaven, Aundair); Cannith South, Cannith Tower (Sharn, Breland)",

@@ -1,6 +1,7 @@
 {
   "mark": "Shadow",
   "race": "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)",
+  "raceType": "Elf",
   "link": "",
   "specialties": ["Entertainment", "Espionage"],
   "headquarters": "The Demesnes (various)",
