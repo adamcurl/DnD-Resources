@@ -5,6 +5,7 @@ import Faiths from "./Faiths";
 import Houses from "./Houses";
 import Classes from "./Classes";
 import Races from "./Races";
+import Summary from "./Summary";
 import { Route, Switch, Link, useLocation } from "react-router-dom";
 import "./App.css";
 import "./assets/styles/bootstrap.min.css";
@@ -69,14 +70,26 @@ function App() {
           </p>
         </div>
       ) : null}
-      {location.pathname !== "/" ? (
+      {location.pathname !== "/" && location.pathname !== "/summary" ? (
         <div>
           <Link to="/races">
             <div
               className={`side-nav ${
-                race ? "side-nav-left" : "side-nav-right"
+                race &&
+                race !== "Half-Orc or Human" &&
+                race !==
+                  "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)"
+                  ? "side-nav-left"
+                  : "side-nav-right"
               }`}
-              style={race ? { marginRight: "26.5%" } : { marginLeft: "26.7%" }}
+              style={
+                race &&
+                race !== "Half-Orc or Human" &&
+                race !==
+                  "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)"
+                  ? { marginRight: "26.5%" }
+                  : { marginLeft: "26.7%" }
+              }
             >
               <div>Race</div>
               <div></div>
@@ -142,6 +155,24 @@ function App() {
               <div></div>
             </div>
           </Link>
+          {race &&
+          race !== "Half-Orc or Human" &&
+          race !==
+            "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)" &&
+          house &&
+          dndClass &&
+          faith &&
+          homeland ? (
+            <Link to="/summary">
+              <div
+                className={`side-nav side-nav-right`}
+                style={{ top: "355px", marginLeft: "26%" }}
+              >
+                <div>FINISH</div>
+                <div></div>
+              </div>
+            </Link>
+          ) : null}
         </div>
       ) : null}
       <Switch>
@@ -198,7 +229,18 @@ function App() {
           path="/classes"
           render={() => React.createElement(Classes, { dndClass, setDndClass })}
         />
-        {/* <Route path="/city/sharn" component={SharnMap} /> */}
+        <Route
+          path="/summary"
+          render={() =>
+            React.createElement(Summary, {
+              race,
+              house,
+              dndClass,
+              faith,
+              homeland
+            })
+          }
+        />
       </Switch>
     </>
   );
