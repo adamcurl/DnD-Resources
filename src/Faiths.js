@@ -77,7 +77,7 @@ function Faiths(props) {
 
   return (
     <div className="container_wrap">
-      <h1 className="p-3">Faiths of Eberron</h1>
+      <h1 className="pt-3">Faiths of Eberron</h1>
       <div className="row">
         <div className="col-md-3">
           <button

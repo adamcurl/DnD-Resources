@@ -29,7 +29,7 @@ function Start(props) {
       <h1 style={{ textAlign: "center", padding: "0 0 1rem 0" }}>
         What is Eberron?
       </h1>
-      <div style={{ padding: "0 12rem" }}>
+      <div className="summary_paragraph">
         <h4>A world of Magic, Adventure, and Intrigue</h4>
         <p>
           Eberron is a world full of mystery, intrigue, and fast-paced action.
@@ -57,7 +57,8 @@ function Start(props) {
           The Last War was very profitable to the Dragonmarked Houses. Before
           the Last War, Galifar kept these Houses' power in check, but now that
           Galifar is no more, the Houses are beginning to grow in power and
-          influence.
+          influence. Some humanoids who bear a Dragonmark may not be a part of
+          their corresponding House, or might be disowned from the House.
         </p>
         <h4>The Last War</h4>
         <p>
@@ -84,7 +85,7 @@ function Start(props) {
         </div>
       ) : null}
       {showOptions ? (
-        <>
+        <div className="get_started">
           <div className="d-flex justify-content-between">
             <Link to="/races">
               <button
@@ -107,7 +108,7 @@ function Start(props) {
                     : { backgroundColor: "#2f9158" }
                 }
               >
-                House
+                Mark/House
               </button>
             </Link>
             <Link to="/classes">
@@ -149,7 +150,7 @@ function Start(props) {
               </button>
             </Link>
           </div>
-        </>
+        </div>
       ) : null}
     </div>
   );

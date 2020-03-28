@@ -87,7 +87,7 @@ function Races(props) {
 
   return (
     <div className="container_wrap">
-      <h1 className="p-3">Races of Eberron</h1>
+      <h1 className="pt-3">Races of Eberron</h1>
       <div className="row">
         {races.map((race, i) => (
           <div className="col-md-3" key={race.name}>
@@ -166,7 +166,7 @@ function Races(props) {
               ))}
             </ul>
             <p>
-              <strong>Houses: </strong>
+              <strong>Houses/Marks: </strong>
             </p>
             <ul>
               {races[activeRace].houses.map(item => (

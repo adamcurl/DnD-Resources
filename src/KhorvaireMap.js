@@ -111,9 +111,9 @@ const KhorvaireMap = props => {
 
   return (
     <div className="container_wrap">
-      <div className="d-flex justify-content-between">
+      <div className="homeland_wrap">
         <div>
-          <h1 className="pl-3">Homelands</h1>
+          <h1 className="pt-3">Homeland</h1>
         </div>
         <div className="dropdown">
           From {!isWorldMap ? "another Continent" : "Khorvaire"}?{" "}

@@ -93,6 +93,8 @@ function Houses(props) {
 
   const handleChooseHouse = () => {
     props.setHouse(houses[activeHouse].name);
+    props.setMark(houses[activeHouse].mark);
+
     if (
       (props.race === "Tairnadal (Wood Elf)" ||
         props.race === "Aereni (High Elf)" ||
@@ -116,12 +118,13 @@ function Houses(props) {
   const overrideRace = () => {
     props.setRace(houses[activeHouse].race);
     props.setHouse(houses[activeHouse].name);
+    props.setMark(houses[activeHouse].mark);
     setModalOpen(false);
   };
 
   return (
     <div className="container_wrap">
-      <h1 className="p-3">Houses of Khorvaire</h1>
+      <h1 className="pt-3">Marks/Houses of Khorvaire</h1>
       <div className="row">
         <div className="col-md-3">
           <button
@@ -138,7 +141,7 @@ function Houses(props) {
                 backgroundSize: "90%"
               }}
             />
-            <p className="text-center no_dec">No House</p>
+            <p className="text-center no_dec">No Mark or House</p>
           </button>
         </div>
         {houses.map((house, i) => (
@@ -171,7 +174,7 @@ function Houses(props) {
                 onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
-                {house.name} - {house.mark} - {house.raceType}
+                Mark of {house.mark} - House {house.name} - {house.raceType}
               </p>
             </button>
           </div>

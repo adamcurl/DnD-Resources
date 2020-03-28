@@ -141,8 +141,8 @@ area {
 
 .container_wrap {
   width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 6.3rem;
+  padding-right: 6.3rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -152,6 +152,7 @@ area {
 }
 
 .no_dec {
+  width: 100%;
   text-decoration: none !important;
   color: #242527;
 }
@@ -173,7 +174,7 @@ button.img-btn.compatible {
 .bkgrnd_img {
   position: relative;
   float: left;
-  width: 300px;
+  width: 100%;
   height: 300px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -271,7 +272,7 @@ button.img-btn.compatible {
 }
 
 .character-summary p {
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 0;
   color: #cd8237;
 }
 
@@ -327,4 +328,33 @@ button.img-btn.compatible {
   transition-duration: 0.3s !important;
   -webkit-transition: all 0.2s ease-in-out !important;
   -webkit-transition-duration: 0.3s !important;
+}
+
+.summary_paragraph {
+  padding: 0 12rem;
+}
+
+.homeland_wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .sideNav {
+    display: none;
+  }
+  .container_wrap {
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+  }
+  .summary_paragraph {
+    padding: 0;
+  }
+  .get_started button {
+    width: auto;
+    height: auto;
+  }
+  .homeland_wrap {
+    display: block;
+  }
 }

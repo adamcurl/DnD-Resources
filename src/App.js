@@ -16,6 +16,7 @@ function App() {
   const [raceType, setRaceType] = React.useState("");
   const [dndClass, setDndClass] = React.useState("");
   const [house, setHouse] = React.useState("");
+  const [mark, setMark] = React.useState("");
   const [faith, setFaith] = React.useState("");
   const [homeland, setHomeland] = React.useState("");
 
@@ -38,7 +39,7 @@ function App() {
               Races
             </Link>
             <Link className="nav-link" to="/houses">
-              Houses
+              Marks/Houses
             </Link>
             <Link className="nav-link" to="/classes">
               Classes
@@ -53,25 +54,27 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       {location.pathname !== "/" ? (
-        <div className="character-summary">
-          <p>
-            {house === "No House"
-              ? ""
-              : house
-              ? `House ${house}`
-              : "[No House]"}{" "}
-            {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
-            {faith === "No Faith"
-              ? ""
-              : faith
-              ? ` of ${faith} faith`
-              : "with [No Religion]"}{" "}
-            from {homeland ? homeland : "[Homeland]"}
-          </p>
+        <div className="container_wrap">
+          <div className="character-summary">
+            <p>
+              {house === "No House"
+                ? ""
+                : house
+                ? `Mark of ${mark}/House ${house}`
+                : "[No Mark/House]"}{" "}
+              {race ? race : "[Race]"} {dndClass ? dndClass : "[Class]"}{" "}
+              {faith === "No Faith"
+                ? ""
+                : faith
+                ? ` of ${faith} faith`
+                : "with [No Religion]"}{" "}
+              from {homeland ? homeland : "[Homeland]"}
+            </p>
+          </div>
         </div>
       ) : null}
       {location.pathname !== "/" && location.pathname !== "/summary" ? (
-        <div>
+        <div className="sideNav">
           <Link to="/races">
             <div
               className={`side-nav ${
@@ -117,11 +120,11 @@ function App() {
               }`}
               style={
                 house
-                  ? { top: "325px", marginRight: "25.6%" }
-                  : { top: "325px", marginLeft: "25.9%" }
+                  ? { top: "325px", marginRight: "23.1%" }
+                  : { top: "325px", marginLeft: "23%" }
               }
             >
-              <div>House</div>
+              <div>Mark/House</div>
               <div></div>
             </div>
           </Link>
@@ -199,6 +202,7 @@ function App() {
           path="/houses"
           render={() =>
             React.createElement(Houses, {
+              setMark,
               house,
               setHouse,
               race,

@@ -76,7 +76,7 @@ function Classes(props) {
 
   return (
     <div className="container_wrap">
-      <h1 className="p-3">Classes</h1>
+      <h1 className="pt-3">Classes</h1>
       <div className="row">
         {classes.map((dndClass, i) => (
           <div className="col-md-3 pb-5" key={dndClass.name}>
