@@ -1,10 +1,14 @@
 {
   "name": "Human",
   "type": "Human",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": ["From Sarlona, into the Lhazaar Principalities, Khorvaire."],
+  "currHomes": ["Khorvaire"],
+  "summary": [
+    "Humans make up the majority of Khorvaire and are extremely diverse"
+  ],
+  "characteristics": [
+    "Humans are innovative, adaptable, and aggressive, always pushing their limits and pursuing new ideas."
+  ],
   "houses": [
     "Cannith (Mark of Making)",
     "Orien (Mark of Passage)",
@@ -12,5 +16,10 @@
     "Vadalis (Mark of Handling)",
     "Tharashk (Mark of Finding)"
   ],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/human#HumanTraits",
+  "prompts": [
+    "Among longer-living races, what drives you, a human with limited time in life?",
+    "Are you a part of a Dragonmarked House? Or do you just have a Mark?",
+    "What was your role and opinion in the Last War?"
+  ]
 }

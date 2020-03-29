@@ -1,10 +1,24 @@
 {
   "name": "Tiefling",
   "type": "Tiefling",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": [
+    "Perhaps touched by fiends",
+    "Some are born in demonic manifest zones"
+  ],
+  "currHomes": ["Demon Wastes, Droaam", "Fringes of civilization"],
+  "summary": [
+    "Many tieflings are born to the Carrion Tribes, the barbarians who live in the Demon Wastes.",
+    "The Venomous Demesne — a city-state hidden on the far side of Droaam — is populated by tieflings that are descend from Sarlonan mages who bargained with dark powers."
+  ],
+  "characteristics": [
+    "Tieflings are horned and tailed humanoids with skin color ranging from blue and purple to red and skin-colored.",
+    "They resemble that of a humanoid/mortal fiend.",
+    "A tiefling's characteristics depend on what fiend they are descended from."
+  ],
   "houses": ["None"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/tiefling#TieflingTraits",
+  "prompts": [
+    "Are you an exile from the Demon Wastes or Venomous Demesne? Or were you born on a demonic manifest zone?",
+    "Do you embrace your demonic heritage or deny it?"
+  ]
 }

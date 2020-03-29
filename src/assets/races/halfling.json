@@ -1,10 +1,24 @@
 {
   "name": "Halfling",
   "type": "Halfling",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": ["Eastern Khorvaire/Talenta Plains"],
+  "currHomes": ["Talenta Plains, Khorvaire", "Across Khorvaire"],
+  "summary": [
+    "The Halflings of the Talenta Plains are ferocious, tribal warriors, that breed and ride dinosaurs. They mostly worship totem spirits of dinosaurs and other beasts.",
+    "Khorvaire halflings are quick and charming, putting their natural talents to use as bards, barristers, merchants, and politicians throughout Khorvaire.",
+    "There is a halfling-run criminal enterprise called the Boromar Clan, the most powerful crime syndicate in Breland with powerful influence in both the underground and political spectrum."
+  ],
+  "characteristics": [
+    "Halflings are 3 feet tall, kind, curious, and practical humanoids."
+  ],
   "houses": ["Jorasco (Mark of Healing)", "Ghallanda (Mark of Hospitality)"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/halfling#HalflingTraits",
+  "prompts": [
+    "Did you serve as a mercenary in the Last War?",
+    "Are you from the Talenta Plains or somewhere else in Khorvaire?",
+    "What is your relationship to the dinosaur spirits, if any?",
+    "Are you a part of the Boromar Clan criminal organization?",
+    "Are you a part of the healing House of Jorasco or bear the Mark of Healing?",
+    "Are you a part of the hospitality house of Ghallanda or bear the Mark of Hospitality?"
+  ]
 }

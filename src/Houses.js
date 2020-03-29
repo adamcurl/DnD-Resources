@@ -174,7 +174,7 @@ function Houses(props) {
                 onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
-                Mark of {house.mark} - House {house.name} - {house.raceType}
+                Mark of {house.mark} / House {house.name} - {house.raceType}
               </p>
             </button>
           </div>
@@ -183,7 +183,10 @@ function Houses(props) {
       {modalOpen ? (
         <Modal show={modalOpen} onHide={handleCloseModal}>
           <Modal.Header closeButton>
-            <Modal.Title>House {houses[activeHouse].name}</Modal.Title>
+            <Modal.Title>
+              Mark of {houses[activeHouse].mark} / House{" "}
+              {houses[activeHouse].name}
+            </Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <div className="mb-2">
@@ -192,28 +195,20 @@ function Houses(props) {
                 rel="noopener noreferrer"
                 href={houses[activeHouse].link}
               >
-                House {houses[activeHouse].name} {houses[activeHouse].race}{" "}
+                Mark of {houses[activeHouse].mark} {houses[activeHouse].race}{" "}
                 Variant Stats, Traits, & Info
               </a>
             </div>
-            <p>
+            {/* <p>
               <strong>Mark: </strong>
               {houses[activeHouse].mark}
-            </p>
+            </p> */}
             <p>
               <strong>Race: </strong>
               {houses[activeHouse].race}
             </p>
             <p>
-              <strong>Leader: </strong>
-              {houses[activeHouse].leader}
-            </p>
-            <p>
-              <strong>Headquarters: </strong>
-              {houses[activeHouse].headquarters}
-            </p>
-            <p>
-              <strong>Specialties: </strong>
+              <strong>Mark Specialties: </strong>
             </p>
             <ul>
               {houses[activeHouse].specialties.map(item => (
@@ -221,7 +216,15 @@ function Houses(props) {
               ))}
             </ul>
             <p>
-              <strong>Business: </strong>
+              <strong>House Leader(s): </strong>
+              {houses[activeHouse].leader}
+            </p>
+            <p>
+              <strong>House Headquarters: </strong>
+              {houses[activeHouse].headquarters}
+            </p>
+            <p>
+              <strong>House Business: </strong>
             </p>
             <ul>
               {houses[activeHouse].business.map(item => (
@@ -229,7 +232,7 @@ function Houses(props) {
               ))}
             </ul>
             <p>
-              <strong>Characteristics: </strong>
+              <strong>House Characteristics: </strong>
             </p>
             <ul>
               {houses[activeHouse].characteristics.map(item => (

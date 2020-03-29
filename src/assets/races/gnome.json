@@ -2,7 +2,7 @@
   "name": "Gnome",
   "type": "Gnome",
   "origin": ["Gnomes mostly hail from Zilargo, but can be from anywhere"],
-  "currHomes": ["Zilargo, Khorvaire"],
+  "currHomes": ["Zilargo, Khorvaire", "All across Khorvaire"],
   "summary": [
     "Gnomes are short and thin with a lot of energy and vibrance for life."
   ],
@@ -11,10 +11,11 @@
     "Not every gnome is a schemer and deceiver, but most Zil gnome begin learn to manipulate at a young age."
   ],
   "houses": ["Sivis (Mark of Scribing)"],
-  "link": "",
+  "link": "https://www.dndbeyond.com/races/gnome#GnomeTraits",
   "prompts": [
     "What schemes is your character involved in?",
     "Do you seek knowledge or secrets?",
-    "Have you made any enemies due to your scheming?"
+    "Have you made any enemies due to your scheming?",
+    "Are you a part of the scribing and messaging moguls of House Sivis or bear the Mark of Scribing?"
   ]
 }

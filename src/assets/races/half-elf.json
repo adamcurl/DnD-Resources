@@ -1,10 +1,22 @@
 {
   "name": "Half-Elf",
   "type": "Half-Elf",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": ["Khorvaire"],
+  "currHomes": ["Khorvaire"],
+  "summary": [
+    "Half-Elves are a combination of humans and elves. Most don't like the term Half-Elve, but prefer to be called Khoravar, an Elvish term meaning “children of Khorvaire.”",
+    "The elves of Aerenal have never allowed a half-elf into the Undying Court, and the Valenar elves don’t consider half-elves capable of channeling a Valenar ancestral spirit. However, humans don't have any prejudice against them."
+  ],
+  "characteristics": [
+    "To humans, half-elves look like elves, and to elves, they look human.",
+    "Half-Elves have the charm of humans and a knack for the arcane like elves."
+  ],
   "houses": ["Medani (Mark of Detection)", "Lyrandar (Mark of Storm)"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/half-elf#Half-ElfTraits",
+  "prompts": [
+    "Where you parents born in a Khoravar (Half-Elf) community, or were they members of different races?",
+    "Is your half-elf identity a source of pride, a simple fact of life, or something that has been difficult for you?",
+    "Are you a part of the detective House of Medani or bear the Mark of Detection?",
+    "Are you a part of the transportation House of Lyrandar or bear the Mark of Storm?"
+  ]
 }

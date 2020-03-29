@@ -4,7 +4,7 @@
   "origin": [
     "The Aereni are a subrace of the Elves that rebelled against their giant tyrants and fled Xen'drik"
   ],
-  "currHomes": ["Valenar, Khorvaire"],
+  "currHomes": ["Valenar, Khorvaire", "All across Khorvaire"],
   "summary": [
     "The Tairnadal have dedicated themselves to the art of war, and their ancestors live on after death through their descendants."
   ],
@@ -14,10 +14,11 @@
     "The Tairnadal are known for being bloodthirsty and always seeking a worthy challenge."
   ],
   "houses": ["Phiarlan (Mark of Shadow)", "Thuranni (Mark of Shadow)"],
-  "link": "https://www.dndbeyond.com/races/elf#ElvesofValenar",
+  "link": "https://www.dndbeyond.com/races/elf#WoodElf",
   "prompts": [
     "Who was your Spirit Ancestor? A wizard, fighter, ranger?",
     "Do you embrace your ancestor?",
-    "Do you follow your clan in seeking glory in battle?"
+    "Do you follow your clan in seeking glory in battle?",
+    "Are you a part of the assassin/spy House Phiarlan or House Thuranni or bear the Mark of Shadow?"
   ]
 }

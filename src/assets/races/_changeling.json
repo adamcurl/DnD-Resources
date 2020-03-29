@@ -14,12 +14,14 @@
     "Changelings either grow up in stable communities where others now of their powers. Others are orphans raised by non-Changelings. Some are a part of nomadic Changeling tribes that never reveal their true nature to outsiders.",
     "Changelings usually develop a few deep personas with unique looks, personalities, history, and beliefs that they change in and out of often. Each one has its own speciality.",
     "Changelings also can create a shallow, temporary persona called a 'mask' used in the spur of the moment and usually never again.",
-    "A community of Changelings can share personas and swap them depending on who's turn it is to be the baker or blacksmith, etc."
+    "A community of Changelings can share personas and swap them depending on who's turn it is to be the baker or blacksmith, etc.",
+    "There is a crime organization called the Tyrants in Breland that is made up entirely of Changelings that perform espionage and fraud work for their clients."
   ],
   "houses": ["None"],
   "link": "https://www.dndbeyond.com/races/changeling#ChangelingTraits",
   "prompts": [
     "As a Changeling, do you hide your true self, or embrace it?",
-    "Do you have connections to other Changelings, or are you alone?"
+    "Do you have connections to other Changelings, or are you alone?",
+    "Are you a part of the Tyrants or have ties to them?"
   ]
 }

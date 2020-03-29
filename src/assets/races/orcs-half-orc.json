@@ -1,10 +1,21 @@
 {
   "name": "Half-Orc",
   "type": "Half-Orc",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": ["Khorvaire"],
+  "currHomes": ["Shadow Marches and Demon Wastes", "Across Khorvaire"],
+  "summary": [
+    "The orcs and half-orcs of the Shadow Marches are the first who learned druidic magic and sealed away the evil daelkyr",
+    "The orcs and half-orcs of the Ghaash’kala tribe on the outskirts of the Demon Wastes are servants of the Silver Flame and battle the fiends of Khyber."
+  ],
+  "characteristics": [
+    "More slender than their orc counterparts, the half-orcs of Khorvaire make great bounty hunters and inquisitives",
+    "Both of the orcs and half-orcs are seen as the guardians of Khorvaire, as they either keep aberrations or fiends at bay."
+  ],
   "houses": ["Tharashk (Mark of Finding)"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/half-orc#Half-OrcTraits",
+  "prompts": [
+    "What brought you out of the Shadow Marches or Demon Wastes?",
+    "Do you seek to battle an aberrations or fiends like your ancestors?",
+    "Are you a part of the bounty hunting House Tharashk?"
+  ]
 }

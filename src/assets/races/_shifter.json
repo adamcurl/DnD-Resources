@@ -1,0 +1,27 @@
+{
+  "name": "Shifter",
+  "type": "Shifter",
+  "origin": ["Perhaps descendants of humans and lycanthropes"],
+  "currHomes": ["Eldeen Reaches", "Most rural areas of Khorvaire"],
+  "summary": [
+    "Shifters are humanoids with a bestial aspect; while they can’t fully change shape, they can temporarily enhance their animalistic features — a state they call shifting.",
+    "Early in childhood, a shifter forms a bond with a beast within, a totemic or ancestral force that shapes their body and mind.",
+    "Shifters place great value on self-reliance and freedom.",
+    "Beasthide shifters often signifies the bear or boar: stoic, stubborn, and thick-skinned.",
+    "Longtooth shifters typically have lupine traits and prefer to run with a pack.",
+    "Swiftstride are often predatory and feline, but a swiftstride could also be a cunning rat who darts through the shadows.",
+    "Wildhunt shifters are born from any creature that tracks its prey."
+  ],
+  "characteristics": [
+    "Shifters are similar to humans in height and build but are typically more lithe and flexible.",
+    "Their facial features have a bestial cast, often with large eyes, flat noses, and pointed ears; most shifters also have prominent canine teeth.",
+    "They grow fur-like hair on nearly every part of their bodies.",
+    "A swiftstride shifter may have catlike eyes and delicate build, while a beasthide shifter might be a massive brute built like a bear. "
+  ],
+  "houses": ["None"],
+  "link": "https://www.dndbeyond.com/races/shifter#ShifterTraits",
+  "prompts": [
+    "Do your embrace your primal instincts or follow the path of civilization?",
+    "What is your opinion of the church of the Silver Flame, that hunts down lycanthropes because of their 'inherit evil'?"
+  ]
+}

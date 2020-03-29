@@ -1,0 +1,25 @@
+{
+  "name": "Warforged",
+  "type": "Warforged",
+  "origin": ["Created by House Cannith during the Last War to be soldiers"],
+  "currHomes": ["Khorvaire"],
+  "summary": [
+    "The warforged were built as soldiers for the Last War. Some people grudgingly accept them as a new species, others still see them as a remnant of the Last War and despise them.",
+    "A warforged can be a steadfast ally, a cold-hearted killer, or a visionary in search of meaning.",
+    "The Treaty of Thronehold gave the Warforged freedom, but many still struggle both to find a place in the post-war world and to relate to the creatures who created them.",
+    "The typical warforged shows little emotion. Many warforged embrace a concrete purpose — such as protecting allies, completing a contract, or exploring a land — and embrace this task as they once did war.",
+    "There are warforged who delight in exploring their feelings, their freedom, and their relationships with others. Most warforged have no interest in religion, but some embrace faith and mysticism, seeking higher purpose and deeper meaning."
+  ],
+  "characteristics": [
+    "Warforged are sentient golems made from wood and metal that can feel pain and emotion.",
+    "Root-like cords infused with alchemical fluids serve as their muscles, wrapped around a framework of steel, darkwood, or stone. Armored plates form a protective outer shell and reinforce joints.",
+    "Warforged share a common facial design, with a hinged jaw and crystal eyes embedded beneath a reinforced brow ridge.",
+    "The precise materials and build of a warforged vary based on the purpose for which it was designed. Most were made for battle, but some were made for entertainment or arcane assistance."
+  ],
+  "houses": ["None"],
+  "link": "https://www.dndbeyond.com/races/warforged#WarforgedTraits",
+  "prompts": [
+    "What are your feelings towards the Last War (the meaning for your existence) and House Cannith (that created you)?",
+    "What meaning do you search for now that the Last War is over?"
+  ]
+}

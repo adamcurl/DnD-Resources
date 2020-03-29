@@ -1,10 +1,25 @@
 {
   "name": "Hobgoblin",
   "type": "Goblinoid",
-  "origin": [""],
-  "currHomes": [""],
-  "summary": [""],
-  "characteristics": [""],
+  "origin": [
+    "Natives to Khorvaire, goblinoids had a great empire, called Dhakaani, until the humans came and toppled and enslaved them. Slavery is now illegal in Khorvaire, and goblinoids are free to roam.",
+    "The goblinoids rose up during the Last War and took over the land they were in charge of guarding: Darguun"
+  ],
+  "currHomes": ["Darguun", "All across Khorvaire"],
+  "summary": [
+    "Some goblinoids are civilized and reside in cities",
+    "Most goblinoids are a part of the Ghaal'dar - tribes that rose from the Dhakaani Empire's collapse. These tribes make up the majority of Darguun. Hobgoblins lead this tribe, with Lhesh Haruuc being the current ruler.",
+    "The Heirs of Dhakaan are the descendants of the goblinoids of the Dhakaani Empire. After it fell, the Heirs retreated underground, and have lately emerged after the last war to retake Darguun and then Khorvaire. Though few in number, the Heirs have superior martial artists and weaponsmiths. Each race of goblinoid works well together, each with their own job."
+  ],
+  "characteristics": [
+    "Hobgoblins are tall, muscular, red goblinoids",
+    "Among other goblinoids, hobgoblins are considered to be the best strategists and commanders and most honorable and clever fighters."
+  ],
   "houses": ["None"],
-  "link": ""
+  "link": "https://www.dndbeyond.com/races/hobgoblin#HobgoblinTraits",
+  "prompts": [
+    "What tribe to you belong to as a bugbear? Are you a loner? Exile?",
+    "Do you want to see the Dhakaani Empire restored?",
+    "Were you one of the goblinoids who retook Darguun?"
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "name": "Kalashtar",
+  "type": "Kalashtar",
+  "origin": ["Sarlona and Khorvaire"],
+  "currHomes": ["Khorvaire"],
+  "summary": [
+    "The tribal kalashtar are a compound people, created from the union of humanity and renegade spirits from the plane of dreams — spirits called quori. The quori that inhabit a kalashtar's body are virtuous and good",
+    "The virtuous spirits tied to the kalashtar fled from the dream-realm of Dal Quor to escape evil spirits that dominate it. The rebel quori believe that through meditation and devotion, they can change the fundamental nature of Dal Quor, shifting the balance from darkness to light.",
+    "Many kalashtar defend themselves from the Dreaming Dark by focusing on devotion to the Path of Light. Others, though, seek out the agents of the Dreaming Dark and to destroy them and oppose their plans, or protect the innocent however they can. Still other kalashtar grow up isolated, knowing nothing about Dal Quor or the Dreaming Dark.",
+    "Kalashtar can’t directly communicate with their quori spirits. Rather, they might experience this relationship as a sense of instinct and inspiration, drawing on the memories of the spirit when they dream.",
+    "Most kalashtar know the name and nature of their spirit, but some may not know what they are and only feel a strange sense of motivation and virtue.",
+    "This shared existence gives the kalashtar psychic abilities."
+  ],
+  "characteristics": [
+    "Kalashtar appear human, but have perfectly symmetrical, slightly angular features. Their eyes often glow when they focus or express strong emotion.",
+    "They are considered wise, if also, somewhat alien."
+  ],
+  "houses": ["None"],
+  "link": "https://www.dndbeyond.com/races/kalashtar#KalashtarTraits",
+  "prompt": [
+    "Did you grow up in a kalashtar community?",
+    "Do you know of the quori that inhabits you? What is the nature of this quori?",
+    "Do you know of the battle between the rebel quori and the evil Dreaming Dark or do you use the strange psychic powers for personal gain?"
+  ]
+}

@@ -4,7 +4,7 @@
   "origin": [
     "The Aereni are a subrace of the Elves that rebelled against their giant tyrants and fled Xen'drik"
   ],
-  "currHomes": ["Aerenal"],
+  "currHomes": ["Aerenal", "Sparsely across Khorvaire"],
   "summary": [
     "The Aereni are ruled and protected by the Undying Court, a council of undead Elves.",
     "After death, the Aerni join the Undying Court in immortality/undeath."
@@ -17,6 +17,7 @@
   "prompts": [
     "Do you have ancestors in the Undying Court?",
     "Do you seek more knowledge and power than what the Undying Court can offer?",
-    "Do you even support the Undying Court?"
+    "Do you even support the Undying Court?",
+    "Are you a part of the assassin/spy House Phiarlan or House Thuranni or bear the Mark of Shadow?"
   ]
 }
