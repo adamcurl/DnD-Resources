@@ -2,16 +2,16 @@
   "mark": "Storm",
   "race": "Half-Elf",
   "raceType": "Half-Elf",
-  "link": "",
+  "link": "https://www.dndbeyond.com/races/half-elf#MarkofStormHalfElf",
   "specialties": ["Air and Sea Transportation"],
   "headquarters": "Stormhome (Aundair)",
   "leader": "Esravash d’Lyrandar",
   "business": [
-    "control the weather for its clients, but at a considerable price",
+    "Control the weather for its clients, but at a considerable price",
     "Offer airship and galleon transportation"
   ],
   "characteristics": [
-    "ambitious and often acts in what it sees as the interests of all half-elves",
+    "Ambitious and often acts in what it sees as the interests of all half-elves",
     "Lyrandar heirs have been helping the Valenar elves run their young kingdom"
   ]
 }

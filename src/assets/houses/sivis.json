@@ -2,16 +2,16 @@
   "mark": "Scribing",
   "race": "Gnome",
   "raceType": "Gnome",
-  "link": "",
+  "link": "https://www.dndbeyond.com/races/gnome#MarkofScribingGnome",
   "specialties": ["Communication", "Translation", "Verification"],
   "headquarters": "The Labyrinth (Korranberg, Zilargo)",
   "leader": "Lysse Lyrriman d’Sivis",
   "business": [
-    "facilitate communication",
-    "trains and licenses scribes, notaries, interpreters, cartographers, barristers, heralds, bookbinders and more"
+    "Facilitate communication from couriers to magical communication",
+    "Trains and licenses scribes, notaries, interpreters, cartographers, barristers, heralds, bookbinders and more"
   ],
   "characteristics": [
-    "can feel words as though they are living creatures",
+    "Can feel words as though they are living creatures",
     "House Sivis has an especially close relationship with House Kundarak",
     "They take great pains to maintain the trust of its clients and takes a position of absolute neutrality in all disputes"
   ]

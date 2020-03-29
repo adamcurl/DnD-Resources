@@ -2,13 +2,13 @@
   "mark": "Passage",
   "race": "Human",
   "raceType": "Human",
-  "link": "",
-  "specialties": ["Land Transportation"],
+  "link": "https://www.dndbeyond.com/races/human#MarkofPassageHuman",
+  "specialties": ["Land Transportation", "Teleportation"],
   "headquarters": "Journey’s Home (Passage, Aundair)",
   "leader": "Kwanti d’Orien",
   "business": [
     "The Lightning Rail ",
-    "caravans and coaches",
+    "Caravans and coaches",
     "The Courier’s Guild to deliver mail with a subdivision to handle more precarious items",
     "Long distance teleportation"
   ],

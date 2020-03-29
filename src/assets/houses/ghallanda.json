@@ -2,8 +2,8 @@
   "mark": "Hospitality",
   "race": "Halfling",
   "raceType": "Halfling",
-  "link": "",
-  "specialties": ["Food", "Lodging", "Urban Information"],
+  "link": "https://www.dndbeyond.com/races/halfling#MarkofHospitalityHalfling",
+  "specialties": ["Food", "Lodging", "Comforting", "Urban Information"],
   "headquarters": "Gatherhold (Talenta Plains)",
   "leader": "Yoren d’Ghallanda",
   "business": [

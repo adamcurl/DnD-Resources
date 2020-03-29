@@ -2,17 +2,22 @@
   "mark": "Handling",
   "race": "Human",
   "raceType": "Human",
-  "link": "",
-  "specialties": ["Animal", "exocit creature", "monster Training and Breeding"],
+  "link": "https://www.dndbeyond.com/races/human#MarkofHandlingHuman",
+  "specialties": [
+    "Animal breeding",
+    "Exocit creatures",
+    "Monster training and breeding",
+    "Cross-breeding and enhance breeding"
+  ],
   "headquarters": "Foalswood (near Varna, Eldeen Reaches)",
   "leader": "Dalin d’Vadalis",
   "business": [
-    "ranches produce meat, mounts, and more",
-    "breeds and trains beasts for a wide range of purposes",
-    "Creating magical creatures"
+    "Ranches produce meat, mounts, and more",
+    "Breeds and trains beasts for a wide range of purposes",
+    "Creating magical creatures that are stronger, faster, and smarter"
   ],
   "characteristics": [
     "More interested in discovering new monstrosities than engaging in the politics of the Dragonmarked Houses",
-    "Rumors of trying to breed new monsters and humans"
+    "Rumors of trying to breed new monstrosities and humans"
   ]
 }

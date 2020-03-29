@@ -2,8 +2,8 @@
   "mark": "Healing",
   "race": "Halfling",
   "raceType": "Halfling",
-  "link": "",
-  "specialties": ["Healing"],
+  "link": "https://www.dndbeyond.com/races/halfling#MarkofHealingHalfling",
+  "specialties": ["Healing", "Medicine"],
   "headquarters": "Vedkyar Enclave (Vedykar, Karrnath)",
   "leader": "Ulara d’Jorasco",
   "business": [

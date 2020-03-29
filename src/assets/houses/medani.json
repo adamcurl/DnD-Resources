@@ -2,13 +2,18 @@
   "mark": "Detection",
   "race": "Half-Elf",
   "raceType": "Half-Elf",
-  "link": "",
-  "specialties": ["Bodyguards", "Investigation", "Risk Management"],
+  "link": "https://www.dndbeyond.com/races/half-elf#MarkofDetectionHalfElf",
+  "specialties": [
+    "Bodyguards",
+    "Investigation",
+    "Risk Management",
+    "Detectors"
+  ],
   "headquarters": "Tower of Inquisition (Wroat, Breland)",
   "leader": "Baron Trelib d’Medani",
   "business": [
-    "brokers the services of bodyguards and inquisitives",
-    "specialize in risk assessment and management protecting clients from both physical and social threats"
+    "Brokers the services of bodyguards and inquisitives",
+    "Specialize in risk assessment and management protecting clients from both physical and social threats"
   ],
   "characteristics": [
     "Little interest in power struggles",

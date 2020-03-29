@@ -2,8 +2,13 @@
   "mark": "Warding",
   "race": "Dwarf",
   "raceType": "Dwarf",
-  "link": "",
-  "specialties": ["Banking", "Storage", "Prisons"],
+  "link": "https://www.dndbeyond.com/races/dwarf#MarkofWardingDwarf",
+  "specialties": [
+    "Banking",
+    "Storage",
+    "Prisons",
+    "Adding security to items and houses"
+  ],
   "headquarters": "Korunda Gate (Mror Holds)",
   "leader": "Morrikan d’Kundarak",
   "business": [
@@ -13,8 +18,8 @@
     "Expensive system of extradimensional vaults"
   ],
   "characteristics": [
-    "a close alliance with House Sivis",
-    "worked to earn the trust of its clients and to establish a reputation for unshakeable integrity",
-    "no love of renegade dwarves using their marks to turn a profit"
+    "A close alliance with House Sivis",
+    "Worked to earn the trust of its clients and to establish a reputation for unshakeable integrity",
+    "No love of renegade dwarves using their marks to turn a profit"
   ]
 }

@@ -2,13 +2,13 @@
   "mark": "Finding",
   "race": "Half-Orc or Human",
   "raceType": "Half-Orc or Human",
-  "link": "",
-  "specialties": ["Half-Orc Bounty Hunting", "Investigation", "Prospecting"],
+  "link": "https://www.dndbeyond.com/races/human#MarkofFindingHuman",
+  "specialties": ["Bounty Hunting", "Investigation", "Prospecting"],
   "headquarters": "Zarash’ak, Shadow Marches",
   "leader": "The Triumvirate (Maagrim Torrn, Khandar’aashta, and Daric Velderan)",
   "business": [
-    "inquisitives and bounty hunters",
-    "dragonshard prospecting",
+    "Inquisitives and bounty hunters",
+    "Dragonshard prospecting",
     "Hunting prey"
   ],
   "characteristics": [

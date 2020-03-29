@@ -2,8 +2,8 @@
   "mark": "Sentinel",
   "race": "Human",
   "raceType": "Human",
-  "link": "",
-  "specialties": ["Bodyguards", "Mercenaries"],
+  "link": "https://www.dndbeyond.com/races/human#HouseDeneith",
+  "specialties": ["Bodyguards", "Mercenaries", "Mercenaries"],
   "headquarters": "Sentinel Tower (Karrlakton, Karrnath)",
   "leader": "Breven d’Deneith",
   "business": [
@@ -11,8 +11,8 @@
     "Sentinel Marshals, agents that hold the authority to pursue criminals and enforce the law across the length of Khorvaire"
   ],
   "characteristics": [
-    "escalating rivalry with House Tharashk",
+    "Escalating rivalry with House Tharashk",
     "Maintains absolute neutrality and selling its services to all sides of a conflict",
-    "a faction that feels that Deneith should use its power for its own purposes"
+    "A faction that feels that Deneith should use its power for its own purposes"
   ]
 }

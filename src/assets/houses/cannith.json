@@ -3,11 +3,13 @@
   "race": "Human",
   "raceType": "Human",
   "link": "https://www.dndbeyond.com/races/human#MarkofMakingHuman",
-  "specialties": ["Manufacturing"],
+  "specialties": ["Manufacturing", "Magical item creation"],
   "headquarters": "Cannith East, Korth Enclave (Karrnath); Cannith West, Aundair Enclave (near Fairhaven, Aundair); Cannith South, Cannith Tower (Sharn, Breland)",
   "leader": "Cannith East, Zorlan d’Cannith; Cannith West, Jorlanna d’Cannith; Cannith South, Merrix d’Cannith",
   "business": [
-    "Dominates all forms of manufacturing, both mystical and mundane"
+    "Dominates all forms of manufacturing, both mystical and mundane",
+    "Great artificers",
+    "Created the Warforged during the Last War"
   ],
   "characteristics": [
     "The unspoken leader of the Twelve",
