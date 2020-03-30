@@ -14,5 +14,13 @@
   "characteristics": [
     "The unspoken leader of the Twelve",
     "Raised up by the war and destroyed by it (was based in Cyre)"
+  ],
+  "prompts": [
+    "Are you a part of House Cannith? If so, do you bear the Mark of Making? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "What is your opinion of the Warforged that House Cannith is responsible for creating? Did you help create any?",
+    "What devices and weapons do you like to create?"
   ]
 }

@@ -19,5 +19,14 @@
   "characteristics": [
     "More interested in discovering new monstrosities than engaging in the politics of the Dragonmarked Houses",
     "Rumors of trying to breed new monstrosities and humans"
+  ],
+  "prompts": [
+    "Are you a part of House Vadalis? If so, do you bear the Mark of Handling? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Do you want to create new monstrosities and cross-bred animals?",
+    "Do you seek to create a new super-human?",
+    "What are your favorite animals to breed and work with?"
   ]
 }

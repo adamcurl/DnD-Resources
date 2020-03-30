@@ -12,14 +12,24 @@
   "headquarters": "Korunda Gate (Mror Holds)",
   "leader": "Morrikan d’Kundarak",
   "business": [
+    "Provides house security",
     "Secure banking, storage",
     "Lock picking, locksmiths",
-    "the infamous prison of Dreadhold and other prisons",
+    "Runs the infamous prison of Dreadhold and other prisons",
     "Expensive system of extradimensional vaults"
   ],
   "characteristics": [
     "A close alliance with House Sivis",
     "Worked to earn the trust of its clients and to establish a reputation for unshakeable integrity",
     "No love of renegade dwarves using their marks to turn a profit"
+  ],
+  "prompts": [
+    "Are you a part of House Kundarak? If so, do you bear the Mark of Warding? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Did you work at the Dreadhold prison or do you work at another Kundarak prison?",
+    "Do you also despise other Mark of Warding dwarves using their powers for personal gain?",
+    "Do you help provide security to others and their homes?"
   ]
 }

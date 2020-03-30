@@ -7,12 +7,22 @@
   "headquarters": "Gatherhold (Talenta Plains)",
   "leader": "Yoren d’Ghallanda",
   "business": [
-    "The majority of inns, taverns, and restaurants in the Five Nations licensed by its Hosteler’s Guild",
-    "The Gold Dragon Inn chain"
+    "They run the majority of inns, taverns, and restaurants in the Five Nations licensed by its Hosteler’s Guild",
+    "The own and run the Gold Dragon Inn chain"
   ],
   "characteristics": [
+    "They can sense the favorite drink and meal of others and what they need the most.",
     "Ghallanda’s strength lies in charm and connections",
     "They may not always have gold, but is sure to be rich in friends",
     "The leaders of House Ghallanda don’t sell information; they prefer to build friendship and deal in favors"
+  ],
+  "prompts": [
+    "Are you a part of House Ghallanda? If so, do you bear the Mark of Hospitality? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Did/Do you work for any of the Gold Dragon Inns?",
+    "How do you use your mark to help others feel rested and cared for?",
+    "What secrets and/or favors do you try and gain from helping others?"
   ]
 }

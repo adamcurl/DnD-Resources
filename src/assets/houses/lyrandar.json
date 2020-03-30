@@ -7,11 +7,20 @@
   "headquarters": "Stormhome (Aundair)",
   "leader": "Esravash d’Lyrandar",
   "business": [
-    "Control the weather for its clients, but at a considerable price",
-    "Offer airship and galleon transportation"
+    "Control the weather for its clients, but at a considerable price.",
+    "Fly airships and steer sea galleon transports."
   ],
   "characteristics": [
     "Ambitious and often acts in what it sees as the interests of all half-elves",
     "Lyrandar heirs have been helping the Valenar elves run their young kingdom"
+  ],
+  "prompts": [
+    "Are you a part of House Lyrandar? If so, do you bear the Mark of Storm? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Are you an airship pilot or galleon captain?",
+    "Do you seek to help other half-elves find a place in Khorvaire?",
+    "Do you help Valenar establish themselves as a nation?"
   ]
 }

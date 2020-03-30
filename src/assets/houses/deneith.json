@@ -3,16 +3,25 @@
   "race": "Human",
   "raceType": "Human",
   "link": "https://www.dndbeyond.com/races/human#HouseDeneith",
-  "specialties": ["Bodyguards", "Mercenaries", "Mercenaries"],
+  "specialties": ["Bodyguards", "Mercenaries"],
   "headquarters": "Sentinel Tower (Karrlakton, Karrnath)",
   "leader": "Breven d’Deneith",
   "business": [
+    "Offer themselves as bodyguards and mercenaries",
     "Provides mercenaries and bodyguards from humans, goblins, etc.",
-    "Sentinel Marshals, agents that hold the authority to pursue criminals and enforce the law across the length of Khorvaire"
+    "Provides Sentinel Marshals, agents that hold the authority to pursue criminals and enforce the law across the length of Khorvaire"
   ],
   "characteristics": [
     "Escalating rivalry with House Tharashk",
     "Maintains absolute neutrality and selling its services to all sides of a conflict",
     "A faction that feels that Deneith should use its power for its own purposes"
+  ],
+  "prompts": [
+    "Are you a part of House Deneith? If so, do you bear the Mark of Sentinel? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Were you a mercenary in the Last War? Did you supply other mercenaries for the Last War?",
+    "Were/Are you a bodyguard or mercenary for someone?"
   ]
 }

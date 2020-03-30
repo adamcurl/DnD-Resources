@@ -19,5 +19,14 @@
     "Little interest in power struggles",
     "More interested in helping their communities than in raw profit",
     "Often work with local law enforcement or help those who can’t afford their services"
+  ],
+  "prompts": [
+    "Are you a part of House Medani? If so, do you bear the Mark of Detection? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Do you work as a detective or inquisitive?",
+    "Do you seek out justice at all costs?",
+    "Are you a bodyguard?"
   ]
 }

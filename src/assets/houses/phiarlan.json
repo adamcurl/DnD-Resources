@@ -3,7 +3,7 @@
   "race": "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)",
   "raceType": "Elf",
   "link": "https://www.dndbeyond.com/races/elf#MarkofShadowElf",
-  "specialties": ["Entertainment", "Espionage"],
+  "specialties": ["Entertainment", "Espionage", "Spying"],
   "headquarters": "The Demesnes (various)",
   "leader": "Elvinor Elorrenthi d’Phiarlan",
   "business": [
@@ -13,5 +13,14 @@
   "characteristics": [
     "Towards the end of the Last War, a bitter feud broke out between the major families of the house splitting House Phiarlan in two and forming House Thuranni",
     "Better spies, but worse assassins than Thuranni"
+  ],
+  "prompts": [
+    "Are you a part of House Phiarlan? If so, do you bear the Mark of Shadow? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "What spite do you have against House Thuranni for splitting from your House?",
+    "What form of entertainment do you provide?",
+    "Are you a spy and/or assassin?"
   ]
 }

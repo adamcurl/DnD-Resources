@@ -14,6 +14,17 @@
   "characteristics": [
     "The youngest of the Dragonmarked Houses and hasn’t embraced all of the customs of the Twelve",
     "Heirs often use family names instead of the house surname",
-    "Many hold on to beliefs and traditions carried from the Shadow Marches — like the druidic faith of the Gatekeepers or secretive cults of the Dragon Below"
+    "Many hold on to beliefs and traditions carried from the Shadow Marches — like the druidic faith of the Gatekeepers or secretive cults of the Dragon Below",
+    "Escalating rivalry with House Deneith"
+  ],
+  "prompts": [
+    "Are you a part of House Tharashk? If so, do you bear the Mark of Finding? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Are you a bounty hunter/body guard?",
+    "Are you a dragonshard prospector?",
+    "Being the youngest house, what are your opinions of the other houses? Do they seek too much power? Are they too powerful?",
+    "What are your connections to any druids or cultists of the Shadow Marches?"
   ]
 }

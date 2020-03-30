@@ -3,7 +3,7 @@
   "race": "Gnome",
   "raceType": "Gnome",
   "link": "https://www.dndbeyond.com/races/gnome#MarkofScribingGnome",
-  "specialties": ["Communication", "Translation", "Verification"],
+  "specialties": ["Communication", "Translation", "Verification", "Newspapers"],
   "headquarters": "The Labyrinth (Korranberg, Zilargo)",
   "leader": "Lysse Lyrriman d’Sivis",
   "business": [
@@ -14,5 +14,13 @@
     "Can feel words as though they are living creatures",
     "House Sivis has an especially close relationship with House Kundarak",
     "They take great pains to maintain the trust of its clients and takes a position of absolute neutrality in all disputes"
+  ],
+  "prompts": [
+    "Are you a part of House Sivis? If so, do you bear the Mark of Scribing? Or do you bear the Mark without being a member of the House?",
+    "If you are in the house, what is your role? What is your opinion of the House?",
+    "Where you exiled from your house?",
+    "How do you use your mark if you have one?",
+    "Are you a mail courier or help provide magical means of communication?",
+    "Do you help with any of the various newspapers?"
   ]
 }
