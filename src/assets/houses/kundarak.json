@@ -31,5 +31,11 @@
     "Did you work at the Dreadhold prison or do you work at another Kundarak prison?",
     "Do you also despise other Mark of Warding dwarves using their powers for personal gain?",
     "Do you help provide security to others and their homes?"
+  ],
+  "racePrompts": [
+    "Have you left your clan due to a feud with a rival?",
+    "Do you seek an ancient artifact of your Dwarven ancestors?",
+    "Do you seek to reclaim your ancestors' kingdom from the Daelkyr locked away underground?",
+    "Are you a part of the warding house Kundarak or bear the Mark of Warding?"
   ]
 }

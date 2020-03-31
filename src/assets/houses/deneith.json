@@ -23,5 +23,10 @@
     "How do you use your mark if you have one?",
     "Were you a mercenary in the Last War? Did you supply other mercenaries for the Last War?",
     "Were/Are you a bodyguard or mercenary for someone?"
+  ],
+  "racePrompts": [
+    "Among longer-living races, what drives you, a human with limited time in life?",
+    "Are you a part of a Dragonmarked House? Or do you just have a Mark?",
+    "What was your role and opinion in the Last War?"
   ]
 }

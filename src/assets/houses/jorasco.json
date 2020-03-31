@@ -22,5 +22,13 @@
     "How do you use your mark if you have one?",
     "How much of a stickler are you about healing others for altruistic purposes instead of gold?",
     "Did you help heal others during the Last War?"
+  ],
+  "racePrompts": [
+    "Did you serve as a mercenary in the Last War?",
+    "Are you from the Talenta Plains or somewhere else in Khorvaire?",
+    "What is your relationship to the dinosaur spirits, if any?",
+    "Are you a part of the Boromar Clan criminal organization?",
+    "Are you a part of the healing House of Jorasco or bear the Mark of Healing?",
+    "Are you a part of the hospitality house of Ghallanda or bear the Mark of Hospitality?"
   ]
 }

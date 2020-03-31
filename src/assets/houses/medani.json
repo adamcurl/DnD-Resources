@@ -28,5 +28,11 @@
     "Do you work as a detective or inquisitive?",
     "Do you seek out justice at all costs?",
     "Are you a bodyguard?"
+  ],
+  "racePrompts": [
+    "Where you parents born in a Khoravar (Half-Elf) community, or were they members of different races?",
+    "Is your half-elf identity a source of pride, a simple fact of life, or something that has been difficult for you?",
+    "Are you a part of the detective House of Medani or bear the Mark of Detection?",
+    "Are you a part of the transportation House of Lyrandar or bear the Mark of Storm?"
   ]
 }

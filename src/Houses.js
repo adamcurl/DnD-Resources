@@ -94,6 +94,11 @@ function Houses(props) {
   const handleChooseHouse = () => {
     props.setHouse(houses[activeHouse].name);
     props.setMark(houses[activeHouse].mark);
+    props.setHousePrompts(houses[activeHouse].prompts);
+    props.setRaceLink(houses[activeHouse].link);
+
+    if (houses[activeHouse].racePrompts)
+      props.setRacePrompts(houses[activeHouse].racePrompts);
 
     if (
       (props.race === "Tairnadal (Wood Elf)" ||
@@ -119,6 +124,10 @@ function Houses(props) {
     props.setRace(houses[activeHouse].race);
     props.setHouse(houses[activeHouse].name);
     props.setMark(houses[activeHouse].mark);
+    props.setHousePrompts(houses[activeHouse].prompts);
+    props.setRaceLink(houses[activeHouse].link);
+    if (houses[activeHouse].racePrompts)
+      props.setRacePrompts(houses[activeHouse].racePrompts);
     setModalOpen(false);
   };
 
@@ -199,10 +208,6 @@ function Houses(props) {
                 Variant Stats, Traits, & Info
               </a>
             </div>
-            {/* <p>
-              <strong>Mark: </strong>
-              {houses[activeHouse].mark}
-            </p> */}
             <p>
               <strong>Race: </strong>
               {houses[activeHouse].race}

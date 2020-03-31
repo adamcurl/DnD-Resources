@@ -23,5 +23,10 @@
     "How do you use your mark if you have one?",
     "Do you help operate the the Lightning Rail?",
     "How do you feel about House Lyrandar dominating the travel industry?"
+  ],
+  "racePrompts": [
+    "Among longer-living races, what drives you, a human with limited time in life?",
+    "Are you a part of a Dragonmarked House? Or do you just have a Mark?",
+    "What was your role and opinion in the Last War?"
   ]
 }

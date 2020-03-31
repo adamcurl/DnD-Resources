@@ -60,6 +60,8 @@ function Races(props) {
     if (races[activeRace].houses[0] === "None") props.setHouse("No House");
     props.setRace(races[activeRace].name);
     props.setRaceType(races[activeRace].raceType);
+    props.setRacePrompts(races[activeRace].prompts);
+    props.setRaceLink(races[activeRace].link);
     setModalOpen(false);
   };
 
@@ -68,6 +70,8 @@ function Races(props) {
     else props.setHouse("");
     props.setRace(races[activeRace].name);
     props.setRaceType(races[activeRace].raceType);
+    props.setRacePrompts(races[activeRace].prompts);
+    props.setRaceLink(races[activeRace].link);
     setModalOpen(false);
   };
 

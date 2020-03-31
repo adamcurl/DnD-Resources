@@ -24,5 +24,13 @@
     "Did/Do you work for any of the Gold Dragon Inns?",
     "How do you use your mark to help others feel rested and cared for?",
     "What secrets and/or favors do you try and gain from helping others?"
+  ],
+  "racePrompts": [
+    "Did you serve as a mercenary in the Last War?",
+    "Are you from the Talenta Plains or somewhere else in Khorvaire?",
+    "What is your relationship to the dinosaur spirits, if any?",
+    "Are you a part of the Boromar Clan criminal organization?",
+    "Are you a part of the healing House of Jorasco or bear the Mark of Healing?",
+    "Are you a part of the hospitality house of Ghallanda or bear the Mark of Hospitality?"
   ]
 }

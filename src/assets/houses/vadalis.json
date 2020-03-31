@@ -28,5 +28,10 @@
     "Do you want to create new monstrosities and cross-bred animals?",
     "Do you seek to create a new super-human?",
     "What are your favorite animals to breed and work with?"
+  ],
+  "racePrompts": [
+    "Among longer-living races, what drives you, a human with limited time in life?",
+    "Are you a part of a Dragonmarked House? Or do you just have a Mark?",
+    "What was your role and opinion in the Last War?"
   ]
 }

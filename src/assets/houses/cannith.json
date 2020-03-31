@@ -22,5 +22,10 @@
     "How do you use your mark if you have one?",
     "What is your opinion of the Warforged that House Cannith is responsible for creating? Did you help create any?",
     "What devices and weapons do you like to create?"
+  ],
+  "racePrompts": [
+    "Among longer-living races, what drives you, a human with limited time in life?",
+    "Are you a part of a Dragonmarked House? Or do you just have a Mark?",
+    "What was your role and opinion in the Last War?"
   ]
 }

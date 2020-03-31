@@ -22,5 +22,11 @@
     "How do you use your mark if you have one?",
     "Are you a mail courier or help provide magical means of communication?",
     "Do you help with any of the various newspapers?"
+  ],
+  "racePrompts": [
+    "What schemes is your character involved in?",
+    "Do you seek knowledge or secrets?",
+    "Have you made any enemies due to your scheming?",
+    "Are you a part of the scribing and messaging moguls of House Sivis or bear the Mark of Scribing?"
   ]
 }

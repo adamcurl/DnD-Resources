@@ -22,5 +22,11 @@
     "Are you an airship pilot or galleon captain?",
     "Do you seek to help other half-elves find a place in Khorvaire?",
     "Do you help Valenar establish themselves as a nation?"
+  ],
+  "racePrompts": [
+    "Where you parents born in a Khoravar (Half-Elf) community, or were they members of different races?",
+    "Is your half-elf identity a source of pride, a simple fact of life, or something that has been difficult for you?",
+    "Are you a part of the detective House of Medani or bear the Mark of Detection?",
+    "Are you a part of the transportation House of Lyrandar or bear the Mark of Storm?"
   ]
 }

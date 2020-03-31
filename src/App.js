@@ -19,6 +19,12 @@ function App() {
   const [mark, setMark] = React.useState("");
   const [faith, setFaith] = React.useState("");
   const [homeland, setHomeland] = React.useState("");
+  const [classLink, setClassLink] = React.useState("");
+  const [raceLink, setRaceLink] = React.useState("");
+  const [racePrompts, setRacePrompts] = React.useState([]);
+  const [housePrompts, setHousePrompts] = React.useState([]);
+  const [faithPrompts, setFaithPrompts] = React.useState([]);
+  const [homelandPrompts, setHomelandPrompts] = React.useState([]);
 
   const location = useLocation();
 
@@ -195,7 +201,11 @@ function App() {
         <Route
           path="/homeland"
           render={() =>
-            React.createElement(KhorvaireMap, { homeland, setHomeland })
+            React.createElement(KhorvaireMap, {
+              homeland,
+              setHomeland,
+              setHomelandPrompts
+            })
           }
         />
         <Route
@@ -208,13 +218,18 @@ function App() {
               race,
               setRace,
               raceType,
-              setRaceType
+              setRaceType,
+              setHousePrompts,
+              setRaceLink,
+              setRacePrompts
             })
           }
         />
         <Route
           path="/faiths"
-          render={() => React.createElement(Faiths, { faith, setFaith })}
+          render={() =>
+            React.createElement(Faiths, { faith, setFaith, setFaithPrompts })
+          }
         />
         <Route
           path="/races"
@@ -225,13 +240,21 @@ function App() {
               house,
               setHouse,
               raceType,
-              setRaceType
+              setRaceType,
+              setRacePrompts,
+              setRaceLink
             })
           }
         />
         <Route
           path="/classes"
-          render={() => React.createElement(Classes, { dndClass, setDndClass })}
+          render={() =>
+            React.createElement(Classes, {
+              dndClass,
+              setDndClass,
+              setClassLink
+            })
+          }
         />
         <Route
           path="/summary"
@@ -241,7 +264,13 @@ function App() {
               house,
               dndClass,
               faith,
-              homeland
+              homeland,
+              racePrompts,
+              housePrompts,
+              faithPrompts,
+              homelandPrompts,
+              raceLink,
+              classLink
             })
           }
         />
