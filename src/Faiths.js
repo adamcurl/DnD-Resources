@@ -94,7 +94,7 @@ function Faiths(props) {
                 backgroundSize: "90%"
               }}
             />
-            <p className="text-center no_dec">No House</p>
+            <p className="text-center no_dec">No Faith</p>
           </button>
         </div>
         {faiths.map((faith, i) => (
