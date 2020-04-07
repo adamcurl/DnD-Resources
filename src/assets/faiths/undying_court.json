@@ -21,5 +21,11 @@
     "Using powerful magic, they raise these champions as deathless, a form of undead imbued with positive energy.",
     "The most sacred rite of the Undying Court is trance communion. While in trance, an Aereni elf engages in meditation that connects them to the gestalt consciousness of the Court."
   ],
-  "influence": "Of all of these religions, the Undying Court is the most grounded in reality. You can go to Shae Mordai and seek an audience with the Court. "
+  "influence": "Of all of these religions, the Undying Court is the most grounded in reality. You can go to Shae Mordai and seek an audience with the Court.",
+  "prompts": [
+    "How did you come to join the ranks of the Undying Court?",
+    "What guidance does the Undying Court offer to you?",
+    "Do you put in to practice the wisdom these ancient elves have to offer you?",
+    "Do you utilize necromancy in a positive way like your other members?"
+  ]
 }

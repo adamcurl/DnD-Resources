@@ -1,7 +1,7 @@
 {
   "name": "Warlock",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A wielder of magic that is derived from a bargain with an extraplanar entity",
+  "link": "https://www.dndbeyond.com/classes/warlock",
+  "primaryAbility": "Charisma",
   "coolFeatures": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "Rogue",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
+  "link": "https://www.dndbeyond.com/classes/rogue",
+  "primaryAbility": "Dexterity",
   "coolFeatures": []
 }

@@ -24,6 +24,7 @@ function App() {
   const [racePrompts, setRacePrompts] = React.useState([]);
   const [housePrompts, setHousePrompts] = React.useState([]);
   const [faithPrompts, setFaithPrompts] = React.useState([]);
+  const [classPrompts, setClassPrompts] = React.useState([]);
   const [homelandPrompts, setHomelandPrompts] = React.useState([]);
 
   const location = useLocation();
@@ -194,7 +195,7 @@ function App() {
               dndClass,
               house,
               faith,
-              homeland
+              homeland,
             })
           }
         />
@@ -204,7 +205,7 @@ function App() {
             React.createElement(KhorvaireMap, {
               homeland,
               setHomeland,
-              setHomelandPrompts
+              setHomelandPrompts,
             })
           }
         />
@@ -221,7 +222,7 @@ function App() {
               setRaceType,
               setHousePrompts,
               setRaceLink,
-              setRacePrompts
+              setRacePrompts,
             })
           }
         />
@@ -242,7 +243,7 @@ function App() {
               raceType,
               setRaceType,
               setRacePrompts,
-              setRaceLink
+              setRaceLink,
             })
           }
         />
@@ -252,7 +253,8 @@ function App() {
             React.createElement(Classes, {
               dndClass,
               setDndClass,
-              setClassLink
+              setClassLink,
+              setClassPrompts,
             })
           }
         />
@@ -267,10 +269,11 @@ function App() {
               homeland,
               racePrompts,
               housePrompts,
+              classPrompts,
               faithPrompts,
               homelandPrompts,
               raceLink,
-              classLink
+              classLink,
             })
           }
         />

@@ -11,7 +11,7 @@ function Faiths(props) {
 
   const onRender = () => {
     // get house files' keys and values
-    const files = (ctx => {
+    const files = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -29,14 +29,14 @@ function Faiths(props) {
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
+        .replace(/\w\S*/g, function (txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
     setFaiths(array);
 
     // get crest files' keys and values
-    const imgs = (ctx => {
+    const imgs = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -61,7 +61,7 @@ function Faiths(props) {
 
   if (faiths.length < 9 || symbols.length < 9) return <Loading />;
 
-  const handleOpenModal = i => {
+  const handleOpenModal = (i) => {
     setActiveFaith(i);
     setModalOpen(true);
   };
@@ -72,6 +72,7 @@ function Faiths(props) {
 
   const handleChooseFaith = () => {
     props.setFaith(faiths[activeFaith].name);
+    props.setFaithPrompts(faiths[activeFaith].prompts);
     setModalOpen(false);
   };
 
@@ -91,7 +92,7 @@ function Faiths(props) {
               className={`bkgrnd_img zoom_img`}
               style={{
                 backgroundImage: `url('${cross}')`,
-                backgroundSize: "90%"
+                backgroundSize: "90%",
               }}
             />
             <p className="text-center no_dec">No Faith</p>
@@ -125,7 +126,7 @@ function Faiths(props) {
               <strong>Beliefs: </strong>
             </p>
             <ul>
-              {faiths[activeFaith].beliefs.map(item => (
+              {faiths[activeFaith].beliefs.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -137,7 +138,7 @@ function Faiths(props) {
               <strong>Hierarchy: </strong>
             </p>
             <ul>
-              {faiths[activeFaith].hierarchy.map(item => (
+              {faiths[activeFaith].hierarchy.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -145,7 +146,7 @@ function Faiths(props) {
               <strong>Deities: </strong>
             </p>
             <ul>
-              {faiths[activeFaith].deities.map(item => (
+              {faiths[activeFaith].deities.map((item) => (
                 <li key={item.name}>
                   <strong>{item.name}</strong>: {item.desc}
                 </li>
@@ -155,7 +156,7 @@ function Faiths(props) {
               <strong>Practices: </strong>
             </p>
             <ul>
-              {faiths[activeFaith].practices.map(item => (
+              {faiths[activeFaith].practices.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

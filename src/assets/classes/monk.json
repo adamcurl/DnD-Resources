@@ -1,7 +1,7 @@
 {
   "name": "Monk",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection",
+  "link": "https://www.dndbeyond.com/classes/monk",
+  "primaryAbility": "Dexterity & Wisdom",
   "coolFeatures": []
 }

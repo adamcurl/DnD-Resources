@@ -1,7 +1,16 @@
 {
   "name": "Cleric",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "A priestly champion who wields divine magic in service of a higher power",
+  "link": "https://www.dndbeyond.com/classes/cleric",
+  "primaryAbility": "Wisdom",
+  "coolFeatures": [
+    "Can channel the divinity of their deity",
+    "Can keep undead at bay and channel divinity",
+    "Domains include: Divine, Arcana, Death, Forge, Grave, Knowledge, Life, Light, Nature, Tempest, Trickery, and War"
+  ],
+  "prompts": [
+    "Why did you decide to become a cleric?",
+    "What diety and/or faith do you follow?",
+    "What domain do you belong to?"
+  ]
 }

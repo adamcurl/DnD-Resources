@@ -34,5 +34,11 @@
   "practices": [
     "If you’re a barbarian, it’s the Fury who unleashes your rage. If you’re an assassin, you walk the path of the Mockery as opposed to that of Dol Arrah"
   ],
-  "influence": "Droaam, monsters"
+  "influence": "Droaam, monsters",
+  "prompts": [
+    "How did you become involved with the Dark Six?",
+    "Do you worship all of the Six or just one or a few?",
+    "Do you feel outcasted because of your beliefs?",
+    "How do you call upon the Six in battle?"
+  ]
 }

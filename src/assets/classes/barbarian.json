@@ -1,7 +1,18 @@
 {
   "name": "Barbarian",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "A fierce warrior of primitive background who can enter a battle rage",
+  "link": "https://www.dndbeyond.com/classes/barbarian",
+  "primaryAbility": "Strength",
+  "coolFeatures": [
+    "Barbarians enter a rage giving them fierce strength in battle",
+    "High AC with no armor",
+    "Multiple attacks with high-damaging criticals",
+    "Can follow different paths to channel rage",
+    "Paths include: Ancestral Guardian, Battlerager, Berserker, Storm Herald, Totem Warrior, and Zealot"
+  ],
+  "prompts": [
+    "What drives you into your rage?",
+    "What path do you follow?",
+    "What drives you to battle? Glory, vengance, gold?"
+  ]
 }

@@ -50,5 +50,10 @@
     }
   ],
   "practices": ["Cult stuff", "Blood sacrifices", "Ritual combat"],
-  "influence": "Across Eberron"
+  "influence": "Across Eberron",
+  "prompts": [
+    "How did you become involved in this cult?",
+    "What does your cult believe in?",
+    "Do you worship a chaotic, otherworldy Daelkyr, a demonic Overlord, or some other entity (doesn't have to be \"all powerful\")?"
+  ]
 }

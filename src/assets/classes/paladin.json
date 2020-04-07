@@ -1,7 +1,7 @@
 {
   "name": "Paladin",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A holy warrior bound to a sacred oath",
+  "link": "https://www.dndbeyond.com/classes/paladin",
+  "primaryAbility": "Strength & Charisma",
   "coolFeatures": []
 }

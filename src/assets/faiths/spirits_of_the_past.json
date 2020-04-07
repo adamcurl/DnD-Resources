@@ -19,5 +19,10 @@
     "While resting, an elf spends four hours in trance. The faithful spend this time in communion with their ancestor, experiencing their memories and contemplating their deeds.",
     "A Wizard studies his vessel ancestor's spells, a warrior practices her vessel ancestor's battle techniques"
   ],
-  "influence": "The nomadic Tairnadal elves don’t raise permanent temples. A Keeper of the Past marks a circle on the ground with their blade, and the space within becomes sanctified for the service. Most people call the Tairnadal elves mercenaries thirsty for blood, but you just want your ancestor to live through you in glory again."
+  "influence": "The nomadic Tairnadal elves don’t raise permanent temples. A Keeper of the Past marks a circle on the ground with their blade, and the space within becomes sanctified for the service. Most people call the Tairnadal elves mercenaries thirsty for blood, but you just want your ancestor to live through you in glory again.",
+  "prompts": [
+    "Who was your spiritual ancestor? A powerful mage that fough the giants when they rebelled? An archer that hunted dragons?",
+    "How do you seek to glorify your spiritual ancetor in your life?",
+    "Do you willfully follow the advice and guidance of you spiritual ancestor?"
+  ]
 }

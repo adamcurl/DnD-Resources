@@ -10,7 +10,7 @@ function Classes(props) {
 
   const onRender = () => {
     // get house files' keys and values
-    const files = (ctx => {
+    const files = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -28,14 +28,14 @@ function Classes(props) {
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
+        .replace(/\w\S*/g, function (txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
     setClasses(array);
 
     // get crest files' keys and values
-    const imgs = (ctx => {
+    const imgs = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -60,7 +60,7 @@ function Classes(props) {
 
   if (classes.length < 12 || symbols.length < 12) return <Loading />;
 
-  const handleOpenModal = i => {
+  const handleOpenModal = (i) => {
     setActiveClass(i);
     setModalOpen(true);
   };
@@ -71,6 +71,7 @@ function Classes(props) {
 
   const handleChooseClass = () => {
     props.setDndClass(classes[activeClass].name);
+    props.setClassPrompts(classes[activeClass].prompts);
     setModalOpen(false);
   };
 
@@ -123,7 +124,7 @@ function Classes(props) {
               <strong>Cool Features: </strong>
             </p>
             <ul>
-              {classes[activeClass].coolFeatures.map(item => (
+              {classes[activeClass].coolFeatures.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

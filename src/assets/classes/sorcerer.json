@@ -1,7 +1,7 @@
 {
   "name": "Sorcerer",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A spellcaster who draws on inherent magic from a gift or bloodline",
+  "link": "https://www.dndbeyond.com/classes/sorcerer",
+  "primaryAbility": "Charisma",
   "coolFeatures": []
 }

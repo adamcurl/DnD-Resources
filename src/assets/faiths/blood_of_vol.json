@@ -11,5 +11,10 @@
     "Once someone has died you might as well put the corpse to use",
     "The vampires and mummies of the Blood of Vol have sacrificed their chance at divinity in order to guide and protect the living. They’re martyrs, not something to envy."
   ],
-  "influence": "Public opinion of the Blood of Vol is often colored by the actions of the Order of the Emerald Claw. This extremist sect serves a lich known as the Queen of Death, and employs undead and necromancy in acts of terror. Most Seekers have no love for the Emerald Claw and don’t support its actions."
+  "influence": "Public opinion of the Blood of Vol is often colored by the actions of the Order of the Emerald Claw. This extremist sect serves a lich known as the Queen of Death, and employs undead and necromancy in acts of terror. Most Seekers have no love for the Emerald Claw and don’t support its actions.",
+  "prompts": [
+    "How did you come to believe in the Blood of Vol?",
+    "Do you agree or disagree with the rogue sect, the Order of the Emerald Claw?",
+    "How do you utilize your \"spark within\"? Do you utilize necromancy?"
+  ]
 }

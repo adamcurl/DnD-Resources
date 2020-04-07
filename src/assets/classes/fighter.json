@@ -1,7 +1,17 @@
 {
   "name": "Fighter",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "A master of martial combat, skilled with a variety of weapons and armor",
+  "link": "https://www.dndbeyond.com/classes/fighter",
+  "primaryAbility": "Strength or Dexterity",
+  "coolFeatures": [
+    "Unique fighting styles",
+    "A bunch of attacks in one turn",
+    "Martial Archetypes include: Arcane Archer, Battle Master, Cavalier, Champion, Eldritch Knight, Purple Dragon Knight, and Samurai"
+  ],
+  "prompts": [
+    "What led you to become a warrior?",
+    "Did you server in the Last War as a soldier or mercenary?",
+    "What marial archetype do you practice?",
+    "Why do you fight? For glory, gold, or a higher cause?"
+  ]
 }

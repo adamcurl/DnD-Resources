@@ -1,7 +1,7 @@
 {
   "name": "Wizard",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A scholarly magic-user capable of manipulating the structures of reality",
+  "link": "https://www.dndbeyond.com/classes/wizard",
+  "primaryAbility": "Intelligence",
   "coolFeatures": []
 }

@@ -1,7 +1,7 @@
 {
   "name": "Ranger",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
+  "desc": "A warrior who combats threats on the edges of civilization",
+  "link": "https://www.dndbeyond.com/classes/ranger",
+  "primaryAbility": "Dexterity & Wisdom",
   "coolFeatures": []
 }

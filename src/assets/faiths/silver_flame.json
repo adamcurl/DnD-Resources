@@ -28,5 +28,10 @@
     "Inspire and guide others to virtuous behavior; force is a last resort.",
     "Recruit more people into the faith to build a stronger force to battle evil"
   ],
-  "influence": "Across Khorvaire; centered on Thrane’s theocratic government"
+  "influence": "Across Khorvaire; centered on Thrane’s theocratic government",
+  "prompts": [
+    "How did you become a part of the Church of the Silver Flame?",
+    "What is your role within the church? Are you a cleric? A paladin? A fighter that hunts evil?",
+    "Do you support the theocratic country of Thrane?"
+  ]
 }

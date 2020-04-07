@@ -1,7 +1,17 @@
 {
   "name": "Druid",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms",
+  "link": "https://www.dndbeyond.com/classes/druid",
+  "primaryAbility": "Wisdom",
+  "coolFeatures": [
+    "Can speak with nature",
+    "Can morph into animals",
+    "Ages slowly",
+    "Druidic Circles include: Dreams, Land, Moon, and Shepherd"
+  ],
+  "prompts": [
+    "Why did you become a druid? Do you belong to one of the orc or half-orc sects?",
+    "What is your connection to nature?",
+    "What circle do you belong to?"
+  ]
 }

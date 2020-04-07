@@ -50,5 +50,9 @@
   "practices": [
     "Honor each Sovereign in its place and time. If you hear one voice clearly, embrace their path and embody their values."
   ],
-  "influence": "Across Khorvaire"
+  "influence": "Across Khorvaire",
+  "prompts": [
+    "How did you come to believe in the Sovereign Hosts?",
+    "How do the gods guide you in your profession or in battle?"
+  ]
 }

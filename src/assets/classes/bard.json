@@ -1,7 +1,18 @@
 {
   "name": "Bard",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "An inspiring magician whose power echoes the music of creation",
+  "link": "https://www.dndbeyond.com/classes/bard",
+  "primaryAbility": "Charisma",
+  "coolFeatures": [
+    "Magic flows through your arts, be it music, performance, card tricks, painting or any other form of art",
+    "Can inspire others through your magic",
+    "Good at pretty much everything",
+    "Very charming",
+    "Colleges include: Glamour, Lore, Swords, Valor, and Whispers"
+  ],
+  "prompts": [
+    "What led you to the art you practice?",
+    "What college do you study?",
+    "Why do you perform? Do you want to make the world a happier place? Do you seek secrets? Is your performance a ruse?"
+  ]
 }

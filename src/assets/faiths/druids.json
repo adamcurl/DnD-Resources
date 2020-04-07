@@ -22,5 +22,11 @@
     "The Greensingers: Devoted to the fey, and serve as mediators between the fey and mortals. The ranks of the Greensingers include bards as well as warlocks with Archfey patrons; a druid or ranger might also serve a specific archfey.",
     "The Wardens of the Wood: Believe that civilization has a place in the world. As a warden, you help others understand nature, ensuring that they don’t cause unintentional harm or stumble into danger. Wardens serve as militia and mediators in the Eldeen Reaches. This is the largest of the druidic sects and the most recognized."
   ],
-  "influence": "Nature"
+  "influence": "Nature",
+  "prompts": [
+    "How did you become a druid?",
+    "What subsect of the druids, if any, do you belong to?",
+    "How do you preserve nature?",
+    "Do you keep to the tradition of sealing away the Overlords and Daelykr?"
+  ]
 }

@@ -23,5 +23,10 @@
     "(Lightbringer) seeks to change reality — in the big picture by ushering in an age of light, while on the small scale by excising negative influences and performing good works.",
     "(Shadow Watcher) taking surgical action to eliminate sources of evil and to allow a soul to find the light in its next incarnation. Hunting down all sources of darkness."
   ],
-  "influence": "Small influence except within tribes of Kalashtar"
+  "influence": "Small influence except within tribes of Kalashtar",
+  "prompts": [
+    "Are you a Lightbringer who seeks to change the world through kind acts and good works? Or are you a Shadow Watcher that seeks out and destroys any sources of evil?",
+    "Are you a part of a Kalashtar tribe or do you walk alone?",
+    "Do you actively listen to the quori residing within you to seek out peace and justice?"
+  ]
 }

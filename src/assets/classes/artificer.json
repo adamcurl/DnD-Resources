@@ -1,7 +1,18 @@
 {
   "name": "Artificer",
-  "desc": "",
-  "link": "",
-  "primaryAbility": "",
-  "coolFeatures": []
+  "desc": "Masters of unlocking magic in everyday objects, artificers are supreme inventors.",
+  "link": "https://www.dndbeyond.com/classes/artificer",
+  "primaryAbility": "Intelligence",
+  "coolFeatures": [
+    "Can easily create minor magical items",
+    "You can attune to more thean 3 magical items",
+    "You can create a homunculus servant, an iron guard dog, or eldritch cannons",
+    "You cast spells through your tools such as woodworking tools or smithing tools",
+    "Subclasses include: Alchemist, Artillerist, and Battle Smith"
+  ],
+  "prompts": [
+    "What made you want to become an Artificer?",
+    "What profession do you channel you magic through? A smith, woodworker, tinkerer, alchemist?",
+    "Do you have any affiliation with House Cannith - the leaders in Artificers?"
+  ]
 }
