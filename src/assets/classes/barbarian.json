@@ -6,6 +6,7 @@
   "coolFeatures": [
     "Barbarians enter a rage giving them fierce strength in battle",
     "High AC with no armor",
+    "Beefy",
     "Multiple attacks with high-damaging criticals",
     "Can follow different paths to channel rage",
     "Paths include: Ancestral Guardian, Battlerager, Berserker, Storm Herald, Totem Warrior, and Zealot"
@@ -13,6 +14,7 @@
   "prompts": [
     "What drives you into your rage?",
     "What path do you follow?",
-    "What drives you to battle? Glory, vengance, gold?"
+    "What drives you to battle? Glory, vengance, gold?",
+    "Did you fight in the Last War or act as a mercenary?"
   ]
 }

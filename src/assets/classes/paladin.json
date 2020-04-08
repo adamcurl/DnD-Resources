@@ -3,5 +3,20 @@
   "desc": "A holy warrior bound to a sacred oath",
   "link": "https://www.dndbeyond.com/classes/paladin",
   "primaryAbility": "Strength & Charisma",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Can sense evil",
+    "Can heal, protect, and motivate others",
+    "Tanky",
+    "Can cast divine spells and channel divinity",
+    "Can divine smit an opponent for a hard hit",
+    "Paladin Oaths include: Conquest, Devotion, Redemption, Ancients, Crown, Vengeance"
+  ],
+  "prompts": [
+    "Why did you decide to become a paladin?",
+    "Are you a devoted servant of good, loyal to the gods of justice and honor, a holy knight in shining armor venturing forth to smite evil?",
+    "How did you experience your call to serve as a paladin?",
+    "What diety and/or faith do you follow? The Silver Flame, Sovereign Host, Undying Court, or another?",
+    "How do you carry out your oath?",
+    "Who or what do you swear your oath to and why?"
+  ]
 }

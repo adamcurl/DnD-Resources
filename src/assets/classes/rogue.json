@@ -3,5 +3,19 @@
   "desc": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
   "link": "https://www.dndbeyond.com/classes/rogue",
   "primaryAbility": "Dexterity",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Very stealthy",
+    "Hits very hard when they deliver a suprise attack",
+    "Can easily pick locks and pockets",
+    "Hard to hit and moves fast",
+    "Rogue archetypes include: Arcane Trickster, Assassin, Inquisitive, Mastermind, Scout, Swashbuckler, and Thief"
+  ],
+  "prompts": [
+    "Why did you chose the life of a rogue?",
+    "Do you belong to a crime or spy organization?",
+    "Are you on the run from the law or from an angry thieves’ guild master?",
+    "Is it greed that drives you in your adventures, or some other desire or ideal?",
+    "Did you serve as a spy or assassin during the Last War?",
+    "What archetype do you practice?"
+  ]
 }

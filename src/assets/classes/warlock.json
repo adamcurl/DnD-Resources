@@ -3,5 +3,20 @@
   "desc": "A wielder of magic that is derived from a bargain with an extraplanar entity",
   "link": "https://www.dndbeyond.com/classes/warlock",
   "primaryAbility": "Charisma",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Casts spells through a pact made with an all-powerful being",
+    "Can cast Eldritch Blast, a powerful cantrip",
+    "The pact with the being allows for limitless customization of spells, features, and inherit magical abilities",
+    "Can form a bond with a weapon, creature, or spellbook",
+    "Patrons include: Archfey, Celestial, Fiend, Great Old One, Hexblade, and the Undying"
+  ],
+  "prompts": [
+    "What led you to make the pact, and how did you make contact with your patron?",
+    "Did you search for your patron, or did your patron find and choose you?",
+    "What contract/agreement do you have with your patron?",
+    "Do you chafe under the obligations of your pact or serve joyfully in anticipation of the rewards promised to you?",
+    "What kind of relationship do you have with your patron?",
+    "Do you know other servants of your patron?",
+    "If your patron is the Undying, it could be the Undying Court, or the Death Queen. If it's a fiend, it could be a demonic Overlord. If it's a Great Old One, it could be a Daelkyr"
+  ]
 }

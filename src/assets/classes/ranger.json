@@ -3,5 +3,21 @@
   "desc": "A warrior who combats threats on the edges of civilization",
   "link": "https://www.dndbeyond.com/classes/ranger",
   "primaryAbility": "Dexterity & Wisdom",
-  "coolFeatures": []
+  "coolFeatures": [
+    "** As a note, the Ranger class is known for being kind of \"weak\" in 5e. To fix this, WoTC has put out a new alternative class for the ranger in order to balance their power. Let your DM know if you want to play this alternative class.",
+    "Great at survival, exploration, and hunting",
+    "Can cast some druidic and nature spells",
+    "Can hide and hunt easier in nature",
+    "Can have a beast companion",
+    "Ranger archetypes include: Beast Master, Fey Wanderer, Gloom Stalker, Horizon Walker, Hunter, Monster Slayer, and Swarmkeeper"
+  ],
+  "prompts": [
+    "Why did you decie to become a ranger?",
+    "Did you train with a single mentor, wandering the wilds together until you mastered the ranger’s ways or did you teach yourself?",
+    "Do you live in the wilderness like the Shadow Marches, Talenta Plains, or Eldeen Reaches?",
+    "Is your adventuring career a continuation of your work in protecting the borderlands, or a significant change?",
+    "What made you join up with a band of adventurers?",
+    "What archetype do you practice?",
+    "What beast is your preferred companion?"
+  ]
 }

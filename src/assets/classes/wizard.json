@@ -3,5 +3,18 @@
   "desc": "A scholarly magic-user capable of manipulating the structures of reality",
   "link": "https://www.dndbeyond.com/classes/wizard",
   "primaryAbility": "Intelligence",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Masters of magic with access to many spells",
+    "Considered to be the smartest most flexible spellcasters",
+    "Has a spellbook and can swap between prepared spells each day",
+    "Studied wizard schools include: Bladesinging, Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, Transmutation, and War Magic"
+  ],
+  "prompts": [
+    "How did your character first come into contact with magic?",
+    "Do you have a natural talent, or did you simply study hard and practice incessantly?",
+    "What drew you forth from your life of study?",
+    "What drives you to study magic?",
+    "Did you serve as a Wandslinger in the Last War?",
+    "Do you study the many secrets of Eberron, Siberys, and Khyber?"
+  ]
 }

@@ -3,5 +3,22 @@
   "desc": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection",
   "link": "https://www.dndbeyond.com/classes/monk",
   "primaryAbility": "Dexterity & Wisdom",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Uses dexterity instead of strength for unarmed and weapon strikes",
+    "Unarmed strikes are much stronger and can stun people",
+    "Multiple hits in one turn",
+    "Very acrobatic and hard to hit",
+    "Can catch arrows and throw them back",
+    "Eventually gains a \"perfect\" body",
+    "Monk Ways include: Shadow, Drunken Master, Four Elements, Kensei, Long Death, Open Hand, and Sun Soul"
+  ],
+  "prompts": [
+    "What made you want to become a monk?",
+    "Were you an orphan or a child left on the monastery’s threshold?",
+    "Did you enter this secluded life to hide from a crime you committed?",
+    "Did you choose the life of a monk for yourself?",
+    "Are you a part of an organization like a monestary or spy agency?",
+    "What Way do you follow?",
+    "What values do you hold to yourself to improve and perfect yourself?"
+  ]
 }

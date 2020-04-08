@@ -3,5 +3,15 @@
   "desc": "A spellcaster who draws on inherent magic from a gift or bloodline",
   "link": "https://www.dndbeyond.com/classes/sorcerer",
   "primaryAbility": "Charisma",
-  "coolFeatures": []
+  "coolFeatures": [
+    "Has a sorcerous origin from some magical force and can cast spells instinctually",
+    "Can customize the casting of spells by making them quieter or more powerful or target more creatures",
+    "Sorcerous Origins include: Divine Soul, Draconic Bloodline, Shadow Magic, Storm Sorcery, and Wild Magic"
+  ],
+  "prompts": [
+    "How do you feel about the magical power coursing through you? Do you embrace it, try to master it, or revel in its unpredictable nature?",
+    "Is it a blessing or a curse? Did you seek it out, or did it find you?",
+    "What do you intend to do with the power within you?",
+    "Where does your power come from? A deal your ancestors made with a powerful being like an Overlord or Daelkyr? Blood-relations with the mysterious and powerful dragons?"
+  ]
 }

@@ -10,7 +10,10 @@
   ],
   "prompts": [
     "Why did you decide to become a cleric?",
-    "What diety and/or faith do you follow?",
+    "Did you enter this service willingly or did you diety choose you?",
+    "How do the temple priests of your faith regard you: as a champion or a troublemaker?",
+    "What are your ultimate goals?",
+    "What diety and/or faith do you follow? The Silver Flame, Sovereign Host, Undying Court, or another?",
     "What domain do you belong to?"
   ]
 }
