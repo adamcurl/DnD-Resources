@@ -176,7 +176,7 @@ function App() {
             <Link to="/summary">
               <div
                 className={`side-nav side-nav-right`}
-                style={{ top: "355px", marginLeft: "26%" }}
+                style={{ top: "355px", marginLeft: "26%", backgroundColor: '#2f9158' }}
               >
                 <div>FINISH</div>
                 <div></div>
@@ -274,6 +274,7 @@ function App() {
               homelandPrompts,
               raceLink,
               classLink,
+              mark
             })
           }
         />
