@@ -1,9 +1,7 @@
 {
   "name": "Sarlona",
-  "desc": "",
+  "desc": "Tens of thousands of years ago, the vast continent of Sarlona was the cradle of human civilization. Three thousand years ago, the first human colonists left, setting in motion events shaping modern-day Khorvaire. Sarlona was once split into over a dozen kingdoms, but some force has united the nation into a single realm: the Empire of Riedra. Outsiders aren't welcome in Sarlona. It is said that Kalashtar and Inspired hail from this continent.",
   "locations": [{ "name": "", "desc": "" }],
-  "races": [""],
-  "characteristics": [""],
-  "noted": [""],
-  "religions": [""]
+  "races": ["Humans, Kalashtar"],
+  "religions": ["Unknown"]
 }

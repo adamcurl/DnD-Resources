@@ -1,9 +1,7 @@
 {
   "name": "Frostfell",
-  "desc": "",
+  "desc": "The Frostfell is thought to be the original homeland of the dwarves, and some believe that an ancient nation of dwarves still thrives under the ice. Others say that the Frostfell was once a verdant realm until the dwarves uncovered the prison of an archfiend, which buried their nation under endless ice. These scholars warn against disturbing this overlord, lest a new age of ice be unleashed across the entire world.",
   "locations": [{ "name": "", "desc": "" }],
-  "races": [""],
-  "characteristics": [""],
-  "noted": [""],
-  "religions": [""]
+  "races": ["Unknown, perhaps Dwarves"],
+  "religions": ["Unknown"]
 }

@@ -1,9 +1,7 @@
 {
   "name": "Argonnessen",
-  "desc": "",
+  "desc": "Argonnessen is home to the oldest civilization on Eberron. The dragons wield ancient magic, and they have shielded their homeland against divination and teleportation. Tribes of barbarians roam the Seren Islands and the coastlines of Argonnessen; these include members of almost every humanoid race, perhaps collected by dragons in ages past. The Seren barbarians worship the dragons and protect the coasts from invaders. To date, no one from Khorvaire has ventured into the interior of the continent and returned to speak of it.",
   "locations": [{ "name": "", "desc": "" }],
-  "races": [""],
-  "characteristics": [""],
-  "noted": [""],
-  "religions": [""]
+  "races": ["Almost every race"],
+  "religions": ["Most worship the dragons"]
 }

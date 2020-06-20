@@ -582,17 +582,17 @@ const KhorvaireMap = props => {
               <strong>Description: </strong>
               {continentList[continent].desc}
             </p>
-            {/* Characteristics */}
+            {/* Races */}
             <p>
-              <strong>Characteristics: </strong>
+              <strong>Races: </strong>
             </p>
             <ul>
-              {continentList[continent].characteristics.map(item => (
+              {continentList[continent].races.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
             {/* Notable Locations */}
-            <p>
+            {/* <p>
               <strong>Notable Locations: </strong>
             </p>
             <ul>
@@ -601,31 +601,13 @@ const KhorvaireMap = props => {
                   <strong>{location.name}</strong>: {location.desc}
                 </li>
               ))}
-            </ul>
-            {/* Noted */}
-            <p>
-              <strong>Noted For: </strong>
-            </p>
-            <ul>
-              {continentList[continent].noted.map(item => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
+            </ul> */}
             {/* Religions */}
             <p>
               <strong>Main Religions: </strong>
             </p>
             <ul>
               {continentList[continent].religions.map(item => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-            {/* Races */}
-            <p>
-              <strong>Races: </strong>
-            </p>
-            <ul>
-              {continentList[continent].races.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
