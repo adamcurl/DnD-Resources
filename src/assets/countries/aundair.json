@@ -2,11 +2,13 @@
   "country": "Aundair",
   "capital": "Fairhaven",
   "ruler": "Queen Aurala ir’Wynarn",
-  "races": ["Variety"],
-  "characteristics": ["The people are snobby, witty, proper, and educated"],
-  "noted": ["High magic society, cheese, education, fashion, grains, wine"],
+  "hallmarks": ["Cheese", "education", "fashion", "grains", "wine", "wizardry"],
+  "population": "2 million",
+  "climate": "Temperate",
+  "characteristics": ["Every Aundairian should know a little magic.", "Why use your hand when you could use mage hand? Why strain your muscles tugging on a bowstring when you could use a wand?", "Don’t settle for common clothes and a squalid meal when you could wear glamerweave and drink the finest wine. If you’re a fighter, focus on finesse instead of crude strength. And never miss an opportunity for a clever quip."],
+  "races": ["Humans", "Half-Elves", "variety"],
   "religions": ["Sovereign Host", "Silver Flame"],
-  "houses": ["Lyrandar", "Orien"],
-  "comparison": "Magical France",
+  "houses": ["Cannith (Fairhaven)", "Orien (Passage)", "Lyrandar (Stormhome)"],
+  "lastWarSynopsis": ["Thrane took Thaliost from Aundair", "The Eldeen Reaches succeeded from Aundair halfway through the war, taking one half of Aundair’s land and one fifth of its population"],
   "brief_history": "x"
 }

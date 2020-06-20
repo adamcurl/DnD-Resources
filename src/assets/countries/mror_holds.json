@@ -2,16 +2,13 @@
   "country": "Mror Holds",
   "capital": "Krona Peak",
   "ruler": "Iron Council (12 noble clans)",
+  "hallmarks": ["Banking", "dwarves", "metalwork", "mining (precious and non-precious metals)"],
+  "population": "unknown",
+  "climate": "Temperate in the south, cold in the north",
+  "characteristics": ["Proud of wealth and possessions", "Talent and skills as forgers and warriors"],
   "races": ["Dwarves"],
-  "characteristics": [
-    "Proud of wealth",
-    "Talent and skills as forgers and warriors"
-  ],
-  "noted": [
-    "Dwarves, banking, mining (precious and non precious metal), metalwork"
-  ],
   "religions": ["Sovereign Host (mostly Kol Korran)"],
-  "houses": ["None"],
-  "comparison": "Dwarven society",
-  "brief_history": "x"
+  "houses": ["Kundarak (Korunda Gate, Mror Holds)"],
+  "lastWarSynopsis": ["The Mror Holds declared independence during the Last War", "Towards the end of the Last War, the Dwarves uncovered and ancient Dwarvent empire overran by the Daelkyr underneath their country."],
+  "brief_history": ""
 }

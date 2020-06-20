@@ -2,14 +2,13 @@
   "country": "Karrnath",
   "capital": "Korth",
   "ruler": "King Kaius ir’Wynarn III",
+  "hallmarks": ["Ale", "dairy", "glass", "livestock", "lumber", "martial discipline", "paper", "textiles", "undead"],
+  "population": "2.5 million",
+  "climate": "Temperate in the south, but cold everywhere else",
+  "characteristics": ["Stoic and grim", "Strong military, but little to no magic", "Karns value strength, strategy, and discipline", "Karns disapprove of any extravagance or luxury and approve of swift punishments to crime"],
   "races": ["Humans"],
-  "characteristics": ["Stoic and grim"],
-  "noted": [
-    "Ale, dairy, glass, livestock, lumber, paper, textiles",
-    "undead, martial discipline"
-  ],
   "religions": ["Sovereign Host", "Blood of Vol"],
-  "houses": ["None"],
-  "comparison": "Russia with undead military",
-  "brief_history": "x"
+  "houses": ["Jorasco (Vedkyar Enclave - Vedykar, Karrnath)", "Cannith (Korth Enclave - Karrnath)", "Deneith (Sentinel Tower - Karrlakton, Karrnath)"],
+  "lastWarSynopsis": ["During the Last War, King Kaius I set in place the Code of Kaius, which is a strict set of laws and limits", "Due to multiple famines during the war, a rationing program was also set in place", "Due to the hardships and many deaths of Karns, King Kaius I was forced to embrace the Blood of Vol as the main religion, which used dead Karns as undead soldiers in the war", "Karrnath was one of the main architechts of the Treaty of Thronehold, but many Karns believe that they would have won and that King Kaius III denied them their destiny", "The Blood of Vol is no longer instituded as the main religion, but still has a strong precense there"],
+  "brief_history": ""
 }

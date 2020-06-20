@@ -2,11 +2,13 @@
   "country": "Darguun",
   "capital": "Rhukaan Draal",
   "ruler": "Lhesh Haruuc Sharaat’kor (hobgoblin)",
-  "races": ["Goblinoids"],
-  "characteristics": ["The goblins are savage and ruthless"],
-  "noted": ["Goblinoid mercenaries"],
-  "religions": ["Dark Six", "Sovereign Host (few)"],
-  "houses": ["Deneith"],
-  "comparison": "Goblin country",
-  "brief_history": "x"
+  "hallmarks": ["Dungeons", "goblinoid mercenaries", "ruins"],
+  "population": "unknown",
+  "climate": "Temperate",
+  "characteristics": ["Darguul constantly have to prove their strength and skill to gain respect", "Darguul are deeply loyal to their clans or close allies", "Muut and Atcha, or Duty and Honor, are highly valued in battle and life by the Darguul"],
+  "races": ["Hobgoblins", "Goblins", "Bugbears"],
+  "religions": ["Dark Six", "Sovereign Host (especially Dol Dorn, Dol Arrah, and Balinor)"],
+  "houses": ["Deneith (strong presence, no HQ)"],
+  "lastWarSynopsis": ["After the goblinoid mercenaries were employeed by Cyre and Breland to guard the land between them, Haruuc led a revolt to reclaim the land of their ancestors."],
+  "brief_history": ""
 }

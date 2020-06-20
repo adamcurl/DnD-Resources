@@ -1,14 +1,14 @@
 {
-  "country": "The Shadow Marches",
+  "country": "Shadow Marches",
   "capital": "Zarash’ak (unofficial)",
   "ruler": "None",
-  "races": ["Orcs", "Humans"],
-  "characteristics": [
-    "Moonlit rituals to summon/ward off fiends, scary monsters"
-  ],
-  "noted": ["Eberron dragonshards, herbs"],
-  "religions": ["The Cults of the Dragon Below"],
-  "houses": ["Tharashk "],
-  "comparison": "Magical swamp country",
-  "brief_history": "x"
+  "hallmarks": ["Eberron dragonshards", "herbs"],
+  "population": "unknown",
+  "climate": "Marsh",
+  "characteristics": ["Most Marchers have little interest in the outside world and most don't even know the names of the nations surrounding them", "Moonlit rituals to summon/ward off fiends, scary monsters", "Scarred by the Daelkyr war", "Many gateways to Xoriat are sealed here"],
+  "races": ["Orcs", "Humans", "Half-Orcs"],
+  "religions": ["The Cults of the Dragon Below", "Druids"],
+  "houses": ["Tharashk (Zarash’ak, Shadow Marches)"],
+  "lastWarSynopsis": ["The Shadow Marches aren’t a nation, and the region wasn’t recognized by the Treaty of Thronehold"],
+  "brief_history": ""
 }

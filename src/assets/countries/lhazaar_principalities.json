@@ -1,15 +1,14 @@
 {
   "country": "Lhazaar Principalities",
   "capital": "Regalport",
-  "ruler": "High Prince Ryger ir’Wynarn of Regalport (self-proclaimed)",
-  "races": ["Changelings", "Humans", "Half-elves"],
-  "characteristics": ["The people are independant and free-spirited"],
-  "noted": ["Ships, fish, mercenaries, merchants, pirates"],
+  "ruler": "High Prince Ryger ir’Wynarn is attempting to unite the Principalities",
+  "hallmarks": ["Fish", "mercenaries", "merchants", "pirates", "ships"],
+  "population": "unknown",
+  "climate": "Tropical",
+  "characteristics": ["The people are independant and free-spirited", "The people are always looking for adventure on the sea", "The people always keep the future in mind"],
+  "races": ["Humans", "Changelings", "Half-Elves"],
   "religions": ["Blood of Vol", "Sovereign Host (few)"],
-  "houses": [
-    "Kundarak",
-    "Half-elves with Mark of Storm, but no ties to Lyrandar"
-  ],
-  "comparison": "Carribean",
-  "brief_history": "x"
+  "houses": ["Thuranni, Regalport (Lhazaar Principalities)"],
+  "lastWarSynopsis": ["During the Last War, the Lhazaar served as privateers and pirates", "Most of the princes are content with their domains, but ambitious rulers such as Prince Ryger of Regalport wants to forge a stronger unified nation, and Prince Kolberkon of Port Verge seeks to expand his personal power."],
+  "brief_history": ""
 }

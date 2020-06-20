@@ -1,21 +1,14 @@
 {
-  "country": "Cyre/The Mournland",
+  "country": "Cyre (The Mournland)",
   "capital": "Metrol (destroyed)",
-  "ruler": "Queen Dannel ir’Wynarn (presumed dead) - succeeded by her son, Prince Oargev ir’Wynarn",
-  "races": [
-    "(Cyre) - Variety",
-    "(Mournland) - Aberrations, Ghosts, Warforged, Monstrosities"
-  ],
-  "characteristics": [
-    "(Cyre) - the people were versatile, philosophic, devastated or faithful",
-    "(Mournland) - the land is plagued with monstrosities and stragne phenomenon"
-  ],
-  "noted": [
-    "(Cyre) - Artifice, art, jewelry, music, oratory, philosophy; creativity, versatility",
-    "(Mournland) - the strange magical explosion that wiped Cyre off the map and ended the Last War; the magical mist continues to cover the country"
-  ],
-  "religions": ["(Cyre) - Sovereign Host", "(Cyre) - Silver Flame"],
-  "houses": ["(Cyre) - Cannith"],
-  "comparison": "Greece/Rome in a renaissance",
-  "brief_history": "x"
+  "ruler": "Queen Dannel ir’Wynarn (presumed dead); Prince Oargev ir’Wynarn (now in New Cyre)",
+  "hallmarks": ["Art", "artifice", "jewelry", "music", "oratory", "philosophy"],
+  "population": "1.5 million",
+  "climate": "Temperate",
+  "characteristics": ["Values diversity and versatility", "Cyre was the seat of the kings and queens of Galifar", "By tradition, Cyre’s Princess Mishann had claim to the throne", "Cyrans lost more than anyone else in the war and stood on the moral high ground", "Some support Prince Oargev, while others want to cling to the past"],
+  "races": ["variety"],
+  "religions": ["Sovereign Host", "Silver Flame"],
+  "houses": ["Cannith (Metrol)"],
+  "lastWarSynopsis": ["Although there were no winners or losers in the Last Wary, Cyre was a definite loser", "Cyre fought against: Darguun, Valenar, Breland (Early)", "Cyre later allied themselves with Breland"],
+  "brief_history": ""
 }

@@ -1,12 +1,14 @@
 {
   "country": "Talenta Plains",
   "capital": "Gatherhold",
-  "ruler": "Lathon Halpum (united Talenta)",
+  "ruler": "Lathon Halpum (wants to unite Talenta Plains and become a great nation), Holy Uldra (a powerful shaman that wants to rid Talenta Plains of outsiders)",
+  "hallmarks": ["Dinosaurs", "halflings", "livestock"],
+  "population": "unknown",
+  "climate": "Dry",
+  "characteristics": ["The people are simple, wild, and clan-based", "Halflings form a spiritual bond with their dinosaurs"],
   "races": ["Halflings"],
-  "characteristics": ["The people are simple, wild, and clan-based"],
-  "noted": ["Halflings, livestock, dinosaurs"],
-  "religions": ["Various spirits"],
-  "houses": ["Ghallanda", "Jorasco"],
-  "comparison": "Magic Jurassic Stone Age",
-  "brief_history": "x"
+  "religions": ["Various totem spirits"],
+  "houses": ["Ghallanda (Gatherhold, Talenta Plains)"],
+  "lastWarSynopsis": ["The halfling tribes joined together to defend themselves from outsiders, and the Talenta Plains were recognized as a nation under the Treaty of Thronehold", "The natives of the Plains have no interest in change, but more foreigners visit the Plains than at any time in the past"],
+  "brief_history": ""
 }

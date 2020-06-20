@@ -501,6 +501,15 @@ const KhorvaireMap = props => {
               <strong>Ruler: </strong>
               {countries[country].ruler}
             </p>
+            {/* Hallmarks */}
+            <p>
+              <strong>Hallmarks: </strong>
+            </p>
+            <ul>
+              {countries[country].hallmarks.map(item => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
             {/* Characteristics */}
             <p>
               <strong>Characteristics: </strong>
@@ -510,12 +519,12 @@ const KhorvaireMap = props => {
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            {/* Noted */}
+            {/* Races */}
             <p>
-              <strong>Noted For: </strong>
+              <strong>Main Races: </strong>
             </p>
             <ul>
-              {countries[country].noted.map(item => (
+              {countries[country].races.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -528,29 +537,24 @@ const KhorvaireMap = props => {
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            {/* Houses */}
+            {/* House Headquarters */}
             <p>
-              <strong>Houses: </strong>
+              <strong>House Headquarters: </strong>
             </p>
             <ul>
               {countries[country].houses.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            {/* Races */}
+            {/* Last War Synopsis */}
             <p>
-              <strong>Races: </strong>
+              <strong>Last War Synopsis: </strong>
             </p>
             <ul>
-              {countries[country].races.map(item => (
+              {countries[country].lastWarSynopsis.map(item => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
-            {/* Comparison */}
-            <p>
-              <strong>Comparison: </strong>
-              {countries[country].comparison}
-            </p>
           </Modal.Body>
           <Modal.Footer>
             <div className="d-flex btn-row">

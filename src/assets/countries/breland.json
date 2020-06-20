@@ -2,13 +2,13 @@
   "country": "Breland",
   "capital": "Wroat",
   "ruler": "King Boranel ir’Wynarn",
-  "races": ["Variety"],
-  "characteristics": ["people are pragmatic, independant, innovative"],
-  "noted": [
-    "Industry, manufactured goods, metalwork, processed ore; organized crime, subterfuge"
-  ],
+  "hallmarks": ["Espionage", "industry", "metalwork", "organized crime", "subterfuge"],
+  "population": "3.7 million",
+  "climate": "Temperate in the north, tropical in the south",
+  "characteristics": ["Many Brelish have a loose relationship with the law", "Brelish are independant and innovative", "Whether it’s about fashion, food, or conversation, the Brelish tend to be pragmatic", "Due to the Breland’s various enemies and backstabbers in the Last War, Brelish never fully trust anyone", "After the Last War, Brelish adopted a view to uphold humanoid rights and dignity", "Many Brelish believe that if the Last War had continued, Breland would have stood victorious"],
+  "races": ["Humans", "Half-Elves", "variety"],
   "religions": ["Sovereign Host"],
-  "houses": ["Phiarlan"],
-  "comparison": "America",
-  "brief_history": "x"
+  "houses": ["Medani (Wroat)", "Cannith (Sharn)"],
+  "lastWarSynopsis": ["At various points of the war, Breland fought: Aundair, Cyre (Early), Karrnath, Thrane, Darguun, Droaam.", "Zilargo and Cyre eventually decided to ally themselves with Breland after the goblins took over what is now Darguun.", "Breland now hosts New Cyre, a refugee camp for Cyrans."],
+  "brief_history": ""
 }

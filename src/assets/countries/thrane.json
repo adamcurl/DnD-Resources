@@ -2,14 +2,13 @@
   "country": "Thrane",
   "capital": "Flamekeep",
   "ruler": "11 year-old Jaela Daeran (church figurehead), Queen Diani ir’Wynarn (blood regent - advisor to Jaela)",
+  "hallmarks": ["Divine magic", "fine crafts", "fruit", "livestock", "the Silver Flame", "textiles", "wool"],
+  "population": "2.3 million",
+  "climate": "Temperate",
+  "characteristics": ["Religious zealots", "Corrupt priests", "Each town has a small militia ready to fight the darkness"],
   "races": ["Humans"],
-  "characteristics": ["Religious zealots, corrupt priests, very religious"],
-  "noted": [
-    "Divine magic, the Silver Flame",
-    "Fine crafts, wool, textiles, fruit, livestock"
-  ],
   "religions": ["Silver Flame"],
   "houses": ["None"],
-  "comparison": "Italian Vatican",
-  "brief_history": "x"
+  "lastWarSynopsis": ["Thrane took Thailost from Aundair", "Aundairian war magic created a blasted wasteland between the two nations", "Conflict with Karrnath left farms and cities such as Shadukar devastated and abandoned, home only to the lingering undead left behind after the Karrnathi retreat", "For most Thranes, the war strengthened their faith and drew them together, but some question the validity of theocratic rule"],
+  "brief_history": ""
 }

@@ -1,12 +1,14 @@
 {
-  "country": "The Elden Reaches",
-  "capital": "The Greenheart",
+  "country": "Eldeen Reaches",
+  "capital": "Greenheart",
   "ruler": "Wardens of the Wood",
+  "hallmarks": ["Agriculture", "animal husbandry", "druidic magic"],
+  "population": "unknown",
+  "climate": "Tropical",
+  "characteristics": ["The area is inhabited by druids, rangers, and Fey", "The people of the Reaches value hospitality and regard all people as equals"],
   "races": ["Humans", "Shifters", "Fey"],
-  "characteristics": ["Druids, rangers, and Fey"],
-  "noted": ["Agriculture, animal husbandry, druidic magic"],
   "religions": ["Great Druid Oalian"],
-  "houses": ["Vadalis"],
-  "comparison": "Magical forest",
-  "brief_history": "x"
+  "houses": ["Vadalis (Foalswood - near Varna, Eldeen Reaches)"],
+  "lastWarSynopsis": ["The Eldeen Reaches succeeded from Aundair during the Last War and now live in fear of Aundair reclaiming them."],
+  "brief_history": ""
 }

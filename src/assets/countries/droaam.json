@@ -2,25 +2,13 @@
   "country": "Droaam",
   "capital": "The Great Crag",
   "ruler": "Three Hag Daughters of Sora Kell",
-  "races": [
-    "Gnolls",
-    "Orcs",
-    "Goblins",
-    "Ogres",
-    "Trolls",
-    "Harpies",
-    "Minotaurs",
-    "Medusas",
-    "Tieflings",
-    "Changelings",
-    "Lyconthropes"
-  ],
-  "characteristics": [
-    "savage, inner fighting, but united by the Three Daughters"
-  ],
-  "noted": ["Monstrous mercenaries", "Byeshk"],
+  "hallmarks": ["Byeshk ore", "monstrous mercenaries"],
+  "population": "unknown",
+  "climate": "Temperate in the north, Humid in the south",
+  "characteristics": ["Savage, inner fighting, but united by the Three Daughters", "Mainly been uninhabited wild lands claimed by Breland", "There are constant skirmishes at the border of Breland"],
+  "races": ["Gnolls", "Orcs", "Goblins", "Ogres", "Trolls", "Harpies", "Minotaurs", "Medusas", "Tieflings", "Changelings", "Lyconthropes"],
   "religions": ["Dark Six"],
-  "houses": ["Tharashk"],
-  "comparison": "Monster country",
-  "brief_history": "x"
+  "houses": ["None, but works with House Tharashk"],
+  "lastWarSynopsis": ["Mild skirmishes with Breland", "Was not recognized as a country in the Treaty of Thronehold"],
+  "brief_history": ""
 }

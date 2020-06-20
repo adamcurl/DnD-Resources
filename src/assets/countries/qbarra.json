@@ -1,12 +1,14 @@
 {
-  "country": "Q'Barra",
+  "country": "Q'barra",
   "capital": "Newthrone",
-  "ruler": "King Sebastes ir’Kesslan",
-  "races": ["Lizardfolk", "Dragonborn", "Yuan-ti", "Human settlers"],
-  "characteristics": ["Scales at war", "Ancient societies"],
-  "noted": ["Eberron dragonshards, rare herbs"],
-  "religions": ["(Lizardfolk) - Silver Flame"],
-  "houses": ["Tharashk "],
-  "comparison": "Ancient Jungle",
-  "brief_history": "x"
+  "ruler": "King Sebastes ir’Kesslan (Newthrone), Cold Sun Federation (lizardfolk), Ka’rhashan (dragonborn), Confederacy of the Poison Dusk (lizardfolk)",
+  "hallmarks": ["Eberron dragonshards", "rare herbs"],
+  "population": "unknown",
+  "climate": "Tropical",
+  "characteristics": ["Q'barra is filled with settlers looking to explore and settle the newfound land", "Q'barra is also filled with criminals and deserters", "The lizardfolk have a primitive culture based around druidic magic and the beliefs of the Silver Flame", "The dragonborn live amongst the remnants of an ancient society with a proud martial tradition"],
+  "races": ["Lizardfolk", "Dragonborn", "Human settlers"],
+  "religions": ["(Lizardfolk) - Silver Flame/druidic blend"],
+  "houses": ["House Tharashk has a strong presence"],
+  "lastWarSynopsis": ["Q’barra wasn’t involved in the Last War, but many of its settlers are Cyran, who are either looking for a new life, or vengeance on anyone who is from an enemy nation.", "The relationship between the settlers (led by King Sebastes) and the lizardfolk natives (Cold Sun Federation) is another source of tension due to the fact that the settlers constantly violate their treaty to mine precious ore.", "The Poison Dusk lizardfolk are hostile to both the settlers and the Cold Sun Federation", "The dragonborn mostly keep to themselves and fend of any lizardfolk that come near their territory."],
+  "brief_history": ""
 }
