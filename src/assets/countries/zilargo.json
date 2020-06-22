@@ -10,5 +10,6 @@
   "religions": ["A bit of everything"],
   "houses": ["Sivis (The Labyrinth - Korranberg, Zilargo)"],
   "lastWarSynopsis": ["Zilargo mostly avoided the war", "Darguun invaders constantly try and steal jewel miners from Zilargo", "Zilargo provided weapons and ships to Breland"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

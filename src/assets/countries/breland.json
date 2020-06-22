@@ -10,5 +10,6 @@
   "religions": ["Sovereign Host"],
   "houses": ["Medani (Wroat)", "Cannith (Sharn)"],
   "lastWarSynopsis": ["At various points of the war, Breland fought: Aundair, Cyre (Early), Karrnath, Thrane, Darguun, Droaam.", "Zilargo and Cyre eventually decided to ally themselves with Breland after the goblins took over what is now Darguun.", "Breland now hosts New Cyre, a refugee camp for Cyrans."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

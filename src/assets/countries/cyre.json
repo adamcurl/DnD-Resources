@@ -10,5 +10,6 @@
   "religions": ["Sovereign Host", "Silver Flame"],
   "houses": ["Cannith (Metrol)"],
   "lastWarSynopsis": ["Although there were no winners or losers in the Last Wary, Cyre was a definite loser", "Cyre fought against: Darguun, Valenar, Breland (Early)", "Cyre later allied themselves with Breland"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

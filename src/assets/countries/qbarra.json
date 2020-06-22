@@ -10,5 +10,6 @@
   "religions": ["(Lizardfolk) - Silver Flame/druidic blend"],
   "houses": ["House Tharashk has a strong presence"],
   "lastWarSynopsis": ["Q’barra wasn’t involved in the Last War, but many of its settlers are Cyran, who are either looking for a new life, or vengeance on anyone who is from an enemy nation.", "The relationship between the settlers (led by King Sebastes) and the lizardfolk natives (Cold Sun Federation) is another source of tension due to the fact that the settlers constantly violate their treaty to mine precious ore.", "The Poison Dusk lizardfolk are hostile to both the settlers and the Cold Sun Federation", "The dragonborn mostly keep to themselves and fend of any lizardfolk that come near their territory."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

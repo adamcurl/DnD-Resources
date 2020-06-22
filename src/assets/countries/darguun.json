@@ -10,5 +10,6 @@
   "religions": ["Dark Six", "Sovereign Host (especially Dol Dorn, Dol Arrah, and Balinor)"],
   "houses": ["Deneith (strong presence, no HQ)"],
   "lastWarSynopsis": ["After the goblinoid mercenaries were employeed by Cyre and Breland to guard the land between them, Haruuc led a revolt to reclaim the land of their ancestors."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

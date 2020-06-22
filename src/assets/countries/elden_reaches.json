@@ -10,5 +10,6 @@
   "religions": ["Great Druid Oalian"],
   "houses": ["Vadalis (Foalswood - near Varna, Eldeen Reaches)"],
   "lastWarSynopsis": ["The Eldeen Reaches succeeded from Aundair during the Last War and now live in fear of Aundair reclaiming them."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

@@ -10,5 +10,6 @@
   "religions": ["Dark Six"],
   "houses": ["None, but works with House Tharashk"],
   "lastWarSynopsis": ["Mild skirmishes with Breland", "Was not recognized as a country in the Treaty of Thronehold"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

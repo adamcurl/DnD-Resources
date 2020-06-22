@@ -10,5 +10,6 @@
   "religions": ["Sovereign Host (mostly Kol Korran)"],
   "houses": ["Kundarak (Korunda Gate, Mror Holds)"],
   "lastWarSynopsis": ["The Mror Holds declared independence during the Last War", "Towards the end of the Last War, the Dwarves uncovered and ancient Dwarvent empire overran by the Daelkyr underneath their country."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

@@ -10,5 +10,6 @@
   "religions": ["Undying Court", "Spirits of the Past"],
   "houses": ["None"],
   "lastWarSynopsis": ["An army of Tairnadal (Valaes Tairn) warrior elves from Aerenal seized this region from Cyre after Cyre employed them as mercenaries", "The Elves of Valenar continue to prod other nations in search of a worthy fight"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

@@ -10,5 +10,6 @@
   "religions": ["Blood of Vol", "Sovereign Host (few)"],
   "houses": ["Thuranni, Regalport (Lhazaar Principalities)"],
   "lastWarSynopsis": ["During the Last War, the Lhazaar served as privateers and pirates", "Most of the princes are content with their domains, but ambitious rulers such as Prince Ryger of Regalport wants to forge a stronger unified nation, and Prince Kolberkon of Port Verge seeks to expand his personal power."],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

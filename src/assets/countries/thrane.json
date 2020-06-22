@@ -10,5 +10,6 @@
   "religions": ["Silver Flame"],
   "houses": ["None"],
   "lastWarSynopsis": ["Thrane took Thailost from Aundair", "Aundairian war magic created a blasted wasteland between the two nations", "Conflict with Karrnath left farms and cities such as Shadukar devastated and abandoned, home only to the lingering undead left behind after the Karrnathi retreat", "For most Thranes, the war strengthened their faith and drew them together, but some question the validity of theocratic rule"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

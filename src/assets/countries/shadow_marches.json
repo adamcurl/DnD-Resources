@@ -10,5 +10,6 @@
   "religions": ["The Cults of the Dragon Below", "Druids"],
   "houses": ["Tharashk (Zarash’ak, Shadow Marches)"],
   "lastWarSynopsis": ["The Shadow Marches aren’t a nation, and the region wasn’t recognized by the Treaty of Thronehold"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }

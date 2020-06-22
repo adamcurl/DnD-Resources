@@ -6,8 +6,8 @@ function Start(props) {
       <h1 style={{ textAlign: "center", padding: "0 0 1rem 0" }}>
         Character Summary
       </h1>
-      <div>
-        <h2>You chose a:{' '}
+      <div className="pb-4">
+        <h2 className="pb-4">You chose a:{' '}
               {props.house === "No House"
                 ? ""
                 : props.house
@@ -19,8 +19,16 @@ function Start(props) {
                 : props.faith
                 ? ` of ${props.faith} faith`
                 : "with [No Religion]"}{" "}
-              from {props.homeland ? props.homeland : "[Homeland]"}
+              from {props.homeland ? props.homeland : "[Homeland]"}.
             </h2>
+            <h3>Here are some prompts to help build up your character's personality, goals, and backstory:</h3>
+            <p>I plan on incorporating your characters' backstory and goals into the main campaign story and giving your character their own little <em>story arc</em>.<br />
+            <strong>Tip:</strong> When making a backstory for your character, try and keep a couple things in mind:</p>
+            <ol className="pb-3">
+              <li><strong>Your character is only level 1.</strong> Sure you can have your backstory be that you fought an ancient dragon and almost killed it, but as a level 1 character, you'll still struggle to fight off a few wolves by yourself. So, keep your story somewhat realistic.</li>
+              <li><strong>Keep your backstory vague.</strong> Think about the details that <em>your character</em> would know. Instead of saying that an ominous figure killed your parents by demand of an evil giant that plans to topple the city of Sharn, just say that an ominous figure was responsible for the death of your parents. If you already know all of the details, then your story arc will be boring. Also, this makes any plot twists a welcomed surprise to you as a player when you finally exact your revenge.</li>
+              <li><strong>Don't sweat it!</strong> While backstory does help the DM build roleplaying and combat around your character, it isn't everything. Your future goals and actions are just as important as backstory. It's also a good idea to keep your backstory brief. You don't have to write an essay for it (if you want to, have at it). It can even be a couple sentances long.</li>
+            </ol>
             {/* Race prompts */}
             {props.racePrompts.length ?
             <>
@@ -65,7 +73,7 @@ function Start(props) {
             </ul>
             </>
             : null}
-            {/* Faith prompts */}
+            {/* Homeland prompts */}
             {props.homelandPrompts.length ?
             <>
             <p>As a someone from {props.homeland}, think about: </p>

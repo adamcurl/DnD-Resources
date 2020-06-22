@@ -10,5 +10,10 @@
   "religions": ["Sovereign Host", "Silver Flame"],
   "houses": ["Cannith (Fairhaven)", "Orien (Passage)", "Lyrandar (Stormhome)"],
   "lastWarSynopsis": ["Thrane took Thaliost from Aundair", "The Eldeen Reaches succeeded from Aundair halfway through the war, taking one half of Aundair’s land and one fifth of its population"],
-  "brief_history": "x"
+  "brief_history": "",
+  "homelandPrompts": [
+    "How do you utilize magic in your daily life?",
+    "Are you bound by an arcan pact?",
+    "What is your opinion of the Eldeen Reaches and Thrane after they took so much of your land from you during the Last War?"
+  ]
 }

@@ -10,5 +10,6 @@
   "religions": ["Various totem spirits"],
   "houses": ["Ghallanda (Gatherhold, Talenta Plains)"],
   "lastWarSynopsis": ["The halfling tribes joined together to defend themselves from outsiders, and the Talenta Plains were recognized as a nation under the Treaty of Thronehold", "The natives of the Plains have no interest in change, but more foreigners visit the Plains than at any time in the past"],
-  "brief_history": ""
+  "brief_history": "",
+"homelandPrompts": []
 }
