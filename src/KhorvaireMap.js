@@ -4,7 +4,7 @@ import worldMap from "./assets/imgs/eberron_world_map.jpg";
 import Loading from "./Loading";
 import { Modal } from "react-bootstrap";
 
-const KhorvaireMap = props => {
+const KhorvaireMap = (props) => {
   const [modalOpen, setModalOpen] = useState(false);
   const [country, setCountry] = useState("");
   const [countries, setCountries] = useState([]);
@@ -18,7 +18,7 @@ const KhorvaireMap = props => {
 
   const onRender = () => {
     // get country files' keys and values
-    const files = (ctx => {
+    const files = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -36,14 +36,14 @@ const KhorvaireMap = props => {
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
+        .replace(/\w\S*/g, function (txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
     setCountries(array);
 
     // get continent files' keys and values
-    const continentFiles = (ctx => {
+    const continentFiles = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -61,7 +61,7 @@ const KhorvaireMap = props => {
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
+        .replace(/\w\S*/g, function (txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
@@ -75,7 +75,7 @@ const KhorvaireMap = props => {
   if (countries.length < 9) return <Loading />;
 
   // country functions
-  const handleOpenModal = i => {
+  const handleOpenModal = (i) => {
     setCountry(i);
     setModalOpen(true);
   };
@@ -86,11 +86,12 @@ const KhorvaireMap = props => {
 
   const handleChooseHomeland = () => {
     props.setHomeland(countries[country].country + ", Khorvaire");
+    props.setHomelandPrompts(countries[country].homelandPrompts);
     setModalOpen(false);
   };
 
   // continent functions
-  const handleOpenContinentModal = i => {
+  const handleOpenContinentModal = (i) => {
     setContinent(i);
     setContinentModalOpen(true);
   };
@@ -101,10 +102,11 @@ const KhorvaireMap = props => {
 
   const handleChooseContinentHomeland = () => {
     props.setHomeland(continentList[continent].name);
+    props.setHomelandPrompts(continentList[continent].homelandPrompts);
     setContinentModalOpen(false);
   };
 
-  const handleDropdown = val => {
+  const handleDropdown = (val) => {
     setIsWorldMap(val);
     setShowDropdown(false);
   };
@@ -163,7 +165,7 @@ const KhorvaireMap = props => {
                 top: "44.19%",
                 width: "6.28%",
                 height: "10.48%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -176,7 +178,7 @@ const KhorvaireMap = props => {
                 top: "54.79%",
                 width: "7.31%",
                 height: "10.26%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -189,7 +191,7 @@ const KhorvaireMap = props => {
                 top: "25.14%",
                 width: "17.48%",
                 height: "10.6%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -202,7 +204,7 @@ const KhorvaireMap = props => {
                 top: "48.82%",
                 width: "10.65%",
                 height: "26.04%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -215,7 +217,7 @@ const KhorvaireMap = props => {
                 top: "56.71%",
                 width: "9.14%",
                 height: "16.8%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -228,7 +230,7 @@ const KhorvaireMap = props => {
                 top: "40.81%",
                 width: "17.33%",
                 height: "12.4%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -241,7 +243,7 @@ const KhorvaireMap = props => {
                 top: "36.08%",
                 width: "16.61%",
                 height: "17.02%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -254,7 +256,7 @@ const KhorvaireMap = props => {
                 top: "65.5%",
                 width: "17.25%",
                 height: "13.3%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -267,7 +269,7 @@ const KhorvaireMap = props => {
                 top: "80.5%",
                 width: "10.81%",
                 height: " 13.3%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -280,7 +282,7 @@ const KhorvaireMap = props => {
                 top: "84.1%",
                 width: "7.39%",
                 height: "11.72%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -293,7 +295,7 @@ const KhorvaireMap = props => {
                 top: "56.37%",
                 width: "8.82%",
                 height: "10.48%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -306,7 +308,7 @@ const KhorvaireMap = props => {
                 top: "64.37%",
                 width: "12.08%",
                 height: "13.53%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -319,7 +321,7 @@ const KhorvaireMap = props => {
                 top: "71.25%",
                 width: "12.48%",
                 height: "22.55%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -332,7 +334,7 @@ const KhorvaireMap = props => {
                 top: "55.02%",
                 width: "9.62%",
                 height: "9.24%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -345,7 +347,7 @@ const KhorvaireMap = props => {
                 top: "37.66%",
                 width: "7.47%",
                 height: "9.92%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -358,7 +360,7 @@ const KhorvaireMap = props => {
                 top: "18.38%",
                 width: "15.97%",
                 height: "44.64%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
           </>
@@ -375,7 +377,7 @@ const KhorvaireMap = props => {
                 top: "58.18%",
                 width: "28.22%",
                 height: "19.69%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -388,7 +390,7 @@ const KhorvaireMap = props => {
                 top: "45.87%",
                 width: "7.94%",
                 height: "12.34%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -401,7 +403,7 @@ const KhorvaireMap = props => {
                 top: "47.94%",
                 width: "21.06%",
                 height: "29.87%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -414,7 +416,7 @@ const KhorvaireMap = props => {
                 top: "36.79%",
                 width: "15.88%",
                 height: "15.06%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -427,7 +429,7 @@ const KhorvaireMap = props => {
                 top: "32.14%",
                 width: "21.06%",
                 height: "12.62%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -440,7 +442,7 @@ const KhorvaireMap = props => {
                 top: "78.38%",
                 width: "21.44%",
                 height: "5.99%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -453,7 +455,7 @@ const KhorvaireMap = props => {
                 top: "23.77%",
                 width: "18.76%",
                 height: "5.53%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -466,7 +468,7 @@ const KhorvaireMap = props => {
                 top: "24.09%",
                 width: "16.06%",
                 height: "3.55%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
             <button
@@ -479,7 +481,7 @@ const KhorvaireMap = props => {
                 top: "80.09%",
                 width: "16.38%",
                 height: "5.73%",
-                zIndex: 2
+                zIndex: 2,
               }}
             />
           </>
@@ -506,7 +508,16 @@ const KhorvaireMap = props => {
               <strong>Hallmarks: </strong>
             </p>
             <ul>
-              {countries[country].hallmarks.map(item => (
+              {countries[country].hallmarks.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            {/* Description */}
+            <p>
+              <strong>Description: </strong>
+            </p>
+            <ul>
+              {countries[country].description.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -515,7 +526,7 @@ const KhorvaireMap = props => {
               <strong>Characteristics: </strong>
             </p>
             <ul>
-              {countries[country].characteristics.map(item => (
+              {countries[country].characteristics.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -524,7 +535,7 @@ const KhorvaireMap = props => {
               <strong>Main Races: </strong>
             </p>
             <ul>
-              {countries[country].races.map(item => (
+              {countries[country].races.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -533,7 +544,7 @@ const KhorvaireMap = props => {
               <strong>Main Religions: </strong>
             </p>
             <ul>
-              {countries[country].religions.map(item => (
+              {countries[country].religions.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -542,7 +553,7 @@ const KhorvaireMap = props => {
               <strong>House Headquarters: </strong>
             </p>
             <ul>
-              {countries[country].houses.map(item => (
+              {countries[country].houses.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -551,7 +562,7 @@ const KhorvaireMap = props => {
               <strong>Last War Synopsis: </strong>
             </p>
             <ul>
-              {countries[country].lastWarSynopsis.map(item => (
+              {countries[country].lastWarSynopsis.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -587,7 +598,7 @@ const KhorvaireMap = props => {
               <strong>Races: </strong>
             </p>
             <ul>
-              {continentList[continent].races.map(item => (
+              {continentList[continent].races.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -607,7 +618,7 @@ const KhorvaireMap = props => {
               <strong>Main Religions: </strong>
             </p>
             <ul>
-              {continentList[continent].religions.map(item => (
+              {continentList[continent].religions.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

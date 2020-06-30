@@ -3,5 +3,6 @@
   "desc": "It’s common knowledge that Everice is the domain of the Queen of Winter, an archfey who commands a host of winter wolves and knights carved from living ice. The queen lives in a glacial palace, and those who overcome her guards and the deadly weather to earn her favor can gain powerful boons. Everice is also the home of frost giants who escaped the destruction of Xen’drik. Now they hone their arctic magic and plot vengeance.",
   "locations": [{ "name": "", "desc": "" }],
   "races": ["Giants", "Fey"],
-  "religions": ["Unknown"]
+  "religions": ["Unknown"],
+  "homelandPrompts": []
 }

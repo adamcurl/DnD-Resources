@@ -2,14 +2,33 @@
   "country": "Shadow Marches",
   "capital": "Zarash’ak (unofficial)",
   "ruler": "None",
-  "hallmarks": ["Eberron dragonshards", "herbs"],
+  "hallmarks": ["Eberron dragonshards", "Herbs"],
   "population": "unknown",
   "climate": "Marsh",
-  "characteristics": ["Most Marchers have little interest in the outside world and most don't even know the names of the nations surrounding them", "Moonlit rituals to summon/ward off fiends, scary monsters", "Scarred by the Daelkyr war", "Many gateways to Xoriat are sealed here"],
+  "description": [
+    "The Shadow Marches are a desolate land of swamps and moors where uncivilized humans, orcs, and other foul creatures practice strange rites under the moonlight.",
+    "The Marches are the homeland of the orcs and the birthplace of druids.",
+    "The land is scarred by the Daelkyr War with twisted creatures and aberrations in the swamps.",
+    "There are moonlit rituals to either summon or ward off fiends and scary monsters",
+    "Many gateways to Xoriat are sealed here by the orc druids to keep this plane safe.",
+    "The Marches remained isolated from the rest of Khorvaire until a few hundred years ago when House Sivis discovered the region contained valuable dragonshards and a number of human and half-orc clans that had manifested the Dragonmark of Finding, which led to the formation of House Tharashk.",
+    "House Tharashk is the largest faction in the region, and their city of Zarash’ak is the center for commerce."
+  ],
+  "characteristics": [
+    "Most Marchers have little interest in the outside world and most don't even know the names of the nations surrounding them",
+    "Stoic druids seal away the ancient dealkyr, while warlocks and cults embrace the daelkyrs' power"
+  ],
   "races": ["Orcs", "Humans", "Half-Orcs"],
   "religions": ["The Cults of the Dragon Below", "Druids"],
   "houses": ["Tharashk (Zarash’ak, Shadow Marches)"],
-  "lastWarSynopsis": ["The Shadow Marches aren’t a nation, and the region wasn’t recognized by the Treaty of Thronehold"],
+  "lastWarSynopsis": [
+    "The Shadow Marches aren’t a nation, and the region wasn’t recognized by the Treaty of Thronehold."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "Are you a part of House Tharashk? If so, do you help them seek out treasures and dragonshards in the Marches?",
+    "Are you superstitious like most of the Marchers and look down on those who live in a civilized land?",
+    "Are you from a clan of humans and orcs that is familiar with civilization or are you a part of an ancient tribe that only uses wood, bone, and stone tools and weapons?",
+    "As a Marcher, how are you adapting to civilization outside of the Marches?"
+  ]
 }

@@ -2,18 +2,34 @@
   "country": "Aundair",
   "capital": "Fairhaven",
   "ruler": "Queen Aurala ir’Wynarn",
-  "hallmarks": ["Cheese", "education", "fashion", "grains", "wine", "wizardry"],
+  "hallmarks": ["Cheese", "Education", "Fashion", "Grains", "Wine", "Wizardry"],
   "population": "2 million",
   "climate": "Temperate",
-  "characteristics": ["Every Aundairian should know a little magic.", "Why use your hand when you could use mage hand? Why strain your muscles tugging on a bowstring when you could use a wand?", "Don’t settle for common clothes and a squalid meal when you could wear glamerweave and drink the finest wine. If you’re a fighter, focus on finesse instead of crude strength. And never miss an opportunity for a clever quip."],
+  "description": [
+    "Aundair is a land filled with fertile farmlands and powerful mages.",
+    "The floating towers of Arcanix are the finest institute for studying magic in Khorvaire.",
+    "Magic is very common in Aundair, from magically moving plows to cleansing stones in every village.",
+    "The Knights Arcane are an elite unit of eldritch knights, and the spies of the Royal Eyes of Aundair specialize in divination magic."
+  ],
+  "characteristics": [
+    "Every Aundairian should know a little magic.",
+    "Why use your hand when you could use mage hand? Why strain your muscles tugging on a bowstring when you could use a wand?",
+    "Don’t settle for common clothes and a squalid meal when you could wear glamerweave and drink the finest wine. If you’re a fighter, focus on finesse instead of crude strength. And never miss an opportunity for a clever quip.",
+    "Some Aundairian nobles are bound by arcane pacts handed down through generations. A few remarkable heirs develop into warlocks."
+  ],
   "races": ["Humans", "Half-Elves", "variety"],
   "religions": ["Sovereign Host", "Silver Flame"],
   "houses": ["Cannith (Fairhaven)", "Orien (Passage)", "Lyrandar (Stormhome)"],
-  "lastWarSynopsis": ["Thrane took Thaliost from Aundair", "The Eldeen Reaches succeeded from Aundair halfway through the war, taking one half of Aundair’s land and one fifth of its population"],
+  "lastWarSynopsis": [
+    "Although small, Aundair was able to remain a powerhouse of the war due to Queen Aurala's aggressive development of magical development.",
+    "Thrane took Thaliost from Aundair",
+    "The Eldeen Reaches succeeded from Aundair halfway through the war due to high taxes, taking one half of Aundair’s land and one fifth of its population"
+  ],
   "brief_history": "",
   "homelandPrompts": [
     "How do you utilize magic in your daily life?",
-    "Are you bound by an arcan pact?",
-    "What is your opinion of the Eldeen Reaches and Thrane after they took so much of your land from you during the Last War?"
+    "Are you bound by an arcane pact?",
+    "What is your opinion of the Eldeen Reaches and Thrane after they took so much of your land from you during the Last War?",
+    "Do you only seek the finest clothes and food?"
   ]
 }

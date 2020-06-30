@@ -2,14 +2,30 @@
   "country": "Eldeen Reaches",
   "capital": "Greenheart",
   "ruler": "Wardens of the Wood",
-  "hallmarks": ["Agriculture", "animal husbandry", "druidic magic"],
+  "hallmarks": ["Agriculture", "Animal husbandry", "Druidic magic"],
   "population": "unknown",
   "climate": "Tropical",
-  "characteristics": ["The area is inhabited by druids, rangers, and Fey", "The people of the Reaches value hospitality and regard all people as equals"],
+  "description": [
+    "A stretch of fertile farmlands borders a vast, untamed forest",
+    "Farmers tend the fields, while tribes of shifters and circles of druids and rangers roam through the woods.",
+    "The Towering Wood is also home to tribes of shifters, who maintain a nomadic existence. It also contains a strong presence of fey and daelkyr.",
+    "The Wardens of the Wood uphold order and settle disputes, and the Great Druid Oalian—an awakened greatpine—is the spiritual leader of the Reaches."
+  ],
+  "characteristics": [
+    "The people of the Reaches value hospitality and regard all people as equals",
+    "Druidic magic is central to life in the Eldeen Reaches.",
+    "Its people seek to live in harmony with the natural world, and each community has a druidic advisor who helps with planning and planting."
+  ],
   "races": ["Humans", "Shifters", "Fey"],
   "religions": ["Great Druid Oalian"],
   "houses": ["Vadalis (Foalswood - near Varna, Eldeen Reaches)"],
-  "lastWarSynopsis": ["The Eldeen Reaches succeeded from Aundair during the Last War and now live in fear of Aundair reclaiming them."],
+  "lastWarSynopsis": [
+    "50 years ago, the Eldeen Reaches succeeded from Aundair during the Last War when Aundair raised taxes for the war and ignored bandit problems the farmers faced and now live in fear of Aundair reclaiming them."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "Did you grow up on a farm or in the wilderness?",
+    "Do you belong to a druidic circle, or a shifter tribe? Or are you a simple nomad or farmer?",
+    "Do you share the common fear that Aundair will one day take back your land?"
+  ]
 }

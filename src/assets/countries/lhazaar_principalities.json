@@ -2,14 +2,35 @@
   "country": "Lhazaar Principalities",
   "capital": "Regalport",
   "ruler": "High Prince Ryger ir’Wynarn is attempting to unite the Principalities",
-  "hallmarks": ["Fish", "mercenaries", "merchants", "pirates", "ships"],
+  "hallmarks": ["Fish", "Mercenaries", "Merchants", "Pirates", "Ships"],
   "population": "unknown",
   "climate": "Tropical",
-  "characteristics": ["The people are independant and free-spirited", "The people are always looking for adventure on the sea", "The people always keep the future in mind"],
+  "description": [
+    "The Lhazaar Principalities is a group of mist-shrouded islands maintained by a loose confederacy of pirate lords, merchant princes, and sea barons.",
+    "Rulership of the principalities is so fluid that it’s possible for someone to start the day as a sailor and end it as a prince.",
+    "Self-proclaimed High Prince Ryger ir’Wynarn of Regalport seeks to forge the principalities into a unified force, but the other princes have rejected his proposals for a stronger union.",
+    "The Wind Whisperer principality includes a number of half-elves with the Mark of Storm—foundlings with no tie to House Lyrandar. The Wind Whisperers want to obtain airships by any means necessary.",
+    "The Lhazaar Principalities have the largest changeling population in Khorvaire. Many of them congregate in the Gray Tide, a domain founded by changelings."
+  ],
+  "characteristics": [
+    "The Lhazaar are independant and free-spirited",
+    "Leadership is earned, not given",
+    "The Lhazaar are always looking for adventure on the sea",
+    "The Lhazaar always keep the future in mind",
+    "The Lhazaar generally show little enthusiasm for religion"
+  ],
   "races": ["Humans", "Changelings", "Half-Elves"],
-  "religions": ["Blood of Vol", "Sovereign Host (few)"],
+  "religions": ["Blood of Vol (few)", "Sovereign Host (few)"],
   "houses": ["Thuranni, Regalport (Lhazaar Principalities)"],
-  "lastWarSynopsis": ["During the Last War, the Lhazaar served as privateers and pirates", "Most of the princes are content with their domains, but ambitious rulers such as Prince Ryger of Regalport wants to forge a stronger unified nation, and Prince Kolberkon of Port Verge seeks to expand his personal power."],
+  "lastWarSynopsis": [
+    "During the Last War, the Lhazaar served as privateers and pirates. Most returned to the merchant trade, but a few pirates still hunt the open seas.",
+    "Most of the princes are content with their domains, but ambitious rulers such as Prince Ryger of Regalport wants to forge a stronger unified nation, and Prince Kolberkon of Port Verge seeks to expand his personal power.",
+    "The Treaty of Thronehold recognized the Principalities as a single allied nation, even though they are more of a loose alliance."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "As a Lhazaar, you are a big dreamer. What do you seek? Treasure? Prestige? Knowledge?",
+    "How did you live your life in the Principalities? Where you a sailor, a pirate, or a charlatan that swindled sailors and pirates alike?",
+    "What local customs and slang do you carry with you from your principality?"
+  ]
 }

@@ -5,11 +5,20 @@
   "hallmarks": ["Elves", "horses", "mercenaries"],
   "population": "unkown",
   "climate": "Tropical",
-  "characteristics": ["War-thirsty warriors that seek a worthy foe", "The dragonmarked House Lyrandar helped the Valenar elves build the infrastructure of their kingdom. The half-elves have no homeland, but House Lyrandar hopes to make Valenar a haven for its people.", "The ancestors of the elves fought goblins for control of this region many thousands of years ago. Relics of that struggle are still scattered across Valenar and the Blade Desert: ruins, haunted fortresses, and battlefields that have slipped out of alignment with time.", "Valenar warbands include druids and rangers, and druidic magic bolsters the military arsenal of the elves. Walls of thorns surround elven fortresses, and beasts fight alongside the elves. Valenar horses are known for being as fearless and stubborn as the elves who ride them."],
+  "description": [],
+  "characteristics": [
+    "War-thirsty warriors that seek a worthy foe",
+    "The dragonmarked House Lyrandar helped the Valenar elves build the infrastructure of their kingdom. The half-elves have no homeland, but House Lyrandar hopes to make Valenar a haven for its people.",
+    "The ancestors of the elves fought goblins for control of this region many thousands of years ago. Relics of that struggle are still scattered across Valenar and the Blade Desert: ruins, haunted fortresses, and battlefields that have slipped out of alignment with time.",
+    "Valenar warbands include druids and rangers, and druidic magic bolsters the military arsenal of the elves. Walls of thorns surround elven fortresses, and beasts fight alongside the elves. Valenar horses are known for being as fearless and stubborn as the elves who ride them."
+  ],
   "races": ["Elves"],
   "religions": ["Undying Court", "Spirits of the Past"],
   "houses": ["None"],
-  "lastWarSynopsis": ["An army of Tairnadal (Valaes Tairn) warrior elves from Aerenal seized this region from Cyre after Cyre employed them as mercenaries", "The Elves of Valenar continue to prod other nations in search of a worthy fight"],
+  "lastWarSynopsis": [
+    "An army of Tairnadal (Valaes Tairn) warrior elves from Aerenal seized this region from Cyre after Cyre employed them as mercenaries",
+    "The Elves of Valenar continue to prod other nations in search of a worthy fight"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": []
 }

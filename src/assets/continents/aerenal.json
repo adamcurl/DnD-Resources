@@ -1,9 +1,21 @@
 {
   "name": "Aerenal",
   "desc": "The massive island of Aerenal is the ancient kingdom of the elves. Its jungles provide strange and valuable lumbers: soarwood used for the hulls of airships, tough bronzewood, and trees that remain alive after being felled. Necromancy is a pillar of Aereni society, distinct from the sinister power most adventurers encounter. Positive energy sustains the deathless undead of Aerenal—both the light of Irian and the devotion freely given by their descendants. Aereni civilization is over twenty thousand years old.",
-  "locations": [{ "name": "Pylas Talaear", "desc": "The gateway to Aerenal, this port city is the primary point of contact between Aerenal and the outside world. In this city driven by commerce, almost all the dragonmarked houses have outposts here, and it includes vast markets, warehouses, and lumber yards." },
-  {"name": "Shae Cairdal", "desc": "This city is the capital of Aerenal, the seat of the Sibling Kings, and the center for commerce and diplomacy between the elven families, who otherwise remain isolated in their own city-states. Foreigners are encouraged to conduct business in Pylas Talaear."},
-  {"name": "Shae Mordai", "desc": "This ancient citadel houses the Undying Court, the deathless ancestors who shape the destiny of Aerenal. It is built atop a rift to the Plane of Irian and suffused with positive energy. Almost no commerce takes place here. This center for arcane study also serves as a memorial to all the heroes of the elves, both the deathless and those lost in the distant past. The Citadel of the Court is said to be far larger than it appears and to hold the greatest treasures of the elves."}],
+  "locations": [
+    {
+      "name": "Pylas Talaear",
+      "desc": "The gateway to Aerenal, this port city is the primary point of contact between Aerenal and the outside world. In this city driven by commerce, almost all the dragonmarked houses have outposts here, and it includes vast markets, warehouses, and lumber yards."
+    },
+    {
+      "name": "Shae Cairdal",
+      "desc": "This city is the capital of Aerenal, the seat of the Sibling Kings, and the center for commerce and diplomacy between the elven families, who otherwise remain isolated in their own city-states. Foreigners are encouraged to conduct business in Pylas Talaear."
+    },
+    {
+      "name": "Shae Mordai",
+      "desc": "This ancient citadel houses the Undying Court, the deathless ancestors who shape the destiny of Aerenal. It is built atop a rift to the Plane of Irian and suffused with positive energy. Almost no commerce takes place here. This center for arcane study also serves as a memorial to all the heroes of the elves, both the deathless and those lost in the distant past. The Citadel of the Court is said to be far larger than it appears and to hold the greatest treasures of the elves."
+    }
+  ],
   "races": ["Elves"],
-  "religions": ["Undying Court"]
+  "religions": ["Undying Court"],
+  "homelandPrompts": []
 }

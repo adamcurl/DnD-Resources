@@ -2,14 +2,51 @@
   "country": "Karrnath",
   "capital": "Korth",
   "ruler": "King Kaius ir’Wynarn III",
-  "hallmarks": ["Ale", "dairy", "glass", "livestock", "lumber", "martial discipline", "paper", "textiles", "undead"],
+  "hallmarks": [
+    "Ale",
+    "Dairy",
+    "Glass",
+    "Livestock",
+    "Lumber",
+    "Martial discipline",
+    "Paper",
+    "Textiles",
+    "Undead"
+  ],
   "population": "2.5 million",
   "climate": "Temperate in the south, but cold everywhere else",
-  "characteristics": ["Stoic and grim", "Strong military, but little to no magic", "Karns value strength, strategy, and discipline", "Karns disapprove of any extravagance or luxury and approve of swift punishments to crime"],
+  "description": [
+    "Karrnath is a land of storms and long winters.",
+    "Although the Blood of Vol is no longer the main religion, there is still a strong undead precense in Karrnath",
+    "Rekkenmark Academy is the premier military institute in Khorvaire.",
+    "The laws of Karrnath are harsher than those in other treaty nations, approaching a state of martial law."
+  ],
+  "characteristics": [
+    "Stoic and grim",
+    "Strong military, but little to no magic",
+    "Karns value strength, strategy, and discipline",
+    "Karns disapprove of any extravagance or luxury and approve of swift punishments to crime",
+    "Karrnathi tradition emphasizes teamwork, focus, and force, and melee warriors prefer heavy armor and weapons. Karrnathi wizards prefer necromancy above all other magic."
+  ],
   "races": ["Humans"],
   "religions": ["Sovereign Host", "Blood of Vol"],
-  "houses": ["Jorasco (Vedkyar Enclave - Vedykar, Karrnath)", "Cannith (Korth Enclave - Karrnath)", "Deneith (Sentinel Tower - Karrlakton, Karrnath)"],
-  "lastWarSynopsis": ["During the Last War, King Kaius I set in place the Code of Kaius, which is a strict set of laws and limits", "Due to multiple famines during the war, a rationing program was also set in place", "Due to the hardships and many deaths of Karns, King Kaius I was forced to embrace the Blood of Vol as the main religion, which used dead Karns as undead soldiers in the war", "Karrnath was one of the main architechts of the Treaty of Thronehold, but many Karns believe that they would have won and that King Kaius III denied them their destiny", "The Blood of Vol is no longer instituded as the main religion, but still has a strong precense there"],
+  "houses": [
+    "Jorasco (Vedkyar Enclave - Vedykar, Karrnath)",
+    "Cannith (Korth Enclave - Karrnath)",
+    "Deneith (Sentinel Tower - Karrlakton, Karrnath)"
+  ],
+  "lastWarSynopsis": [
+    "During the Last War, King Kaius I set in place the Code of Kaius, which is a strict set of laws and limitations.",
+    "Due to multiple famines during the war, a rationing program was also set in place.",
+    "Due to the hardships and many deaths of Karns, King Kaius I was forced to embrace the Blood of Vol as the main religion, which used dead Karns as undead soldiers in the war.",
+    "Karrnath was one of the main architechts of the Treaty of Thronehold, but many Karns believe that they would have won and that King Kaius III denied them their destiny.",
+    "The Blood of Vol is no longer instituded as the main religion, but still has a strong precense there"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "How does the strong military aspect of Karrnath affect your character? Did you train since you were a child or did you rigorously study martial techniques since you were young?",
+    "Do you believe that King Kaius III stole your right to victory by signing the Treaty of Thronehold?",
+    "Do you still embrace the Blood of Vol and undead magic, or do you wish to move on from that dark past of Karrnath?",
+    "What is your opinion of undead soldiers? Do you have a friend or relative that is an undead soldier currently still serving in the military?"
+  ]
 }

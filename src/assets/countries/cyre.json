@@ -5,11 +5,34 @@
   "hallmarks": ["Art", "artifice", "jewelry", "music", "oratory", "philosophy"],
   "population": "1.5 million",
   "climate": "Temperate",
-  "characteristics": ["Values diversity and versatility", "Cyre was the seat of the kings and queens of Galifar", "By tradition, Cyre’s Princess Mishann had claim to the throne", "Cyrans lost more than anyone else in the war and stood on the moral high ground", "Some support Prince Oargev, while others want to cling to the past"],
+  "description": [
+    "Cyre was the seat of the kings and queens of Galifar",
+    "By tradition, Cyre’s Princess Mishann had claim to the throne",
+    "Cyre was once a land filled with rich and versatile culture and all races of people with different views and values",
+    "The Mourning has turned Cyre in to a warped, chaotic wasteland",
+    "Queen Dannel ir’Wynarn was in Metrol on the Day of Mourning and is presumed dead. Her son, Prince Oargev ir’Wynarn, holds court in New Cyre, Breland."
+  ],
+  "characteristics": [
+    "Values diversity and versatility",
+    "Due to the Mourning wiping out Cyre, Cyrans lost more than anyone else in the war and stood on the moral high ground",
+    "Some Cyrans support Prince Oargev, while others want to cling to the past"
+  ],
   "races": ["variety"],
   "religions": ["Sovereign Host", "Silver Flame"],
   "houses": ["Cannith (Metrol)"],
-  "lastWarSynopsis": ["Although there were no winners or losers in the Last Wary, Cyre was a definite loser", "Cyre fought against: Darguun, Valenar, Breland (Early)", "Cyre later allied themselves with Breland"],
+  "lastWarSynopsis": [
+    "Although there were no winners or losers in the Last Wary, Cyre was a definite loser given that the Mourning took out the entire country",
+    "Cyre fought against: Darguun, Valenar, Breland (Early)",
+    "Cyre later allied themselves with Breland"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "As a Cyran, you lost a lot. What did you lose in the Mourning? Family, possessions, land? Where do you go to now that your homeland is no more?",
+    "How did you survive the Mourning? Did you flee or take shelter from the magical smoke that encompassed the land or were you out of the country at the time?",
+    "Do you still carry with you the diverse and versatility culture of Cyre?",
+    "Do you follow Prince Oargev ir'Wynarn in New Cyre, Breland as your new leader?",
+    "Do you wish to reclaim the past or focus on the future?",
+    "Do you wear the bright, colorful clothes of Cyran culture, or do you wear all black Mourning wear?",
+    "Are you a Mourner that seeks revenge on soldiers from enemy nations?"
+  ]
 }

@@ -1,15 +1,38 @@
 {
   "country": "Q'barra",
   "capital": "Newthrone",
-  "ruler": "King Sebastes ir’Kesslan (Newthrone), Cold Sun Federation (lizardfolk), Ka’rhashan (dragonborn), Confederacy of the Poison Dusk (lizardfolk)",
-  "hallmarks": ["Eberron dragonshards", "rare herbs"],
+  "ruler": "King Sebastes ir’Kesslan (humans in Newthrone), Cold Sun Federation (lizardfolk), Ka’rhashan (dragonborn), Confederacy of the Poison Dusk (lizardfolk)",
+  "hallmarks": ["Eberron dragonshards", "Rare herbs"],
   "population": "unknown",
   "climate": "Tropical",
-  "characteristics": ["Q'barra is filled with settlers looking to explore and settle the newfound land", "Q'barra is also filled with criminals and deserters", "The lizardfolk have a primitive culture based around druidic magic and the beliefs of the Silver Flame", "The dragonborn live amongst the remnants of an ancient society with a proud martial tradition"],
+  "description": [
+    "Q'barra is a young nation with untamed jungle frontier filled with danger and opportunity.",
+    "When the Last War began, a fleet of settlers came to Q'barra in search of a safe haven from the war.",
+    "When the Last War ended, many came to Q'barra in search of a new home and life or to escape the law.",
+    "Q'barra contains massive deposits of Eberron dragonshards and waves of prospectors and scholars have flocked to Q'barra to mine them.",
+    "Q'barra was already home to a number of ancient civilizations including: the lizardfolk of the Cold Sun Federation, the dragonborn of Ka'rhashan, and the confederacy of the Poison Dusk lizardfolk.",
+    "The relationship between the settlers (led by King Sebastes) and the lizardfolk natives (Cold Sun Federation) is another source of tension due to the fact that the settlers constantly violate their treaty to mine precious ore.",
+    "The Poison Dusk lizardfolk are hostile to both the settlers and the Cold Sun Federation",
+    "The dragonborn mostly keep to themselves and fend of any lizardfolk that come near their territory."
+  ],
+  "characteristics": [
+    "Q'barra is filled with settlers looking to explore and settle the newfound land",
+    "Q'barra is also filled with criminals and deserters",
+    "The lizardfolk have a primitive culture based around druidic magic and the beliefs of the Silver Flame",
+    "The dragonborn live amongst the remnants of an ancient society with a proud martial tradition"
+  ],
   "races": ["Lizardfolk", "Dragonborn", "Human settlers"],
   "religions": ["(Lizardfolk) - Silver Flame/druidic blend"],
-  "houses": ["House Tharashk has a strong presence"],
-  "lastWarSynopsis": ["Q’barra wasn’t involved in the Last War, but many of its settlers are Cyran, who are either looking for a new life, or vengeance on anyone who is from an enemy nation.", "The relationship between the settlers (led by King Sebastes) and the lizardfolk natives (Cold Sun Federation) is another source of tension due to the fact that the settlers constantly violate their treaty to mine precious ore.", "The Poison Dusk lizardfolk are hostile to both the settlers and the Cold Sun Federation", "The dragonborn mostly keep to themselves and fend of any lizardfolk that come near their territory."],
+  "houses": [
+    "House Tharashk has a strong presence in mining for Eberron dragonshards"
+  ],
+  "lastWarSynopsis": [
+    "Q’barra wasn’t involved in the Last War, but many of its settlers are Cyran, who are either looking for a new life, or vengeance on anyone who is from an enemy nation."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "As a settler, what made you come to Q'barra? A new life? Safety? Running from the law? Adventure or treasure?",
+    "As a lizardfolk or dragonborn, how do you feel about the new settlers coming into your land?",
+    "As a proud dragonborn warrior, did you serve as a mercenary during the Last War? Or did you continue to guard the ancient temples of your ancestors?"
+  ]
 }

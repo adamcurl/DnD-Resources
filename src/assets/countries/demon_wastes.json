@@ -2,14 +2,33 @@
   "country": "Demon Wastes",
   "capital": "None",
   "ruler": "None",
-  "hallmarks": ["Fiends", "pestilence"],
+  "hallmarks": ["Fiends", "Pestilence"],
   "population": "unknown",
   "climate": "Dry",
-  "characteristics": ["While most of the Demon Wastes is made up of fiends, the eastern edge is made up of two separate people", "(Ghaash’kala) - noble orc defenders", "(The Carrion Tribes) - human, half-orcs, and tiefling savages that worship demonic lords"],
-  "races": ["Fiends", "demons", "orcs", "humans", "tieflings"],
-  "religions": ["(Ghaash’kala) - Binding Flame (Kalok Shash)", "(The Carrion Tribes) - Dark Six"],
+  "description": [
+    "Rivers of lava cut across plains of black sand and volcanic glass. The only vegetation consists of blood-red moss and a thick layer of shimmering slime.",
+    "While most of the Demon Wastes is made up of fiends, the eastern edge is made up of two separate people.",
+    "(Ghaash’kala) - noble orc and half-orc defenders who live in the mountains on the border of the Demon Wastes and keep the evil away from the rest of Khorvaire.",
+    "(The Carrion Tribes) - human, half-orcs, and tiefling savages that live inside the Demon Wastes and worship demonic lords.",
+    "The Stone Cage, Shadowcrags, and Icehorn Mountains separate the Demon Wastes from the Eldeen Reaches. A series of canyons known as the Labyrinth further separate the Demon Wastes from the rest of Khorvaire.",
+    "Due to ancient warding magic, any creature that wishes to leave must do so through the Labyrinth, guarded by the Ghaash'kala."
+  ],
+  "characteristics": [
+    "The Ghaash'kala are strong and devoted warriors who devote their lives to containing the evils within the Wastes and worship the Silver Flame.",
+    "The Carrion Tribes are vicious and savage and worship the different fiends within the Wastes."
+  ],
+  "races": ["Fiends", "Demons", "Orcs", "Humans", "Tieflings"],
+  "religions": [
+    "(Ghaash’kala) - Binding Flame (Kalok Shash)",
+    "(The Carrion Tribes) - Dark Six"
+  ],
   "houses": ["None"],
   "lastWarSynopsis": ["Wasn't involved"],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "If you belong to the Ghaash'kala, what made you decide to join and contain the evil within the Wastes? And what made you leave?",
+    "If you belonged to the Ghaash'kala, do you wish to return to fight the fiends within, or are your goals different, now?",
+    "If you belong to a Carrion Tribe, what was it like? What fiend did you worship, and why did you leave?",
+    "If you are from a Carrion Tribe, do you still have ties to the fiendish energy within the Wastes, or do you wish to turn a new leaf and live a more pure life?"
+  ]
 }

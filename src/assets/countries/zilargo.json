@@ -2,14 +2,31 @@
   "country": "Zilargo",
   "capital": "Trolanport",
   "ruler": "Triumvirate council (each major city has a representative seat)",
-  "hallmarks": ["Alchemy", "education", "elemental binding", "entertainment", "gnomes", "precious stones"],
+  "hallmarks": [
+    "Alchemy",
+    "education",
+    "elemental binding",
+    "entertainment",
+    "gnomes",
+    "precious stones"
+  ],
   "population": "unknown",
   "climate": "Temperate",
-  "characteristics": ["The gnomes are cunning, deceptive, and love intrigue", "Most consider the Library of Korranberg the finest repository of knowledge in Khorvaire.", "The Korranberg Chronicle is the leading source of news in Khorvaire. Gnome chroniclers travel across Khorvaire in search of stories.", "The major cities of Zilargo maintain temples and shrines dedicated to every religion. Most Zil explore a few faiths before settling on one; others practice multiple religions."],
+  "description": [],
+  "characteristics": [
+    "The gnomes are cunning, deceptive, and love intrigue",
+    "Most consider the Library of Korranberg the finest repository of knowledge in Khorvaire.",
+    "The Korranberg Chronicle is the leading source of news in Khorvaire. Gnome chroniclers travel across Khorvaire in search of stories.",
+    "The major cities of Zilargo maintain temples and shrines dedicated to every religion. Most Zil explore a few faiths before settling on one; others practice multiple religions."
+  ],
   "races": ["Gnomes"],
   "religions": ["A bit of everything"],
   "houses": ["Sivis (The Labyrinth - Korranberg, Zilargo)"],
-  "lastWarSynopsis": ["Zilargo mostly avoided the war", "Darguun invaders constantly try and steal jewel miners from Zilargo", "Zilargo provided weapons and ships to Breland"],
+  "lastWarSynopsis": [
+    "Zilargo mostly avoided the war",
+    "Darguun invaders constantly try and steal jewel miners from Zilargo",
+    "Zilargo provided weapons and ships to Breland"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": []
 }

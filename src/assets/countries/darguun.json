@@ -5,11 +5,36 @@
   "hallmarks": ["Dungeons", "goblinoid mercenaries", "ruins"],
   "population": "unknown",
   "climate": "Temperate",
-  "characteristics": ["Darguul constantly have to prove their strength and skill to gain respect", "Darguul are deeply loyal to their clans or close allies", "Muut and Atcha, or Duty and Honor, are highly valued in battle and life by the Darguul"],
+  "description": [
+    "The goblinoids of Darguun live in a clan-based society, where clan heads have absolute power of their clan, but swear loyalty to Haruuc",
+    "The goblinoids were once a part of a great empire named Dhakaani, until Galifar destroyed it and enslaved the goblinoids",
+    "The Ghaal'dar clan is the goblinoid clan under Haruuc",
+    "A number of bugbear-dominated clans known as the Marguul inhabit southern Darguun. Some of the Marguul refuse to acknowledge the authority of the Ghaal’dar hobgoblins; these clans are especially dangerous and violent.",
+    "Although illegal now, there were a few non-goblinoid slaves who now reside in Darguun."
+  ],
+  "characteristics": [
+    "Darguul goblinoids constantly have to prove their strength and skill to gain respect",
+    "Darguul are deeply loyal to their clans or close allies",
+    "Muut and Atcha, or Duty and Honor, are highly valued in battle and life by the Darguul"
+  ],
   "races": ["Hobgoblins", "Goblins", "Bugbears"],
-  "religions": ["Dark Six", "Sovereign Host (especially Dol Dorn, Dol Arrah, and Balinor)"],
+  "religions": [
+    "Dark Six",
+    "Sovereign Host (especially Dol Dorn, Dol Arrah, and Balinor)"
+  ],
   "houses": ["Deneith (strong presence, no HQ)"],
-  "lastWarSynopsis": ["After the goblinoid mercenaries were employeed by Cyre and Breland to guard the land between them, Haruuc led a revolt to reclaim the land of their ancestors."],
+  "lastWarSynopsis": [
+    "After the goblinoid mercenaries were employeed by Cyre and Breland to guard the land between them, Haruuc led a revolt to reclaim the land of their ancestors. Breland quickly formed an alliance with Haruuc to secure it's border, but Cyre fought the goblins until the day of the Mourning.",
+    "After Haruuc's betrayal, not many people will employ goblinoid mercenaries, but smaller forces will for their ferocity and skills."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "Do you seek to rebuild the great Dhakaani empire that your ancestors forged before Galifar took it over?",
+    "How important is Muut and Atcha (Duty and Honor) to you?",
+    "Did you believe in Haruuc to unify the goblinoids under a single banner?",
+    "Do you welcome or despice non-goblinoids?",
+    "Were you a part of the goblinoid mercenary force that betrayed Breland and Cyre to take over what is now Darguun?",
+    "Do you embrace the traditional Dark Six religion, or do you embrace the newer Sovereign Host?",
+    "If you aren't a goblinoid, were you a slave of the goblins or did you earn a place amongst them?"
+  ]
 }

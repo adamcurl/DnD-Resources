@@ -2,14 +2,45 @@
   "country": "Droaam",
   "capital": "The Great Crag",
   "ruler": "Three Hag Daughters of Sora Kell",
-  "hallmarks": ["Byeshk ore", "monstrous mercenaries"],
+  "hallmarks": ["Byeshk ore", "Monstrous mercenaries"],
   "population": "unknown",
   "climate": "Temperate in the north, Humid in the south",
-  "characteristics": ["Savage, inner fighting, but united by the Three Daughters", "Mainly been uninhabited wild lands claimed by Breland", "There are constant skirmishes at the border of Breland"],
-  "races": ["Gnolls", "Orcs", "Goblins", "Ogres", "Trolls", "Harpies", "Minotaurs", "Medusas", "Tieflings", "Changelings", "Lyconthropes"],
+  "description": [
+    "Droaam has mostly been uninhabited wild lands claimed by Breland, until 11 years ago.",
+    "Droaam is now a nation of monsters ruled by the three hag Daughters of Sora Kell, who are the sources for many tales used to frighten children.",
+    "Droaam is not recognized as a nation by the Treaty of Thronehold, and many wonder how long the Three Daughters can maintain control of the monsters living within.",
+    "The monster-dominated cities of Droaam continue to grow larger and more organized every day.",
+    "There are constant skirmishes at the border of Breland",
+    "The Dark Pack is an alliance of lycanthropes, worgs, and other supernatural predators that hunt southern Droaam."
+  ],
+  "characteristics": [
+    "Savage, inner fighting, but united by the Three Daughters",
+    "The monsters that inhabit Droaam retain their racial subcultures.",
+    "Droaam uses the supernatural abilities of its citizens as tools, just as other nations of Khorvaire use magic, such as using a troll's strength or a harpy's song."
+  ],
+  "races": [
+    "Gnolls",
+    "Orcs",
+    "Goblins",
+    "Ogres",
+    "Trolls",
+    "Harpies",
+    "Minotaurs",
+    "Medusas",
+    "Tieflings",
+    "Changelings",
+    "Lyconthropes"
+  ],
   "religions": ["Dark Six"],
   "houses": ["None, but works with House Tharashk"],
-  "lastWarSynopsis": ["Mild skirmishes with Breland", "Was not recognized as a country in the Treaty of Thronehold"],
+  "lastWarSynopsis": [
+    "Mild skirmishes with Breland",
+    "Was not recognized as a country in the Treaty of Thronehold"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "As a playable race, what makes you different than the other humanoids of your race outside of Droaam?",
+    "What are your ambitions? Do you want to show the rest of Khorvaire that you aren't a monster, or do you seek out your own desires and ambitions?",
+    "Did you grow up in a monster-dominated city, a changeling tribe, a lycanthrope pack, or a tiefling city?"
+  ]
 }

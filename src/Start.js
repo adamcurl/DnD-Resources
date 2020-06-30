@@ -38,12 +38,13 @@ function Start(props) {
           Khorvaire has just entered a new era after a hundred year civil war
           that ended in the Treaty of Thronehold two years after the nation of
           Cyre was destroyed and twisted by a large magical cataclysm, known as
-          the Mourning. This campaign starts two years after the end of the war,
-          in the year 998 YK. The gods of Eberron are distant and do not
-          directly influence the world. Other immortal entities, such as the
-          chaotic, outer-planar Daelkyr, the holy Silver Flame that locks away
-          the Overlords, the ancient elves of the Undying Court, and demonic
-          Overlords do still reside within Eberron.
+          the Mourning. The cause of this disaster is still unknown. Was it
+          natural, or did someone or something create this? This campaign starts
+          two years after the end of the war, in the year 998 YK. The gods of
+          Eberron are distant and do not directly influence the world. Other
+          immortal entities, such as the chaotic, outer-planar Daelkyr, the holy
+          Silver Flame that locks away the Overlords, the ancient elves of the
+          Undying Court, and demonic Overlords do still reside within Eberron.
         </p>
         <h4>The Dragonmarked Houses</h4>
         <p>
@@ -52,26 +53,44 @@ function Start(props) {
           gave individuals powerful magical abilities and influence. Each
           Dragonmarked bloodline formed a House and began to use their marks to
           form and operate a business. House Cannith Humans mass produces
-          magical items, House Ghallanda Halflings operate a chain of Inns, and
-          House Lyrandar Half-Elves operate flying airships and swift galleons.
-          The Last War was very profitable to the Dragonmarked Houses. Before
-          the Last War, Galifar kept these Houses' power in check, but now that
-          Galifar is no more, the Houses are beginning to grow in power and
-          influence. Some humanoids who bear a Dragonmark may not be a part of
-          their corresponding House, or might be disowned from the House.
+          magical items, House Ghallanda Halflings operate a chain of Inns,
+          House Vadalis breeds magical animals, House Deneith offers bodyguards
+          and mercenary services, and House Lyrandar Half-Elves operate flying
+          airships and swift galleons. To date, there are currently 13 Houses
+          and 12 different Marks (due to House Phiarlan and House Thuranni
+          splitting during the Last War). The Last War was very profitable to
+          the Dragonmarked Houses. Before the Last War, Galifar kept these
+          Houses' power in check, but now that Galifar is no more, the Houses
+          are beginning to grow in power and influence. Not every humanoid who
+          bears a Dragonmark belongs to a House. Some might be bastard children
+          of a House member, might be from a diverged bloodline from the
+          corresponding House, or might be disowned from the House.
         </p>
         <h4>The Last War</h4>
         <p>
-          Khorvaire was unified under the nation of Galifar, which contained the
-          Five Nations (nations ruled by the descendants of Galifar): Aundair,
-          Thrane, Breland, Karrnath, and Cyre, the former seat of power - now
-          the Mournland. After dispute about the new Cyran heir becoming the
-          ruler of Galifar, as it always has been, the Last War broke out,
+          Khorvaire was unified under the nation of Galifar for hundreds of
+          years, which contained the Five Nations (nations ruled by the
+          descendants of Galifar): Aundair, Thrane, Breland, Karrnath, and Cyre,
+          the former seat of power - now the Mournland. In 894 YK after King
+          Jarot died, there was dispute about the new Cyran heir becoming the
+          ruler of Galifar, as it always has been. Thus began the Last War,
           turning the Five Nations against one another, and allowing for other
           territories, such as Valenar, the Eldeen Reaches, and Darguun to form
           and join the fray. Towards the end of the war, new creations called
           Warforged, magical golems with their own free will and souls, were
-          created by House Cannith to be used as soldiers in this war.
+          created by House Cannith to be used as soldiers in this war. However,
+          in 994 YK, the nation of Cyre was consumed in a magical cataclysm now
+          known as the Mourning. Out of fear, the nations came together to end
+          the war in 996 YK with the Treaty of Thronehold. The treaty recognized
+          the original Five Nations, except for Cyre, as sovereign nations, as
+          well as new ones: Darguun, Valenar, the Eldeen Reaches, Zilargo, the
+          Talenta Plains, Q'barra, the Mror Holds, and the Lhazaar
+          Principalities. However, Cyre and Droaam were not represented in this
+          treaty. This treaty also acknowledged the emancipation of Warforged
+          and banned the use of Creation Forges used to create more. The
+          Tribunal of Thronehold was also created to prosecute war crimes during
+          the Last War with magistrates from each nation, except for Q'barra and
+          Valenar.
         </p>
       </div>
       {!showOptions ? (

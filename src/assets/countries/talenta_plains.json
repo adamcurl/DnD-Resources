@@ -2,14 +2,34 @@
   "country": "Talenta Plains",
   "capital": "Gatherhold",
   "ruler": "Lathon Halpum (wants to unite Talenta Plains and become a great nation), Holy Uldra (a powerful shaman that wants to rid Talenta Plains of outsiders)",
-  "hallmarks": ["Dinosaurs", "halflings", "livestock"],
+  "hallmarks": ["Dinosaurs", "Halflings", "Livestock"],
   "population": "unknown",
   "climate": "Dry",
-  "characteristics": ["The people are simple, wild, and clan-based", "Halflings form a spiritual bond with their dinosaurs"],
+  "description": [
+    "The halflings of the Talenta Plains have no cities and no industrialized magic, but they do have dinosaurs that are domesticated as mounts or livestock.",
+    "Talenta religion reveres spirits, both departed ancestors and natural spirits. Each tribe has a lath—a chieftain who guides the tribe—and shamans who consult the spirits and choose the paths of migration.",
+    "House Ghallanda and House Jorasco both originated in the Talenta Plains.",
+    "Stories tell of ancient ruins that date back to the first age of the world and of a vast graveyard holding the bones of dragons.",
+    "During the Last War, many halflings came together under Lathon Halpum to defend their land.",
+    "Holy Uldra is a powerful shaman and the leader of her own tribe that wishes to rid the Plains of outsiders.",
+    "The natives of the Plains have no interest in change, but more foreigners visit the Plains more than at any time in the past. People cross the plains to go into Q'barra, Valenar elves search for a fight in the plains, and creatures emerge from the Mournland."
+  ],
+  "characteristics": [
+    "The people are simple, wild, and clan-based",
+    "Halflings form a spiritual bond with their dinosaurs"
+  ],
   "races": ["Halflings"],
   "religions": ["Various totem spirits"],
   "houses": ["Ghallanda (Gatherhold, Talenta Plains)"],
-  "lastWarSynopsis": ["The halfling tribes joined together to defend themselves from outsiders, and the Talenta Plains were recognized as a nation under the Treaty of Thronehold", "The natives of the Plains have no interest in change, but more foreigners visit the Plains than at any time in the past"],
+  "lastWarSynopsis": [
+    "The halfling tribes joined together to defend themselves from outsiders, and the Talenta Plains were recognized as a nation under the Treaty of Thronehold"
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "If you're a halfling, do you have a dinosaur mount or companion?",
+    "Do you believe that eh various spirits of the Plains guide your actions? How do you show respect to the spirits?",
+    "What skillset helped you to survive in the wild plains?",
+    "What is your opinion of all the new outsiders visiting and settling in your land?",
+    "What was your opinion of the Last War?"
+  ]
 }

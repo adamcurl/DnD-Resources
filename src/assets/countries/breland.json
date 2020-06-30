@@ -2,14 +2,42 @@
   "country": "Breland",
   "capital": "Wroat",
   "ruler": "King Boranel ir’Wynarn",
-  "hallmarks": ["Espionage", "industry", "metalwork", "organized crime", "subterfuge"],
+  "hallmarks": [
+    "Espionage",
+    "Industry",
+    "Metalwork",
+    "Organized crime",
+    "Subterfuge"
+  ],
   "population": "3.7 million",
   "climate": "Temperate in the north, tropical in the south",
-  "characteristics": ["Many Brelish have a loose relationship with the law", "Brelish are independant and innovative", "Whether it’s about fashion, food, or conversation, the Brelish tend to be pragmatic", "Due to the Breland’s various enemies and backstabbers in the Last War, Brelish never fully trust anyone", "After the Last War, Brelish adopted a view to uphold humanoid rights and dignity", "Many Brelish believe that if the Last War had continued, Breland would have stood victorious"],
+  "description": [
+    "Breland is home to the largest city in Khorvaire, Sharn, a city of impossibly high towers with the noble ward of Skyway that floats on a cloud above the towers. Sharn is a hub for commerce and intrigue.",
+    "There are several crime organizations in Sharn, including the halfling-run Boromar clan, the monster-run Daask, and the alliance of assassins with aberrant dragonmarks, House Tarkanan.",
+    "King Boranel is a popular leader celebrated for his exploits during the Last War, but his children have yet to prove themselves."
+  ],
+  "characteristics": [
+    "Many Brelish have a loose relationship with the law",
+    "Brelish are independant and innovative",
+    "Whether it’s about fashion, food, or conversation, the Brelish tend to be pragmatic",
+    "Due to the Breland’s various enemies and backstabbers in the Last War, Brelish never fully trust anyone",
+    "After the Last War, Brelish adopted a view to uphold humanoid rights and dignity",
+    "Many Brelish believe that if the Last War had continued, Breland would have stood victorious"
+  ],
   "races": ["Humans", "Half-Elves", "variety"],
   "religions": ["Sovereign Host"],
   "houses": ["Medani (Wroat)", "Cannith (Sharn)"],
-  "lastWarSynopsis": ["At various points of the war, Breland fought: Aundair, Cyre (Early), Karrnath, Thrane, Darguun, Droaam.", "Zilargo and Cyre eventually decided to ally themselves with Breland after the goblins took over what is now Darguun.", "Breland now hosts New Cyre, a refugee camp for Cyrans."],
+  "lastWarSynopsis": [
+    "At various points of the war, Breland fought: Aundair, Cyre (Early), Karrnath, Thrane, Darguun, Droaam.",
+    "Zilargo and Cyre eventually decided to ally themselves with Breland after the goblins took over what is now Darguun.",
+    "Breland now hosts New Cyre, a refugee camp for Cyrans."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "Are you one of the many Brelish that believe Breland would have won the Last War, had a treaty not been signed?",
+    "As Brelish, what makes you independant and innovative?",
+    "Do you have a loose relationaship with the law?",
+    "How do you feel about the New Cyre refugees in your country and in the major city of Sharn?",
+    "Given how Breland was constantly betrayed during the Last War, is your trust hard to earn?"
+  ]
 }

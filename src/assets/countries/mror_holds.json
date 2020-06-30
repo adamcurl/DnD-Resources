@@ -2,14 +2,40 @@
   "country": "Mror Holds",
   "capital": "Krona Peak",
   "ruler": "Iron Council (12 noble clans)",
-  "hallmarks": ["Banking", "dwarves", "metalwork", "mining (precious and non-precious metals)"],
+  "hallmarks": [
+    "Banking",
+    "Dwarves",
+    "Metalwork",
+    "Mining (precious and non-precious metals)"
+  ],
   "population": "unknown",
   "climate": "Temperate in the south, cold in the north",
-  "characteristics": ["Proud of wealth and possessions", "Talent and skills as forgers and warriors"],
-  "races": ["Dwarves"],
+  "description": [
+    "The Mror Holds are a mountainous land full of various ores and metals.",
+    "There are deep reserves of gold, silver, and other precious metals along with iron and other ores.",
+    "The dwarves of the Mror Holds were in a constant feud that allowed the humans of Galifar to conquer them. They eventually harnessed the natural resources of the land and became merchant lords.",
+    "Towards the beginning of the Last War, Mror miners found the ruins of an ancient dwarven empire, known as the Realm Below, deep within the Ironroot Mountains full of riches and artifacts. After restoring these ruins, the dwarves found that they had awoken an ancient daelkyr power and have been fighting it for decades.",
+    "A clan of orcs called the Jhorash’tar live among the Ironroot Mountains that have been slowly crowded into the least hospitable regions.",
+    "Dwarf artificers are working to master ancient artifacts, while warlocks strive to harness the powers of the daelkyr."
+  ],
+  "characteristics": [
+    "Proud of wealth and possessions",
+    "Talent and skills as forgers and warriors",
+    "Most dwarves revile anything to do with daelkyr, others believe that the daelkyr can grant them power"
+  ],
+  "races": ["Dwarves", "Orcs (few in Ironroot Mountains)"],
   "religions": ["Sovereign Host (mostly Kol Korran)"],
   "houses": ["Kundarak (Korunda Gate, Mror Holds)"],
-  "lastWarSynopsis": ["The Mror Holds declared independence during the Last War", "Towards the end of the Last War, the Dwarves uncovered and ancient Dwarvent empire overran by the Daelkyr underneath their country."],
+  "lastWarSynopsis": [
+    "The Mror Holds formed the Iron Council and declared independence during the Last War.",
+    "Towards the end of the Last War, the Dwarves uncovered and ancient Dwarvent empire overran by the daelkyr underneath their country. Some clans despise this power while others embrace it, leading some to believe that a Civil War looms on the precipice."
+  ],
   "brief_history": "",
-"homelandPrompts": []
+  "homelandPrompts": [
+    "Are you known for your mercantile power or martial skill?",
+    "Are you a noble belonging to a clan?",
+    "Do you embrace or fight the foul forces in the Realm Below?",
+    "Mror take pride in their possessions and prefer quality to appearance. How do you treat every item you own? Do you only want the rare and valuable items and discard the useless or mundane ones?",
+    "If you are an orc of the Jhorash'tar, how do you feel about the dwarves that have pushed you into a small corner of the Ironroot Mountains?"
+  ]
 }
