@@ -21,9 +21,11 @@
   "religions": ["Sovereign Host", "Silver Flame"],
   "houses": ["Cannith (Metrol)"],
   "lastWarSynopsis": [
-    "Although there were no winners or losers in the Last Wary, Cyre was a definite loser given that the Mourning took out the entire country",
-    "Cyre fought against: Darguun, Valenar, Breland (Early)",
-    "Cyre later allied themselves with Breland"
+    "Although there were no winners or losers in the Last War, Cyre was a definite loser given that the Mourning took out the entire country",
+    "Cyre fought against: Darguun, Valenar, Breland (Early), and Karrnath.",
+    "Cyre later allied themselves with Breland and hired goblin mercenaries to protect what is now Darguun.",
+    "Darguun was stolen from Cyre after the goblins betrayed Cyre and took the land.",
+    "Valenar was also stolen from Cyre after the hired elven mercenaries betrayed Cyre and took that land."
   ],
   "brief_history": "",
   "homelandPrompts": [

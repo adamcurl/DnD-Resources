@@ -8,7 +8,7 @@ function Start(props) {
       </h1>
       <div className="pb-4">
         <h2 className="pb-4">
-          You chose a:{" "}
+          You chose a{" "}
           {props.house === "No House"
             ? ""
             : props.house
@@ -23,15 +23,10 @@ function Start(props) {
             : "with [No Religion]"}{" "}
           from {props.homeland ? props.homeland : "[Homeland]"}.
         </h2>
-        <h3>
-          Here are some prompts to help build up your character's personality,
-          goals, and backstory:
-        </h3>
         <p>
           I plan on incorporating your characters' backstory and goals into the
           main campaign story and giving your character their own little{" "}
-          <em>story arc</em>.<br />
-          <strong>Tip:</strong> When making a backstory for your character, try
+          <em>story arc</em>. When making a backstory for your character, try
           and keep a couple things in mind:
         </p>
         <ol className="pb-3">
@@ -65,7 +60,15 @@ function Start(props) {
             want to, have at it). It can even be a couple sentances long.
           </li>
         </ol>
+        <h3>
+          Below are some prompts to help build up your character's personality,
+          goals, and backstory. You don't have to use all of them, or any of
+          them. This is just to help get you started.
+        </h3>
         {/* General prompts */}
+        <p>
+          <strong>When making your character, think about:</strong>
+        </p>
         <ul>
           <li>
             With it being only 2 years after the Last War ended, what did your
@@ -101,7 +104,9 @@ function Start(props) {
         {/* Race prompts */}
         {props.racePrompts.length ? (
           <>
-            <p>As a {props.race}, think about: </p>
+            <p>
+              <strong>As a {props.race}, think about:</strong>
+            </p>
             <ul>
               {props.racePrompts.map((prompt) => (
                 <li>{prompt}</li>
@@ -112,7 +117,9 @@ function Start(props) {
         {/* Class prompts */}
         {props.classPrompts.length ? (
           <>
-            <p>As a {props.dndClass}, think about: </p>
+            <p>
+              <strong>As a {props.dndClass}, think about:</strong>
+            </p>
             <ul>
               {props.classPrompts.map((prompt) => (
                 <li>{prompt}</li>
@@ -123,7 +130,11 @@ function Start(props) {
         {/* Mark prompts */}
         {props.housePrompts.length ? (
           <>
-            <p>As a someone with a Mark of {props.mark}, think about: </p>
+            <p>
+              <strong>
+                As a someone with a Mark of {props.mark}, think about:
+              </strong>
+            </p>
             <ul>
               {props.housePrompts.map((prompt) => (
                 <li>{prompt}</li>
@@ -134,7 +145,9 @@ function Start(props) {
         {/* Faith prompts */}
         {props.faithPrompts.length ? (
           <>
-            <p>As a someone of {props.faith} faith, think about: </p>
+            <p>
+              <strong>As a someone of {props.faith} faith, think about:</strong>
+            </p>
             <ul>
               {props.faithPrompts.map((prompt) => (
                 <li>{prompt}</li>
@@ -145,7 +158,9 @@ function Start(props) {
         {/* Homeland prompts */}
         {props.homelandPrompts.length ? (
           <>
-            <p>As a someone from {props.homeland}, think about: </p>
+            <p>
+              <strong>As a someone from {props.homeland}, think about:</strong>
+            </p>
             <ul>
               {props.homelandPrompts.map((prompt) => (
                 <li>{prompt}</li>
@@ -157,6 +172,18 @@ function Start(props) {
       <div className="pb-4">
         <h2>What's next?</h2>
         <ol>
+          <li>
+            If you aren't added to my{" "}
+            <a
+              href="https://www.dndbeyond.com/my-campaigns"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              D&D Beyond campaign
+            </a>
+            , then let me know. This will give you access to all the races,
+            classes, items, and backgrounds that you need to start playing.
+          </li>
           <li>
             Head over to the{" "}
             <a

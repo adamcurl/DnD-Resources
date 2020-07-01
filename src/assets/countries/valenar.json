@@ -2,17 +2,23 @@
   "country": "Valenar",
   "capital": "Taer Valaestas",
   "ruler": "High King Shaeras Vadallia",
-  "hallmarks": ["Elves", "horses", "mercenaries"],
+  "hallmarks": ["Elves", "Horses", "Mercenaries"],
   "population": "unkown",
   "climate": "Tropical",
-  "description": [],
-  "characteristics": [
-    "War-thirsty warriors that seek a worthy foe",
+  "description": [
+    "In the midst of the Last War, an army of Tairnadal warrior elves from Aerenal seized this region from Cyre, invoking a claim to the land from long before humanity’s arrival on the continent.",
     "The dragonmarked House Lyrandar helped the Valenar elves build the infrastructure of their kingdom. The half-elves have no homeland, but House Lyrandar hopes to make Valenar a haven for its people.",
     "The ancestors of the elves fought goblins for control of this region many thousands of years ago. Relics of that struggle are still scattered across Valenar and the Blade Desert: ruins, haunted fortresses, and battlefields that have slipped out of alignment with time.",
+    "Valenar elves spend little time at rest, operating in small units called warbands that seek out a worthy challenge.",
     "Valenar warbands include druids and rangers, and druidic magic bolsters the military arsenal of the elves. Walls of thorns surround elven fortresses, and beasts fight alongside the elves. Valenar horses are known for being as fearless and stubborn as the elves who ride them."
   ],
-  "races": ["Elves"],
+  "characteristics": [
+    "The Valenar elves are war-thirsty warriors that seek a worthy foe.",
+    "The Valenar elves combine magic with stealth and swordplay.",
+    "Most of the elves worship the Undying Court and believe in good-natured necromancy.",
+    "When elves enter a trance, they can communicate with their ancestral elven spirits."
+  ],
+  "races": ["Elves", "Half-elves"],
   "religions": ["Undying Court", "Spirits of the Past"],
   "houses": ["None"],
   "lastWarSynopsis": [
@@ -20,5 +26,12 @@
     "The Elves of Valenar continue to prod other nations in search of a worthy fight"
   ],
   "brief_history": "",
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "As an elf, consider your role in a warband. Are you a soldier, spy, druid, archer, or a mix of martial prowess?",
+    "As an elf, do you travel Khorvaire seeking out a worthy foe to fight?",
+    "As a half-elf, are you more interested in proving yourself in battle, thus gaining immortality in the Undying Court, or are you more focused on your own goals and aspirations?",
+    "As a human, do you want to work with the elves to build their ancestral homeland up again, or are you against it?",
+    "Do you travel with a fey beast companion when you go on adventures?",
+    "As an elf, do you view half-elfs as incomplete since they cannot communicate with the elven spirits? As a half-elf, do you feel incomplete because of this?"
+  ]
 }

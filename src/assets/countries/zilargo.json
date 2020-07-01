@@ -4,19 +4,23 @@
   "ruler": "Triumvirate council (each major city has a representative seat)",
   "hallmarks": [
     "Alchemy",
-    "education",
-    "elemental binding",
-    "entertainment",
-    "gnomes",
-    "precious stones"
+    "Education",
+    "Elemental binding",
+    "Entertainment",
+    "Gnomes",
+    "Precious stones"
   ],
   "population": "unknown",
   "climate": "Temperate",
-  "description": [],
+  "description": [
+    "In Zilargo, city streets are bright and clean, the universities and libraries are the finest in Khorvaire, everyone seems happy and helpful, and crime is all but unheard of.",
+    "The Trust, a ruthless secret police force, eliminates any threat to society. While they prefer to settle any problems without violence, they won't hesitate to eliminate a threat. The Trust condones intrigue so long as it doesn't break any laws and doesn't threaten the country. A target of the Trust never even realizes that they've been targeted until it's too late.",
+    "Zil are allowed to steal and lie so long as they do it in a cunning, non-violent way.",
+    "The Korranberg Chronicle is the leading source of news in Khorvaire. Gnome chroniclers travel across Khorvaire in search of stories.",
+    "Many consider the Library of Korranberg the finest repository of knowledge in Khorvaire."
+  ],
   "characteristics": [
     "The gnomes are cunning, deceptive, and love intrigue",
-    "Most consider the Library of Korranberg the finest repository of knowledge in Khorvaire.",
-    "The Korranberg Chronicle is the leading source of news in Khorvaire. Gnome chroniclers travel across Khorvaire in search of stories.",
     "The major cities of Zilargo maintain temples and shrines dedicated to every religion. Most Zil explore a few faiths before settling on one; others practice multiple religions."
   ],
   "races": ["Gnomes"],
@@ -28,5 +32,10 @@
     "Zilargo provided weapons and ships to Breland"
   ],
   "brief_history": "",
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "In a nation filled with intrigue, you need someone you can rely on: family. Do you have a family? What is their business? Who is your favorite relative? What schemes are your family involved in?",
+    "The Zil prize knowledge above all else. How does your background and class reflect your lust for knowledge? What kind of knowledge and secrets do you seek?",
+    "Do you have any ties to the Trust? Are you a member of the Trust?",
+    "What led you to adventure? A mission from the Trust? Is the Trust or another family targeting you for something you did?"
+  ]
 }
