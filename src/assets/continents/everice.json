@@ -4,5 +4,10 @@
   "locations": [{ "name": "", "desc": "" }],
   "races": ["Giants", "Fey"],
   "religions": ["Unknown"],
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "Why have you come to Khorvaire?",
+    "What is it like living among an icy and barren land?",
+    "Have you had any harrowing encounters with giants?",
+    "Have you had any encounter with the powerful Queen of Winter?"
+  ]
 }

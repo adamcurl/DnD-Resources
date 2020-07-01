@@ -7,7 +7,7 @@ function Start(props) {
         Character Summary
       </h1>
       <div className="pb-4">
-        <h2 className="pb-4">
+        <h2 className="pb-4 text-center">
           You chose a{" "}
           {props.house === "No House"
             ? ""
@@ -22,6 +22,24 @@ function Start(props) {
             ? ` of ${props.faith} faith`
             : "with [No Religion]"}{" "}
           from {props.homeland ? props.homeland : "[Homeland]"}.
+        </h2>
+      </div>
+      <div className="pb-4">
+        <h2>What's next?</h2>
+        <ol>
+          <li>
+            <a href="#develop-char">
+              Develop your character's personality, goals, and backstory
+            </a>
+          </li>
+          <li>
+            <a href="#create-char">Create your character on D&D Beyond</a>
+          </li>
+        </ol>
+      </div>
+      <div className="pb-4" id="develop-char">
+        <h2 className="pb-2">
+          Develop your character's personality, goals, and backstory
         </h2>
         <p>
           I plan on incorporating your characters' backstory and goals into the
@@ -60,10 +78,9 @@ function Start(props) {
             want to, have at it). It can even be a couple sentances long.
           </li>
         </ol>
-        <h3>
-          Below are some prompts to help build up your character's personality,
-          goals, and backstory. You don't have to use all of them, or any of
-          them. This is just to help get you started.
+        <h3 className="pb-2">
+          Below are some prompts to help get you started. You don't have to use
+          all or any of them.
         </h3>
         {/* General prompts */}
         <p>
@@ -169,8 +186,8 @@ function Start(props) {
           </>
         ) : null}
       </div>
-      <div className="pb-4">
-        <h2>What's next?</h2>
+      <div className="pb-4" id="create-char">
+        <h2>Create your character on D&D Beyond</h2>
         <ol>
           <li>
             If you aren't added to my{" "}
@@ -191,7 +208,7 @@ function Start(props) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              DnD Beyond Character Builder
+              D&D Beyond Character Builder
             </a>{" "}
             and select <em>Standard</em>. Make sure that Eberron content is
             turned on and set your Hit Point Type to <em>Manual</em>.

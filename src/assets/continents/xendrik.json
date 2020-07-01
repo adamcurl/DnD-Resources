@@ -3,6 +3,10 @@
   "desc": "The elves were once slaves of the ancient giants, and the dragons eradicated the civilizations of Xen’drik. Great magic has warped the land. The environments of Xen’drik are extreme and unpredictable, and travelers might find a glacial expanse in the midst of a vast desert. Tens of thousands of years have passed, yet no civilization has risen to the heights of the fallen giants; some believe that Aureon’s and Boldrei’s curses ensure that any city that grows too large collapses into madness. The Traveler’s Curse twists space, and explorers might follow the same path twice only to end up in entirely different locations.",
   "locations": [{ "name": "", "desc": "" }],
   "races": ["Giants", "Drow"],
-  "religions": ["Unknown, perhasp Sovereign Host"],
-  "homelandPrompts": []
+  "religions": ["Unknown, perhaps Sovereign Host"],
+  "homelandPrompts": [
+    "Why have you come to Khorvaire?",
+    "As a drow, what has battle against the giants that once enslaved you been like?",
+    "How has life been surviving in a desolate and magic-warped land?"
+  ]
 }

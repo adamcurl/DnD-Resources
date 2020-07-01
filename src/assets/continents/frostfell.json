@@ -4,5 +4,9 @@
   "locations": [{ "name": "", "desc": "" }],
   "races": ["Unknown, perhaps Dwarves"],
   "religions": ["Unknown"],
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "Why have you come to Khorvaire?",
+    "What is it like living among an icy and barren land?",
+    "What are your opinions of these Khorvaire dwarves? Are they wasting their potential by being merchants and forgers?"
+  ]
 }

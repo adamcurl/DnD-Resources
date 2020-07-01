@@ -14,7 +14,7 @@ const KhorvaireMap = (props) => {
   const [continentList, setContinentList] = useState([]);
 
   const [isWorldMap, setIsWorldMap] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
+  // const [showDropdown, setShowDropdown] = useState(false);
 
   const onRender = () => {
     // get country files' keys and values
@@ -106,10 +106,10 @@ const KhorvaireMap = (props) => {
     setContinentModalOpen(false);
   };
 
-  const handleDropdown = (val) => {
-    setIsWorldMap(val);
-    setShowDropdown(false);
-  };
+  // const handleDropdown = (val) => {
+  //   setIsWorldMap(val);
+  //   setShowDropdown(false);
+  // };
 
   return (
     <div className="container_wrap">
@@ -117,7 +117,7 @@ const KhorvaireMap = (props) => {
         <div>
           <h1 className="pt-3">Homeland</h1>
         </div>
-        <div className="dropdown">
+        {/* <div className="dropdown">
           From {!isWorldMap ? "another Continent" : "Khorvaire"}?{" "}
           <button
             className="btn btn-primary dropdown-toggle"
@@ -149,7 +149,7 @@ const KhorvaireMap = (props) => {
               World Map
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
       <div id="map-box">
         {!isWorldMap ? (

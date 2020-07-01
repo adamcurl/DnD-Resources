@@ -4,5 +4,9 @@
   "locations": [{ "name": "", "desc": "" }],
   "races": ["Almost every race"],
   "religions": ["Most worship the dragons"],
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "Why have you come to Khorvaire?",
+    "What is your view of the mysterious dragons that rule over Argonnessen?",
+    "What hardships have you endured on a continent brimming with magic and dangerous creatures?"
+  ]
 }

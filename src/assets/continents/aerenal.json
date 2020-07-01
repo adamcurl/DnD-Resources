@@ -17,5 +17,11 @@
   ],
   "races": ["Elves"],
   "religions": ["Undying Court"],
-  "homelandPrompts": []
+  "homelandPrompts": [
+    "Why have you come to Khorvaire?",
+    "Do you embrace and utilize necromancy in your everyday life?",
+    "How do you feel about the Undying Court, the main religion of your people? Do you have a relative that serves as a Court member or soldier for them?",
+    "Unlike the rest of your people, why are you interested in the outside world?",
+    "What is your opinion of the other seemingly strange and shorter-life-spanned races?"
+  ]
 }
