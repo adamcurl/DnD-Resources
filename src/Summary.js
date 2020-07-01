@@ -47,7 +47,7 @@ function Start(props) {
           <em>story arc</em>. When making a backstory for your character, try
           and keep a couple things in mind:
         </p>
-        <ol className="pb-3">
+        <ol className="pb-1">
           <li>
             <strong>Your character is only level 1.</strong> Sure you can have
             your backstory be that you fought an ancient dragon and almost
