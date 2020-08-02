@@ -34,7 +34,7 @@ function Start(props) {
         <p>
           Eberron is a world full of mystery, intrigue, and fast-paced action.
           Magic has advanced much faster than science, making low-level magic
-          more readily available and common among the populus. The continent of
+          more readily available and common among the populus. Airships and trains powered by elementals traverse the skies and land, speaking stones are able to instantly send messages across the continent, and magical brooms and dusters can clean a house in one swift motion. The continent of
           Khorvaire has just entered a new era after a hundred year civil war
           that ended in the Treaty of Thronehold two years after the nation of
           Cyre was destroyed and twisted by a large magical cataclysm, known as

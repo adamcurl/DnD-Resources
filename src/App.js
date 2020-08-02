@@ -279,6 +279,10 @@ function App() {
           }
         />
       </Switch>
+      <div className="footer">
+        <p>All of the images and most of the text here is paraphrased from official Wizards of the Coast material purchased by me on D&D Beyond. Only those who I have given the password to this site may view the content available here in order to follow fair use procedure.</p>
+        <p>Most of the information here is derived from Eberron Rising from the Last War, Player's Handbook, and Dungeon Master's Guide.</p>
+      </div>
     </>
   );
 }

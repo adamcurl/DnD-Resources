@@ -358,3 +358,14 @@ button.img-btn.compatible {
     display: block;
   }
 }
+
+.footer {
+  background: #4a4a4a;
+  color: #fff;
+  padding: 0.5em 13em;
+} 
+
+.footer p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
