@@ -92,14 +92,6 @@ function App() {
                   ? "side-nav-left"
                   : "side-nav-right"
               }`}
-              style={
-                race &&
-                race !== "Half-Orc or Human" &&
-                race !==
-                  "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)"
-                  ? { marginRight: "26.5%" }
-                  : { marginLeft: "26.7%" }
-              }
             >
               <div>Race</div>
               <div></div>
@@ -112,8 +104,8 @@ function App() {
               }`}
               style={
                 dndClass
-                  ? { top: "285px", marginRight: "26.3%" }
-                  : { top: "285px", marginLeft: "26.5%" }
+                  ? { top: "285px" }
+                  : { top: "285px" }
               }
             >
               <div>Class</div>
@@ -127,8 +119,8 @@ function App() {
               }`}
               style={
                 house
-                  ? { top: "325px", marginRight: "23.1%" }
-                  : { top: "325px", marginLeft: "23%" }
+                  ? { top: "325px" }
+                  : { top: "325px" }
               }
             >
               <div>Mark/House</div>
@@ -142,8 +134,8 @@ function App() {
               }`}
               style={
                 faith
-                  ? { top: "365px", marginRight: "26.4%" }
-                  : { top: "365px", marginLeft: "26.5%" }
+                  ? { top: "365px" }
+                  : { top: "365px" }
               }
             >
               <div>Faith</div>
@@ -157,8 +149,8 @@ function App() {
               }`}
               style={
                 homeland
-                  ? { top: "405px", marginRight: "23.8%" }
-                  : { top: "405px", marginLeft: "24%" }
+                  ? { top: "405px" }
+                  : { top: "405px" }
               }
             >
               <div>Homeland</div>
@@ -175,7 +167,7 @@ function App() {
           homeland ? (
             <Link to="/summary">
               <div
-                className={`side-nav side-nav-right`}
+                className={`side-nav side-nav-right wiggle`}
                 style={{ top: "355px", marginLeft: "26%", backgroundColor: '#2f9158' }}
               >
                 <div>FINISH</div>
@@ -280,7 +272,7 @@ function App() {
         />
       </Switch>
       <div className="footer">
-        <p>All of the images and most of the text here is paraphrased from official Wizards of the Coast material purchased by me on D&D Beyond. Only those who I have given the password to this site may view the content available here in order to follow fair use procedure.</p>
+        <p>All of the images and most of the paraphrased text here is from official Wizards of the Coast material purchased by me on D&D Beyond. Only those who I have given the password to this site may view the content available here in order to follow fair use procedure.</p>
         <p>Most of the information here is derived from Eberron Rising from the Last War, Player's Handbook, and Dungeon Master's Guide.</p>
       </div>
     </>

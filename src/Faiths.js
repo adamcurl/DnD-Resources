@@ -79,6 +79,7 @@ function Faiths(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Faiths of Eberron</h1>
+      <p>The faiths of Eberron are a bit different than other classical fantasy settings. The gods of the Sovereign Host and Dark Six are distant, do not directly influence the world, and don't directly communicate with their followers. Other faiths, like the Blood of Vol or the Path of Light don't worship a diety. Instead, they focus on a manifestation of an idea or attribute. The Undying Court worships the very real council of ancient elves instead of a diety. Others are more of a creed, such as Druids, or Spirits of the Past. In Eberron, it's not the gods, demons, or spirits that give powers to paladins and clerics, but it is the faith of the player that gives them their power.</p>
       <div className="row">
         <div className="col-md-3">
           <button

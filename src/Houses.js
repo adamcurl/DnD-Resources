@@ -134,6 +134,14 @@ function Houses(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Marks/Houses of Khorvaire</h1>
+      <p>There are a total of 12 dragonmarks and 13 houses (due to House Phiarlan and House Thuranni splitting). The houses in Eberron act like large corporations that have a monopoly over a service or product. These houses have so much power because of the dragonmarks that manifest and gifts powerful magic to the dragonmarked members. Only certain bloodlines of certain races can manifest a mark. For example, a Changeling cannot manifest a dragonmark, and thus would never be a member of a house. Likewise, not all humans belong to a dragonmarked house or have the capability of manifesting a mark.</p>
+      <p>When making a dragonmarked character, ask yourself these questions: </p>
+      <ul>
+        <li>Am I a member of this house? Or do I just possess the mark?</li>
+        <li>If I'm not a member of this house, how did I get my mark? Was I an illegitimate child? Or did the mark just one day appear?</li>
+        <li>Where on your body is your mark located? When did it appear?</li>
+        <li>Am I a member of this house without a mark? If so, you won't have as high a status in your house as others with a dragonmark.</li>
+      </ul>
       <div className="row">
         <div className="col-md-3">
           <button

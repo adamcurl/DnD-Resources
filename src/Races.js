@@ -92,6 +92,7 @@ function Races(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Races of Eberron</h1>
+      <p>Every race has a place in Eberron, but the lore behind each race is a little different than in classical fantasy. Goblinoids live feudal, honor-based system instead of out in the wilderness. Orcs are no longer dumb brutes, but are wise druids. And Halflings live in the planes and ride dinosaurs. There are also 4 new and unique races in Eberron: <br /><strong>Changelings</strong> can their physical appearances and voices. <br /><strong>Kalashtar</strong> are a union between humans and spirits called quori and possess psychic abilities. <br /><strong>Shifters</strong> are a hybrid between humans and lycanthropes with the ability to "shift", or half-transform into a were-beast. <br /><strong>Warforged</strong> are sentient golems that were created for battle during the Last War.</p>
       <div className="row">
         {races.map((race, i) => (
           <div className="col-md-3" key={race.name}>

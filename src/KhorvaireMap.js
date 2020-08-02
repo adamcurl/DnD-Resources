@@ -116,6 +116,7 @@ const KhorvaireMap = (props) => {
       <div className="homeland_wrap">
         <div>
           <h1 className="pt-3">Homeland</h1>
+          <p>Click on the countries below to learn more about them and select where your character is from. Think about the races, religions, and house headquarters in that country. You can view this map in <a target="_blank" href={map} rel="noopener noreferrer">Fullscreen</a> if you need to zoom in to find a city to be your hometown.</p>
         </div>
         {/* <div className="dropdown">
           From {!isWorldMap ? "another Continent" : "Khorvaire"}?{" "}
