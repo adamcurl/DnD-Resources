@@ -1,2 +1,4 @@
-/*
-  Basic-Auth: eberron:eberron
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Basic-Auth = "eberron:eberron"
