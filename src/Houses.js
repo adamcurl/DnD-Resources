@@ -13,7 +13,7 @@ function Houses(props) {
 
   const onRender = () => {
     // get house files' keys and values
-    const files = (ctx => {
+    const files = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -31,14 +31,14 @@ function Houses(props) {
         .replace("./", "")
         .replace(".json", "")
         .replace(/_/g, " ")
-        .replace(/\w\S*/g, function(txt) {
+        .replace(/\w\S*/g, function (txt) {
           return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
         });
     }
     setHouses(array);
 
     // get crest files' keys and values
-    const imgs = (ctx => {
+    const imgs = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -57,7 +57,7 @@ function Houses(props) {
     setCrests(crestVals);
 
     // get crest files' keys and values
-    const markImgs = (ctx => {
+    const markImgs = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -82,7 +82,7 @@ function Houses(props) {
 
   if (crests.length < 13 || marks.length < 13) return <Loading />;
 
-  const handleOpenModal = i => {
+  const handleOpenModal = (i) => {
     setActiveHouse(i);
     setModalOpen(true);
   };
@@ -134,13 +134,35 @@ function Houses(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Marks/Houses of Khorvaire</h1>
-      <p>There are a total of 12 dragonmarks and 13 houses (due to House Phiarlan and House Thuranni splitting). The houses in Eberron act like large corporations that have a monopoly over a service or product. These houses have so much power because of the dragonmarks that manifest and gifts powerful magic to the dragonmarked members. Only certain bloodlines of certain races can manifest a mark. For example, a Changeling cannot manifest a dragonmark, and thus would never be a member of a house. Likewise, not all humans belong to a dragonmarked house or have the capability of manifesting a mark.</p>
-      <p>When making a dragonmarked character, ask yourself these questions: </p>
+      <p>
+        There are a total of 12 dragonmarks and 13 houses (due to House Phiarlan
+        and House Thuranni splitting). The houses in Eberron act like large
+        corporations that have a monopoly over a service or product. These
+        houses have so much power because of the dragonmarks that manifest and
+        gifts powerful magic to the dragonmarked members. Only certain
+        bloodlines of certain races can manifest a mark. For example, a
+        Changeling cannot manifest a dragonmark, and thus would never be a
+        member of a house. Likewise, not all humans belong to a dragonmarked
+        house or have the capability of manifesting a mark.
+      </p>
+      <p style={{ marginBottom: "0.5em" }}>
+        When making a dragonmarked character, ask yourself these questions:{" "}
+      </p>
       <ul>
-        <li>Am I a member of this house? Or do I just possess the mark?</li>
-        <li>If I'm not a member of this house, how did I get my mark? Was I an illegitimate child? Or did the mark just one day appear?</li>
-        <li>Where on your body is your mark located? When did it appear?</li>
-        <li>Am I a member of this house without a mark? If so, you won't have as high a status in your house as others with a dragonmark.</li>
+        <li style={{ marginBottom: "0.5em" }}>
+          Am I a member of this house? Or do I just possess the mark?
+        </li>
+        <li style={{ marginBottom: "0.5em" }}>
+          If I'm not a member of this house, how did I get my mark? Was I an
+          illegitimate child? Or did the mark just one day appear?
+        </li>
+        <li style={{ marginBottom: "0.5em" }}>
+          Where on your body is your mark located? When did it appear?
+        </li>
+        <li style={{ marginBottom: "0.5em" }}>
+          Am I a member of this house without a mark? If so, you won't have as
+          high a status in your house as others with a dragonmark.
+        </li>
       </ul>
       <div className="row">
         <div className="col-md-3">
@@ -155,7 +177,7 @@ function Houses(props) {
               className={`bkgrnd_img zoom_img`}
               style={{
                 backgroundImage: `url('${cross}')`,
-                backgroundSize: "90%"
+                backgroundSize: "90%",
               }}
             />
             <p className="text-center no_dec">No Mark or House</p>
@@ -224,7 +246,7 @@ function Houses(props) {
               <strong>Mark Specialties: </strong>
             </p>
             <ul>
-              {houses[activeHouse].specialties.map(item => (
+              {houses[activeHouse].specialties.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -240,7 +262,7 @@ function Houses(props) {
               <strong>House Business: </strong>
             </p>
             <ul>
-              {houses[activeHouse].business.map(item => (
+              {houses[activeHouse].business.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -248,7 +270,7 @@ function Houses(props) {
               <strong>House Characteristics: </strong>
             </p>
             <ul>
-              {houses[activeHouse].characteristics.map(item => (
+              {houses[activeHouse].characteristics.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
