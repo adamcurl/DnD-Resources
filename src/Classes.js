@@ -78,7 +78,12 @@ function Classes(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Classes</h1>
-      <p>All of the classic D&D races are available in Eberron, with the addition of a new class: The Artificer. The artificer is sort of a mix between an inventor and wizard. They excel in creating magical items and unlocking magic in everyday items.</p>
+      <p>
+        All of the classic D&D classes are available in Eberron, with the
+        addition of a new class: The Artificer. The artificer is sort of a mix
+        between an inventor and wizard. They excel in creating magical items and
+        unlocking magic in everyday items.
+      </p>
       <div className="row">
         {classes.map((dndClass, i) => (
           <div className="col-md-3 pb-5" key={dndClass.name}>

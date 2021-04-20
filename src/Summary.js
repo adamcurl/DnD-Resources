@@ -210,8 +210,15 @@ function Start(props) {
             >
               D&D Beyond Character Builder
             </a>{" "}
-            and select <em>Standard</em>. Make sure that Eberron content is
-            turned on and set your Hit Point Type to <em>Manual</em>.
+            and select <em>Standard</em>. Make sure that{" "}
+            <em>Homebrew Content</em>, <em>Critical Role Content</em>,{" "}
+            <em>Magic: The Gathering Content</em>, and <em>Eberron Content</em>{" "}
+            are turned on.
+          </li>
+          <li>
+            Make sure <em>Optional Class Features</em> is turned on, Advancement
+            Type is set to <em>Milestone</em>, and Hit Point Type is set to{" "}
+            <em>Manual</em>. Everything else should be the default state.
           </li>
           <li>
             Select the same race and class that you did here. Be sure to fill

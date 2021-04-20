@@ -10,7 +10,7 @@ function Races(props) {
 
   const onRender = () => {
     // get race files' keys and values
-    const files = (ctx => {
+    const files = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -22,7 +22,7 @@ function Races(props) {
     setRaces(array);
 
     // get crest files' keys and values
-    const imgs = (ctx => {
+    const imgs = ((ctx) => {
       let keys = ctx.keys();
       let values = keys.map(ctx);
       return keys.reduce((o, k, i) => {
@@ -47,7 +47,7 @@ function Races(props) {
 
   if (races.length < 19 || raceImages.length < 19) return <Loading />;
 
-  const handleOpenModal = i => {
+  const handleOpenModal = (i) => {
     setActiveRace(i);
     setModalOpen(true);
   };
@@ -92,7 +92,21 @@ function Races(props) {
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Races of Eberron</h1>
-      <p>Every race has a place in Eberron, but the lore behind each race is a little different than in classical fantasy. Goblinoids live feudal, honor-based system instead of out in the wilderness. Orcs are no longer dumb brutes, but are wise druids. And Halflings live in the planes and ride dinosaurs. There are also 4 new and unique races in Eberron: <br /><strong>Changelings</strong> can their physical appearances and voices. <br /><strong>Kalashtar</strong> are a union between humans and spirits called quori and possess psychic abilities. <br /><strong>Shifters</strong> are a hybrid between humans and lycanthropes with the ability to "shift", or half-transform into a were-beast. <br /><strong>Warforged</strong> are sentient golems that were created for battle during the Last War.</p>
+      <p>
+        Every race has a place in Eberron, but the lore behind each race is a
+        little different than in classical fantasy. Goblinoids live feudal,
+        honor-based system instead of out in the wilderness. Orcs are no longer
+        dumb brutes, but are wise druids. And Halflings live in the planes and
+        ride dinosaurs. There are also 4 new and unique races in Eberron: <br />
+        <strong>Changelings</strong> can completely alter their physical
+        appearances and voices. <br />
+        <strong>Kalashtar</strong> are a union between humans and spirits called
+        quori and possess psychic abilities. <br />
+        <strong>Shifters</strong> are a hybrid between humans and lycanthropes
+        with the ability to "shift", or half-transform into a were-beast. <br />
+        <strong>Warforged</strong> are sentient golems that were created for
+        battle during the Last War.
+      </p>
       <div className="row">
         {races.map((race, i) => (
           <div className="col-md-3" key={race.name}>
@@ -142,7 +156,7 @@ function Races(props) {
               <strong>Origin: </strong>
             </p>
             <ul>
-              {races[activeRace].origin.map(item => (
+              {races[activeRace].origin.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -150,7 +164,7 @@ function Races(props) {
               <strong>Current Homes: </strong>
             </p>
             <ul>
-              {races[activeRace].currHomes.map(item => (
+              {races[activeRace].currHomes.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -158,7 +172,7 @@ function Races(props) {
               <strong>Characteristics: </strong>
             </p>
             <ul>
-              {races[activeRace].characteristics.map(item => (
+              {races[activeRace].characteristics.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -166,7 +180,7 @@ function Races(props) {
               <strong>Summary: </strong>
             </p>
             <ul>
-              {races[activeRace].summary.map(item => (
+              {races[activeRace].summary.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>
@@ -174,7 +188,7 @@ function Races(props) {
               <strong>Houses/Marks: </strong>
             </p>
             <ul>
-              {races[activeRace].houses.map(item => (
+              {races[activeRace].houses.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

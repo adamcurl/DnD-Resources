@@ -138,12 +138,29 @@ function Houses(props) {
         There are a total of 12 dragonmarks and 13 houses (due to House Phiarlan
         and House Thuranni splitting). The houses in Eberron act like large
         corporations that have a monopoly over a service or product. These
-        houses have so much power because of the dragonmarks that manifest and
-        gifts powerful magic to the dragonmarked members. Only certain
+        houses have a vast amount of power and influence due to the dragonmarks
+        that manifest and bestow magical prowess to the bearer. Only certain
         bloodlines of certain races can manifest a mark. For example, a
         Changeling cannot manifest a dragonmark, and thus would never be a
         member of a house. Likewise, not all humans belong to a dragonmarked
         house or have the capability of manifesting a mark.
+      </p>
+      <p>
+        There is also another dragonmark: the{" "}
+        <a
+          href="https://www.dndbeyond.com/feats/aberrant-dragonmark"
+          target="_blank"
+        >
+          Aberrant dragonmark
+        </a>
+        . This aberrant dragonmark can manifest on anyone at any time and is a
+        source of danger to the bearer and those around them. Unlike regular
+        dragonmarks, which only give creative power, the aberrant dragonmark
+        gives destructive power and is feared by all. Each aberrant dragonmark
+        is unique and takes time to master. Most people with one tend to hide it
+        to either avoid being ostracized by society or to keep others safe.
+        <br />
+        If you'd like to have an aberrant dragonmark, let your DM know.
       </p>
       <p style={{ marginBottom: "0.5em" }}>
         When making a dragonmarked character, ask yourself these questions:{" "}
@@ -162,6 +179,11 @@ function Houses(props) {
         <li style={{ marginBottom: "0.5em" }}>
           Am I a member of this house without a mark? If so, you won't have as
           high a status in your house as others with a dragonmark.
+        </li>
+        <li style={{ marginBottom: "0.5em" }}>
+          If you have an aberrant dragonmark, when and where did it manifest?
+          What flaw does bestow upon you? What destructive powers does it give
+          you? Do you embrace it, or are you shameful of it?
         </li>
       </ul>
       <div className="row">
