@@ -66,6 +66,8 @@ function App() {
             <p>
               {house === "No House"
                 ? ""
+                : house === "Aberrant"
+                ? "Aberrant Mark"
                 : house
                 ? `Mark of ${mark}/House ${house}`
                 : "[No Mark/House]"}{" "}
@@ -87,6 +89,7 @@ function App() {
               className={`side-nav ${
                 race &&
                 race !== "Half-Orc or Human" &&
+                race !== "Any Race" &&
                 race !==
                   "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)"
                   ? "side-nav-left"
@@ -102,11 +105,7 @@ function App() {
               className={`side-nav ${
                 dndClass ? "side-nav-left" : "side-nav-right"
               }`}
-              style={
-                dndClass
-                  ? { top: "285px" }
-                  : { top: "285px" }
-              }
+              style={dndClass ? { top: "285px" } : { top: "285px" }}
             >
               <div>Class</div>
               <div></div>
@@ -117,11 +116,7 @@ function App() {
               className={`side-nav ${
                 house ? "side-nav-left" : "side-nav-right"
               }`}
-              style={
-                house
-                  ? { top: "325px" }
-                  : { top: "325px" }
-              }
+              style={house ? { top: "325px" } : { top: "325px" }}
             >
               <div>Mark/House</div>
               <div></div>
@@ -132,11 +127,7 @@ function App() {
               className={`side-nav ${
                 faith ? "side-nav-left" : "side-nav-right"
               }`}
-              style={
-                faith
-                  ? { top: "365px" }
-                  : { top: "365px" }
-              }
+              style={faith ? { top: "365px" } : { top: "365px" }}
             >
               <div>Faith</div>
               <div></div>
@@ -147,11 +138,7 @@ function App() {
               className={`side-nav ${
                 homeland ? "side-nav-left" : "side-nav-right"
               }`}
-              style={
-                homeland
-                  ? { top: "405px" }
-                  : { top: "405px" }
-              }
+              style={homeland ? { top: "405px" } : { top: "405px" }}
             >
               <div>Homeland</div>
               <div></div>
@@ -159,6 +146,7 @@ function App() {
           </Link>
           {race &&
           race !== "Half-Orc or Human" &&
+          race !== "Any Race" &&
           race !==
             "Tairnadal (Wood Elf), Aereni (High Elf), or Drow (Dark Elf)" &&
           house &&
@@ -168,7 +156,11 @@ function App() {
             <Link to="/summary">
               <div
                 className={`side-nav side-nav-right wiggle`}
-                style={{ top: "355px", marginLeft: "26%", backgroundColor: '#2f9158' }}
+                style={{
+                  top: "355px",
+                  marginLeft: "26%",
+                  backgroundColor: "#2f9158",
+                }}
               >
                 <div>FINISH</div>
                 <div></div>
@@ -266,14 +258,22 @@ function App() {
               homelandPrompts,
               raceLink,
               classLink,
-              mark
+              mark,
             })
           }
         />
       </Switch>
       <div className="footer">
-        <p>All of the images and most of the paraphrased text here is from official Wizards of the Coast material purchased by me on D&D Beyond. Only those who I have given the password to this site may view the content available here in order to follow fair use procedure.</p>
-        <p>Most of the information here is derived from Eberron Rising from the Last War, Player's Handbook, and Dungeon Master's Guide.</p>
+        <p>
+          All of the images and most of the paraphrased text here is from
+          official Wizards of the Coast material purchased by me on D&D Beyond.
+          Only those who I have given the password to this site may view the
+          content available here in order to follow fair use procedure.
+        </p>
+        <p>
+          Most of the information here is derived from Eberron Rising from the
+          Last War, Player's Handbook, and Dungeon Master's Guide.
+        </p>
       </div>
     </>
   );

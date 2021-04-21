@@ -84,6 +84,7 @@ function Classes(props) {
         between an inventor and wizard. They excel in creating magical items and
         unlocking magic in everyday items.
       </p>
+      <p>Be sure to click the link in the modal to view subclasses.</p>
       <div className="row">
         {classes.map((dndClass, i) => (
           <div className="col-md-3 pb-5" key={dndClass.name}>
@@ -115,7 +116,7 @@ function Classes(props) {
                 rel="noopener noreferrer"
                 href={classes[activeClass].link}
               >
-                {classes[activeClass].name} Stats, Traits, & Info
+                {classes[activeClass].name} Stats, Traits, Subclasses & Info
               </a>
             </div>
             <p>

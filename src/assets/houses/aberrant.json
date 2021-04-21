@@ -1,0 +1,24 @@
+{
+    "mark": "Aberrant",
+    "race": "",
+    "raceType": "Any Race",
+    "link": "https://www.dndbeyond.com/feats/aberrant-dragonmark",
+    "specialties": ["Destruction", "Great power but at a heavy cost"],
+    "headquarters": "Scattered across Khorvaire",
+    "leader": "None",
+    "business": [
+      "Most with an aberrant mark are assassins, mercenaries, or evil wizards"
+    ],
+    "characteristics": [
+      "Aberrant marks are unpredictable and dangerous to both the bearer and the people around them. Someone with such a mark can kill with a touch or control minds with a glance.",
+      "Aberrant marks often appear when people from different dragonmarked families produce a child, and for this reason such unions are absolutely forbidden by the Twelve. However, they can appear on any race at any age at any time.",
+      "No two aberrant dragonmarks are exactly alike — even if they grant the same power, they may appear and manifest in different ways."
+    ],
+    "prompts": [
+        "If you have an aberrant dragonmark, when and where did it manifest?",
+        "What flaw does bestow upon you?",
+        "What destructive powers does it give you?",
+        "Do you embrace it, or are you shameful of it?"
+    ]
+  }
+  

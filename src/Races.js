@@ -57,7 +57,8 @@ function Races(props) {
   };
 
   const handleChooseRace = () => {
-    if (races[activeRace].houses[0] === "None") props.setHouse("No House");
+    if (races[activeRace].houses[0] === "None" && props.house !== "Aberrant")
+      props.setHouse("No House");
     props.setRace(races[activeRace].name);
     props.setRaceType(races[activeRace].raceType);
     props.setRacePrompts(races[activeRace].prompts);
@@ -106,6 +107,17 @@ function Races(props) {
         with the ability to "shift", or half-transform into a were-beast. <br />
         <strong>Warforged</strong> are sentient golems that were created for
         battle during the Last War.
+      </p>
+      <p>
+        If you'd like to play another race (
+        <a
+          href="https://www.dndbeyond.com/races"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          list of all races
+        </a>
+        ), then let your DM know.
       </p>
       <div className="row">
         {races.map((race, i) => (
@@ -198,13 +210,21 @@ function Races(props) {
               <button
                 className="btn btn-primary"
                 onClick={handleChooseRace}
-                disabled={props.house !== "" && checkHouses()}
+                disabled={
+                  props.house !== "" &&
+                  props.house !== "Aberrant" &&
+                  checkHouses()
+                }
               >
-                {props.house !== "" && checkHouses()
+                {props.house !== "" &&
+                props.house !== "Aberrant" &&
+                checkHouses()
                   ? "Current House Not Compatible"
                   : "Choose Race"}
               </button>
-              {props.house !== "" && checkHouses() ? (
+              {props.house !== "" &&
+              props.house !== "Aberrant" &&
+              checkHouses() ? (
                 <button className="btn btn-warning" onClick={overrideHouse}>
                   Remove house and choose race
                 </button>

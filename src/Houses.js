@@ -131,6 +131,12 @@ function Houses(props) {
     setModalOpen(false);
   };
 
+  const resetHouse = () => {
+    props.setHouse("No House");
+    props.setHousePrompts([]);
+    props.setMark("");
+  };
+
   return (
     <div className="container_wrap">
       <h1 className="pt-3">Marks/Houses of Khorvaire</h1>
@@ -150,6 +156,7 @@ function Houses(props) {
         <a
           href="https://www.dndbeyond.com/feats/aberrant-dragonmark"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Aberrant dragonmark
         </a>
@@ -162,30 +169,6 @@ function Houses(props) {
         <br />
         If you'd like to have an aberrant dragonmark, let your DM know.
       </p>
-      <p style={{ marginBottom: "0.5em" }}>
-        When making a dragonmarked character, ask yourself these questions:{" "}
-      </p>
-      <ul>
-        <li style={{ marginBottom: "0.5em" }}>
-          Am I a member of this house? Or do I just possess the mark?
-        </li>
-        <li style={{ marginBottom: "0.5em" }}>
-          If I'm not a member of this house, how did I get my mark? Was I an
-          illegitimate child? Or did the mark just one day appear?
-        </li>
-        <li style={{ marginBottom: "0.5em" }}>
-          Where on your body is your mark located? When did it appear?
-        </li>
-        <li style={{ marginBottom: "0.5em" }}>
-          Am I a member of this house without a mark? If so, you won't have as
-          high a status in your house as others with a dragonmark.
-        </li>
-        <li style={{ marginBottom: "0.5em" }}>
-          If you have an aberrant dragonmark, when and where did it manifest?
-          What flaw does bestow upon you? What destructive powers does it give
-          you? Do you embrace it, or are you shameful of it?
-        </li>
-      </ul>
       <div className="row">
         <div className="col-md-3">
           <button
@@ -193,7 +176,7 @@ function Houses(props) {
             className={`btn btn-link no_dec img-btn ${
               props.house === "No House" ? "active-item" : ""
             }`}
-            onClick={() => props.setHouse("No House")}
+            onClick={resetHouse}
           >
             <div
               className={`bkgrnd_img zoom_img`}
@@ -214,7 +197,8 @@ function Houses(props) {
                   ? "active-item"
                   : props.race !== "" &&
                     house.race.includes(props.race) &&
-                    props.race !== "Orc"
+                    props.race !== "Orc" &&
+                    props.race !== "Any Race"
                   ? "compatible"
                   : ""
               }`}
@@ -235,7 +219,13 @@ function Houses(props) {
                 onMouseLeave={() => setHouseHover(-1)}
               />
               <p className="text-center no_dec">
-                Mark of {house.mark} / House {house.name} - {house.raceType}
+                {house.mark !== "Aberrant" ? (
+                  <span>
+                    Mark of {house.mark} / House {house.name} - {house.raceType}
+                  </span>
+                ) : (
+                  <span>Aberrant Mark - Any Race</span>
+                )}
               </p>
             </button>
           </div>
@@ -303,23 +293,28 @@ function Houses(props) {
                 className="btn btn-primary"
                 onClick={handleChooseHouse}
                 disabled={
-                  (props.race !== "" &&
+                  ((props.race !== "" &&
                     !houses[activeHouse].race.includes(props.race)) ||
-                  (props.race === "Orc" &&
-                    houses[activeHouse].race === "Half-Orc or Human")
+                    (props.race === "Orc" &&
+                      houses[activeHouse].race === "Half-Orc or Human")) &&
+                  houses[activeHouse].raceType !== "Any Race"
                 }
               >
-                {(props.race !== "" &&
+                {((props.race !== "" &&
                   !houses[activeHouse].race.includes(props.race)) ||
-                (props.race === "Orc" &&
-                  houses[activeHouse].race === "Half-Orc or Human")
+                  (props.race === "Orc" &&
+                    houses[activeHouse].race === "Half-Orc or Human")) &&
+                houses[activeHouse].raceType !== "Any Race"
                   ? "Current Race not Compatible"
-                  : `Choose House ${houses[activeHouse].name} ${houses[activeHouse].raceType}`}
+                  : houses[activeHouse].mark !== "Aberrant"
+                  ? `Choose House ${houses[activeHouse].name} ${houses[activeHouse].raceType}`
+                  : `Choose Aberrant Mark`}
               </button>
-              {(props.race !== "" &&
+              {((props.race !== "" &&
                 !houses[activeHouse].race.includes(props.race)) ||
-              (props.race === "Orc" &&
-                houses[activeHouse].race === "Half-Orc or Human") ? (
+                (props.race === "Orc" &&
+                  houses[activeHouse].race === "Half-Orc or Human")) &&
+              houses[activeHouse].raceType !== "Any Race" ? (
                 <button className="btn btn-warning" onClick={overrideRace}>
                   Choose House {houses[activeHouse].name}{" "}
                   {houses[activeHouse].raceType}

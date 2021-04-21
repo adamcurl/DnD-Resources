@@ -11,6 +11,8 @@ function Start(props) {
           You chose a{" "}
           {props.house === "No House"
             ? ""
+            : props.house === "Aberrant"
+            ? "Aberrant Mark"
             : props.house
             ? `Mark of ${props.mark}/House ${props.house}`
             : "[No Mark/House]"}{" "}
@@ -117,6 +119,19 @@ function Start(props) {
             </a>
             .
           </li>
+          <li>
+            When your character levels up, you'll have the option to take on
+            Feats. These feats further enhance your stats and provide additional
+            abilities for your character. You can find a list of feats{" "}
+            <a
+              href="https://www.dndbeyond.com/feats"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
+          </li>
         </ul>
         {/* Race prompts */}
         {props.racePrompts.length ? (
@@ -156,6 +171,26 @@ function Start(props) {
               {props.housePrompts.map((prompt) => (
                 <li>{prompt}</li>
               ))}
+              {props.house !== "Aberrant" ? (
+                <>
+                  <li>
+                    Am I a member of this house? Or do I just possess the mark?
+                  </li>
+                  <li>
+                    If I'm not a member of this house, how did I get my mark?
+                    Was I an illegitimate child? Or did the mark just one day
+                    appear?
+                  </li>
+                  <li>
+                    Where on your body is your mark located? When did it appear?
+                  </li>
+                  <li>
+                    Am I a member of this house without a mark? If so, you won't
+                    have as high a status in your house as others with a
+                    dragonmark.
+                  </li>
+                </>
+              ) : null}
             </ul>
           </>
         ) : null}
@@ -200,6 +235,17 @@ function Start(props) {
             </a>
             , then let me know. This will give you access to all the races,
             classes, items, and backgrounds that you need to start playing.
+          </li>
+          <li>
+            You can read the{" "}
+            <a
+              href="https://www.dndbeyond.com/sources/phb/step-by-step-characters"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Player's Handbook
+            </a>{" "}
+            on how to create a character or ask your DM.
           </li>
           <li>
             Head over to the{" "}
@@ -254,14 +300,23 @@ function Start(props) {
           <li>
             For your character details, select a background that best fits your
             character, as well as any bonuses it gives you. Use the prompts
-            listed on this page to fill out your character's details, history,
-            and characteristics.
+            listed above to fill out your character's details, history, and
+            characteristics.
           </li>
           <li>
             For your equipment, you can choose the default starting equipment
             for your class, <em>or</em> choose to start with gold. If you choose
             gold, you start with no items, and can buy the items, weapons, and
-            armor you want before the first play session.
+            armor you want before the first play session. You can view all
+            available equipment for your character{" "}
+            <a
+              href="https://www.dndbeyond.com/equipment"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
             <br />
             <strong>Note:</strong> When adding equipment to your character, make
             sure that the <em>Proficient</em> and <em>Common</em> checkboxes are{" "}
