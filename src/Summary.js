@@ -262,9 +262,17 @@ function Start(props) {
             are turned on.
           </li>
           <li>
-            Make sure <em>Optional Class Features</em> is turned on, Advancement
-            Type is set to <em>Milestone</em>, and Hit Point Type is set to{" "}
-            <em>Manual</em>. Everything else should be the default state.
+            Make sure <em>Optional Class Features</em> is turned on,{" "}
+            <em>Customize Your Origin</em> is turned on, Advancement Type is set
+            to <em>Milestone</em>, and Hit Point Type is set to <em>Manual</em>.
+            Everything else should be the default state.
+            <br />
+            <strong>Note:</strong> The <em>Customize Your Origin</em> feature
+            allows you to swap out race-given stats. For example, dwarves get a
+            +2 to Constitution, you can make it a +2 to Charisma if that makes
+            sense to your character. You can also swap out languages,
+            proficiencies, and more. Just let your DM know beforehand if you
+            want to do this.
           </li>
           <li>
             Select the same race and class that you did here. Be sure to fill
