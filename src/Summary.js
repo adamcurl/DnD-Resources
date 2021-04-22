@@ -103,6 +103,11 @@ function Start(props) {
             call of a country or Dragonmarked house?
           </li>
           <li>
+            What current or previous relationships do you have? Do you/did you
+            have family? What about friends or an old rival? What was life like
+            for you before you started adventuring?
+          </li>
+          <li>
             The cool thing about 5e is a new mechanic called Backgrounds. These
             give your character flavor and certain advantages, such as free
             food, always being able to find the best house to rob, more
@@ -112,19 +117,6 @@ function Start(props) {
             be found{" "}
             <a
               href="https://www.dndbeyond.com/backgrounds"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
-            .
-          </li>
-          <li>
-            When your character levels up, you'll have the option to take on
-            Feats. These feats further enhance your stats and provide additional
-            abilities for your character. You can find a list of feats{" "}
-            <a
-              href="https://www.dndbeyond.com/feats"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -337,6 +329,19 @@ function Start(props) {
           <li>
             When you're finished, view your finished character. You should be
             all set and ready for adventure!
+          </li>
+          <li>
+            When your character levels up, you'll have the option to take on
+            Feats. These feats further enhance your stats and provide additional
+            abilities for your character. You can find a list of feats{" "}
+            <a
+              href="https://www.dndbeyond.com/feats"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>{" "}
+            if you wanted to plan ahead for your character.
           </li>
         </ol>
       </div>

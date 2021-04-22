@@ -34,37 +34,21 @@ function Start(props) {
         <p>
           Eberron is a world full of mystery, intrigue, and fast-paced action.
           Magic has advanced much faster than science, making low-level magic
-          more readily available and common among the populus. Airships and trains powered by elementals traverse the skies and land, speaking stones are able to instantly send messages across the continent, and magical brooms and dusters can clean a house in one swift motion. The continent of
-          Khorvaire has just entered a new era after a hundred year civil war
-          that ended in the Treaty of Thronehold two years after the nation of
-          Cyre was destroyed and twisted by a large magical cataclysm, known as
-          the Mourning. The cause of this disaster is still unknown. Was it
-          natural, or did someone or something create this? This campaign starts
-          two years after the end of the war, in the year 998 YK. The gods of
-          Eberron are distant and do not directly influence the world. Other
-          immortal entities, such as the chaotic, outer-planar Daelkyr, the holy
-          Silver Flame that locks away the Overlords, the ancient elves of the
-          Undying Court, and demonic Overlords do still reside within Eberron.
-        </p>
-        <h4>The Dragonmarked Houses</h4>
-        <p>
-          Long before the Last War, mysterious symbols, called Dragonmarks,
-          began to appear on certain bloodlines of certain races. These marks
-          gave individuals powerful magical abilities and influence. Each
-          Dragonmarked bloodline formed a House and began to use their marks to
-          form and operate a business. House Cannith Humans mass produces
-          magical items, House Ghallanda Halflings operate a chain of Inns,
-          House Vadalis breeds magical animals, House Deneith offers bodyguards
-          and mercenary services, and House Lyrandar Half-Elves operate flying
-          airships and swift galleons. To date, there are currently 13 Houses
-          and 12 different Marks (due to House Phiarlan and House Thuranni
-          splitting during the Last War). The Last War was very profitable to
-          the Dragonmarked Houses. Before the Last War, Galifar kept these
-          Houses' power in check, but now that Galifar is no more, the Houses
-          are beginning to grow in power and influence. Not every humanoid who
-          bears a Dragonmark belongs to a House. Some might be bastard children
-          of a House member, might be from a diverged bloodline from the
-          corresponding House, or might be disowned from the House.
+          more readily available and common among the populus. Airships and
+          trains powered by elementals traverse the skies and land, speaking
+          stones are able to instantly send messages across the continent, and
+          magical brooms and dusters can clean a house in one swift motion. The
+          continent of Khorvaire has just entered a new era after a hundred year
+          civil war that ended in the Treaty of Thronehold two years after the
+          nation of Cyre was destroyed and twisted by a large magical cataclysm,
+          known as the Mourning. The cause of this disaster is still unknown.
+          Was it natural, or did someone or something create this? This campaign
+          starts two years after the end of the war, in the year 998 YK. The
+          gods of Eberron are distant and do not directly influence the world.
+          Other immortal entities, such as the chaotic, outer-planar Daelkyr,
+          the holy Silver Flame that locks away the Overlords, the ancient elves
+          of the Undying Court, and demonic Overlords do still reside within
+          Eberron.
         </p>
         <h4>The Last War</h4>
         <p>
@@ -91,6 +75,26 @@ function Start(props) {
           Tribunal of Thronehold was also created to prosecute war crimes during
           the Last War with magistrates from each nation, except for Q'barra and
           Valenar.
+        </p>
+        <h4>The Dragonmarked Houses</h4>
+        <p>
+          Long before the Last War, mysterious symbols, called Dragonmarks,
+          began to appear on certain bloodlines of certain races. These marks
+          gave individuals powerful magical abilities and influence. Each
+          Dragonmarked bloodline formed a House and began to use their marks to
+          form and operate a business. House Cannith Humans mass produces
+          magical items, House Ghallanda Halflings operate a chain of Inns,
+          House Vadalis breeds magical animals, House Deneith offers bodyguards
+          and mercenary services, and House Lyrandar Half-Elves operate flying
+          airships and swift galleons. To date, there are currently 13 Houses
+          and 12 different Marks (due to House Phiarlan and House Thuranni
+          splitting during the Last War). The Last War was very profitable to
+          the Dragonmarked Houses. Before the Last War, Galifar kept these
+          Houses' power in check, but now that Galifar is no more, the Houses
+          are beginning to grow in power and influence. Not every humanoid who
+          bears a Dragonmark belongs to a House. Some might be bastard children
+          of a House member, might be from a diverged bloodline from the
+          corresponding House, or might be disowned from the House.
         </p>
       </div>
       {!showOptions ? (
