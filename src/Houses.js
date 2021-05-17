@@ -141,6 +141,10 @@ function Houses(props) {
     <div className="container_wrap">
       <h1 className="pt-3">Marks/Houses of Khorvaire</h1>
       <p>
+        Having a dragonmark and/or belonging to a dragonmarked house is
+        OPTIONAL.
+      </p>
+      <p>
         There are a total of 12 dragonmarks and 13 houses (due to House Phiarlan
         and House Thuranni splitting). The houses in Eberron act like large
         corporations that have a monopoly over a service or product. These

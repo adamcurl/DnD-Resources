@@ -80,6 +80,10 @@ function Faiths(props) {
     <div className="container_wrap">
       <h1 className="pt-3">Faiths of Eberron</h1>
       <p>
+        Practicing a religion or worshipping a diety is OPTIONAL (except for
+        Clerics and Paladins).
+      </p>
+      <p>
         The faiths of Eberron are a bit different than other classical fantasy
         settings. The gods of the Sovereign Host and Dark Six, if they exist,
         are distant, do not directly influence the world, and don't directly
