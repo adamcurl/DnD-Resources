@@ -164,12 +164,15 @@ function Houses(props) {
         >
           Aberrant dragonmark
         </a>
-        . This aberrant dragonmark can manifest on anyone at any time and is a
-        source of danger to the bearer and those around them. Unlike regular
-        dragonmarks, which only give creative power, the aberrant dragonmark
-        gives destructive power and is feared by all. Each aberrant dragonmark
-        is unique and takes time to master. Most people with one tend to hide it
-        to either avoid being ostracized by society or to keep others safe.
+        . Aberrant dragonmarks generally form on the offspring of two people who
+        have different dragonmarks. This is why the 13 houses forbid marriage
+        between each other. This aberrant dragonmark can also manifest on anyone
+        at any time and is a source of danger to the bearer and those around
+        them. Unlike regular dragonmarks, which only give creative power, the
+        aberrant dragonmark gives destructive power and is feared by all. Each
+        aberrant dragonmark is unique and takes time to master. Most people with
+        one tend to hide it to either avoid being ostracized by society or to
+        keep others safe.
         <br />
         If you'd like to have an aberrant dragonmark, let your DM know.
       </p>
